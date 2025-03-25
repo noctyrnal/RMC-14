@@ -480,3 +480,46 @@
   components:
   - type: Sprite
     state: stone_deco
+
+- type: entity
+  parent: CMPlatform
+  id: RMCPlatformEndeavor
+  name: raised metal edge
+  description: A raised level of metal, often used to elevate areas above others, or construct bridges. You could probably climb it.
+  components:
+  - type: Sprite
+    state: endeavor_platform
+
+- type: entity
+  parent: CMPlatformCorner
+  id: RMCPlatformEndeavorCorner
+  name: raised metal edge
+  description: A raised level of metal, often used to elevate areas above others, or construct bridges. You could probably climb it.
+  components:
+  - type: Sprite
+    state: endeavor_platform_corner
+
+- type: entity
+  parent: RMCPlatformEndeavor
+  id: RMCPlatformEndeavorStair
+  suffix: Stair
+  components:
+  - type: Sprite
+    state: endeavor_platform_stair
+
+- type: entity
+  parent: RMCPlatformEndeavor
+  id: RMCPlatformEndeavorStairAlt
+  suffix: Stair, Alt
+  components:
+  - type: Sprite
+    state: endeavor_platform_stair_alt
+
+- type: entity
+  parent: RMCPlatformCornerSmall
+  id: RMCPlatformEndeavorCornerSmall
+  name: raised metal corner
+  description: The corner of what appears to be raised piece of metal, often used to imply the illusion of elevation in non-Euclidean 2d spaces. But you don't know that, you're just a spaceman with a rifle.
+  components:
+  - type: Sprite
+    state: endeavor_platform_deco
