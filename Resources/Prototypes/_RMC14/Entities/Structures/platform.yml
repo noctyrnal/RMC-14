@@ -722,6 +722,19 @@
   components:
   - type: Sprite
     state: endeavor_platform
+  - type: Construction
+    graph: RMCPlatformEndeavorDestructible
+    node: start
+
+- type: entity
+  parent: CMPlatformBroken
+  id: RMCPlatformEndeavorBroken
+  components:
+  - type: Sprite
+    state: endeavor_platform_broken
+  - type: Construction
+    graph: RMCPlatformEndeavorDestructible
+    node: platformBroken
 
 - type: entity
   parent: CMPlatformCorner

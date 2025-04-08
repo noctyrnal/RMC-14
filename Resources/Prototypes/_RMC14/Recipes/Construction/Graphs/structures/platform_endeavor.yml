@@ -1,0 +1,8 @@
+- type: constructionGraph
+  id: RMCPlatformEndeavorDestructible
+  start: start
+  graph:
+  - node: start
+
+  - node: platformBroken
+    entity: RMCPlatformEndeavorBroken

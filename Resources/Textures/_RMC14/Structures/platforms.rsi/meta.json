@@ -203,6 +203,10 @@
       "directions": 4
     },
     {
+      "name": "endeavor_platform_broken",
+      "directions": 4
+    },
+    {
       "name": "endeavor_platform_corner",
       "directions": 4
     },
