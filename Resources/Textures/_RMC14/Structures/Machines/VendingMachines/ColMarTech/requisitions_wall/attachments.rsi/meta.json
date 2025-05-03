@@ -1,28 +1,42 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Taken from cmss13 at https://github.com/cmss13-devs/cmss13/blob/master/icons/obj/structures/machinery/vending.dmi",
+  "copyright": "Taken from cmss13 at https://github.com/cmss13-devs/cmss13/blob/master/icons/obj/structures/machinery/vending.dmi, east and west sprites by github noctynral",
   "size": {
     "x": 32,
     "y": 32
   },
   "states": [
     {
-      "name": "base"
+      "name": "base",
+      "directions": 4
     },
     {
-      "name": "off"
+      "name": "off",
+      "directions": 4
     },
     {
-      "name": "broken"
+      "name": "broken",
+      "directions": 4
     },
     {
-      "name": "panel"
+      "name": "panel",
+      "directions": 4
     },
     {
       "name": "vend",
+      "directions": 1,
       "delays": [
         [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
           0.1,
           0.1,
           0.1
@@ -31,11 +45,21 @@
     },
     {
       "name": "deny",
+      "directions": 1,
       "delays": [
         [
-          0.1,
-          0.1,
-          0.1
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1
         ]
       ]
     }

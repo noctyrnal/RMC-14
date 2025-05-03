@@ -782,6 +782,9 @@
   components:
   - type: Sprite
     state: endeavor_platform_deco
+
+- type: entity
+  parent: RMCPlatformCornerSmall
   id: RMCPlatformSandstoneBroken
   components:
   - type: Sprite

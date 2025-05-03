@@ -8,6 +8,8 @@
   name: ColMarTech automated armaments vendor
   description: An automated supply rack hooked up to a big storage of various firearms and explosives. Can be accessed by the Requisitions Officer and Cargo Techs.
   components:
+  - type: Transform
+    noRot: false
   - type: AccessReader
     access:
     - [ "CMAccessRequisitions" ]
@@ -319,6 +321,8 @@
   name: ColMarTech automated munition vendor
   description: An automated supply rack hooked up to a big storage of various ammunition types. Can be accessed by the Requisitions Officer and Cargo Techs.
   components:
+  - type: Transform
+    noRot: false
   - type: AccessReader
     access:
     - [ "CMAccessRequisitions" ]
@@ -537,6 +541,8 @@
   name: Aegis Armaments attachments vendor
   description: An automated supply rack hooked up to a big storage of weapons attachments. Can be accessed by the Requisitions Officer and Cargo Techs.
   components:
+  - type: Transform
+    noRot: false
   - type: AccessReader
     access:
     - [ "CMAccessRequisitions" ]
