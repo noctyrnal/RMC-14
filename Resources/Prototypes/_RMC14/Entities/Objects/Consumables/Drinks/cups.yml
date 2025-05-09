@@ -1,0 +1,93 @@
+- type: entity
+  parent: DrinkBaseCup
+  id: RMCCupBase
+  abstract: true
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 60
+  - type: Drink
+  - type: Sprite
+    state: base
+    layers: []
+  - type: Item
+    size: Small
+  - type: DamageOnLand
+    damage: {}
+  - type: DamageOtherOnHit
+    damage: {}
+  - type: Appearance
+  - type: Destructible
+    thresholds: [] # TODO RMC14 destroy on explosion unless inside a container
+  - type: InteractedBlacklist
+    blacklist:
+      components:
+      - Xeno
+
+- type: entity
+  parent: RMCCupBase
+  id: RMCMarineCorpsCup
+  name: UNMC cup
+  description: A rugged, military-grade mug featuring the UNMC insignia, built for endurance in any deployment—whether aboard a ship or in the field.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Consumable/Drinks/unmccup.rsi
+
+- type: entity
+  parent: RMCCupBase
+  id: RMCUnitedNationsCup
+  name: UN Cup
+  description: A sleek, official UN cup, symbolizing unity, order, and authority across the stars. Crafted for those who uphold peace and progress.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Consumable/Drinks/uncup.rsi
+
+- type: entity
+  parent: RMCCupBase
+  id: RMCSocialistPPCup
+  name: SPP Cup
+  description: A tough, crimson cup stamped with the SPP emblem—built like a real krepky muzhik, ready to serve comrades in toil and glory among the stars.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Consumable/Drinks/sppcup.rsi
+
+- type: entity
+  parent: RMCCupBase
+  id: RMCColonyLiberationFrontCup
+  name: CLF Cup
+  description: A tough, well-worn cup marked with the CLF sigil born from the defiance sparked by the Slaughter of Xibou.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Consumable/Drinks/clfcup.rsi
+
+- type: entity
+  parent: RMCCupBase
+  id: RMCCoffeeCup
+  name: coffee mug
+  description: A ceramic coffee mug. Practically guaranteed to fall and spill scalding-hot drink onto your brand-new shirt. Ouch.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Consumable/Drinks/coffee_cup.rsi
+
+- type: entity
+  parent: RMCCoffeeCup
+  id: RMCCoffeeCupFilled
+  suffix: Filled
+  components:
+    - type: SolutionContainerManager
+      solutions:
+        drink:
+          maxVol: 20
+          reagents:
+          - ReagentId: Coffee
+            Quantity: 20
+
+- type: entity
+  parent: RMCCupBase
+  id: RMCWeYaCup
+  name: weston yamamda cup
+  description: A matte gray coffee mug bearing the Weston-Yamamda logo on its front. Either issued as corporate standard, or bought as a souvenir for people who love the Company oh so dearly. Probably the former.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Consumable/Drinks/weya_cup.rsi
