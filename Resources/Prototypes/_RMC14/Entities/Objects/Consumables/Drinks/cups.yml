@@ -1,16 +1,20 @@
 - type: entity
-  parent: DrinkBaseCup
+  parent: DrinkBaseMug
   id: RMCCupBase
   abstract: true
   components:
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 60
+        maxVol: 20
   - type: Drink
   - type: Sprite
-    state: base
-    layers: []
+    sprite: _RMC14/Objects/Consumable/Drinks/coffee_cup.rsi
+    layers:
+      - state: icon-0
+      - map: ["enum.SolutionContainerLayers.Fill"]
+        state: icon-3
+        visible: false
   - type: Item
     size: Small
   - type: DamageOnLand
@@ -80,14 +84,14 @@
         drink:
           maxVol: 20
           reagents:
-          - ReagentId: Coffee
+          - ReagentId: RMCCoffee
             Quantity: 20
 
 - type: entity
   parent: RMCCupBase
   id: RMCWeYaCup
-  name: weston yamamda cup
-  description: A matte gray coffee mug bearing the Weston-Yamamda logo on its front. Either issued as corporate standard, or bought as a souvenir for people who love the Company oh so dearly. Probably the former.
+  name: weston yamada cup
+  description: A matte gray coffee mug bearing the Weston-Yamada logo on its front. Either issued as corporate standard, or bought as a souvenir for people who love the Company oh so dearly. Probably the former.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/weya_cup.rsi

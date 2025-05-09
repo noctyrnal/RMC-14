@@ -1,3 +1,8 @@
+- type: reagent
+  id: RMCCoffee
+  parent: Coffee
+  color: "#704435"
+
 - type: entity
   parent: DrinkBottlePlasticBaseFull
   id: RMCDrinkCoffee
@@ -9,7 +14,7 @@
       drink:
         maxVol: 50
         reagents:
-        - ReagentId: Coffee
+        - ReagentId: RMCCoffee
           Quantity: 30
   - type: Drink
   - type: Sprite
