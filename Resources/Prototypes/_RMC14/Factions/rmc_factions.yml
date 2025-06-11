@@ -11,6 +11,7 @@
   - WeYa
   - Survivor
   - CLF
+  - TSE
 
 - type: npcFaction
   id: RMCDumb
@@ -21,6 +22,7 @@
   - WeYa
   - Survivor
   - CLF
+  - TSE
 
 - type: npcFaction
   id: SPP
@@ -49,5 +51,10 @@
 
 - type: npcFaction
   id: Bureau
+  hostile:
+  - RMCXeno
+
+- type: npcFaction
+  id: TSE
   hostile:
   - RMCXeno
