@@ -57,8 +57,24 @@
 
 - type: entity
   parent: CMHyperSleepChamber
+  id: RMCHyperSleepChamberNorth
+  suffix: North
+  components:
+  - type: Sprite
+    offset: 0, 0.5
+
+- type: entity
+  parent: CMHyperSleepChamber
   id: CMHyperSleepChamberAlpha
   suffix: Alpha
+  components:
+  - type: SquadSpawner
+    squad: SquadAlpha
+
+- type: entity
+  parent: RMCHyperSleepChamberNorth
+  id: RMCHyperSleepChamberAlphaNorth
+  suffix: North, Alpha
   components:
   - type: SquadSpawner
     squad: SquadAlpha
@@ -72,6 +88,14 @@
     squad: SquadBravo
 
 - type: entity
+  parent: RMCHyperSleepChamberNorth
+  id: CMHyperSleepChamberBravoNorth
+  suffix: North, Bravo
+  components:
+  - type: SquadSpawner
+    squad: SquadBravo
+
+- type: entity
   parent: CMHyperSleepChamber
   id: CMHyperSleepChamberCharlie
   suffix: Charlie
@@ -80,9 +104,25 @@
     squad: SquadCharlie
 
 - type: entity
+  parent: RMCHyperSleepChamberNorth
+  id: CMHyperSleepChamberCharlieNorth
+  suffix: North, Charlie
+  components:
+  - type: SquadSpawner
+    squad: SquadCharlie
+
+- type: entity
   parent: CMHyperSleepChamber
   id: CMHyperSleepChamberDelta
   suffix: Delta
+  components:
+  - type: SquadSpawner
+    squad: SquadDelta
+
+- type: entity
+  parent: RMCHyperSleepChamberNorth
+  id: CMHyperSleepChamberDeltaNorth
+  suffix: North, Delta
   components:
   - type: SquadSpawner
     squad: SquadDelta

@@ -60,11 +60,8 @@
 - type: entity
   abstract: true
   parent: ColMarTechBase
-  id: ColMarTechBaseAnchorable
+  id: ColMarTechBaseDestructible
   components:
-  - type: Transform
-    anchored: true
-  - type: Anchorable
   - type: Pullable
   - type: Physics
     bodyType: Static
@@ -79,3 +76,12 @@
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   # - type: XenoCrusherChargable TODO knock over by crusher
+
+- type: entity
+  abstract: true
+  parent: ColMarTechBaseDestructible
+  id: ColMarTechBaseAnchorable
+  components:
+  - type: Transform
+    anchored: true
+  - type: Anchorable

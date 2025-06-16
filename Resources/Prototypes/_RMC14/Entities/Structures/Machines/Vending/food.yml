@@ -1,7 +1,7 @@
 # FOOD
 
 - type: entity
-  parent: ColMarTechBaseAnchorable
+  parent: ColMarTechBaseDestructible
   id: ColMarTechFood
   name: ColMarTech food vendor
   description: Marine Food Vendor, containing standard military Prepared Meals.
