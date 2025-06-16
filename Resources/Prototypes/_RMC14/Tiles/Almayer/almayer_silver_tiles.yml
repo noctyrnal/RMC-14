@@ -68,3 +68,43 @@
   parent: CMFloorSteelSilverBase
   id: CMFloorSteelSilverFull
   sprite: /Textures/_RMC14/Tiles/almayer/silverfull.png
+
+- type: tile
+  parent: CMFloorSteelSilverBase
+  id: RMCFloorSteelSilverSmooth0
+  sprite: /Textures/_RMC14/Tiles/almayer/silvers_0.png
+
+- type: tile
+  parent: CMFloorSteelSilverBase
+  id: RMCFloorSteelSilverSmooth1
+  sprite: /Textures/_RMC14/Tiles/almayer/silvers_1.png
+
+- type: tile
+  parent: CMFloorSteelSilverBase
+  id: RMCFloorSteelSilverSmooth2
+  sprite: /Textures/_RMC14/Tiles/almayer/silvers_2.png
+
+- type: tile
+  parent: CMFloorSteelSilverBase
+  id: RMCFloorSteelSilverSmooth3
+  sprite: /Textures/_RMC14/Tiles/almayer/silvers_3.png
+
+- type: tile
+  parent: CMFloorSteelSilverBase
+  id: RMCFloorSteelSilverSmooth4
+  sprite: /Textures/_RMC14/Tiles/almayer/silvers_4.png
+
+- type: tile
+  parent: CMFloorSteelSilverBase
+  id: RMCFloorSteelSilverSmooth5
+  sprite: /Textures/_RMC14/Tiles/almayer/silvers_5.png
+
+- type: tile
+  parent: CMFloorSteelSilverBase
+  id: RMCFloorSteelSilverSmooth6
+  sprite: /Textures/_RMC14/Tiles/almayer/silvers_6.png
+
+- type: tile
+  parent: CMFloorSteelSilverBase
+  id: RMCFloorSteelSilverSmooth7
+  sprite: /Textures/_RMC14/Tiles/almayer/silvers_7.png

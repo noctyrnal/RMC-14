@@ -68,3 +68,43 @@
   parent: CMFloorSteelDeltaBase
   id: CMFloorSteelDeltaFull
   sprite: /Textures/_RMC14/Tiles/almayer/bluefull.png
+
+- type: tile
+  parent: CMFloorSteelDeltaBase
+  id: RMCFloorSteelDelta0
+  sprite: /Textures/_RMC14/Tiles/almayer/blue_0.png
+
+- type: tile
+  parent: CMFloorSteelDeltaBase
+  id: RMCFloorSteelDeltaSmooth1
+  sprite: /Textures/_RMC14/Tiles/almayer/blues_1.png
+
+- type: tile
+  parent: CMFloorSteelDeltaBase
+  id: RMCFloorSteelDeltaSmooth2
+  sprite: /Textures/_RMC14/Tiles/almayer/blues_2.png
+
+- type: tile
+  parent: CMFloorSteelDeltaBase
+  id: RMCFloorSteelDeltaSmooth3
+  sprite: /Textures/_RMC14/Tiles/almayer/blues_3.png
+
+- type: tile
+  parent: CMFloorSteelDeltaBase
+  id: RMCFloorSteelDeltaSmooth4
+  sprite: /Textures/_RMC14/Tiles/almayer/blues_4.png
+
+- type: tile
+  parent: CMFloorSteelDeltaBase
+  id: RMCFloorSteelDeltaSmooth5
+  sprite: /Textures/_RMC14/Tiles/almayer/blues_5.png
+
+- type: tile
+  parent: CMFloorSteelDeltaBase
+  id: RMCFloorSteelDeltaSmooth6
+  sprite: /Textures/_RMC14/Tiles/almayer/blues_6.png
+
+- type: tile
+  parent: CMFloorSteelDeltaBase
+  id: RMCFloorSteelDeltaSmooth7
+  sprite: /Textures/_RMC14/Tiles/almayer/blues_7.png

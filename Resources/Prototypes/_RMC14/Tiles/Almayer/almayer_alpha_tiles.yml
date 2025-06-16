@@ -68,3 +68,43 @@
   parent: CMFloorSteelAlphaBase
   id: CMFloorSteelAlphaFull
   sprite: /Textures/_RMC14/Tiles/almayer/redfull.png
+
+- type: tile
+  parent: CMFloorSteelAlphaBase
+  id: RMCFloorSteelAlphaSmooth0
+  sprite: /Textures/_RMC14/Tiles/almayer/reds_0.png
+
+- type: tile
+  parent: CMFloorSteelAlphaBase
+  id: RMCFloorSteelAlphaSmooth1
+  sprite: /Textures/_RMC14/Tiles/almayer/reds_1.png
+
+- type: tile
+  parent: CMFloorSteelAlphaBase
+  id: RMCFloorSteelAlphaSmooth2
+  sprite: /Textures/_RMC14/Tiles/almayer/reds_2.png
+
+- type: tile
+  parent: CMFloorSteelAlphaBase
+  id: RMCFloorSteelAlphaSmooth3
+  sprite: /Textures/_RMC14/Tiles/almayer/reds_3.png
+
+- type: tile
+  parent: CMFloorSteelAlphaBase
+  id: RMCFloorSteelAlphaSmooth4
+  sprite: /Textures/_RMC14/Tiles/almayer/reds_4.png
+
+- type: tile
+  parent: CMFloorSteelAlphaBase
+  id: RMCFloorSteelAlphaSmooth5
+  sprite: /Textures/_RMC14/Tiles/almayer/reds_5.png
+
+- type: tile
+  parent: CMFloorSteelAlphaBase
+  id: RMCFloorSteelAlphaSmooth6
+  sprite: /Textures/_RMC14/Tiles/almayer/reds_6.png
+
+- type: tile
+  parent: CMFloorSteelAlphaBase
+  id: RMCFloorSteelAlphaSmooth7
+  sprite: /Textures/_RMC14/Tiles/almayer/reds_7.png

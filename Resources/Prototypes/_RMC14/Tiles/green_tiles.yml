@@ -68,3 +68,43 @@
   parent: CMFloorSteelGreenBase
   id: CMFloorSteelGreenFull
   sprite: /Textures/_RMC14/Tiles/almayer/greenfull.png
+
+- type: tile
+  parent: CMFloorSteelGreenBase
+  id: RMCFloorSteelGreenSmooth0
+  sprite: /Textures/_RMC14/Tiles/almayer/greens_0.png
+
+- type: tile
+  parent: CMFloorSteelGreenBase
+  id: RMCFloorSteelGreenSmooth1
+  sprite: /Textures/_RMC14/Tiles/almayer/greens_1.png
+
+- type: tile
+  parent: CMFloorSteelGreenBase
+  id: RMCFloorSteelGreenSmooth2
+  sprite: /Textures/_RMC14/Tiles/almayer/greens_2.png
+
+- type: tile
+  parent: CMFloorSteelGreenBase
+  id: RMCFloorSteelGreenSmooth3
+  sprite: /Textures/_RMC14/Tiles/almayer/greens_3.png
+
+- type: tile
+  parent: CMFloorSteelGreenBase
+  id: RMCFloorSteelGreenSmooth4
+  sprite: /Textures/_RMC14/Tiles/almayer/greens_4.png
+
+- type: tile
+  parent: CMFloorSteelGreenBase
+  id: RMCFloorSteelGreenSmooth5
+  sprite: /Textures/_RMC14/Tiles/almayer/greens_5.png
+
+- type: tile
+  parent: CMFloorSteelGreenBase
+  id: RMCFloorSteelGreenSmooth6
+  sprite: /Textures/_RMC14/Tiles/almayer/greens_6.png
+
+- type: tile
+  parent: CMFloorSteelGreenBase
+  id: RMCFloorSteelGreenSmooth7
+  sprite: /Textures/_RMC14/Tiles/almayer/greens_7.png

@@ -68,3 +68,43 @@
   parent: CMFloorSteelBravoBase
   id: CMFloorSteelBravoFull
   sprite: /Textures/_RMC14/Tiles/almayer/orangefull.png
+
+- type: tile
+  parent: CMFloorSteelBravoBase
+  id: RMCFloorSteelBravoSmooth0
+  sprite: /Textures/_RMC14/Tiles/almayer/oranges_0.png
+
+- type: tile
+  parent: CMFloorSteelBravoBase
+  id: RMCFloorSteelBravoSmooth1
+  sprite: /Textures/_RMC14/Tiles/almayer/oranges_1.png
+
+- type: tile
+  parent: CMFloorSteelBravoBase
+  id: RMCFloorSteelBravoSmooth2
+  sprite: /Textures/_RMC14/Tiles/almayer/oranges_2.png
+
+- type: tile
+  parent: CMFloorSteelBravoBase
+  id: RMCFloorSteelBravoSmooth3
+  sprite: /Textures/_RMC14/Tiles/almayer/oranges_3.png
+
+- type: tile
+  parent: CMFloorSteelBravoBase
+  id: RMCFloorSteelBravoSmooth4
+  sprite: /Textures/_RMC14/Tiles/almayer/oranges_4.png
+
+- type: tile
+  parent: CMFloorSteelBravoBase
+  id: RMCFloorSteelBravoSmooth5
+  sprite: /Textures/_RMC14/Tiles/almayer/oranges_5.png
+
+- type: tile
+  parent: CMFloorSteelBravoBase
+  id: RMCFloorSteelBravoSmooth6
+  sprite: /Textures/_RMC14/Tiles/almayer/oranges_6.png
+
+- type: tile
+  parent: CMFloorSteelBravoBase
+  id: RMCFloorSteelBravoSmooth7
+  sprite: /Textures/_RMC14/Tiles/almayer/oranges_7.png

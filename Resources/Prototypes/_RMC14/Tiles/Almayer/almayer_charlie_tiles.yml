@@ -68,3 +68,43 @@
   parent: CMFloorSteelCharlieBase
   id: CMFloorSteelCharlieFull
   sprite: /Textures/_RMC14/Tiles/almayer/emeraldfull.png
+
+- type: tile
+  parent: CMFloorSteelCharlieBase
+  id: RMCFloorSteelCharlieSmooth0
+  sprite: /Textures/_RMC14/Tiles/almayer/emeralds_0.png
+
+- type: tile
+  parent: CMFloorSteelCharlieBase
+  id: RMCFloorSteelCharlieSmooth1
+  sprite: /Textures/_RMC14/Tiles/almayer/emeralds_1.png
+
+- type: tile
+  parent: CMFloorSteelCharlieBase
+  id: RMCFloorSteelCharlieSmooth2
+  sprite: /Textures/_RMC14/Tiles/almayer/emeralds_2.png
+
+- type: tile
+  parent: CMFloorSteelCharlieBase
+  id: RMCFloorSteelCharlieSmooth3
+  sprite: /Textures/_RMC14/Tiles/almayer/emeralds_3.png
+
+- type: tile
+  parent: CMFloorSteelCharlieBase
+  id: RMCFloorSteelCharlieSmooth4
+  sprite: /Textures/_RMC14/Tiles/almayer/emeralds_4.png
+
+- type: tile
+  parent: CMFloorSteelCharlieBase
+  id: RMCFloorSteelCharlieSmooth5
+  sprite: /Textures/_RMC14/Tiles/almayer/emeralds_5.png
+
+- type: tile
+  parent: CMFloorSteelCharlieBase
+  id: RMCFloorSteelCharlieSmooth6
+  sprite: /Textures/_RMC14/Tiles/almayer/emeralds_6.png
+
+- type: tile
+  parent: CMFloorSteelCharlieBase
+  id: RMCFloorSteelCharlieSmooth7
+  sprite: /Textures/_RMC14/Tiles/almayer/emeralds_7.png
