@@ -334,6 +334,14 @@
 
 - type: entity
   parent: RMCBarricadeHandrail
+  id: RMCBarricadeHandrailOffset
+  suffix: Offset
+  components:
+    - type: Sprite
+      offset: 0,-0.4
+
+- type: entity
+  parent: RMCBarricadeHandrail
   id: RMCBarricadeHandrailAlt
   components:
     - type: Sprite
