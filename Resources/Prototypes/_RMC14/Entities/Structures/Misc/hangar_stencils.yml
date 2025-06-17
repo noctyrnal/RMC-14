@@ -1,0 +1,26 @@
+- type: entity
+  id: RMCHangarStencilBase
+  abstract: true
+  name: hangar stencil
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Sprite
+    sprite: _RMC14/Structures/hangar_stencils.rsi
+    drawdepth: FloorTiles
+
+- type: entity
+  parent: RMCHangarStencilBase
+  id: RMCHangarStencil1
+  components:
+  - type: Sprite
+    state: dropship1
+
+- type: entity
+  parent: RMCHangarStencilBase
+  id: RMCHangarStencil2
+  components:
+  - type: Sprite
+    state: dropship2
