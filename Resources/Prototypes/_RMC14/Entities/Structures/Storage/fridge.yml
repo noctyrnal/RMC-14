@@ -90,3 +90,12 @@
     contents:
     - id: FoodMeatFish # TODO RMC14 2 boxes of 7
       amount: 14
+
+- type: entity
+  parent: CMLockerFridge
+  id: RMCLockerFridgeIndustry
+  name: industry freezer
+  description: A powerful fine-tuned freezer used to polymerize chemicals in the cold. This one is set to the perfect temperature for paraformaldehyde polymerization. The freezer must be kept closed for polymerization.
+  components:
+  - type: AccessReader
+    access: [["CMAccessOT"]]
