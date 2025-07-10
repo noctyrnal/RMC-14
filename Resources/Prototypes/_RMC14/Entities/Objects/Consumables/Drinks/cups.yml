@@ -1,7 +1,13 @@
+- type: reagent
+  id: RMCCoffee
+  parent: Coffee
+  color: "#704435"
+
 - type: entity
   parent: DrinkBaseMug
-  id: RMCCupBase
-  abstract: true
+  id: RMCCoffeeCup
+  name: coffee mug
+  description: A rugged, military-grade mug featuring the UNMC insignia, built for endurance in any deployment—whether aboard a ship or in the field.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -30,51 +36,6 @@
       - Xeno
 
 - type: entity
-  parent: RMCCupBase
-  id: RMCMarineCorpsCup
-  name: UNMC cup
-  description: A rugged, military-grade mug featuring the UNMC insignia, built for endurance in any deployment—whether aboard a ship or in the field.
-  components:
-  - type: Sprite
-    sprite: _RMC14/Objects/Consumable/Drinks/unmccup.rsi
-
-- type: entity
-  parent: RMCCupBase
-  id: RMCUnitedNationsCup
-  name: UN Cup
-  description: A sleek, official UN cup, symbolizing unity, order, and authority across the stars. Crafted for those who uphold peace and progress.
-  components:
-  - type: Sprite
-    sprite: _RMC14/Objects/Consumable/Drinks/uncup.rsi
-
-- type: entity
-  parent: RMCCupBase
-  id: RMCSocialistPPCup
-  name: SPP Cup
-  description: A tough, crimson cup stamped with the SPP emblem—built like a real krepky muzhik, ready to serve comrades in toil and glory among the stars.
-  components:
-  - type: Sprite
-    sprite: _RMC14/Objects/Consumable/Drinks/sppcup.rsi
-
-- type: entity
-  parent: RMCCupBase
-  id: RMCColonyLiberationFrontCup
-  name: CLF Cup
-  description: A tough, well-worn cup marked with the CLF sigil born from the defiance sparked by the Slaughter of Xibou.
-  components:
-  - type: Sprite
-    sprite: _RMC14/Objects/Consumable/Drinks/clfcup.rsi
-
-- type: entity
-  parent: RMCCupBase
-  id: RMCCoffeeCup
-  name: coffee mug
-  description: A ceramic coffee mug. Practically guaranteed to fall and spill scalding-hot drink onto your brand-new shirt. Ouch.
-  components:
-  - type: Sprite
-    sprite: _RMC14/Objects/Consumable/Drinks/coffee_cup.rsi
-
-- type: entity
   parent: RMCCoffeeCup
   id: RMCCoffeeCupFilled
   suffix: Filled
@@ -88,10 +49,76 @@
             Quantity: 20
 
 - type: entity
-  parent: RMCCupBase
-  id: RMCWeYaCup
-  name: weston yamada cup
-  description: A matte gray coffee mug bearing the Weston-Yamada logo on its front. Either issued as corporate standard, or bought as a souvenir for people who love the Company oh so dearly. Probably the former.
+  parent: RMCCoffeeCup
+  id: RMCMarineCorpsCup
+  name: UNMC cup
+  description: A rugged, military-grade mug featuring the UNMC insignia, built for endurance in any deployment—whether aboard a ship or in the field.
   components:
   - type: Sprite
-    sprite: _RMC14/Objects/Consumable/Drinks/weya_cup.rsi
+    layers:
+      - sprite: _RMC14/Objects/Consumable/Drinks/sppcup.rsi
+        state: base
+      - map: ["enum.SolutionContainerLayers.Fill"]
+        sprite: _RMC14/Objects/Consumable/Drinks/coffee_cup.rsi
+        state: icon-3
+        visible: false
+
+- type: entity
+  parent: RMCCoffeeCup
+  id: RMCSocialistPPCup
+  name: SPP cup
+  description: A tough, crimson cup stamped with the SPP emblem—built like a real krepky muzhik, ready to serve comrades in toil and glory among the stars.
+  components:
+  - type: Sprite
+    layers:
+      - sprite: _RMC14/Objects/Consumable/Drinks/sppcup.rsi
+        state: base
+      - map: ["enum.SolutionContainerLayers.Fill"]
+        sprite: _RMC14/Objects/Consumable/Drinks/coffee_cup.rsi
+        state: icon-3
+        visible: false
+
+- type: entity
+  parent: RMCCoffeeCup
+  id: RMCUnitedNationsCup
+  name: UN cup
+  description: A sleek, official UN cup, symbolizing unity, order, and authority across the stars. Crafted for those who uphold peace and progress.
+  components:
+  - type: Sprite
+    layers:
+      - sprite: _RMC14/Objects/Consumable/Drinks/uncup.rsi
+        state: base
+      - map: ["enum.SolutionContainerLayers.Fill"]
+        sprite: _RMC14/Objects/Consumable/Drinks/coffee_cup.rsi
+        state: icon-3
+        visible: false
+
+- type: entity
+  parent: RMCCoffeeCup
+  id: RMCWestonYamadaCup
+  name: WEYA cup
+  description: A clean, stylish cup with the logo of the Weston-Yamada Corporation branded on the side. Used throughout the company hierarchy, from interns to division directors.
+  components:
+  - type: Sprite
+    layers:
+      - sprite: _RMC14/Objects/Consumable/Drinks/weyacup.rsi
+        state: base
+      - map: ["enum.SolutionContainerLayers.Fill"]
+        sprite: _RMC14/Objects/Consumable/Drinks/coffee_cup.rsi
+        state: icon-3
+        visible: false
+
+- type: entity
+  parent: RMCCoffeeCup
+  id: RMCColonyLiberationFrontCup
+  name: CLF cup
+  description: A tough, well-worn cup marked with the CLF sigil born from the defiance sparked by the Slaughter of Xibou.
+  components:
+  - type: Sprite
+    layers:
+      - sprite: _RMC14/Objects/Consumable/Drinks/clfcup.rsi
+        state: base
+      - map: ["enum.SolutionContainerLayers.Fill"]
+        sprite: _RMC14/Objects/Consumable/Drinks/coffee_cup.rsi
+        state: icon-3
+        visible: false
