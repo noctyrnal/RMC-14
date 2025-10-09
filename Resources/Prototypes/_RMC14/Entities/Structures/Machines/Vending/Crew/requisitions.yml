@@ -19,7 +19,7 @@
   parent: ColMarTechCargo
   id: ColMarTechCargoGuns
   name: ASRS automated armaments vendor
-  description: An automated supply rack hooked up to a big storage of various firearms and explosives. Can be accessed by the Requisitions Officer and Cargo Techs.
+  description: An automated supply rack hooked up to a big storage of various firearms and explosives. Can be accessed by the Requisitions Officer and Requisitions Technicians.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/requisitions_wall/guns.rsi
@@ -76,6 +76,8 @@
         amount: 2
       - id: RMCM85A1Case
         amount: 3
+      - id: RMCGunCasePistolM13
+        amount: 3
       - id: RMCXM51Case
         amount: 3
     - name: Explosives
@@ -129,6 +131,8 @@
       - id: RMCWebbingDropPouchBlack
         amount: 2
       - id: CMWebbingHolster
+        amount: 2
+      - id: RMCWebbingHolsterBlack
         amount: 2
       - id: CMWebbingKnivesFilled
         amount: 1
@@ -343,7 +347,7 @@
   parent: ColMarTechCargo
   id: ColMarTechCargoAmmo
   name: ASRS automated munition vendor
-  description: An automated supply rack hooked up to a big storage of various ammunition types. Can be accessed by the Requisitions Officer and Cargo Techs.
+  description: An automated supply rack hooked up to a big storage of various ammunition types. Can be accessed by the Requisitions Officer and Requisitions Technicians.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/requisitions_wall/ammo.rsi
@@ -450,6 +454,15 @@
       - id: RMCBoxMagazinePistolM13Drum
         name: Magazine Box (Drum M13 x 12)
         box: RMCMagazinePistolM13Drum
+      - id: RMCBoxMagazinePistolM13AP
+        name: Magazine Box (M13 AP x 22)
+        box: RMCMagazinePistolM13AP
+      - id: RMCBoxMagazinePistolM13ExtAP
+        name: Magazine Box (Ext M13 AP x 14)
+        box: RMCMagazinePistolM13ExtAP
+      - id: RMCBoxMagazinePistolM13DrumAP
+        name: Magazine Box (Drum M13 AP x 14)
+        box: RMCMagazinePistolM13DrumAP
       - id: RMCBoxMagazineSMGM63
         name: Magazine Box (M63 x 12)
         box: CMMagazineSMGM63
@@ -567,7 +580,7 @@
   parent: ColMarTechCargo
   id: ColMarTechCargoAttachments
   name: Aegis Armaments attachments vendor
-  description: An automated supply rack hooked up to a big storage of weapons attachments. Can be accessed by the Requisitions Officer and Cargo Techs.
+  description: An automated supply rack hooked up to a big storage of weapons attachments. Can be accessed by the Requisitions Officer and Requisitions Technicians.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/requisitions_wall/attachments.rsi
@@ -588,7 +601,11 @@
         amount: 11
       - id: RMCAttachmentRecoilCompensator
         amount: 7
+      - id: RMCAttachmentRecoilCompensatorM13
+        amount: 7
       - id: RMCAttachmentSuppressor
+        amount: 7
+      - id: RMCAttachmentSuppressorCompact
         amount: 7
       - id: RMCAttachmentShotgunChoke
         amount: 5
@@ -603,6 +620,8 @@
       - id: RMCAttachmentS42xTelescopicMiniscope
         amount: 5
       - id: RMCAttachmentS5RedDotSight
+        amount: 10
+      - id: RMCAttachmentS5MicroRedDotSight
         amount: 10
       - id: RMCAttachmentS6ReflexSight
         amount: 10
@@ -634,6 +653,10 @@
         amount: 10
     - name: Stock
       entries:
+      - id: RMCAttachmentM13StockSolid
+        amount: 5
+      - id: RMCAttachmentM13StockCollapsible
+        amount: 5
       - id: RMCAttachmentM42A2CollapsibleStock
         amount: 5
       - id: RMCAttachmentM63ArmBrace
@@ -654,7 +677,7 @@
   parent: ColMarTechBase
   id: ColMarTechCargoUniform
   name: ASRS surplus uniform vendor
-  description: An automated supply rack hooked up to a big storage of standard marine uniforms. Can be accessed by the Requisitions Officer and Cargo Techs.
+  description: An automated supply rack hooked up to a big storage of standard marine uniforms. Can be accessed by the Requisitions Officer and Requisitions Technicians.
   suffix: Requisitions
   components:
   - type: AccessReader

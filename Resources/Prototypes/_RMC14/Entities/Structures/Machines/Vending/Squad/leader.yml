@@ -156,6 +156,10 @@
         points: 6
       - id: CMMagazineRifleM4SPRExt
         points: 6
+      - id: RMCMagazinePistolM13AP
+        points: 6
+      - id: RMCMagazinePistolM13ExtAP
+        points: 8
       - id: CMMagazineSMGM63AP
         points: 6
       - id: CMMagazineSMGM63Ext
@@ -167,9 +171,7 @@
     - name: Sidearm Ammunition
       entries:
       - id: RMCMagazinePistolM13Ext
-        points: 10
-      - id: RMCMagazinePistolM13Drum
-        points: 15
+        points: 6
       # - id: RMCSpeedLoader44Heavy
       #  points: 6
       - id: RMCSpeedLoader44Marksman
@@ -298,6 +300,7 @@
       - id: RMCWebbingDropPouch
       - id: RMCWebbingDropPouchBlack
       - id: CMWebbingHolster
+      - id: RMCWebbingHolsterBlack
     - name: Mask
       choices: { CMMask: 1 }
       entries:
@@ -382,7 +385,8 @@
 - type: entity
   parent: RMCKitBase
   id: RMCKitPyroMini
-  name: m34 pyrotechnician support kit
+  name: M34 pyrotechnician support kit
+  description: Contains a M34 incinerator unit, a G4-1 fueltank, 3 incinerator tanks, and a portable fire extinguisher.
   components:
   - type: Storage
     maxItemSize: Huge
