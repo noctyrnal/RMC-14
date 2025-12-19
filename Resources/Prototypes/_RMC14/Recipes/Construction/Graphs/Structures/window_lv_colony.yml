@@ -1,12 +1,12 @@
 - type: constructionGraph
   parent: RMC
-  id: RMCWindowHybrisaSpacePortCell
+  id: RMCWindowLVColony
   start: start
   graph:
   - node: start # not currently buildable
 
-  - node: windowFrameHybrisaSpacePortCell
-    entity: RMCWindowFrameHybrisaSpacePortCell
+  - node: windowFrameLVColony
+    entity: RMCWindowFrameLVColony
     edges:
     - to: start
       completed:
@@ -21,7 +21,7 @@
         doAfter: 2
         duplicateConditions: All
 
-    - to: windowHybrisaSpacePortCell
+    - to: windowLVColony
       completed:
       - !type:SnapToGrid
         southRotation: true
@@ -32,10 +32,10 @@
         amount: 2
         doAfter: 2
 
-  - node: windowHybrisaSpacePortCell
-    entity: RMCWindowHybrisaSpacePortCell
+  - node: windowLVColony
+    entity: RMCWindowLVColony
     edges:
-    - to: windowFrameHybrisaSpacePortCell
+    - to: windowFrameLVColony
       completed:
       - !type:SnapToGrid
         southRotation: true
