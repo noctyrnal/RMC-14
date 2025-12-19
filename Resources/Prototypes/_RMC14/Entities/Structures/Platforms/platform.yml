@@ -664,5 +664,48 @@
   - type: Sprite
     state: platform_sm_stair_alt
 
+- type: entity
+  parent: CMPlatform
+  id: RMCPlatformWood
+  name: raised wooden edge
+  description: A raised level of wood, often used to elevate areas above others, or construct bridges. You could probably climb it.
+  suffix: Wood
+  components:
+  - type: Sprite
+    state: wood_platform
+
+- type: entity
+  parent: RMCPlatformWood
+  id: RMCPlatformWoodAlt
+  suffix: Wood, Alt
+  components:
+  - type: Sprite
+    state: wood_platform_alt
+
+- type: entity
+  parent: RMCPlatformWood
+  id: RMCPlatformWoodStair
+  suffix: Wood, Stair
+  components:
+  - type: Sprite
+    state: wood_platform_stair
+
+- type: entity
+  parent: RMCPlatformWoodStair
+  id: RMCPlatformWoodStairAlt
+  components:
+  - type: Sprite
+    state: wood_platform_stair_alt
+
+- type: entity
+  parent: RMCPlatformCornerSmall
+  id: RMCPlatformWoodCorner
+  name: raised wooden corner
+  description: A raised level of wooden, often used to elevate areas above others. This is the corner.
+  suffix: Wood
+  components:
+  - type: Sprite
+    state: wood_platform_deco
+
 - type: Tag
   id: Platform

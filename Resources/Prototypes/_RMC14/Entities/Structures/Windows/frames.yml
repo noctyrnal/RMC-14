@@ -217,3 +217,15 @@
     node: windowFrameWood
   - type: XenoLeapDestroyOnPass
     spawnPrototype: RMCPlankWood
+
+- type: entity
+  parent: RMCWindowFrameWood
+  id: RMCWindowFrameWoodAlt
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Windows/Frames/wood_frame_alt.rsi
+  - type: Icon
+    sprite: _RMC14/Structures/Windows/Frames/wood_frame_alt.rsi
+  - type: Construction
+    graph: RMCWindowWoodAlt
+    node: windowFrameWood

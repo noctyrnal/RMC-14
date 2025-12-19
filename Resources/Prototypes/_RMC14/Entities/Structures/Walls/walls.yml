@@ -587,6 +587,16 @@
     - doors
     base: wood
 
+- type: entity
+  parent: CMWallWood
+  id: RMCWallWoodAlt
+  suffix: Alt
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Walls/wood_alt.rsi
+  - type: Icon
+    sprite: _RMC14/Structures/Walls/wood_alt.rsi
+
 # Jungle
 - type: entity
   parent: CMBaseWallInvincible
@@ -1063,3 +1073,41 @@
   - type: DestroyedByExplosionType
   - type: Corrodible
     isCorrodible: true
+
+# LV Walls
+
+- type: entity
+  parent: CMWallMetal
+  id: RMCWallColony
+  name: bare metal walls
+  description: A thick and chunky metal wall. The surface is barren and imposing.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Walls/lv_colony_wall.rsi
+  - type: Icon
+    sprite: _RMC14/Structures/Walls/lv_colony_wall.rsi
+  - type: IconSmooth
+    key: walls
+    additionalKeys:
+    - windows
+    - doors
+    base: metal
+
+- type: entity
+  parent: CMWallReinforced
+  id: RMCWallColonyReinforced
+  name: ribbed metal walls
+  description: A thick and chunky metal wall covered in jagged ribs.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Walls/lv_colony_wall_reinforced.rsi
+    state: rwall
+  - type: Icon
+    sprite: _RMC14/Structures/Walls/lv_colony_wall_reinforced.rsi
+    state: rwall
+  - type: IconSmooth
+    key: walls
+    additionalKeys:
+    - windows
+    - doors
+    base: rwall

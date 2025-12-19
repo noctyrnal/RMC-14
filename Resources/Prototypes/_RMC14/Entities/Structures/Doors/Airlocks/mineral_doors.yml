@@ -1,0 +1,81 @@
+- type: entity
+  abstract: true
+  parent: BaseStructure
+  id: RMCMineralDoorBase
+  name: mineral door
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: InteractionOutline
+  - type: Sprite
+    snapCardinals: false
+    layers:
+    - state: closed
+      map: [ "enum.DoorVisualLayers.Base" ]
+  - type: AnimationPlayer
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.49,-0.49,0.49,0.49" # don't want this colliding with walls or they won't close
+        density: 100
+        mask:
+        - FullTileMask
+        layer:
+        - AirlockLayer
+  - type: Appearance
+  - type: Airtight
+    fixVacuum: true
+    noAirWhenFullyAirBlocked: false
+  - type: RadiationBlocker
+    resistance: 3
+  - type: PlacementReplacement
+    key: walls
+  - type: IconSmooth
+    key: doors
+    mode: NoSprite
+  - type: Door
+    clickOpen: true
+    openSound:
+      path: /Audio/Effects/door_open.ogg
+    closeSound:
+      path: /Audio/Effects/door_close.ogg
+  - type: Damageable
+    damageContainer: StructuralMarine
+    damageModifierSet: StructuralMarine
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+  - type: RMCWallExplosionDeletable
+  - type: DestroyedByExplosionType
+  - type: RMCDropshipBlocked
+  - type: RMCMesonsNonviewable
+  - type: DamageMultiplierFlags
+    flags: Breaching
+  - type: Corrodible
+    isCorrodible: true
+    structure: true
+    timeToApply: 4
+  - type: XenoToggleChargingDamage
+    stageLoss: 2
+    percentageDamage: 0.25
+  - type: XenoCrusherChargable
+    instantDestroy: true
+  - type: Tag
+    tags:
+    - Airlock
+
+- type: entity
+  parent: RMCMineralDoorBase
+  id: RMCWoodDoor
+  name: wooden door
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Doors/Airlocks/wood_door.rsi
