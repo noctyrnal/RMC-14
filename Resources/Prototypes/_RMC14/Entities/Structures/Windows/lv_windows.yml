@@ -21,6 +21,7 @@
 - type: entity
   parent: RMCWindowFrameColonyReinforced
   id: RMCWindowFrameLVColonyReinforced
+  suffix: Reinforced
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/Frames/lv_colony_frame.rsi
@@ -178,9 +179,9 @@
   id: RMCWindowLVColonyMed
   components:
   - type: Sprite
-    sprite: _RMC14/Structures/Windows/lv_colony_window.rsi
+    sprite: _RMC14/Structures/Windows/lv_colony_window_med.rsi
   - type: Icon
-    sprite: _RMC14/Structures/Windows/lv_colony_window.rsi
+    sprite: _RMC14/Structures/Windows/lv_colony_window_med.rsi
   - type: Destructible
     thresholds:
       - trigger:
@@ -219,9 +220,9 @@
   id: RMCWindowLVColonyMedReinforced
   components:
   - type: Sprite
-    sprite: _RMC14/Structures/Windows/lv_colony_window_reinforced.rsi
+    sprite: _RMC14/Structures/Windows/lv_colony_window_med_reinforced.rsi
   - type: Icon
-    sprite: _RMC14/Structures/Windows/lv_colony_window_reinforced.rsi
+    sprite: _RMC14/Structures/Windows/lv_colony_window_med_reinforced.rsi
   - type: Destructible
     thresholds:
       - trigger:
