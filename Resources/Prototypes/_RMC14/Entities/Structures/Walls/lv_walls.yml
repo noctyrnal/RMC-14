@@ -1,0 +1,55 @@
+- type: entity
+  parent: CMWallMetal
+  id: RMCWallLVColony
+  name: bare metal walls
+  description: A thick and chunky metal wall. The surface is barren and imposing.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Walls/lv_colony_wall.rsi
+  - type: Icon
+    sprite: _RMC14/Structures/Walls/lv_colony_wall.rsi
+  - type: IconSmooth
+    key: walls
+    additionalKeys:
+    - windows
+    - doors
+    base: metal
+
+- type: entity
+  parent: CMWallReinforced
+  id: RMCWallLVColonyReinforced
+  name: ribbed metal walls
+  description: A thick and chunky metal wall covered in jagged ribs.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Walls/lv_colony_wall_reinforced.rsi
+    state: rwall
+  - type: Icon
+    sprite: _RMC14/Structures/Walls/lv_colony_wall_reinforced.rsi
+    state: rwall
+  - type: IconSmooth
+    key: walls
+    additionalKeys:
+    - windows
+    - doors
+    base: rwall
+
+- type: entity
+  parent: RMCWallLVColony
+  id: RMCWallLVMedColony
+  suffix: Medical
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Walls/lv_colony_wall_med.rsi
+  - type: Icon
+    sprite: _RMC14/Structures/Walls/lv_colony_wall_med.rsi
+
+- type: entity
+  parent: RMCWallLVColonyReinforced
+  id: RMCWallLVColonyMedReinforced
+  suffix: Medical
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Walls/lv_colony_wall_med_reinforced.rsi
+  - type: Icon
+    sprite: _RMC14/Structures/Walls/lv_colony_wall_med_reinforced.rsi

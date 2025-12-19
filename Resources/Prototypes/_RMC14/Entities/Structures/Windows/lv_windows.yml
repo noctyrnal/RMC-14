@@ -1,5 +1,5 @@
 ﻿- type: entity
-  parent: RMCWindowFrameHybrisa
+  parent: RMCBaseWindowFrame
   id: RMCWindowFrameLVColony
   components:
   - type: Sprite
@@ -19,58 +19,8 @@
     node: windowFrameLVColony
 
 - type: entity
-  parent: RMCWindowHybrisa
-  id: RMCWindowLVColony
-  suffix: space port
-  components:
-  - type: Sprite
-    sprite: _RMC14/Structures/Windows/lv_colony_window.rsi
-    state: prison_window0
-  - type: Icon
-    sprite: _RMC14/Structures/Windows/lv_colony_window.rsi
-    state: prison_window0
-  - type: IconSmooth
-    key: windows
-    additionalKeys:
-    - doors
-    base: prison_window
-    mode: CardinalFlags
-  - type: Destructible
-    thresholds:
-      - trigger:
-          !type:DamageTrigger
-          damage: 600 # excessive damage destroys window and frame
-        behaviors:
-          - !type:PlaySoundBehavior
-            sound:
-              collection: WindowShatter
-          - !type:DoActsBehavior
-            acts: ["Destruction"]
-      - trigger:
-          !type:DamageTrigger
-          damage: 100
-        behaviors:
-          - !type:PlaySoundBehavior
-            sound:
-              collection: WindowShatter
-          - !type:SpawnEntitiesBehavior
-            spawn:
-              CMShardGlass:
-                min: 1
-                max: 1
-              CMRodMetal:
-                min: 1
-                max: 1
-          - !type:ChangeConstructionNodeBehavior
-            node: windowFrameLVColony
-  - type: Construction
-    graph: RMCWindowLVColony
-    node: windowLVColony
-
-- type: entity
-  parent: RMCWindowFrameHybrisaReinforced
-  id: RMCWindowFrameHLVColonyReinforced
-  suffix: space port
+  parent: RMCWindowFrameColonyReinforced
+  id: RMCWindowFrameLVColonyReinforced
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/Frames/lv_colony_frame.rsi
@@ -89,9 +39,64 @@
     node: windowFrameLVColonyReinforced
 
 - type: entity
-  parent: RMCWindowHybrisaReinforced
+  parent: CMBaseWindow
+  id: RMCWindowLVColony
+  name: window
+  description: A glass window inside a wall frame.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Windows/lv_colony_window.rsi
+    state: prison_window0
+  - type: Icon
+    sprite: _RMC14/Structures/Windows/lv_colony_window.rsi
+    state: prison_window0
+  - type: IconSmooth
+    key: windows
+    additionalKeys:
+    - doors
+    base: prison_window
+    mode: CardinalFlags
+  - type: Repairable
+  - type: Destructible
+    thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 600 # excessive damage destroys window and frame
+        behaviors:
+          - !type:PlaySoundBehavior
+            sound:
+              collection: WindowShatter
+          - !type:DoActsBehavior
+            acts: ["Destruction"]
+      - trigger:
+          !type:DamageTrigger
+          damage: 40
+        behaviors:
+          - !type:PlaySoundBehavior
+            sound:
+              collection: WindowShatter
+          - !type:SpawnEntitiesBehavior
+            spawn:
+              CMShardGlass:
+                min: 1
+                max: 1
+          - !type:ChangeConstructionNodeBehavior
+            node: windowFrameLVColony
+  - type: RMCWallExplosionDeletable
+  - type: DestroyedByExplosionType
+  - type: Construction
+    graph: RMCWindowLVColony
+    node: windowLVColony
+  - type: DestroyOnXenoPierceScissor
+    spawnPrototype: RMCWindowFrameLVColony
+    sound:
+      collection: WindowShatter
+
+- type: entity
+  parent: CMBaseWindow
   id: RMCWindowLVColonyReinforced
-  suffix: space port
+  name: reinforced window
+  description: A glass window. Light refracts incorrectly when looking through. It looks rather strong. Might take a few good hits to shatter it.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/lv_colony_window_reinforced.rsi
@@ -105,6 +110,7 @@
     - doors
     base: prison_window
     mode: CardinalFlags
+  - type: Repairable
   - type: Destructible
     thresholds:
       - trigger:
@@ -133,6 +139,12 @@
                 max: 1
           - !type:ChangeConstructionNodeBehavior
             node: windowFrameLVColonyReinforced
+  - type: RMCWallExplosionDeletable
+  - type: DestroyedByExplosionType
   - type: Construction
     graph: RMCWindowLVColonyReinforced
     node: windowLVColonyReinforced
+  - type: DestroyOnXenoPierceScissor
+    spawnPrototype: RMCWindowFrameLVColony
+    sound:
+      collection: WindowShatter

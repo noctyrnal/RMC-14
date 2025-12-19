@@ -28,7 +28,7 @@
       conditions:
       - !type:EntityAnchored {}
       steps:
-      - material: CMGlass
+      - material: CMGlassReinforced
         amount: 2
         doAfter: 2
 
@@ -40,7 +40,7 @@
       - !type:SnapToGrid
         southRotation: true
       - !type:SpawnPrototype
-        prototype: CMSheetGlass1
+        prototype: CMSheetGlassReinforced1
         amount: 2
       conditions:
       - !type:EntityAnchored {}
