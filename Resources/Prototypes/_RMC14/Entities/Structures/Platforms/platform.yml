@@ -707,5 +707,25 @@
   - type: Sprite
     state: wood_platform_deco
 
+- type: entity
+  parent: CMPlatform
+  id: RMCPlatformSandstoneRock
+  name: broken sandstone rocks
+  description: A raised level of sandstone rocks that have fallen loose from their original formation. You could probably climb it.
+  suffix: Sandstone
+  components:
+  - type: Sprite
+    state: sandstone_rock
+
+- type: entity
+  parent: RMCPlatformCornerSmall
+  id: RMCPlatformSandstoneRockCorner
+  name: raised sandstone rock corner
+  description: A raised level of sandstone rocks that have fallen loose from their original formation. This is the corner.
+  suffix: Sandstone
+  components:
+  - type: Sprite
+    state: sandstone_rock_deco
+
 - type: Tag
   id: Platform

@@ -73,3 +73,14 @@
     sprite: _RMC14/Structures/Walls/lv_colony_wall_med_reinforced.rsi
   - type: Icon
     sprite: _RMC14/Structures/Walls/lv_colony_wall_med_reinforced.rsi
+
+- type: entity
+  parent: RMCWallLVColony
+  id: RMCWallSandstoneTempleBricks
+  name: sandstone temple wall
+  description: A heavy wall of sandstone.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Walls/sandstone_bricks.rsi
+  - type: Icon
+    sprite: _RMC14/Structures/Walls/sandstone_bricks.rsi
