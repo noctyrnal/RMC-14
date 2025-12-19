@@ -79,6 +79,14 @@
     sprite: _RMC14/Tiles/planet/sorokyne/sorokyne_water.rsi
 
 - type: entity
+  parent: RMCRiverSorokyne
+  id: RMCRiverSorokyneFadedRed
+  suffix: Faded Red
+  components:
+  - type: Sprite
+    color: "#d19f9f"
+
+- type: entity
   parent: CMFloorShallowWaterEntity
   id: RMCFloorShallowWaterEntityRed
   suffix: Red
@@ -87,8 +95,24 @@
     color: "#995555"
 
 - type: entity
+  parent: RMCRiverSorokyne
+  id: RMCRiverSorokyneRed
+  suffix: Red
+  components:
+  - type: Sprite
+    color: "#995555"
+
+- type: entity
   parent: RMCFloorShallowWaterEntityRed
   id: RMCFloorShallowWaterEntityDarkRed
+  suffix: Dark Red
+  components:
+  - type: Sprite
+    color: "#990000"
+
+- type: entity
+  parent: RMCRiverSorokyneRed
+  id: RMCRiverSorokyneDarkRed
   suffix: Dark Red
   components:
   - type: Sprite
