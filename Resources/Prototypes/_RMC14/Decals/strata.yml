@@ -175,3 +175,61 @@
   sprite:
     sprite: _RMC14/Decals/strata.rsi
     state: soro_mud_8
+
+# Sand
+
+- type: decal
+  parent: RMCDecalStrataBase
+  id: RMCDecalStrataSand1
+  sprite:
+    sprite: _RMC14/Decals/strata.rsi
+    state: soro_sand_1
+
+- type: decal
+  parent: RMCDecalStrataBase
+  id: RMCDecalStrataSand2
+  sprite:
+    sprite: _RMC14/Decals/strata.rsi
+    state: soro_sand_2
+
+- type: decal
+  parent: RMCDecalStrataBase
+  id: RMCDecalStrataSand3
+  sprite:
+    sprite: _RMC14/Decals/strata.rsi
+    state: soro_sand_3
+
+- type: decal
+  parent: RMCDecalStrataBase
+  id: RMCDecalStrataSand4
+  sprite:
+    sprite: _RMC14/Decals/strata.rsi
+    state: soro_sand_4
+
+- type: decal
+  parent: RMCDecalStrataBase
+  id: RMCDecalStrataSand5
+  sprite:
+    sprite: _RMC14/Decals/strata.rsi
+    state: soro_sand_5
+
+- type: decal
+  parent: RMCDecalStrataBase
+  id: RMCDecalStrataSand6
+  sprite:
+    sprite: _RMC14/Decals/strata.rsi
+    state: soro_sand_6
+
+- type: decal
+  parent: RMCDecalStrataBase
+  id: RMCDecalStrataSand7
+  sprite:
+    sprite: _RMC14/Decals/strata.rsi
+    state: soro_sand_7
+
+- type: decal
+  parent: RMCDecalStrataBase
+  id: RMCDecalStrataSand8
+  sprite:
+    sprite: _RMC14/Decals/strata.rsi
+    state: soro_sand_8

@@ -1,0 +1,101 @@
+- type: decal
+  abstract: true
+  parent: CMDecalBase
+  id: RMCDecalSandstoneBase
+  tags: ["station", "markings"]
+
+- type: decal
+  id: RMCDecalSandstone1
+  parent: RMCDecalSandstoneBase
+  defaultCustomColor: true
+  sprite:
+    sprite: _RMC14/Decals/sandstone.rsi
+    state: sandstone1
+
+- type: decal
+  id: RMCDecalSandstone2
+  parent: RMCDecalSandstoneBase
+  defaultCustomColor: true
+  sprite:
+    sprite: _RMC14/Decals/sandstone.rsi
+    state: sandstone2
+
+- type: decal
+  id: RMCDecalSandstone3
+  parent: RMCDecalSandstoneBase
+  defaultCustomColor: true
+  sprite:
+    sprite: _RMC14/Decals/sandstone.rsi
+    state: sandstone3
+
+- type: decal
+  id: RMCDecalSandstone4
+  parent: RMCDecalSandstoneBase
+  defaultCustomColor: true
+  sprite:
+    sprite: _RMC14/Decals/sandstone.rsi
+    state: sandstone4
+
+- type: decal
+  id: RMCDecalSandstone5
+  parent: RMCDecalSandstoneBase
+  defaultCustomColor: true
+  sprite:
+    sprite: _RMC14/Decals/sandstone.rsi
+    state: sandstone5
+
+- type: decal
+  id: RMCDecalSandstone6
+  parent: RMCDecalSandstoneBase
+  defaultCustomColor: true
+  sprite:
+    sprite: _RMC14/Decals/sandstone.rsi
+    state: sandstone6
+
+- type: decal
+  id: RMCDecalSandstone7
+  parent: RMCDecalSandstoneBase
+  defaultCustomColor: true
+  sprite:
+    sprite: _RMC14/Decals/sandstone.rsi
+    state: sandstone7
+
+- type: decal
+  id: RMCDecalSandstone8
+  parent: RMCDecalSandstoneBase
+  defaultCustomColor: true
+  sprite:
+    sprite: _RMC14/Decals/sandstone.rsi
+    state: sandstone8
+
+- type: decal
+  id: RMCDecalSandstone9
+  parent: RMCDecalSandstoneBase
+  defaultCustomColor: true
+  sprite:
+    sprite: _RMC14/Decals/sandstone.rsi
+    state: sandstone9
+
+- type: decal
+  id: RMCDecalSandstone10
+  parent: RMCDecalSandstoneBase
+  defaultCustomColor: true
+  sprite:
+    sprite: _RMC14/Decals/sandstone.rsi
+    state: sandstone10
+
+- type: decal
+  id: RMCDecalSandstone11
+  parent: RMCDecalSandstoneBase
+  defaultCustomColor: true
+  sprite:
+    sprite: _RMC14/Decals/sandstone.rsi
+    state: sandstone11
+
+- type: decal
+  id: RMCDecalSandstone12
+  parent: RMCDecalSandstoneBase
+  defaultCustomColor: true
+  sprite:
+    sprite: _RMC14/Decals/sandstone.rsi
+    state: sandstone12

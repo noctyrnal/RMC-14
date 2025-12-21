@@ -66,6 +66,11 @@
   sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick_u.png
 
 - type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstonePlate
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_plate.png
+
+- type: tile
   parent: CMPlanetBase
   id: CMPlanetGCircuit
   name: gcircuit
