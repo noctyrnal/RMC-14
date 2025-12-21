@@ -65,3 +65,8 @@
   - 1.0
   - 1.0
   - 1.0
+
+- type: tile
+  parent: RMCPlanetSandVaradero
+  id: RMCPlanetSandVaraderoAlt
+  sprite: /Textures/_RMC14/Tiles/planet/auto_sand/varadero_1.png

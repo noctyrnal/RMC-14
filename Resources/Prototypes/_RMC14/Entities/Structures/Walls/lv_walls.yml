@@ -84,3 +84,11 @@
     sprite: _RMC14/Structures/Walls/sandstone_bricks.rsi
   - type: Icon
     sprite: _RMC14/Structures/Walls/sandstone_bricks.rsi
+
+- type: entity
+  parent: CMWallRock
+  id: RMCWallRockTimed
+  suffix: TIMED
+  components:
+  - type: TimedDespawn
+    lifetime: 2400

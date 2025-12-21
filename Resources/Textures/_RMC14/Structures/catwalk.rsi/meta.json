@@ -50,6 +50,9 @@
       "name": "strata_catwalk"
     },
     {
+      "name": "sandstone_catwalk"
+    },
+    {
       "name": "monorailStraight",
       "directions": 4
     },
