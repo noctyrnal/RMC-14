@@ -409,6 +409,21 @@
     node: start
 
 - type: entity
+  parent: RMCPlatformHybrisa
+  id: RMCPlatformHybrisaStair
+  suffix: Stair
+  components:
+  - type: Sprite
+    state: hybrisaplatform_stair
+
+- type: entity
+  parent: RMCPlatformHybrisaStair
+  id: RMCPlatformHybrisaStairAlt
+  components:
+  - type: Sprite
+    state: hybrisaplatform_stair_alt
+
+- type: entity
   parent: CMPlatformBroken
   id: RMCPlatformHybrisaBroken
   components:

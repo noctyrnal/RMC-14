@@ -191,6 +191,14 @@
       "directions": 4
     },
     {
+      "name": "hybrisaplatform_stair",
+      "directions": 4
+    },
+    {
+      "name": "hybrisaplatform_stair_alt",
+      "directions": 4
+    },
+    {
       "name": "hybrisaplatform_deco",
       "directions": 4
     },
