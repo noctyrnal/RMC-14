@@ -45,6 +45,7 @@
   id: RMCPodDoorButtonShip
   name: button
   description: A basic button that does basic things.
+  suffix: Ship
 
 - type: entity
   parent: RMCPodDoorButtonShip

@@ -64,6 +64,18 @@
     node: windowFrameLVColonyMedReinforced
 
 - type: entity
+  parent: RMCWindowFrameLVColonyReinforced
+  id: RMCWindowFrameLVColonySecReinforced
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Windows/Frames/lv_colony_frame_sec.rsi
+  - type: Icon
+    sprite: _RMC14/Structures/Windows/Frames/lv_colony_frame_sec.rsi
+  - type: Construction
+    graph: RMCWindowLVColonySecReinforced
+    node: windowFrameLVColonySecReinforced
+
+- type: entity
   parent: CMBaseWindow
   id: RMCWindowLVColony
   name: window
@@ -255,6 +267,50 @@
     graph: RMCWindowLVColonyMedReinforced
     node: windowLVColonyMedReinforced
   - type: DestroyOnXenoPierceScissor
-    spawnPrototype: RMCWindowFrameLVColonyMed
+    spawnPrototype: RMCWindowFrameLVColonyMedReinforced
+    sound:
+      collection: WindowShatter
+
+- type: entity
+  parent: RMCWindowLVColonyReinforced
+  id: RMCWindowLVColonySecReinforced
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Windows/lv_colony_window_sec_reinforced.rsi
+  - type: Icon
+    sprite: _RMC14/Structures/Windows/lv_colony_window_sec_reinforced.rsi
+  - type: Destructible
+    thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 600 # excessive damage destroys window and frame
+        behaviors:
+          - !type:PlaySoundBehavior
+            sound:
+              collection: WindowShatter
+          - !type:DoActsBehavior
+            acts: ["Destruction"]
+      - trigger:
+          !type:DamageTrigger
+          damage: 100
+        behaviors:
+          - !type:PlaySoundBehavior
+            sound:
+              collection: WindowShatter
+          - !type:SpawnEntitiesBehavior
+            spawn:
+              CMShardGlass:
+                min: 1
+                max: 1
+              CMRodMetal:
+                min: 1
+                max: 1
+          - !type:ChangeConstructionNodeBehavior
+            node: windowFrameLVColonySecReinforced
+  - type: Construction
+    graph: RMCWindowLVColonySecReinforced
+    node: windowLVColonySecReinforced
+  - type: DestroyOnXenoPierceScissor
+    spawnPrototype: RMCWindowFrameLVColonySecReinforced
     sound:
       collection: WindowShatter
