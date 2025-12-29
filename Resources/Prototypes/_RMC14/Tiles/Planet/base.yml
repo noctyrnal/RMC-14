@@ -555,7 +555,7 @@
   parent: CMPlanetBase
   id: RMCPlanetGold1
   name: sun emblem
-  sprite: /Textures/_RMC14/Tiles/planet/corsat/sun_emblem1.png
+  sprite: /Textures/_RMC14/Tiles/floors/sun_emblem1.png
   footstepSounds:
     collection: FootstepHull
   canDig: false
@@ -563,34 +563,34 @@
 - type: tile
   parent: RMCPlanetGold1
   id: RMCPlanetGold2
-  sprite: /Textures/_RMC14/Tiles/planet/corsat/sun_emblem2.png
+  sprite: /Textures/_RMC14/Tiles/floors/sun_emblem2.png
 
 - type: tile
   parent: RMCPlanetGold1
   id: RMCPlanetGold3
-  sprite: /Textures/_RMC14/Tiles/planet/corsat/sun_emblem3.png
+  sprite: /Textures/_RMC14/Tiles/floors/sun_emblem3.png
 
 - type: tile
   parent: RMCPlanetGold1
   id: RMCPlanetGold4
-  sprite: /Textures/_RMC14/Tiles/planet/corsat/sun_emblem4.png
+  sprite: /Textures/_RMC14/Tiles/floors/sun_emblem4.png
 
 - type: tile
   parent: RMCPlanetGold1
   id: RMCPlanetGold5
-  sprite: /Textures/_RMC14/Tiles/planet/corsat/sun_emblem5.png
+  sprite: /Textures/_RMC14/Tiles/floors/sun_emblem5.png
 
 - type: tile
   parent: RMCPlanetGold1
   id: RMCPlanetGold6
-  sprite: /Textures/_RMC14/Tiles/planet/corsat/sun_emblem6.png
+  sprite: /Textures/_RMC14/Tiles/floors/sun_emblem6.png
 
 - type: tile
   parent: RMCPlanetGold1
   id: RMCPlanetGold7
-  sprite: /Textures/_RMC14/Tiles/planet/corsat/sun_emblem7.png
+  sprite: /Textures/_RMC14/Tiles/floors/sun_emblem7.png
 
 - type: tile
   parent: RMCPlanetGold1
   id: RMCPlanetGold8
-  sprite: /Textures/_RMC14/Tiles/planet/corsat/sun_emblem8.png
+  sprite: /Textures/_RMC14/Tiles/floors/sun_emblem8.png

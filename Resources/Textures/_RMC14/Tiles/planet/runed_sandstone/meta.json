@@ -213,6 +213,18 @@
     },
     {
       "name": "floor_deco_alt_dark4"
+    },
+    {
+      "name": "floor_breach1"
+    },
+    {
+      "name": "floor_breach2"
+    },
+    {
+      "name": "floor_breach3"
+    },
+    {
+      "name": "floor_breach4"
     }
   ]
 }
