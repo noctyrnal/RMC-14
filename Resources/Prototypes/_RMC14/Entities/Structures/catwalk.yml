@@ -97,6 +97,13 @@
 
 - type: entity
   parent: CMCatwalk
+  id: RMCCatwalkSandstoneWater
+  components:
+  - type: Sprite
+    state: water_grille
+
+- type: entity
+  parent: CMCatwalk
   id: RMCCatwalkHybrisa
   name: solid metal grate
   components:

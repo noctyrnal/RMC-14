@@ -1,0 +1,215 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Non runesandstone sprites taken from cmss13 at https://github.com/Zenith00000/cmss13/blob/b2a6e33df4c43c70ae769896907e823d3f5caee7/icons/turf/floors/hunter/ancientfloor.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "runedsandstone"
+    },
+    {
+      "name": "runedsandstone_brick"
+    },
+    {
+      "name": "runedsandstone_brick_u"
+    },
+    {
+      "name": "runedsandstone_plate"
+    },
+    {
+      "name": "runedsandstone_brick1"
+    },
+    {
+      "name": "runedsandstone_brick2"
+    },
+    {
+      "name": "runedsandstone_brick3"
+    },
+    {
+      "name": "runedsandstone_brick4"
+    },
+    {
+      "name": "runedsandstone_brick5"
+    },
+    {
+      "name": "runedsandstone_brick6"
+    },
+    {
+      "name": "runedsandstone_brick7"
+    },
+    {
+      "name": "runedsandstone_brick8"
+    },
+    {
+      "name": "runedsandstone_brick9"
+    },
+    {
+      "name": "runedsandstone_brick10"
+    },
+    {
+      "name": "runedsandstone_brick11"
+    },
+    {
+      "name": "runedsandstone_brick12"
+    },
+    {
+      "name": "runedsandstone_brick13"
+    },
+    {
+      "name": "runedsandstone_brick14"
+    },
+    {
+      "name": "runedsandstone_brick15"
+    },
+    {
+      "name": "runedsandstone_brick16"
+    },
+    {
+      "name": "runedsandstone_brick17"
+    },
+    {
+      "name": "runedsandstone_brick18"
+    },
+    {
+      "name": "runedsandstone_brick19"
+    },
+    {
+      "name": "runedsandstone_brick20"
+    },
+    {
+      "name": "runedsandstone_brick21"
+    },
+    {
+      "name": "runedsandstone_brick22"
+    },
+    {
+      "name": "runedsandstone_brick23"
+    },
+    {
+      "name": "runedsandstone_brick24"
+    },
+    {
+      "name": "runedsandstone_brick25"
+    },
+    {
+      "name": "runedsandstone_brick26"
+    },
+    {
+      "name": "runedsandstone_brick27"
+    },
+    {
+      "name": "runedsandstone_brick28"
+    },
+    {
+      "name": "runedsandstone_brick29"
+    },
+    {
+      "name": "runedsandstone_brick30"
+    },
+    {
+      "name": "runedsandstone_brick31"
+    },
+    {
+      "name": "runedsandstone_brick32"
+    },
+    {
+      "name": "runedsandstone_brick33"
+    },
+    {
+      "name": "runedsandstone_brick34"
+    },
+    {
+      "name": "runedsandstone_brick35"
+    },
+    {
+      "name": "runedsandstone_brick36"
+    },
+    {
+      "name": "runedsandstone_brick37"
+    },
+    {
+      "name": "runedsandstone_brick38"
+    },
+    {
+      "name": "runedsandstone_brick39"
+    },
+    {
+      "name": "runedsandstone_brick40"
+    },
+    {
+      "name": "runedsandstone_brick41"
+    },
+    {
+      "name": "runedsandstone_brick42"
+    },
+    {
+      "name": "runedsandstone_brick43"
+    },
+    {
+      "name": "damage_1"
+    },
+    {
+      "name": "damage_2"
+    },
+    {
+      "name": "damage_3"
+    },
+    {
+      "name": "damage_4"
+    },
+    {
+      "name": "damage_5"
+    },
+    {
+      "name": "damage_6"
+    },
+    {
+      "name": "damage_7"
+    },
+    {
+      "name": "floor_dark_deco"
+    },
+    {
+      "name": "fake_wall_dark"
+    },
+    {
+      "name": "floor_breach1"
+    },
+    {
+      "name": "floor_breach2"
+    },
+    {
+      "name": "floor_breach3"
+    },
+    {
+      "name": "floor_breach4"
+    },
+    {
+      "name": "floor_deco_alt1"
+    },
+    {
+      "name": "floor_deco_alt2"
+    },
+    {
+      "name": "floor_deco_alt3"
+    },
+    {
+      "name": "floor_deco_alt4"
+    },
+    {
+      "name": "floor_deco_alt_dark1"
+    },
+    {
+      "name": "floor_deco_alt_dark2"
+    },
+    {
+      "name": "floor_deco_alt_dark3"
+    },
+    {
+      "name": "floor_deco_alt_dark4"
+    }
+  ]
+}

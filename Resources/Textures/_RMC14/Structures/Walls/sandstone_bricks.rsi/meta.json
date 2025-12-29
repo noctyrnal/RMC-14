@@ -1,45 +1,45 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Taken from cmss13 at https://github.com/cmss13-devs/cmss13/blob/71d46ee8057d19b12e1495419cb299d2fedef6cc/icons/turf/walls/hunter.dmi, modified by github noctyrnal",
+  "copyright": "Taken from cmss13 at https://github.com/Zenith00000/cmss13/blob/b2a6e33df4c43c70ae769896907e823d3f5caee7/icons/turf/walls/hunter/hunter_temple.dmi",
   "size": {
     "x": 32,
     "y": 32
   },
   "states": [
     {
-      "name": "metal"
+      "name": "ancient_stone"
     },
     {
-      "name": "metal0",
+      "name": "ancient_stone0",
       "directions": 4
     },
     {
-      "name": "metal1",
+      "name": "ancient_stone1",
       "directions": 4
     },
     {
-      "name": "metal2",
+      "name": "ancient_stone2",
       "directions": 4
     },
     {
-      "name": "metal3",
+      "name": "ancient_stone3",
       "directions": 4
     },
     {
-      "name": "metal4",
+      "name": "ancient_stone4",
       "directions": 4
     },
     {
-      "name": "metal5",
+      "name": "ancient_stone5",
       "directions": 4
     },
     {
-      "name": "metal6",
+      "name": "ancient_stone6",
       "directions": 4
     },
     {
-      "name": "metal7",
+      "name": "ancient_stone7",
       "directions": 4
     }
   ]

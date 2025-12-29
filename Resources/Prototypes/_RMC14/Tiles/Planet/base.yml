@@ -61,14 +61,291 @@
   sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick.png
 
 - type: tile
-  parent: RMCPlanetRunedSandstone
-  id: RMCPlanetRunedSandstoneAlt
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone1
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick1.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone2
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick2.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone3
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick3.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone4
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick4.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone5
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick5.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone6
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick6.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone7
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick7.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone8
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick8.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone9
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick9.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone10
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick10.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone11
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick11.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone12
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick12.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone13
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick13.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone14
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick14.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone15
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick15.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone16
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick16.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone17
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick17.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone18
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick18.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone19
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick19.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone20
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick20.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone21
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick21.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone22
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick22.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone23
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick23.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone24
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick24.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone25
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick25.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone26
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick26.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone27
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick27.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone28
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick28.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone29
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick29.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone30
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick30.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone31
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick31.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone32
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick32.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone33
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick33.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone34
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick34.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone35
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick35.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone36
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick36.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone37
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick37.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone38
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick38.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone39
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick39.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone40
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick40.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone41
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick41.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstone42
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick42.png
+
+- type: tile
+  parent: CMFloorPlating
+  id: RMCPlanetRunedSandstonePlating
+  name: runed sandstone bricks
   sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_brick_u.png
 
 - type: tile
   parent: CMPlanetRunedSandstone
   id: RMCPlanetRunedSandstonePlate
   sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/runedsandstone_plate.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstoneFloorBreach
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/floor_breach1.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstoneFloorBreach
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/floor_breach2.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstoneFloorBreach
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/floor_breach3.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstoneFloorBreach
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/floor_breach4.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstoneDamage1
+  name: damaged runed sandstone bricks
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/damage_1.png
+
+- type: tile
+  parent: RMCPlanetRunedSandstoneDamage1
+  id: RMCPlanetRunedSandstoneDamage2
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/damage_2.png
+
+- type: tile
+  parent: RMCPlanetRunedSandstoneDamage1
+  id: RMCPlanetRunedSandstoneDamage3
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/damage_3.png
+
+- type: tile
+  parent: RMCPlanetRunedSandstoneDamage1
+  id: RMCPlanetRunedSandstoneDamage4
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/damage_4.png
+
+- type: tile
+  parent: RMCPlanetRunedSandstoneDamage1
+  id: RMCPlanetRunedSandstoneDamage5
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/damage_5.png
+
+- type: tile
+  parent: RMCPlanetRunedSandstoneDamage1
+  id: RMCPlanetRunedSandstoneDamage6
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/damage_6.png
+
+- type: tile
+  parent: RMCPlanetRunedSandstoneDamage1
+  id: RMCPlanetRunedSandstoneDamage7
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/damage_7.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstoneFakeWall
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/fake_wall_dark.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstoneDarkDeco
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/floor_dark_deco.png
 
 - type: tile
   parent: CMPlanetBase

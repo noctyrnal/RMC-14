@@ -82,8 +82,16 @@
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/sandstone_bricks.rsi
+    state: ancient_stone
   - type: Icon
     sprite: _RMC14/Structures/Walls/sandstone_bricks.rsi
+    state: ancient_stone
+  - type: IconSmooth
+    key: walls
+    additionalKeys:
+    - windows
+    - doors
+    base: ancient_stone
 
 - type: entity
   parent: CMWallRock
