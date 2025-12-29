@@ -348,6 +348,51 @@
   sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/floor_dark_deco.png
 
 - type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstoneDarkDecoAlt1
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/floor_deco_alt_dark1.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstoneDarkDecoAlt2
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/floor_deco_alt_dark2.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstoneDarkDecoAlt3
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/floor_deco_alt_dark3.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstoneDarkDecoAlt4
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/floor_deco_alt_dark4.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstoneDeco
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/floor_deco.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstoneDecoAlt1
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/floor_deco_alt1.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstoneDecoAlt2
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/floor_deco_alt2.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstoneDecoAlt3
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/floor_deco_alt3.png
+
+- type: tile
+  parent: CMPlanetRunedSandstone
+  id: RMCPlanetRunedSandstoneDecoAlt4
+  sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/floor_deco_alt4.png
+
+- type: tile
   parent: CMPlanetBase
   id: CMPlanetGCircuit
   name: gcircuit
@@ -505,3 +550,47 @@
   id: RMCVoid
   name: tiles-rmc-empty
   sprite: /Textures/_RMC14/Tiles/floors/void.png
+
+- type: tile
+  parent: CMPlanetBase
+  id: RMCPlanetGold1
+  name: sun emblem
+  sprite: /Textures/_RMC14/Tiles/planet/corsat/sun_emblem1.png
+  footstepSounds:
+    collection: FootstepHull
+  canDig: false
+
+- type: tile
+  parent: RMCPlanetGold1
+  id: RMCPlanetGold2
+  sprite: /Textures/_RMC14/Tiles/planet/corsat/sun_emblem2.png
+
+- type: tile
+  parent: RMCPlanetGold1
+  id: RMCPlanetGold3
+  sprite: /Textures/_RMC14/Tiles/planet/corsat/sun_emblem3.png
+
+- type: tile
+  parent: RMCPlanetGold1
+  id: RMCPlanetGold4
+  sprite: /Textures/_RMC14/Tiles/planet/corsat/sun_emblem4.png
+
+- type: tile
+  parent: RMCPlanetGold1
+  id: RMCPlanetGold5
+  sprite: /Textures/_RMC14/Tiles/planet/corsat/sun_emblem5.png
+
+- type: tile
+  parent: RMCPlanetGold1
+  id: RMCPlanetGold6
+  sprite: /Textures/_RMC14/Tiles/planet/corsat/sun_emblem6.png
+
+- type: tile
+  parent: RMCPlanetGold1
+  id: RMCPlanetGold7
+  sprite: /Textures/_RMC14/Tiles/planet/corsat/sun_emblem7.png
+
+- type: tile
+  parent: RMCPlanetGold1
+  id: RMCPlanetGold8
+  sprite: /Textures/_RMC14/Tiles/planet/corsat/sun_emblem8.png

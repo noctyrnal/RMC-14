@@ -570,6 +570,52 @@
     node: platformBroken
 
 - type: entity
+  parent: RMCPlatformHybrisaStone
+  id: RMCPlatformSandstoneTemple
+  components:
+  - type: Sprite
+    state: ancient_platform
+
+- type: entity
+  parent: RMCPlatformHybrisaStone
+  id: RMCPlatformSandstoneTempleAlt
+  suffix: Alt
+  components:
+  - type: Sprite
+    state: ancient_platform_alt
+
+- type: entity
+  parent: RMCPlatformHybrisaStone
+  id: RMCPlatformSandstoneTempleStair
+  components:
+  - type: Sprite
+    state: ancient_platform_stair
+
+- type: entity
+  parent: RMCPlatformHybrisaStone
+  id: RMCPlatformSandstoneTempleStairAlt
+  components:
+  - type: Sprite
+    state: ancient_platform_stair_alt
+
+- type: entity
+  parent: RMCPlatformCornerSmall
+  id: RMCPlatformSandstoneTempleCornerSmall
+  name: sandstone platform corner
+  description: The corner of what appears to be raised piece of metal, often used to imply the illusion of elevation in non-Euclidean 2d spaces. But you don't know that, you're just a spaceman with a rifle.
+  components:
+  - type: Sprite
+    state: ancient_platform_deco
+
+- type: entity
+  parent: RMCPlatformSandstoneTempleCornerSmall
+  id: RMCPlatformSandstoneTempleCornerSmallAlt
+  suffix: Alt
+  components:
+  - type: Sprite
+    state: ancient_platform_deco_alt
+
+- type: entity
   parent: RMCPlatformCornerSmall
   id: RMCPlatformHybrisaStoneCornerSmall
   name: raised stone corner

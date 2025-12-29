@@ -131,6 +131,30 @@
       "directions": 4
     },
     {
+      "name": "ancient_platform",
+      "directions": 4
+    },
+    {
+      "name": "ancient_platform_stair",
+      "directions": 4
+    },
+    {
+      "name": "ancient_platform_stair_alt",
+      "directions": 4
+    },
+    {
+      "name": "ancient_platform_deco",
+      "directions": 4
+    },
+    {
+      "name": "ancient_platform_alt",
+      "directions": 4
+    },
+    {
+      "name": "ancient_platform_alt_deco",
+      "directions": 4
+    },
+    {
       "name": "sandstone",
       "directions": 4
     },

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Taken from cmss13 at https://github.com/cmss13-devs/cmss13/blob/3f7726a500da0bb8502dd612454c70bb975c4dc2/icons/turf/floors/floors.dmi",
+  "copyright": "Taken from cmss13 at https://github.com/cmss13-devs/cmss13/blob/3f7726a500da0bb8502dd612454c70bb975c4dc2/icons/turf/floors/floors.dmi, https://github.com/Zenith00000/cmss13/blob/b2a6e33df4c43c70ae769896907e823d3f5caee7/icons/turf/floors/interior.dmi",
   "size": {
     "x": 32,
     "y": 32
@@ -19,7 +19,7 @@
     {
       "name": "carpet"
     },
-	{ 
+	{
 	  "name": "carpet_singular"
 	},
     {
@@ -945,6 +945,30 @@
           0.3
         ]
       ]
+    },
+    {
+      "name": "sun_emblem1"
+    },
+    {
+      "name": "sun_emblem2"
+    },
+    {
+      "name": "sun_emblem3"
+    },
+    {
+      "name": "sun_emblem4"
+    },
+    {
+      "name": "sun_emblem5"
+    },
+    {
+      "name": "sun_emblem6"
+    },
+    {
+      "name": "sun_emblem7"
+    },
+    {
+      "name": "sun_emblem8"
     }
   ]
 }

@@ -94,6 +94,21 @@
     base: ancient_stone
 
 - type: entity
+  parent: CMBaseWallInvincible
+  id: RMCWallElevatorBroken
+  name: damaged sandstone temple wall
+  description: A damaged heavy wall of sandstone.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Walls/sandstone_bricks_broken.rsi
+    state: ancient_stone_breach
+  - type: Icon
+    sprite: _RMC14/Structures/Walls/sandstone_bricks_broken.rsi
+    state: ancient_stone_breach
+  - type: Occluder
+    enabled: false
+
+- type: entity
   parent: CMWallRock
   id: RMCWallRockTimed
   suffix: TIMED
