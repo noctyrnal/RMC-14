@@ -283,22 +283,22 @@
 
 - type: tile
   parent: CMPlanetRunedSandstone
-  id: RMCPlanetRunedSandstoneFloorBreach
+  id: RMCPlanetRunedSandstoneFloorBreach1
   sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/floor_breach1.png
 
 - type: tile
   parent: CMPlanetRunedSandstone
-  id: RMCPlanetRunedSandstoneFloorBreach
+  id: RMCPlanetRunedSandstoneFloorBreach2
   sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/floor_breach2.png
 
 - type: tile
   parent: CMPlanetRunedSandstone
-  id: RMCPlanetRunedSandstoneFloorBreach
+  id: RMCPlanetRunedSandstoneFloorBreach3
   sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/floor_breach3.png
 
 - type: tile
   parent: CMPlanetRunedSandstone
-  id: RMCPlanetRunedSandstoneFloorBreach
+  id: RMCPlanetRunedSandstoneFloorBreach4
   sprite: /Textures/_RMC14/Tiles/planet/runed_sandstone/floor_breach4.png
 
 - type: tile

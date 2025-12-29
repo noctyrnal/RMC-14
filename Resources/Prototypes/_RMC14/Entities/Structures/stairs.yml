@@ -347,3 +347,89 @@
   - type: Sprite
     state: p_stair_solo_cap
     color: "#6e6e6e"
+
+- type: entity
+  parent: RMCStairs
+  id: RMCTempleStairsAlt
+  components:
+  - type: Sprite
+    color: "#b6a38f"
+
+- type: entity
+  parent: RMCStairs
+  id: RMCTempleStairsAltCorner
+  suffix: Corner
+  components:
+  - type: Sprite
+    state: p_stair_full_corner
+    color: "#b6a38f"
+
+- type: entity
+  parent: RMCStairs
+  id: RMCTempleStairsAltLeft
+  suffix: Left
+  components:
+  - type: Sprite
+    state: p_stair_left_cap
+    color: "#b6a38f"
+
+- type: entity
+  parent: RMCStairs
+  id: RMCTempleStairsAltRight
+  suffix: Right
+  components:
+  - type: Sprite
+    state: p_stair_right_cap
+    color: "#b6a38f"
+
+- type: entity
+  parent: RMCStairs
+  id: RMCTempleStairsAltSolo
+  suffix: Solo
+  components:
+  - type: Sprite
+    state: p_stair_solo_cap
+    color: "#b6a38f"
+
+- type: entity
+  parent: RMCStairs
+  id: RMCWoodStairs
+  components:
+  - type: Sprite
+    color: "#9f7b5c"
+
+- type: entity
+  parent: RMCStairs
+  id: RMCWoodStairsCorner
+  suffix: Corner
+  components:
+  - type: Sprite
+    state: p_stair_full_corner
+    color: "#9f7b5c"
+
+- type: entity
+  parent: RMCStairs
+  id: RMCWoodStairsLeft
+  suffix: Left
+  components:
+  - type: Sprite
+    state: p_stair_left_cap
+    color: "#9f7b5c"
+
+- type: entity
+  parent: RMCStairs
+  id: RMCWoodStairstRight
+  suffix: Right
+  components:
+  - type: Sprite
+    state: p_stair_right_cap
+    color: "#9f7b5c"
+
+- type: entity
+  parent: RMCStairs
+  id: RMCWoodStairsSolo
+  suffix: Solo
+  components:
+  - type: Sprite
+    state: p_stair_solo_cap
+    color: "#9f7b5c"

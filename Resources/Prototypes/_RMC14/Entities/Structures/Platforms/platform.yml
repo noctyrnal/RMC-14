@@ -613,7 +613,7 @@
   suffix: Alt
   components:
   - type: Sprite
-    state: ancient_platform_deco_alt
+    state: ancient_platform_alt_deco
 
 - type: entity
   parent: RMCPlatformCornerSmall

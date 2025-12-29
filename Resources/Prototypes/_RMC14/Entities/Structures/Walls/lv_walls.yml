@@ -75,6 +75,16 @@
     sprite: _RMC14/Structures/Walls/lv_colony_wall_med_reinforced.rsi
 
 - type: entity
+  parent: RMCWallLVColonyReinforced
+  id: RMCWallLVColonySecReinforced
+  suffix: Security
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Walls/lv_colony_wall_sec_reinforced.rsi
+  - type: Icon
+    sprite: _RMC14/Structures/Walls/lv_colony_wall_sec_reinforced.rsi
+
+- type: entity
   parent: RMCWallLVColony
   id: RMCWallSandstoneTempleBricks
   name: sandstone temple wall
@@ -95,7 +105,7 @@
 
 - type: entity
   parent: CMBaseWallInvincible
-  id: RMCWallElevatorBroken
+  id: RMCWallSandstoneTempleBricksBroken
   name: damaged sandstone temple wall
   description: A damaged heavy wall of sandstone.
   components:
@@ -107,6 +117,9 @@
     state: ancient_stone_breach
   - type: Occluder
     enabled: false
+  - type: IconSmooth
+    key: walls
+    mode: NoSprite
 
 - type: entity
   parent: CMWallRock
