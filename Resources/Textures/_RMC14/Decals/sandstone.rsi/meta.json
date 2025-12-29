@@ -1,47 +1,182 @@
 {
   "version": 1,
-  "license": "CC-BY-SA-4.0",
-  "copyright": "Sprites by github noctyrnal",
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from cmss13 at https://github.com/Zenith00000/cmss13/blob/b2a6e33df4c43c70ae769896907e823d3f5caee7/icons/effects/32x32-hunter_effects.dmi",
   "size": {
     "x": 32,
     "y": 32
   },
   "states": [
     {
-      "name": "sandstone1"
+      "name": "deco_border1"
     },
     {
-      "name": "sandstone2"
+      "name": "deco_border2"
     },
     {
-      "name": "sandstone3"
+      "name": "deco_border3"
     },
     {
-      "name": "sandstone4"
+      "name": "deco_border4"
     },
     {
-      "name": "sandstone5"
+      "name": "deco_border5"
     },
     {
-      "name": "sandstone6"
+      "name": "deco_border6"
     },
     {
-      "name": "sandstone7"
+      "name": "deco_border7"
     },
     {
-      "name": "sandstone8"
+      "name": "deco_border8"
     },
     {
-      "name": "sandstone9"
+      "name": "deco_border9"
     },
     {
-      "name": "sandstone10"
+      "name": "deco_border10"
     },
     {
-      "name": "sandstone11"
+      "name": "deco_border11"
     },
     {
-      "name": "sandstone12"
+      "name": "deco_border12"
+    },
+    {
+      "name": "deco_border13"
+    },
+    {
+      "name": "deco_border14"
+    },
+    {
+      "name": "deco_border15"
+    },
+    {
+      "name": "deco_border16"
+    },
+    {
+      "name": "bronze_deco_border1"
+    },
+    {
+      "name": "bronze_deco_border2"
+    },
+    {
+      "name": "bronze_deco_border3"
+    },
+    {
+      "name": "bronze_deco_border4"
+    },
+    {
+      "name": "bronze_deco_border5"
+    },
+    {
+      "name": "bronze_deco_border6"
+    },
+    {
+      "name": "bronze_deco_border7"
+    },
+    {
+      "name": "bronze_deco_border8"
+    },
+    {
+      "name": "bronze_deco_border9"
+    },
+    {
+      "name": "bronze_deco_border10"
+    },
+    {
+      "name": "bronze_deco_border11"
+    },
+    {
+      "name": "bronze_deco_border12"
+    },
+    {
+      "name": "bronze_deco_border13"
+    },
+    {
+      "name": "bronze_deco_border14"
+    },
+    {
+      "name": "bronze_deco_border15"
+    },
+    {
+      "name": "bronze_deco_border16"
+    },
+    {
+      "name": "rubble0"
+    },
+    {
+      "name": "rubble1"
+    },
+    {
+      "name": "rubble2"
+    },
+    {
+      "name": "rubble3"
+    },
+    {
+      "name": "rubble4"
+    },
+    {
+      "name": "rubble5"
+    },
+    {
+      "name": "rubble6"
+    },
+    {
+      "name": "rubble7"
+    },
+    {
+      "name": "floor_edges_1"
+    },
+    {
+      "name": "floor_edges_2"
+    },
+    {
+      "name": "floor_edges_3"
+    },
+    {
+      "name": "floor_edges_4"
+    },
+    {
+      "name": "floor_edges_5"
+    },
+    {
+      "name": "floor_edges_6"
+    },
+    {
+      "name": "floor_edges_7"
+    },
+    {
+      "name": "floor_edges_8"
+    },
+    {
+      "name": "floor_edges_9"
+    },
+    {
+      "name": "floor_edges_10"
+    },
+    {
+      "name": "floor_edges_11"
+    },
+    {
+      "name": "floor_edges_12"
+    },
+    {
+      "name": "corner"
+    },
+    {
+      "name": "floor_corner_1"
+    },
+    {
+      "name": "floor_corner_2"
+    },
+    {
+      "name": "floor_corner_3"
+    },
+    {
+      "name": "floor_corner_4"
     }
   ]
 }
