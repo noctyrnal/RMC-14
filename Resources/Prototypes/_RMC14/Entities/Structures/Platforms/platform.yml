@@ -205,6 +205,7 @@
 - type: entity
   parent: CMPlatform
   id: RMCPlatformStairRight
+  suffix: Stairs
   components:
   - type: Sprite
     state: platform_stair
@@ -212,6 +213,7 @@
 - type: entity
   parent: CMPlatform
   id: RMCPlatformStairLeft
+  suffix: Stairs
   components:
   - type: Sprite
     state: platform_stair_alt
@@ -282,6 +284,7 @@
   id: RMCPlatformKutjevoStairRight
   name: raised metal edge
   description: A raised level of metal, often used to elevate areas above others, or construct bridges. You could probably climb it.
+  suffix: Stairs
   components:
   - type: Sprite
     state: kutjevo_platform_sm_stair
@@ -291,6 +294,7 @@
   id: RMCPlatformKutjevoStairLeft
   name: raised metal edge
   description: A raised level of metal, often used to elevate areas above others, or construct bridges. You could probably climb it.
+  suffix: Stairs
   components:
   - type: Sprite
     state: kutjevo_platform_sm_stair_alt
@@ -411,7 +415,7 @@
 - type: entity
   parent: RMCPlatformHybrisa
   id: RMCPlatformHybrisaStair
-  suffix: Stair
+  suffix: Stairs
   components:
   - type: Sprite
     state: hybrisaplatform_stair
@@ -509,6 +513,7 @@
   id: RMCPlatformHybrisaThreeStair
   name: raised metal platform
   description: A raised level of metal, often used to elevate areas above others. You could probably climb it.
+  suffix: Stairs
   components:
   - type: Sprite
     state: hybrisaplatform3_stair
@@ -518,6 +523,7 @@
   id: RMCPlatformHybrisaThreeStairAlt
   name: raised metal platform
   description: A raised level of metal, often used to elevate areas above others. You could probably climb it.
+  suffix: Stairs
   components:
   - type: Sprite
     state: hybrisaplatform3_stair_alt
@@ -602,6 +608,7 @@
 - type: entity
   parent: RMCPlatformHybrisaStone
   id: RMCPlatformSandstoneTempleStair
+  suffix: Stairs
   components:
   - type: Sprite
     state: ancient_platform_stair
@@ -609,6 +616,7 @@
 - type: entity
   parent: RMCPlatformHybrisaStone
   id: RMCPlatformSandstoneTempleStairAlt
+  suffix: Stairs
   components:
   - type: Sprite
     state: ancient_platform_stair_alt
@@ -676,7 +684,7 @@
 - type: entity
   parent: CMPlatform
   id: RMCPlatformSandstoneStairRight
-  name: sandstone platform stair
+  suffix: Stairs
   components:
   - type: Sprite
     state: stone_stair
@@ -685,7 +693,7 @@
 - type: entity
   parent: CMPlatform
   id: RMCPlatformSandstoneStairLeft
-  name: sandstone platform stair
+  suffix: Stairs
   components:
   - type: Sprite
     state: stone_stair_alt
@@ -714,6 +722,7 @@
 - type: entity
   parent: RMCPlatformAlmayer
   id: RMCPlatformAlmayerStairs
+  suffix: Stairs
   components:
   - type: Sprite
     state: platform_sm_stair
@@ -721,6 +730,7 @@
 - type: entity
   parent: RMCPlatformAlmayer
   id: RMCPlatformAlmayerStairsAlt
+  suffix: Stairs
   components:
   - type: Sprite
     state: platform_sm_stair_alt
@@ -746,7 +756,7 @@
 - type: entity
   parent: RMCPlatformWood
   id: RMCPlatformWoodStair
-  suffix: Wood, Stair
+  suffix: Wood, Stairs
   components:
   - type: Sprite
     state: wood_platform_stair

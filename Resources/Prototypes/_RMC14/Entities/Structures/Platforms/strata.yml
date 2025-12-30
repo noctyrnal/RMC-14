@@ -25,6 +25,7 @@
 - type: entity
   parent: RMCPlatformStrata
   id: RMCPlatformStrataStair
+  suffix: Stairs
   components:
   - type: Sprite
     state: strata_metalplatform_stair
@@ -32,6 +33,7 @@
 - type: entity
   parent: RMCPlatformStrata
   id: RMCPlatformStrataStairAlt
+  suffix: Stairs
   components:
   - type: Sprite
     state: strata_metalplatform_stair_alt
