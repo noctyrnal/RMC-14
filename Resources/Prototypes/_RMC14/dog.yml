@@ -21,7 +21,6 @@
         layer:
         - SmallMobLayer
   - type: InteractionOutline
-  - type: Clickable
   - type: HTN
     rootTask:
       task: MouseCompound
