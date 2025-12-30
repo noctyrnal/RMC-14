@@ -349,14 +349,6 @@
     {
       "name": "wood_platform_deco",
       "directions": 4
-    },
-    {
-      "name": "sandstone_rock",
-      "directions": 4
-    },
-    {
-      "name": "sandstone_rock_deco",
-      "directions": 4
     }
   ]
 }
