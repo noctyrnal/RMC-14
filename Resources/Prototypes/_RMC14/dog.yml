@@ -8,6 +8,7 @@
     noRot: true
   - type: Physics
     bodyType: KinematicController
+  - type: Clickable
   - type: Fixtures
     fixtures:
       fix1:
