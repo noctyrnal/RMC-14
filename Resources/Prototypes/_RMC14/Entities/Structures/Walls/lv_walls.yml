@@ -66,9 +66,9 @@
   suffix: Security
   components:
   - type: Sprite
-    sprite: _RMC14/Structures/Walls/lv_colony_wall_sec_reinforced.rsi
+    sprite: _RMC14/Structures/Walls/lv_colony_wall.rsi
   - type: Icon
-    sprite: _RMC14/Structures/Walls/lv_colony_wall_sec_reinforced.rsi
+    sprite: _RMC14/Structures/Walls/lv_colony_wall.rsi
 
 - type: entity
   parent: RMCWallLVColony
