@@ -66,16 +66,6 @@
 
 - type: entity
   parent: RMCWallLVColonyReinforced
-  id: RMCWallLVColonyMedReinforced
-  suffix: Medical
-  components:
-  - type: Sprite
-    sprite: _RMC14/Structures/Walls/lv_colony_wall_med_reinforced.rsi
-  - type: Icon
-    sprite: _RMC14/Structures/Walls/lv_colony_wall_med_reinforced.rsi
-
-- type: entity
-  parent: RMCWallLVColonyReinforced
   id: RMCWallLVColonySecReinforced
   suffix: Security
   components:

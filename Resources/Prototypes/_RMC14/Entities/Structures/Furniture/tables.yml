@@ -249,6 +249,26 @@
     graph: RMCTable
     node: Almayer
 
+- type: entity
+  parent: CMTableAlmayer
+  id: RMCTableAlmayerGrey
+  suffix: Almayer, Grey
+  components:
+  - type: Sprite
+    color: "#d4cfcd"
+  - type: Icon
+    color: "#d4cfcd"
+
+- type: entity
+  parent: CMTableAlmayer
+  id: RMCTableAlmayerBlack
+  suffix: Almayer, Black
+  components:
+  - type: Sprite
+    color: "#8B9490"
+  - type: Icon
+    color: "#8B9490"
+
 # Prison
 - type: entity
   parent: CMTableReinforced

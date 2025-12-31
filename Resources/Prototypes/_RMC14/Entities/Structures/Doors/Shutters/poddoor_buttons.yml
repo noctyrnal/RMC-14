@@ -246,6 +246,7 @@
 - type: entity
   parent: RMCPodDoorButtonBigRed
   id: RMCPodDoorButtonBigRedShip
+  suffix: Ship
   name: button
   description: A basic button that does basic things.
 

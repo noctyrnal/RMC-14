@@ -53,18 +53,6 @@
 
 - type: entity
   parent: RMCWindowFrameLVColonyReinforced
-  id: RMCWindowFrameLVColonyMedReinforced
-  components:
-  - type: Sprite
-    sprite: _RMC14/Structures/Windows/Frames/lv_colony_frame_med.rsi
-  - type: Icon
-    sprite: _RMC14/Structures/Windows/Frames/lv_colony_frame_med.rsi
-  - type: Construction
-    graph: RMCWindowLVColonyMedReinforced
-    node: windowFrameLVColonyMedReinforced
-
-- type: entity
-  parent: RMCWindowFrameLVColonyReinforced
   id: RMCWindowFrameLVColonySecReinforced
   components:
   - type: Sprite
@@ -224,50 +212,6 @@
     node: windowLVColonyMed
   - type: DestroyOnXenoPierceScissor
     spawnPrototype: RMCWindowFrameLVColonyMed
-    sound:
-      collection: WindowShatter
-
-- type: entity
-  parent: RMCWindowLVColonyReinforced
-  id: RMCWindowLVColonyMedReinforced
-  components:
-  - type: Sprite
-    sprite: _RMC14/Structures/Windows/lv_colony_window_med_reinforced.rsi
-  - type: Icon
-    sprite: _RMC14/Structures/Windows/lv_colony_window_med_reinforced.rsi
-  - type: Destructible
-    thresholds:
-      - trigger:
-          !type:DamageTrigger
-          damage: 600 # excessive damage destroys window and frame
-        behaviors:
-          - !type:PlaySoundBehavior
-            sound:
-              collection: WindowShatter
-          - !type:DoActsBehavior
-            acts: ["Destruction"]
-      - trigger:
-          !type:DamageTrigger
-          damage: 100
-        behaviors:
-          - !type:PlaySoundBehavior
-            sound:
-              collection: WindowShatter
-          - !type:SpawnEntitiesBehavior
-            spawn:
-              CMShardGlass:
-                min: 1
-                max: 1
-              CMRodMetal:
-                min: 1
-                max: 1
-          - !type:ChangeConstructionNodeBehavior
-            node: windowFrameLVColonyMedReinforced
-  - type: Construction
-    graph: RMCWindowLVColonyMedReinforced
-    node: windowLVColonyMedReinforced
-  - type: DestroyOnXenoPierceScissor
-    spawnPrototype: RMCWindowFrameLVColonyMedReinforced
     sound:
       collection: WindowShatter
 
