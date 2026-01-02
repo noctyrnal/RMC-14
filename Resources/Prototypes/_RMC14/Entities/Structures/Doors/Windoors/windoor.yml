@@ -150,11 +150,43 @@
 
 - type: entity
   parent: CMWindoor
+  id: RMCWindoorColorable
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Doors/Windoors/colorable.rsi
+
+- type: entity
+  parent: CMWindoor
   id: RMCWindoorSoro
   suffix: Blue
   components:
   - type: Sprite
     color: "#98A3AB"
+
+- type: entity
+  parent: CMWindoor
+  id: RMCWindoorRed
+  suffix: Red
+  components:
+  - type: Sprite
+    color: "#FF2300"
+
+- type: entity
+  parent: RMCWindoorColorable
+  id: RMCWindoorTan
+  suffix: Tan
+  components:
+  - type: Sprite
+    color: "#d1cab0"
+
+- type: entity
+  parent: RMCWindoorColorable
+  id: RMCWindoorDesatBlue
+  suffix: Desat Blue
+  components:
+  - type: Sprite
+    color: "#8eaeb0"
 
 - type: entity
   parent: CMBaseWindoor

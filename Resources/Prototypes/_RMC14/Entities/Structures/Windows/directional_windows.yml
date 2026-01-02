@@ -68,8 +68,8 @@
 - type: entity
   parent: CMWindowDirectional
   id: RMCWindowDirectionalColorable
-  categories: [ HideSpawnMenu ]
   suffix: Colorable
+  abstract: true
   components:
   - type: Sprite
     state: colorable_window
@@ -235,6 +235,14 @@
     color: "#FF2300"
 
 - type: entity
+  parent: RMCWindowDirectionalRed
+  id: RMCWindowDirectionalRedAltDrawDepth
+  suffix: Red, Alt Drawdepth
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+
+- type: entity
   parent: RMCWindowDirectionalColorable
   id: RMCWindowDirectionalTan
   suffix: Tan
@@ -249,3 +257,11 @@
   components:
   - type: Sprite
     color: "#d1cab0"
+
+- type: entity
+  parent: RMCWindowReinforcedDirectionalTan
+  id: RMCWindowReinforcedDirectionalTanAltDrawDepth
+  suffix: Tan, Alt Drawdepth
+  components:
+  - type: Sprite
+    drawdepth: WallTops

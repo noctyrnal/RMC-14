@@ -14,6 +14,9 @@
       "name": "cargo"
     },
     {
+      "name": "cargo_red"
+    },
+    {
       "name": "striped_0"
     },
     {
@@ -36,6 +39,30 @@
     },
     {
       "name": "striped_corner_3"
+    },
+    {
+      "name": "door_warning1"
+    },
+    {
+      "name": "door_warning2"
+    },
+    {
+      "name": "door_warning3"
+    },
+    {
+      "name": "door_warning4"
+    },
+    {
+      "name": "door_warning_red1"
+    },
+    {
+      "name": "door_warning_red2"
+    },
+    {
+      "name": "door_warning_red3"
+    },
+    {
+      "name": "door_warning_red4"
     }
   ]
 }
