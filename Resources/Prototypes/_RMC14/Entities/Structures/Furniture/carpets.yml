@@ -1,36 +1,6 @@
 - type: entity
-  id: CMCarpetBase
-  parent: BaseStructure
-  name: carpet
-  description: "Fancy walking surface."
-  abstract: true
-  components:
-  - type: Sprite
-    drawdepth: FloorTiles
-  - type: Icon
-    state: full
-  - type: IconSmooth
-    key: full
-    base: carpet_
-  - type: Tag
-    tags: [ Carpet ]
-  - type: Physics
-    canCollide: false
-  - type: Fixtures
-  - type: Damageable
-    damageContainer: Inorganic
-  - type: Destructible
-    thresholds:
-      - trigger:
-          !type:DamageTrigger
-          damage: 10
-        behaviors:
-        - !type:DoActsBehavior
-          acts: [ "Destruction" ]
-
-- type: entity
   id: RMCCarpetBaseNonIconsmooth
-  parent: BaseStructure
+  parent: CMCorrodible
   name: carpet
   description: Fancy walking surface.
   abstract: true
@@ -46,6 +16,7 @@
   - type: Fixtures
   - type: Damageable
     damageContainer: Inorganic
+  - type: Clickable
   - type: Destructible
     thresholds:
       - trigger:
@@ -54,6 +25,29 @@
         behaviors:
           - !type:DoActsBehavior
             acts: [ "Destruction" ]
+
+- type: entity
+  id: CMCarpetBase
+  parent: RMCCarpetBaseNonIconsmooth
+  abstract: true
+  components:
+  - type: IconSmooth
+    key: full
+    base: carpet_
+
+- type: entity
+  id: RMCCarpetColorableLarge
+  parent: RMCCarpetBaseNonIconsmooth
+  name: rug
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Furniture/Carpets/large_carpet.rsi
+    state: colorable_rug
+    offset: 0.65, 0
+  - type: Icon
+    sprite: _RMC14/Structures/Furniture/Carpets/large_carpet.rsi
+    state: colorable_rug
 
 - type: entity
   id: CMCarpetPrison
@@ -69,6 +63,8 @@
   id: RMCCarpetBlue1
   parent: RMCCarpetBaseNonIconsmooth
   name: blue carpet
+  placement:
+    mode: SnapgridCenter
   components:
   - type: Clickable
   - type: Sprite
@@ -154,6 +150,8 @@
   id: RMCCarpetBeige1
   parent: RMCCarpetBaseNonIconsmooth
   name: beige carpet
+  placement:
+    mode: SnapgridCenter
   components:
   - type: Clickable
   - type: Sprite
@@ -239,6 +237,8 @@
   id: RMCCarpetGreyBlue1
   parent: RMCCarpetBaseNonIconsmooth
   name: grey blue carpet
+  placement:
+    mode: SnapgridCenter
   components:
   - type: Clickable
   - type: Sprite
@@ -324,6 +324,8 @@
   id: RMCCarpetPink1
   parent: RMCCarpetBaseNonIconsmooth
   name: pink carpet
+  placement:
+    mode: SnapgridCenter
   components:
   - type: Clickable
   - type: Sprite
@@ -409,6 +411,8 @@
   id: RMCCarpetBlack1
   parent: RMCCarpetBaseNonIconsmooth
   name: black carpet
+  placement:
+    mode: SnapgridCenter
   components:
   - type: Clickable
   - type: Sprite
@@ -489,3 +493,14 @@
     state: bcarpet09
   - type: Icon
     state: bcarpet09
+
+- type: entity
+  id: RMCCarpetColorableLargeBlack
+  parent: RMCCarpetColorableLarge
+  name: rubber mat
+  suffix: Black
+  components:
+  - type: Sprite
+    color: "#3d3d3d"
+  - type: Icon
+    color: "#3d3d3d"
