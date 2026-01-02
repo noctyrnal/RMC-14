@@ -219,7 +219,7 @@
     color: "#8eaeb0"
 
 - type: entity
-  parent: RMCWindowDirectionalColorable
+  parent: CMWindowDirectional
   id: RMCWindowDirectionalRed
   suffix: Red
   components:

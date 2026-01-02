@@ -459,6 +459,11 @@
   canDig: false
 
 - type: tile
+  parent: CMPlanetPlasticFloor1
+  id: RMCPlanetPlasticFloor2
+  sprite: /Textures/_RMC14/Tiles/planet/interior/plasticfloor6.png
+
+- type: tile
   parent: CMPlanetBase
   id: RMCPlanetSandWet
   name: sand
