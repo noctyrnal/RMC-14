@@ -63,6 +63,16 @@
       ]
     },
     {
+      "name": "water_prison_catwalk",
+      "delays": [
+        [
+          0.3,
+          0.3,
+          0.3
+        ]
+      ]
+    },
+    {
       "name": "monorailStraight",
       "directions": 4
     },

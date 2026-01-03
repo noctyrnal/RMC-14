@@ -778,5 +778,64 @@
   - type: Sprite
     state: wood_platform_deco
 
+- type: entity
+  parent: CMPlatform
+  id: RMCPlatformLVColony
+  name: raised metal edge
+  description: A raised level of metal, often used to elevate areas above others. You could probably climb it.
+  suffix: Red
+  components:
+  - type: Sprite
+    state: lv_platform1
+
+- type: entity
+  parent: RMCPlatformLVColony
+  id: RMCPlatformLVColonyStair
+  suffix: Red, Stairs
+  components:
+  - type: Sprite
+    state: lv_platform1_stair
+
+- type: entity
+  parent: RMCPlatformLVColonyStair
+  id: RMCPlatformLVColonyStairAlt
+  components:
+  - type: Sprite
+    state: lv_platform1_stair_alt
+
+- type: entity
+  parent: RMCPlatformCornerSmall
+  id: RMCPlatformLVColonyCornerSmall
+  name: raised metal corner
+  description: A raised level of metal, often used to elevate areas above others. This is the corner.
+  suffix: Red
+  components:
+  - type: Sprite
+    state: lv_platform1_deco
+
+- type: entity
+  parent: RMCPlatformLVColony
+  id: RMCPlatformLVColony2
+  suffix: Grey
+  components:
+  - type: Sprite
+    state: lv_platform2
+
+- type: entity
+  parent: RMCPlatformLVColony
+  id: RMCPlatformLVColony3
+  suffix: Blue
+  components:
+  - type: Sprite
+    state: lv_platform3
+
+- type: entity
+  parent: RMCPlatformLVColonyCornerSmall
+  id: RMCPlatformLVColony3CornerSmall
+  suffix: Blue
+  components:
+  - type: Sprite
+    state: lv_platform3_deco
+
 - type: Tag
   id: Platform

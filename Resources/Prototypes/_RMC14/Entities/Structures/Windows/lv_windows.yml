@@ -54,6 +54,19 @@
 
 - type: entity
   parent: RMCWindowFrameLVColony
+  id: RMCWindowFrameLVColonyAdmin
+  suffix: Admin
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Windows/Frames/lv_colony_frame_admin.rsi
+  - type: Icon
+    sprite: _RMC14/Structures/Windows/Frames/lv_colony_frame_admin.rsi
+  - type: Construction
+    graph: RMCWindowLVAdminColony
+    node: windowFrameLVColonyAdmin
+
+- type: entity
+  parent: RMCWindowFrameLVColony
   id: RMCWindowFrameLVColonySci
   suffix: Science
   components:
@@ -241,6 +254,48 @@
     node: windowLVColonyMed
   - type: DestroyOnXenoPierceScissor
     spawnPrototype: RMCWindowFrameLVColonyMed
+    sound:
+      collection: WindowShatter
+
+- type: entity
+  parent: RMCWindowLVColony
+  id: RMCWindowLVColonyAdmin
+  suffix: Admin
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Windows/lv_colony_window_admin.rsi
+  - type: Icon
+    sprite: _RMC14/Structures/Windows/lv_colony_window_admin.rsi
+  - type: Destructible
+    thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 600 # excessive damage destroys window and frame
+        behaviors:
+          - !type:PlaySoundBehavior
+            sound:
+              collection: WindowShatter
+          - !type:DoActsBehavior
+            acts: ["Destruction"]
+      - trigger:
+          !type:DamageTrigger
+          damage: 40
+        behaviors:
+          - !type:PlaySoundBehavior
+            sound:
+              collection: WindowShatter
+          - !type:SpawnEntitiesBehavior
+            spawn:
+              CMShardGlass:
+                min: 1
+                max: 1
+          - !type:ChangeConstructionNodeBehavior
+            node: windowFrameLVColonyAdmin
+  - type: Construction
+    graph: RMCWindowLVColonyAdmin
+    node: windowLVColonyAdmin
+  - type: DestroyOnXenoPierceScissor
+    spawnPrototype: RMCWindowFrameLVColonyAdmin
     sound:
       collection: WindowShatter
 

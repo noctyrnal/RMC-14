@@ -74,6 +74,16 @@
   parent: CMFloorShallowWaterEntity
   id: RMCRiverSorokyne
   name: river
+  suffix: Shallow
+  components:
+  - type: Sprite
+    sprite: _RMC14/Tiles/planet/sorokyne/sorokyne_water.rsi
+
+- type: entity
+  parent: CMFloorDeepWaterEntity
+  id: RMCRiverSorokyneDeep
+  name: river
+  suffix: Deep
   components:
   - type: Sprite
     sprite: _RMC14/Tiles/planet/sorokyne/sorokyne_water.rsi
