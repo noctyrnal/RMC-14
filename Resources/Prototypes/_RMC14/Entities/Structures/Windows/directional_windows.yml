@@ -211,6 +211,14 @@
     color: "#8eaeb0"
 
 - type: entity
+  parent: RMCWindowDirectionalDesatBlue
+  id: RMCWindowDirectionalDesatBlueAltDrawDepth
+  suffix: Desat Blue, Alt Drawdepth
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+
+- type: entity
   parent: RMCWindowReinforcedDirectionalColorable
   id: RMCWindowReinforcedDirectionalDesatBlue
   suffix: Desat Blue

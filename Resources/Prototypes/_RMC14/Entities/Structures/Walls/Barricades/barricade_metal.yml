@@ -325,12 +325,20 @@
       drawdepth: SmallObjects
 
 - type: entity
+  parent: RMCBarricadeWireRail
+  id: RMCBarricadeWireRailOffset
+  suffix: Offset
+  components:
+    - type: Sprite
+      offset: 0, -0.15
+
+- type: entity
   parent: RMCBarricadeWireRailAltDrawdepth
   id: RMCBarricadeWireRailAltDrawdepthOffset
   suffix: Layers over Platforms, Offset
   components:
     - type: Sprite
-      offset: 0, 0.65
+      offset: 0, -0.15
 
 - type: entity
   parent: RMCBarricadeHandrail
