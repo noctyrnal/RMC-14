@@ -13,6 +13,31 @@
 
 - type: entity
   parent: RMCAreaLv624
+  id: RMCAreaLv624Oob
+  name: Out of Bounds
+  components:
+  - type: Sprite
+    state: oob
+  - type: Area
+    CAS: false
+    fulton: false
+    lasing: false
+    mortarPlacement: false
+    mortarFire: false
+    medevac: false
+    paradropping: false
+    OB: false
+    supplyDrop: false
+    resinAllowed: false
+    avoidBioscan: false
+    noTunnel: true
+    unweedable: false
+    minimapColor: '#3A3A3AFF'
+    weatherEnabled: false
+    alwaysPowered: true
+
+- type: entity
+  parent: RMCAreaLv624
   id: RMCAreaLv624Ground
   name: Ground
   components:
