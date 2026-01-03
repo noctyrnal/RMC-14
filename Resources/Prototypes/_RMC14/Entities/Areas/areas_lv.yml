@@ -17,7 +17,7 @@
   name: Out of Bounds
   components:
   - type: Sprite
-    state: oob
+    state: unknown
   - type: Area
     CAS: false
     fulton: false

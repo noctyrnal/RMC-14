@@ -1,9 +1,10 @@
 # Base
 - type: entity
-  parent: CMClosetBase
-  id: CMLockerBase
+  parent: CMClosetBaseUnanchored
+  id: CMLockerBaseUnanchored
   name: secure locker
   description: It's an immobile card-locked storage unit.
+  suffix: Unanchored
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/standard.rsi
@@ -33,6 +34,14 @@
   - type: Lock
   - type: XenoCrusherChargable
     instantDestroy: true
+
+- type: entity
+  parent: CMLockerBaseUnanchored
+  id: CMLockerBase
+  suffix: Anchored
+  components:
+  - type: Transform
+    anchored: true
 
 - type: entity
   parent: CMLockerBase
@@ -120,6 +129,16 @@
   parent: CMLockerPolice
   id: RMCLockerPoliceSoro
   name: security officer's locker
+
+- type: entity
+  parent: CMLockerBaseUnanchored
+  id: RMCLockerPoliceAlt
+  name: marshal's locker
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Storage/Lockers/marshal.rsi
+  - type: AccessReader
+    access: [["CMAccessBrig"]]
 
 - type: entity
   parent: CMLockerBase

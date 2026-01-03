@@ -60,6 +60,7 @@
     damage:
       types:
         Blunt: 40
+  - type: RMCMesonsNonviewable
 
 - type: entity
   parent: CMClosetBaseUnanchored
@@ -68,7 +69,6 @@
   components:
   - type: Transform
     anchored: true
-  - type: RMCMesonsNonviewable
 
 - type: entity
   parent: CMClosetBase

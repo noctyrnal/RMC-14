@@ -55,6 +55,8 @@
     cover:
       tags:
       - Catwalk
+  - type: PlacementReplacement
+    key: water
 
 - type: entity
   parent: CMFloorShallowWaterEntity

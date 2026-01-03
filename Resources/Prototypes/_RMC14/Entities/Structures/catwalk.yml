@@ -104,13 +104,6 @@
 
 - type: entity
   parent: CMCatwalk
-  id: RMCCatwalkPrisonWater
-  components:
-  - type: Sprite
-    state: water_prison_catwalk
-
-- type: entity
-  parent: CMCatwalk
   id: RMCCatwalkHybrisa
   name: solid metal grate
   components:
