@@ -87,3 +87,8 @@
   parent: CMPlanetMattedGrass3
   id: CMPlanetMattedGrass4
   sprite: /Textures/_RMC14/Tiles/planet/auto_strata_grass/grass_mud_alt.png
+
+- type: tile
+  parent: CMPlanetMattedGrass3
+  id: CMPlanetMattedGrass5
+  sprite: /Textures/_RMC14/Tiles/planet/auto_strata_grass/grass_mud_alt2.png

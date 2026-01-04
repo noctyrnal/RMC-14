@@ -233,3 +233,61 @@
   sprite:
     sprite: _RMC14/Decals/strata.rsi
     state: soro_sand_8
+
+# Cave
+
+- type: decal
+  parent: RMCDecalStrataBase
+  id: RMCDecalStrataCave1
+  sprite:
+    sprite: _RMC14/Decals/strata.rsi
+    state: soro_cave_1
+
+- type: decal
+  parent: RMCDecalStrataBase
+  id: RMCDecalStrataCave2
+  sprite:
+    sprite: _RMC14/Decals/strata.rsi
+    state: soro_cave_2
+
+- type: decal
+  parent: RMCDecalStrataBase
+  id: RMCDecalStrataCave3
+  sprite:
+    sprite: _RMC14/Decals/strata.rsi
+    state: soro_cave_3
+
+- type: decal
+  parent: RMCDecalStrataBase
+  id: RMCDecalStrataCave4
+  sprite:
+    sprite: _RMC14/Decals/strata.rsi
+    state: soro_cave_4
+
+- type: decal
+  parent: RMCDecalStrataBase
+  id: RMCDecalStrataCave5
+  sprite:
+    sprite: _RMC14/Decals/strata.rsi
+    state: soro_cave_5
+
+- type: decal
+  parent: RMCDecalStrataBase
+  id: RMCDecalStrataCave6
+  sprite:
+    sprite: _RMC14/Decals/strata.rsi
+    state: soro_cave_6
+
+- type: decal
+  parent: RMCDecalStrataBase
+  id: RMCDecalStrataCave7
+  sprite:
+    sprite: _RMC14/Decals/strata.rsi
+    state: soro_cave_7
+
+- type: decal
+  parent: RMCDecalStrataBase
+  id: RMCDecalStrataCave8
+  sprite:
+    sprite: _RMC14/Decals/strata.rsi
+    state: soro_cave_8
