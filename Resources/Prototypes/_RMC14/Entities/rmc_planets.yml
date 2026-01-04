@@ -5,7 +5,7 @@
   - type: RMCPlanetMapPrototype
     map: /Maps/_RMC14/lv624.yml
     camouflage: Jungle
-    announcement: "An automated distress signal has been received from the archaeological site of Lazarus Landing, on the border world of LV-624. A response team from the UNS Almayer will be dispatched shortly to investigate."
+    announcement: "An automated distress signal has been received from the archaeological and research site of Lazarus Landing, on the border jungle world of LV-624. The UNS Almayer has been dispatched to investigate the source of this distress signal on the behalf of Weston-Yamada."
     nightmareScenarios:
     - scenarioName: fallen_ship
       scenarioProbability: 0.1
