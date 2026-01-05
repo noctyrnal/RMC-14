@@ -27,6 +27,7 @@
       - CMSurvivorPriest: 1
       - RMCSurvivorHybrisaTMCCMiner: -1
       - RMCSurvivorHybrisaFireProtectionSpecialist: -1
+      - RMCSurvivorHybrisaMaterialReprocessingTechnician: 1
       CMSurvivorCorporate:
       - CMSurvivorLV624CorporateLiaison: 2
       CMSurvivorDoctor:
@@ -40,6 +41,8 @@
       - CMSurvivorLV624SecurityGuard: 2
       CMSurvivorScientist:
       - CMSurvivorLV624Archeologist: 2
+      - RMCSurvivorHybrisaXenoarchaeologist: 2
+      - RMCSurvivorHybrisaXenobiologist: 2
     survivorJobScenarios:
       asset_protection:
         CMSurvivor:
