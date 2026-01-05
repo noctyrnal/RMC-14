@@ -27,11 +27,12 @@
   useLoadoutOfJob: CMSurvivorCorporate # for inheritance
 
 - type: startingGear
-  parent: RMCGearSurvivorCorporate
+  parent: RMCGearSurvivorBaseNoBackpack
   id: RMCGearSurvivorLV624CorporateLiaison
   equipment:
-    jumpsuit: CMJumpsuitLiaisonField
-    eyes: RMCSunglasses
+    ears: RMCHeadsetDistressWeYa
+    id: CMIDCardLiaisonColony
+    pocket2: CMClipboard
 
 - type: entity
   parent: CMSpawnPointJobBase
@@ -51,3 +52,36 @@
   parent: RMCSurvivorPresetCorporate
   id: RMCGearSurvivorPresetLV624CorporateLiaison
   name: lv624 colonist preset
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SurvivorPreset
+    randomOutfits:
+    - [ RMCJumpsuitLiaisonExpensiveSuit ]
+    - [ RMCJumpsuitLiaisonExpensiveSuitBrown ]
+    - [ RMCJumpsuitLiaisonExpensiveSuitJacket ]
+    - [ RMCJumpsuitLiaisonExpensiveSuitBrownJacket ]
+    - [ RMCJumpsuitLiaisonExpensiveSuitJacketOnly ]
+    - [ RMCJumpsuitWornSuit ]
+    - [ RMCJumpsuitGreySuitPants ]
+    - [ RMCJumpsuitBlueWorkwear ]
+    randomGearOther:
+    -
+      - [ CMSheetMetal20, RMCSpaceCash1000, CMPenClicky, CMClipboard ]
+      - [ CMSheetMetal20, RMCSpaceCash1000, CMPenClicky, CMClipboard ]
+      - [ CMWeaponPistolM1984Custom, CMSheetMetal20, CMPenClicky, CMClipboard ]
+    randomStartingGear:
+      back:
+      - CMSatchel
+      - RMCSatchelBlack
+      shoes:
+      - RMCShoesLaceup
+      - RMCShoesLaceupBrown
+      - RMCBootsCorporate
+      eyes:
+      - RMCGlassesAviators
+      - RMCSunglassesBig
+      outerClothing:
+      - RMCCoatExpensiveFur
+      - RMCCoatExpensiveFurAlt
+      - RMCCoatBomberGrey
+      - RMCArmorVestWeYaAlt

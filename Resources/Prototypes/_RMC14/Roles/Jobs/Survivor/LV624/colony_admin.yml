@@ -1,0 +1,104 @@
+- type: job
+  parent: CMSurvivor
+  id: CMSurvivorLv624ColonyAdmin
+  name: rmc-job-name-survivor-lv624-admin
+  description: cm-job-description-commanding-officer
+  playTimeTracker: RMCJobSurvivorCO
+  ranks:
+    RMCRankCivilianColonyAdmin: []
+  startingGear: RMCGearSurvivorLv624ColonyAdmin
+  icon: RMCJobIconPMCDirector
+  hasIcon: true
+  accessGroups:
+  - Colony
+  roleWeight: 0.25
+  spawnMenuRoleName: Colony Administration (LV624 Survivor)
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: Skills
+      skills:
+        RMCSkillPolice: 2
+        RMCSkillCqc: 2
+        RMCSkillConstruction: 2
+        RMCSkillLeadership: 2
+        RMCSkillOverwatch: 1
+        RMCSkillMedical: 2
+        RMCSkillEngineer: 1
+        RMCSkillFireman: 4
+        RMCSkillFirearms: 2
+        RMCSkillMeleeWeapons: 1
+        RMCSkillVehicles: 1
+        RMCSkillEndurance: 2
+        RMCSkillJtac: 2
+    - type: EquipSurvivorPreset
+      preset: RMCGearSurvivorPresetLV624ColonyAdmin
+    - type: MarineOrders
+    - type: RMCPointing
+    - type: CommandAccent
+    - type: InnateCommandSpeech
+    - type: IntelRescueSurvivorObjective
+    - type: RMCAllowSuitStorage
+    - type: NpcFactionMember
+      factions:
+      - Civilian
+    - type: JobPrefix
+      prefix: cm-job-prefix-survivor-lv624-admin
+  useLoadoutOfJob: RMCSurvivorCommandingOfficer # for inheritance
+
+- type: startingGear
+  parent: RMCGearSurvivorBase
+  id: RMCGearSurvivorLv624ColonyAdmin
+  equipment:
+    id: RMCIDCardColonyAdmin
+    ears: RMCHeadsetColonyIcons
+
+- type: entity
+  parent: RMCSurvivorPresetCorporate
+  id: RMCGearSurvivorPresetLV624ColonyAdmin
+  name: lv624 colonist preset
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SurvivorPreset
+    primaryWeapons:
+    - [ RMCWeaponSMGP90, RMCBeltSecurityWeYaFilled ]
+    - [ WeaponSMGMP5, CMBeltMarineMP5 ]
+    - [ RMCWeaponShotgunM42A1Filled, CMBeltMarineBuckshot ]
+    primaryWeaponChance: 1
+    randomOutfits:
+    - [ RMCJumpsuitLiaisonExpensiveSuit ]
+    - [ RMCJumpsuitLiaisonExpensiveSuitBrown ]
+    - [ RMCJumpsuitLiaisonExpensiveSuitJacket ]
+    - [ RMCJumpsuitLiaisonExpensiveSuitBrownJacket ]
+    - [ RMCJumpsuitLiaisonExpensiveSuitJacketOnly ]
+    - [ RMCJumpsuitWornSuit ]
+    - [ RMCJumpsuitGreySuitPants ]
+    - [ RMCJumpsuitBlueWorkwear ]
+    - [ RMCMarshalCMBUniform ]
+    randomGearOther:
+    -
+      - [ CMSheetMetal20, CMPenClicky, CMClipboard ]
+    randomStartingGear:
+      shoes:
+      - RMCShoesLaceup
+      - RMCShoesLaceupBrown
+      - RMCBootsCorporate
+      eyes:
+      - RMCGlassesAviators
+      - RMCSunglassesBig
+      outerClothing:
+      - RMCCoatExpensiveFur
+      - RMCCoatExpensiveFurAlt
+      - RMCArmorVestWeYaAlt
+      - RMCArmorVestWeYaAlt
+      - RMCArmorVestWeYaAlt
+
+- type: entity
+  parent: CMSpawnPointJobBase
+  id: CMSpawnPointSolarisLV624ColonyAdmin
+  name: LV624 colony admin spawn point
+  components:
+  - type: SpawnPoint
+    job_id: CMSurvivorLv624ColonyAdmin
+  - type: Sprite
+    state: co_spawn

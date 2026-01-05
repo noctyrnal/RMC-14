@@ -1,10 +1,10 @@
 - type: job
   parent: CMSurvivorDoctor
-  id: CMSurvivorLV624MedicalTechnician
-  name: rmc-job-name-survivor-emt-paramedic
+  id: CMSurvivorLV624MedicalDoctor
+  name: rmc-job-name-survivor-medical-doctor
   description: cm-job-description-survivor
-  startingGear: RMCGearSurvivorLV624MedicalTechnician
-  spawnMenuRoleName: EMT Paramedic (LV624 Survivor)
+  startingGear: RMCGearSurvivorLV624MedicalDoctor
+  spawnMenuRoleName: Medical Doctor (LV624 Survivor)
   special:
   - !type:AddComponentSpecial
     components:
@@ -12,11 +12,10 @@
       skills:
         RMCSkillConstruction: 1
         RMCSkillEndurance: 2
-        RMCSkillFireman: 2
+        RMCSkillFireman: 1
         RMCSkillFirearms: 1
         RMCSkillMedical: 3
         RMCSkillSurgery: 2
-        RMCSkillVehicles: 1
     - type: RMCSurvivor
     - type: MotionDetectorTracked
     - type: NpcFactionMember
@@ -25,22 +24,21 @@
     - type: IntelRescueSurvivorObjective
     - type: RMCAllowSuitStorage
     - type: EquipSurvivorPreset
-      preset: RMCGearSurvivorPresetLV624MedicalTechnician
+      preset: RMCGearSurvivorPresetLV624MedicalDoctor
   useLoadoutOfJob: CMSurvivorDoctor # for inheritance
 
 - type: startingGear
   parent: RMCGearSurvivorBase
-  id: RMCGearSurvivorLV624MedicalTechnician
+  id: RMCGearSurvivorLV624MedicalDoctor
   equipment:
-    gloves: CMHandsLatex
     shoes: RMCShoesWhite
-    pocket2: RMCPouchMedkit
     back: CMSatchelMedical
+    gloves: CMHandsLatex
 
 - type: entity
   parent: CMSpawnPointJobBase
-  id: RMCSpawnPointSurvivorLV624MedicalTechnician
-  name: survivor lv624 medical technician spawn point
+  id: RMCSpawnPointSurvivorLV624MedicalDoctor
+  name: survivor lv624 medical doctor spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -53,16 +51,14 @@
 
 - type: entity
   parent: RMCSurvivorPresetDoctor
-  id: RMCGearSurvivorPresetLV624MedicalTechnician
-  name: lv624 medical technician colonist preset
+  id: RMCGearSurvivorPresetLV624MedicalDoctor
+  name: lv624 medical doctor colonist preset
   categories: [ HideSpawnMenu ]
   components:
   - type: SurvivorPreset
     randomOutfits:
-    - [ RMCJumpsuitEMTGreen, RMCHazardVestEMTGreen ]
-    - [ RMCJumpsuitEMTGreen, RMCHazardVestEMTGreen ]
-    - [ RMCJumpsuitEMTGreen, RMCHazardVestEMTGreen ]
-    - [ RMCJumpsuitEMTGreen, RMCCoatParamedicGreen ]
-    - [ RMCJumpsuitEMTGreen, RMCCoatParamedicGreen ]
-    - [ RMCJumpsuitEMTGreen, RMCCoatParamedicGreen ]
-    - [ RMCJumpsuitEMTGreen, RMCCoatParamedicGreen, RMCBeltMedicalDefibAnalyzerFilled ]
+    - [ CMMaskSterile, CMHeadCapSurgBlue, CMScrubsBlue ]
+    - [ CMMaskSterile, CMHeadCapSurgBlue, CMScrubsBlue ]
+    - [ CMMaskSterile, RMCScrubsOlive, RMCLabcoatLongOpened ]
+    - [ CMMaskSterile, RMCScrubsOlive, RMCLabcoatLongOpened ]
+    - [ CMMaskSterile, CMJumpsuitLiaisonBlue, RMCBeltMedicalDefibAnalyzerFilled, RMCHazardVestEMTGreen ]

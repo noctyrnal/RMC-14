@@ -28,6 +28,16 @@
 
 - type: entity
   parent: RMCArmorVestWeYa
+  id: RMCArmorVestWeYaAlt
+  suffix: Alt
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/OuterClothing/TSE/TSEPA/tsepa_police_vest.rsi
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/OuterClothing/TSE/TSEPA/tsepa_police_vest.rsi
+
+- type: entity
+  parent: RMCArmorVestWeYa
   id: RMCArmorSecurity
   name: security armor vest
   components:

@@ -1,15 +1,16 @@
 - type: job
-  parent: CMSurvivorSecurity
+  parent: CMSurvivorGoon
   id: CMSurvivorLV624SecurityGuard
   name: rmc-job-name-survivor-lv624-security-guard
   description: cm-job-description-survivor
   startingGear: RMCGearSurvivorLV624SecurityGuard
-  spawnMenuRoleName: Security Guard (LV624 Survivor)
+  spawnMenuRoleName: We-Ya Guard (LV624 Survivor)
+  hasIcon: true
   special:
   - !type:AddComponentSpecial
     components:
     - type: Skills
-      preset: SurvivorMarshal
+      preset: SurvivorGoon
     - type: RMCSurvivor
     - type: MotionDetectorTracked
     - type: NpcFactionMember
@@ -23,14 +24,16 @@
   useLoadoutOfJob: CMSurvivorSecurity # for inheritance
 
 - type: startingGear
-  parent: RMCGearSurvivorSecurity
+  parent: RMCGearSurvivorBase
   id: RMCGearSurvivorLV624SecurityGuard
   equipment:
-    head: ArmorHelmetPMC # TODO RMC black PMC hat
-    jumpsuit: RMCJumsuitWhiteService
-    outerClothing: RMCArmorVestWeYa
+    shoes: RMCBootsCorporate
+    id: RMCIDCardWeYaCorporateSecurity
+    back: RMCSatchelLightpackSurvivorFill
     ears: RMCHeadsetDistressWeYa
-    id: CMIDCardLiaisonColony
+    gloves: RMCHandsVeteran
+    belt: RMCBeltSecurityWeYaFilled
+    outerClothing: CMArmorM4PMCCorporateLead
 
 - type: entity
   parent: CMSpawnPointJobBase
@@ -50,3 +53,15 @@
   parent: RMCSurvivorPresetSecurity
   id: RMCGearSurvivorPresetLV624SecurityGuard
   name: lv624 security guard colonist preset
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SurvivorPreset
+    primaryWeapons:
+    - [ RMCWeaponSMGP90, RMCPouchMagazineFilledP90 ]
+    primaryWeaponChance: 1
+    randomOutfits:
+    - [ RMCHeadCapWestonYamadaDark, RMCJumpsuitVeteranPMCHybrisa ]
+    - [ RMCArmorHelmetPMCCorporateHybrisa, RMCJumpsuitVeteranPMCHybrisa ]
+    - [ RMCArmorHelmetPMCCorporateHybrisa, RMCJumpsuitVeteranPMCHybrisa ]
+    - [ RMCArmorHelmetPMCCorporateHybrisa, RMCJumpsuitVeteranPMCHybrisa ]
+    - [ ArmorHelmetPMCOfficer, RMCJumpsuitVeteranPMCHybrisaLead ]

@@ -29,17 +29,18 @@
   useLoadoutOfJob: CMSurvivorEngineer # for inheritance
 
 - type: startingGear
-  parent: RMCGearSurvivorEngineer
+  parent: RMCGearSurvivorBase
   id: RMCGearSurvivorLV624Engineer
   equipment:
-    head: RMCHardhatOrange
-    outerClothing: RMCHazardVest
-    jumpsuit: RMCJumpsuitDispatcherUniform
+    jumpsuit: RMCJumpsuitCivilianEngineerWorkerAlt
+    pocket2: RMCPouchToolsFill
+    back: CMSatchelEngineerMinerSurvivorFill
+    eyes: RMCWeldingGoggles
 
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorLV624Engineer
-  name: survivor icb spawn point
+  name: survivor lv624 engineer spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -53,4 +54,11 @@
 - type: entity
   parent: RMCSurvivorPresetEngineer
   id: RMCGearSurvivorPresetLV624Engineer
-  name: LV624Engineer colonist preset
+  name: LV624 engineer colonist preset
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SurvivorPreset
+    randomOutfits:
+    - [ CMHandsInsulated, RMCShoesJackboots, RMCHardhatOrange, RMCHazardVestYellow, CMSheetPlasteel10 ]
+    - [ CMHandsInsulated, RMCShoesJackboots, RMCHardhatOrange, RMCHazardVestYellow, CMSheetPlasteel10 ]
+    - [ RMCHandsVeteranInsulated, CMBootsBlackFilled, RMCHeadUNMCHeadset, RMCOuterEngineeringUtilityOversuitAlt, CMSheetPlasteel20 ]

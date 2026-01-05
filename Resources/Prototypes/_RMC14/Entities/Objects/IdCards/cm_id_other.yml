@@ -119,6 +119,14 @@
 
 - type: entity
   parent: CMIDCardLiaisonColony
+  id: RMCIDCardColonyAdmin
+  name: colony administration ID card
+  components:
+  - type: PresetIdCard
+    job: CMSurvivorLv624ColonyAdmin
+
+- type: entity
+  parent: CMIDCardLiaisonColony
   id: RMCIDCardWeYaCorporateSecurity
   name: we-ya corporate security ID card
   components:

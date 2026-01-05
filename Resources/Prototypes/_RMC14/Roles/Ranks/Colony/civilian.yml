@@ -49,3 +49,8 @@
   id: RMCRankCivilianSeniorOfficer
   name: Senior Officer
   prefix: Sr. Off.
+
+- type: rank
+  id: RMCRankCivilianColonyAdmin
+  name: Colony Administrator
+  prefix: Col. Admn.

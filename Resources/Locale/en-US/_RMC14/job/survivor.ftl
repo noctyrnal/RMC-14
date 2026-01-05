@@ -100,6 +100,8 @@ rmc-job-name-survivor-lv624-corporate-liaison = LV-624 Corporate Liaison
 rmc-job-name-survivor-lv624-security-guard = We-Ya Security Guard
 rmc-job-name-survivor-lv624-medical-technician = Emergency Medical Technician
 rmc-job-name-survivor-lv624-engineer = Engineer
+rmc-job-name-survivor-lv624-admin = Colony Administration
+cm-job-prefix-survivor-lv624-admin = COL ADMN
 
 rmc-job-greeting-corporate-dome-cl = You are the last alive Executive of Lazarus Landing!
 
