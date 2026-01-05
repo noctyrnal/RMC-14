@@ -10,9 +10,24 @@
     sprite: _RMC14/Structures/Flora/tallgrass.rsi
     state: tallgrass
     drawdepth: Walls
-  - type: Physics
-    canCollide: false
   - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,0.5,0.5"
+        layer:
+          - SlipLayer
+        mask:
+          - ItemMask
+        density: 1000
+        hard: false
+  - type: StepTrigger
+    requiredTriggeredSpeed: 0
+    intersectRatio: 0.1
+    blacklist:
+      tags:
+        - Catwalk
   - type: Damageable
     damageContainer: Inorganic
   - type: MeleeSound
@@ -29,6 +44,8 @@
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
+  - type: FloorOccluder
+  - type: SyncSprite
 
 - type: entity
   abstract: true

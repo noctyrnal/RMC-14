@@ -1,7 +1,8 @@
 ﻿- type: entity
-  id: RMCLadder
+  id: RMCLadderProp
   name: ladder
   description: A sturdy metal ladder.
+  suffix: Prop
   placement:
     mode: SnapgridCenter
   components:
@@ -11,17 +12,23 @@
     bodyType: Static
     canCollide: false
   - type: Clickable
-  - type: InteractionOutline
   - type: Sprite
     sprite: _RMC14/Structures/ladder.rsi
     drawdepth: WallTops
     state: ladderdown
   - type: PlacementReplacement
     key: ladders
-  - type: Ladder
-  - type: BlockXenoConstruction
   - type: RMCMesonsNonviewable
+
+
+- type: entity
+  parent: RMCLadderProp
+  id: RMCLadder
+  suffix: ""
+  components:
+  - type: Ladder
   - type: RMCIgnoreGhostInteractionLimits
+  - type: InteractionOutline
 
 - type: entity
   parent: RMCLadder
@@ -64,4 +71,13 @@
   suffix: Layers over Platforms
   components:
     - type: Sprite
+      drawdepth: SmallObjects
+
+- type: entity
+  parent: RMCLadderProp
+  id: RMCLadderPool
+  suffix: Prop, Layers over Platforms
+  components:
+    - type: Sprite
+      state: ladder_pool
       drawdepth: SmallObjects
