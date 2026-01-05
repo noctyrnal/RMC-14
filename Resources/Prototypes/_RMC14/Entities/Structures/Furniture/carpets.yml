@@ -495,8 +495,8 @@
     state: bcarpet09
 
 - type: entity
-  id: RMCCarpetColorableLargeBlack
   parent: RMCCarpetColorableLarge
+  id: RMCCarpetColorableLargeBlack
   name: rubber mat
   suffix: Black
   components:
@@ -504,3 +504,14 @@
     color: "#3d3d3d"
   - type: Icon
     color: "#3d3d3d"
+
+- type: entity
+  parent: RMCCarpetColorableLargeBlack
+  id: RMCCarpetColorableLargeGreen
+  suffix: Green
+  components:
+  - type: Sprite
+    color: "#577270"
+  - type: Icon
+    color: "#577270"
+
