@@ -94,7 +94,7 @@
 - type: entity
   parent: RMCWindowFrameLVColonyReinforced
   id: RMCWindowFrameLVColonySecReinforced
-  suffix: Security
+  suffix: Security, Reinforced
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/Frames/lv_colony_frame_sec.rsi
@@ -107,7 +107,7 @@
 - type: entity
   parent: RMCWindowFrameLVColonyReinforced
   id: RMCWindowFrameLVColonyAdminReinforced
-  suffix: Admin
+  suffix: Admin, Reinforced
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/Frames/lv_colony_frame_admin.rsi
