@@ -24,10 +24,11 @@
   - 1.0
 
 - type: tile
-  parent: CMPlanetBase
+  parent: RMCPlanetDescrutableBase
   id: CMPlanetMattedGrass
   name: matted grass
   sprite: /Textures/_RMC14/Tiles/planet/auto_strata_grass/grass.png
+  baseTurf: CMPlanetMattedGrass3
   variants: 8
   placementVariants:
   - 1.0
@@ -55,6 +56,7 @@
   parent: CMPlanetMattedGrass
   id: CMPlanetMattedGrass2
   sprite: /Textures/_RMC14/Tiles/planet/auto_strata_grass/grass_1.png
+  baseTurf: CMPlanetMattedGrass
   edgeSpritePriority: 1
   edgeSprites:
     SouthEast: /Textures/_RMC14/Tiles/planet/auto_strata_grass/grass_single_edge_se.png
@@ -67,9 +69,10 @@
     West: /Textures/_RMC14/Tiles/planet/auto_strata_grass/grass_double_edge_w.png
 
 - type: tile
-  parent: CMPlanetBase
+  parent: RMCPlanetDescrutableBase
   id: CMPlanetMattedGrass3
   sprite: /Textures/_RMC14/Tiles/planet/auto_strata_grass/grass_mud.png
+  baseTurf: CMPlanetMattedGrass4
   variants: 8
   placementVariants:
   - 1.0
@@ -84,11 +87,23 @@
     collection: FootstepAsteroid
 
 - type: tile
-  parent: CMPlanetMattedGrass3
+  parent: CMPlanetBase
   id: CMPlanetMattedGrass4
   sprite: /Textures/_RMC14/Tiles/planet/auto_strata_grass/grass_mud_alt.png
+  variants: 8
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  footstepSounds:
+    collection: FootstepAsteroid
 
 - type: tile
-  parent: CMPlanetMattedGrass3
+  parent: CMPlanetMattedGrass4
   id: CMPlanetMattedGrass5
   sprite: /Textures/_RMC14/Tiles/planet/auto_strata_grass/grass_mud_alt2.png
