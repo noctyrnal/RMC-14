@@ -4,7 +4,6 @@
   abstract: true
   name: rocks
   description: A solidified collection of local minerals. When melted, becomes a substance best known as lava.
-  suffix: RMCBaseRockNonCollide
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Flora/rocks.rsi
@@ -12,6 +11,7 @@
 - type: entity
   parent: RMCBaseRockNonCollide
   id: RMCBaseRockNonCollideStrata
+  suffix: Strata
   abstract: true
   components:
   - type: Sprite
@@ -97,6 +97,99 @@
 - type: entity
   parent: RMCBaseRockNonCollideStrata
   id: RMCRockColourable12
+  components:
+  - type: Sprite
+    state: rock_12
+
+- type: entity
+  parent: RMCBaseRockNonCollide
+  id: RMCBaseRockNonCollideLV
+  suffix: LV
+  abstract: true
+  components:
+  - type: Sprite
+    color: '#ae8686'
+
+- type: entity
+  parent: RMCBaseRockNonCollideLV
+  id: RMCRockColourableLV1
+  components:
+  - type: Sprite
+    state: rock_1
+
+- type: entity
+  parent: RMCBaseRockNonCollideLV
+  id: RMCRockColourableLV2
+  components:
+  - type: Sprite
+    state: rock_2
+
+- type: entity
+  parent: RMCBaseRockNonCollideLV
+  id: RMCRockColourableLV3
+  components:
+  - type: Sprite
+    state: rock_3
+
+- type: entity
+  parent: RMCBaseRockNonCollideLV
+  id: RMCRockColourableLV4
+  components:
+  - type: Sprite
+    state: rock_4
+
+- type: entity
+  parent: RMCBaseRockNonCollideLV
+  id: RMCRockColourableLV5
+  components:
+  - type: Sprite
+    state: rock_5
+
+- type: entity
+  parent: RMCBaseRockNonCollideLV
+  id: RMCRockColourableLV6
+  components:
+  - type: Sprite
+    state: rock_6
+
+- type: entity
+  parent: RMCBaseRockNonCollideLV
+  id: RMCRockColourableLV7
+  components:
+  - type: Sprite
+    state: rock_7
+
+- type: entity
+  parent: RMCBaseRockNonCollideLV
+  id: RMCRockColourableLV8
+  components:
+  - type: Sprite
+    state: rock_8
+
+- type: entity
+  parent: RMCBaseRockNonCollideLV
+  id: RMCRockColourableLV9
+  components:
+  - type: Sprite
+    state: rock_9
+
+- type: entity
+  parent: RMCBaseRockNonCollideLV
+  id: RMCRockColourableLV10
+  components:
+  - type: Sprite
+    state: rock_10
+
+- type: entity
+  parent: RMCBaseRockNonCollideLV
+  id: RMCRockColourableLV11
+  components:
+  - type: Sprite
+    state: rock_11
+
+- type: entity
+  parent: RMCBaseRockNonCollideLV
+  id: RMCRockColourableLV12
   components:
   - type: Sprite
     state: rock_12

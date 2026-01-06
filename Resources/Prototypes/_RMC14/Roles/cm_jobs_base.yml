@@ -54,7 +54,7 @@
 - type: entity
   parent: MarkerBase
   id: CMSpawnPointXenoLeader
-  name: xeno leader spawn point
+  name: queen spawn point
   description: A RMC14 spawner. Used for xenos Queens.
   components:
   - type: XenoLeaderSpawnPoint
