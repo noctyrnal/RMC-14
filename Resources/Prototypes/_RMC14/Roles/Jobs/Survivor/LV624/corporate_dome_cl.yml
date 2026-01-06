@@ -1,5 +1,5 @@
 - type: job
-  parent: CMSurvivorCorporate
+  parent: CMSurvivorLV624CorporateLiaison
   id: CMSurvivorLV624CorporateDomeCL
   name: rmc-job-name-survivor-lv624-corporate-liaison
   description: cm-job-description-survivor
@@ -13,7 +13,7 @@
     - type: Skills
       preset: SurvivorWeYaManager
     - type: EquipSurvivorPreset
-      preset: RMCGearSurvivorPresetLV624CorporateLiaison
+      preset: RMCGearSurvivorPresetLV624CorporateDomeCL
     - type: RMCSurvivor
     - type: MotionDetectorTracked
     - type: NpcFactionMember
@@ -40,6 +40,6 @@
       state: surv_wy
 
 - type: entity
-  parent: RMCSurvivorPresetCorporate
+  parent: RMCGearSurvivorPresetLV624CorporateLiaison
   id: RMCGearSurvivorPresetLV624CorporateDomeCL
   name: lv624 colonist preset

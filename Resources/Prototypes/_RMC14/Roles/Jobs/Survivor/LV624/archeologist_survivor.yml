@@ -29,16 +29,17 @@
   useLoadoutOfJob: CMSurvivorScientist # for inheritance
 
 - type: startingGear
-  parent: RMCGearSurvivorScientist
+  parent: RMCGearSurvivorBase
   id: RMCGearSurvivorLV624Archeologist
   equipment:
     head: RMCBoonie
-    jumpsuit: RMCJumpsuitBlueWorkwear
     outerClothing: CMUtilityVest
-    shoes: RMCShoesLaceupBrown
     eyes: RMCGlassesAviators
+    pocket2: RMCPouchMedicalFill
+    back: RMCSatchelVirologyFill
+    gloves: CMHandsLatex
   inhand:
-    - RMCShovel
+    - RMCToolSpade
 
 - type: entity
   parent: CMSpawnPointJobBase
@@ -57,4 +58,20 @@
 - type: entity
   parent: RMCSurvivorPresetScientist
   id: RMCGearSurvivorPresetLV624Archeologist
-  name: lv624 archeologist colonist preset # TODO RMC14 random research notes
+  name: lv624 archeologist colonist preset
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SurvivorPreset
+    randomOutfits:
+    - [ RMCJumpsuitBlueWorkwear ]
+    - [ RMCJumpsuitLiaisonGreenWorkwear ]
+    - [ RMCJumpsuitLiaisonGreyWorkwear ]
+    - [ RMCJumpsuitLiaisonKhakiWorkwear ]
+    randomStartingGear:
+      shoes:
+      - RMCShoesLaceup
+      - RMCShoesLaceupBrown
+      - RMCBootsCorporate
+      eyes:
+      - RMCGlassesAviators
+      - RMCSunglassesBig

@@ -63,7 +63,7 @@
 - type: entity
   parent: RMCSurvivorPresetCorporate
   id: RMCGearSurvivorPresetLV624ColonyAdmin
-  name: lv624 colonist preset
+  name: lv624 colony admin preset
   categories: [ HideSpawnMenu ]
   components:
   - type: SurvivorPreset

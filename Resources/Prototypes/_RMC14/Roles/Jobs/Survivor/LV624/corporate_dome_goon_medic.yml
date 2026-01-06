@@ -4,7 +4,7 @@
   name: rmc-job-name-pmc-corporate-goon-medic
   description: cm-job-description-survivor
   spawnMenuRoleName: We-Ya Goon Medic (Survivor Special)
-  startingGear: RMCGearSurvivorGoon
+  startingGear: RMCGearSurvivorGoonLV624Medic
   icon: "RMCJobIconPMCGoonMedic"
   hasIcon: true
   special:
@@ -35,6 +35,14 @@
       state: green
     - sprite: _RMC14/Markers/landmarks.rsi
       state: surv_wy
+
+- type: startingGear
+  parent: RMCGearSurvivorGoonLV624
+  id: RMCGearSurvivorGoonLV624Medic
+  equipment:
+    gloves: CMHandsLatex
+    head: ArmorHelmetPMC
+    belt: RMCBeltMedicalDefibAnalyzerFilled
 
 - type: entity
   parent: RMCSurvivorPresetSecurity

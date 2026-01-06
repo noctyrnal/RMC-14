@@ -45,6 +45,8 @@
       - RMCSurvivorHybrisaXenobiologist: 2
     survivorJobScenarios:
       asset_protection:
+        RMCSurvivorCommandingOfficer:
+        - CMSurvivorLV624CorporateDomeGoonLead: 1
         CMSurvivor:
         - CMSurvivorLV624CorporateDomeGoon: -1
         CMSurvivorCorporate:
@@ -54,10 +56,9 @@
         CMSurvivorEngineer:
         - CMSurvivorLV624CorporateDomeGoonEngineer: 1
         CMSurvivorSecurity:
-        - CMSurvivorLV624CorporateDomeGoonLead: 1
+        - CMSurvivorLV624CorporateDomeGoon: 1
         CMSurvivorScientist:
-        - CMSurvivor: 0
-
+        - CMSurvivorLV624CorporateDomeGoonMedic: 1
 
 - type: entity
   id: RMCPlanetSolaris

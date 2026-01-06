@@ -32,7 +32,7 @@
   parent: RMCGearSurvivorBase
   id: RMCGearSurvivorLV624Engineer
   equipment:
-    jumpsuit: RMCJumpsuitCivilianEngineerWorkerAlt
+    jumpsuit: RMCJumpsuitCivilianEngineerWorker
     pocket2: RMCPouchToolsFill
     back: CMSatchelEngineerMinerSurvivorFill
     eyes: RMCWeldingGoggles
@@ -61,4 +61,4 @@
     randomOutfits:
     - [ CMHandsInsulated, RMCShoesJackboots, RMCHardhatOrange, RMCHazardVestYellow, CMSheetPlasteel10 ]
     - [ CMHandsInsulated, RMCShoesJackboots, RMCHardhatOrange, RMCHazardVestYellow, CMSheetPlasteel10 ]
-    - [ RMCHandsVeteranInsulated, CMBootsBlackFilled, RMCHeadUNMCHeadset, RMCOuterEngineeringUtilityOversuitAlt, CMSheetPlasteel20 ]
+    - [ RMCHandsVeteranInsulated, CMBootsBlackFilled, RMCHeadUNMCHeadset, RMCOuterEngineeringUtilityOversuit, CMSheetPlasteel20 ]

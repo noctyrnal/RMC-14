@@ -5,6 +5,22 @@
   description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivor
   spawnMenuRoleName: We-Ya Goon (Survivor Special)
+  startingGear: RMCGearSurvivorGoonLV624
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: Skills
+      preset: SurvivorGoon
+    - type: EquipSurvivorPreset
+      preset: RMCGearSurvivorPresetLV624CorporateDomeGoon
+    - type: RMCSurvivor
+    - type: MotionDetectorTracked
+    - type: NpcFactionMember
+      factions:
+      - WeYa
+      - Civilian
+    - type: IntelRescueSurvivorObjective
+    - type: RMCAllowSuitStorage
   icon: "RMCJobIconPMCGoonStandard"
   greeting: rmc-job-greeting-corporate-dome-goon
 
@@ -22,7 +38,35 @@
     - sprite: _RMC14/Markers/landmarks.rsi
       state: surv_wy
 
+- type: startingGear
+  id: RMCGearSurvivorGoonLV624
+  equipment:
+    id: RMCIDCardWeYaCorporateSecurity
+    ears: RMCHeadsetDistressWeYa
+    outerClothing: CMArmorM4PMCCorporate
+    gloves: RMCHandsVeteran
+    shoes: RMCBootsPMCFilled
+    jumpsuit: RMCJumpsuitVeteranPMCHybrisa
+    back: RMCSatchelLightpackBlack
+    belt: RMCM77BeltPMCFilled
+    suitstorage: RMCWeaponRifleM54CWhite
+    pocket1: RMCPouchSurvivalBlackFilled
+    pocket2: RMCPouchFirstAidPMCFill
+  storage:
+    back:
+    - CMStunbaton
+    - CMSheetMetal50
+    - CMMagazineRifleM54C
+    - CMMagazineRifleM54C
+
 - type: entity
   parent: RMCSurvivorPresetSecurity
   id: RMCGearSurvivorPresetLV624CorporateDomeGoon
-  name: lv624 colonist preset
+  name: lv624 corporate dome goon preset
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SurvivorPreset
+    randomOutfits:
+    - [ RMCHeadCapWestonYamadaDark ]
+    - [ RMCArmorHelmetPMCCorporateHybrisa ]
+    - [ RMCArmorHelmetPMCCorporateHybrisa ]

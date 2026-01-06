@@ -22,16 +22,16 @@
   useLoadoutOfJob: CMSurvivorEngineer # for inheritance
 
 - type: startingGear
+  parent: RMCGearSurvivorBase
   id: RMCGearSurvivorLV624CargoTechnician
   equipment:
-    jumpsuit: RMCJumpsuitKhakiWorkwearJacketless
+    jumpsuit: RMCJumpsuitCivilianYellow
     back: CMSatchelEngineerSurvivorFill
-    head: RMCHeadYellowSoftCap
-    shoes: RMCShoesLaceup
+    shoes: RMCBootsSPPBlack
+    gloves: CMHandsBrown
     id: CMIDCardColonistEngineer
-    ears: CMHeadsetColony
-    pocket1: RMCPouchSurvivalFill
     pocket2: RMCPouchToolsFill
+    outerClothing: RMCHazardVestGreen
 # TODO RMC Meson Goggles
 
 - type: entity
@@ -51,4 +51,24 @@
 - type: entity
   parent: RMCSurvivorPresetEngineer
   id: RMCGearSurvivorPresetLV624CargoTechnician
-  name: lv624 cargo technician colonist preset # TODO RMC14 random research notes
+  name: lv624 cargo technician colonist preset
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SurvivorPreset
+    randomStartingGear:
+      shoes:
+      - RMCBootsSPPBlack
+      - RMCBootsSPP
+      eyes:
+      - RMCGlassesAviators
+      - RMCGlassesMarineRpg
+      - RMCGlassesAviatorsSilver
+      - RMCHippieGlasses
+      - RMCWeldingGoggles
+      head:
+      - RMCHeadCapTruckerBlue
+      - RMCHeadCapTruckerRed
+      - CMHeadCapCargo
+      - RMCHeadCapFerret
+      - RMCHeadBeanieGray
+      - RMCHeadBeanie
