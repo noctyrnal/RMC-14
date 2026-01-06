@@ -1,0 +1,27 @@
+- type: entity
+  parent: RMCSpawnerCorpse
+  id: RMCSpawnerCorpseHybrisaMaterialRepoTech
+  name: Corpse Spawner - Hybrisa - Material Repo Tech
+  components:
+  - type: CorpseSpawner
+    spawn: RMCCorpseHybrisaMaterialRepoTech
+
+- type: randomHumanoidSettings
+  parent: RMCCorpse
+  id: RMCCorpseHybrisaMaterialRepoTech
+  components:
+  - type: Loadout
+    prototypes: [ RMCGearCorpseHybrisaMaterialRepoTech ]
+
+- type: startingGear
+  id: RMCGearCorpseHybrisaMaterialRepoTech
+  equipment:
+    jumpsuit: RMCJumpsuitSanitation
+    back: CMSatchelEngineer
+    id: CMIDCardColonist
+    gloves: CMHandsBrown
+    shoes: CMBootsBrown
+    outerClothing: RMCCoatSanitation
+  storage:
+    back:
+    - RMCRadioHandheldColonyOff

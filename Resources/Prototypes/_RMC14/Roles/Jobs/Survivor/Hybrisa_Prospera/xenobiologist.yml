@@ -31,6 +31,8 @@
 - type: startingGear
   parent: RMCGearSurvivorBaseNoBackpack
   id: RMCGearSurvivorHybrisaXenobiologist
+  equipment:
+      id: RMCIDCardColonistScientist
 
 - type: entity
   parent: CMSpawnPointJobBase
