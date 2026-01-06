@@ -117,6 +117,24 @@
     base: metal
 
 - type: entity
+  parent: RMCWallLVColonyReinforced
+  id: RMCWallLVColonyAdminReinforced
+  suffix: Admin
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Walls/lv_colony_wall_admin.rsi
+    state: metal0
+  - type: Icon
+    sprite: _RMC14/Structures/Walls/lv_colony_wall_admin.rsi
+    state: metal0
+  - type: IconSmooth
+    key: walls
+    additionalKeys:
+    - windows
+    - doors
+    base: metal
+
+- type: entity
   parent: RMCWallLVColony
   id: RMCWallSandstoneTempleBricks
   name: sandstone temple wall

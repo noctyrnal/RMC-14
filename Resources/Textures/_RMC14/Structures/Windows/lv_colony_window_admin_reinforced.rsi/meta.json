@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-4.0",
+  "copyright": "Sprites by github noctyrnal",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "prison_window0"
+    },
+    {
+      "name": "prison_window1"
+    },
+    {
+      "name": "prison_window2"
+    },
+    {
+      "name": "prison_window3"
+    },
+    {
+      "name": "prison_window4"
+    },
+    {
+      "name": "prison_window5"
+    },
+    {
+      "name": "prison_window6"
+    },
+    {
+      "name": "prison_window7"
+    },
+    {
+      "name": "prison_window8"
+    },
+    {
+      "name": "prison_window9"
+    },
+    {
+      "name": "prison_window10"
+    },
+    {
+      "name": "prison_window11"
+    },
+    {
+      "name": "prison_window12"
+    },
+    {
+      "name": "prison_window13"
+    },
+    {
+      "name": "prison_window14"
+    },
+    {
+      "name": "prison_window15"
+    }
+  ]
+}
