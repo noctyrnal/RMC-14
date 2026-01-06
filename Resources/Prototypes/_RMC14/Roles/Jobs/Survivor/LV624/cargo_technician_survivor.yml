@@ -27,7 +27,6 @@
   equipment:
     jumpsuit: RMCJumpsuitCivilianYellow
     back: CMSatchelEngineerSurvivorFill
-    shoes: RMCBootsSPPBlack
     gloves: CMHandsBrown
     id: CMIDCardColonistEngineer
     pocket2: RMCPouchToolsFill

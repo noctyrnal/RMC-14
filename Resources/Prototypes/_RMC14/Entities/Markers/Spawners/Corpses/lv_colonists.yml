@@ -1,0 +1,178 @@
+- type: entity
+  parent: RMCSpawnerCorpse
+  id: RMCSpawnerCorpseLVEngineer
+  name: Corpse Spawner - LV624 - Engineer
+  components:
+  - type: CorpseSpawner
+    spawn: RMCCorpseLVEngineer
+
+- type: randomHumanoidSettings
+  parent: RMCCorpse
+  id: RMCCorpseLVEngineer
+  components:
+  - type: Loadout
+    prototypes: [ RMCGearCorpseLVEngineer ]
+
+- type: startingGear
+  id: RMCGearCorpseLVEngineer
+  equipment:
+    jumpsuit: RMCJumpsuitCivilianEngineerWorker
+    pocket2: RMCPouchToolsFill
+    back: CMSatchelEngineer
+    eyes: RMCWeldingGoggles
+    id: CMIDCardColonistEngineer
+    gloves: CMHandsInsulated
+    shoes: RMCShoesJackboots
+    head: RMCHardhatOrange
+    outerClothing: RMCHazardVestYellow
+    belt: CMBeltUtilityFilled
+  storage:
+    back:
+    - RMCRadioHandheldColonyOff
+
+- type: entity
+  parent: RMCSpawnerCorpse
+  id: RMCSpawnerCorpseLVDoctor
+  name: Corpse Spawner - LV624 - Doctor
+  components:
+  - type: CorpseSpawner
+    spawn: RMCCorpseLVDoctor
+
+- type: randomHumanoidSettings
+  parent: RMCCorpse
+  id: RMCCorpseLVDoctor
+  components:
+  - type: Loadout
+    prototypes: [ RMCGearCorpseLVDoctor ]
+
+- type: startingGear
+  id: RMCGearCorpseLVDoctor
+  equipment:
+    jumpsuit: RMCScrubsOlive
+    back: CMSatchelMedical
+    id: CMIDCardColonist
+    gloves: CMHandsLatex
+    shoes: RMCShoesWhite
+    mask: CMMaskSterile
+    outerClothing: RMCLabcoatLongOpened
+  storage:
+    back:
+    - RMCRadioHandheldColonyOff
+
+- type: entity
+  parent: RMCSpawnerCorpse
+  id: RMCSpawnerCorpseLVGoon
+  name: Corpse Spawner - LV624 - Goon
+  components:
+  - type: CorpseSpawner
+    spawn: RMCCorpseLVGoon
+
+- type: randomHumanoidSettings
+  parent: RMCCorpse
+  id: RMCCorpseLVGoon
+  components:
+  - type: Loadout
+    prototypes: [ RMCGearCorpseLVGoon ]
+
+- type: startingGear
+  id: RMCGearCorpseLVGoon
+  equipment:
+    shoes: RMCBootsCorporate
+    id: RMCIDCardWeYaCorporateSecurity
+    back: RMCSatchelLightpack
+    ears: RMCHeadsetDistressWeYa
+    gloves: RMCHandsVeteran
+    belt: RMCBeltSecurityWeYaFilled
+    outerClothing: CMArmorM4PMCCorporateLead
+    head: RMCArmorHelmetPMCCorporateHybrisa
+    jumpsuit: RMCJumpsuitVeteranPMCHybrisa
+  storage:
+    back:
+    - RMCRadioHandheldColonyOff
+
+- type: entity
+  parent: RMCSpawnerCorpse
+  id: RMCSpawnerCorpseLVLiaison
+  name: Corpse Spawner - LV624 - Liaison
+  components:
+  - type: CorpseSpawner
+    spawn: RMCCorpseLVLiaison
+
+- type: randomHumanoidSettings
+  parent: RMCCorpse
+  id: RMCCorpseLVLiaison
+  components:
+  - type: Loadout
+    prototypes: [ RMCGearCorpseLVLiaison ]
+
+- type: startingGear
+  id: RMCGearCorpseLVLiaison
+  equipment:
+    shoes: RMCShoesLaceup
+    id: CMIDCardLiaisonColony
+    back: RMCSatchelBlack
+    ears: RMCHeadsetDistressWeYa
+    jumpsuit: RMCJumpsuitGreySuitPants
+    pocket2: CMClipboard
+  storage:
+    back:
+    - RMCRadioHandheldColonyOff
+
+- type: entity
+  parent: RMCSpawnerCorpse
+  id: RMCSpawnerCorpseLVScientist
+  name: Corpse Spawner - LV624 - Scientist
+  components:
+  - type: CorpseSpawner
+    spawn: RMCCorpseLVScientist
+
+- type: randomHumanoidSettings
+  parent: RMCCorpse
+  id: RMCCorpseLVScientist
+  components:
+  - type: Loadout
+    prototypes: [ RMCGearCorpseLVScientist ]
+
+- type: startingGear
+  id: RMCGearCorpseLVScientist
+  equipment:
+    jumpsuit: RMCJumpsuitCivilianScientist
+    back: CMSatchelMedical
+    id: CMIDCardColonist
+    gloves: CMHandsLatex
+    shoes: RMCShoesLaceup
+    eyes: RMCGlassesMarineRpg
+    outerClothing: RMCLabcoat
+  storage:
+    back:
+    - RMCRadioHandheldColonyOff
+
+- type: entity
+  parent: RMCSpawnerCorpse
+  id: RMCSpawnerCorpseLVCargoTech
+  name: Corpse Spawner - LV624 - Cargo Tech
+  components:
+  - type: CorpseSpawner
+    spawn: RMCCorpseLVCargoTech
+
+- type: randomHumanoidSettings
+  parent: RMCCorpse
+  id: RMCCorpseLVCargoTech
+  components:
+  - type: Loadout
+    prototypes: [ RMCGearCorpseLVCargoTech ]
+
+- type: startingGear
+  id: RMCGearCorpseLVCargoTech
+  equipment:
+    jumpsuit: RMCJumpsuitCivilianYellow
+    back: CMSatchelEngineer
+    id: CMIDCardColonistEngineer
+    gloves: CMHandsBrown
+    shoes: RMCBootsSPPBlack
+    outerClothing: RMCHazardVestGreen
+    pocket2: RMCPouchTools
+    head: CMHeadCapCargo
+  storage:
+    back:
+    - RMCRadioHandheldColonyOff

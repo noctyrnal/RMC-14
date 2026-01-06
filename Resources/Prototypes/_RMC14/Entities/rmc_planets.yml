@@ -45,8 +45,8 @@
       - RMCSurvivorHybrisaXenobiologist: 2
     survivorJobScenarios:
       asset_protection:
-        RMCSurvivorCommandingOfficer:
-        - CMSurvivorLV624CorporateDomeGoonLead: 1 # TODO Figure out wtf to give COs instead of this and revert this to being for secsurv in future
+        # RMCSurvivorCommandingOfficer:
+        # - CMSurvivorLV624CorporateDomeGoonLead: 1 - TODO Make a CO goon surv
         CMSurvivor:
         - CMSurvivorLV624CorporateDomeGoon: -1
         CMSurvivorCorporate:
@@ -56,7 +56,7 @@
         CMSurvivorEngineer:
         - CMSurvivorLV624CorporateDomeGoonEngineer: 2
         CMSurvivorSecurity:
-        - CMSurvivorLV624CorporateDomeGoon: 2
+        - CMSurvivorLV624CorporateDomeGoonLead: 1
         CMSurvivorScientist:
         - CMSurvivorLV624CorporateDomeGoonMedic: 1
 
