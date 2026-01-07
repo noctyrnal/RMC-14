@@ -25,3 +25,33 @@
   storage:
     back:
     - RMCRadioHandheldColonyOff
+
+- type: entity
+  parent: RMCSpawnerCorpse
+  id: RMCSpawnerCorpseHybrisaTMCCMiner
+  name: Corpse Spawner - Hybrisa - TMCC Miner
+  components:
+  - type: CorpseSpawner
+    spawn: RMCCorpseHybrisaTMCCMiner
+
+- type: randomHumanoidSettings
+  parent: RMCCorpse
+  id: RMCCorpseHybrisaTMCCMiner
+  components:
+  - type: Loadout
+    prototypes: [ RMCGearCorpseHybrisaTMCCMiner ]
+
+- type: startingGear
+  id: RMCGearCorpseHybrisaTMCCMiner
+  equipment:
+    jumpsuit: RMCJumpsuitTMCC
+    back: CMSatchelEngineer
+    id: CMIDCardColonist
+    gloves: RMCHandsCombat
+    shoes: RMCShoesJackboots
+    outerClothing: RMCArmorTMCCAlt
+    head: RMCHardhatRedTMCC
+    pocket2: RMCPouchTools
+  storage:
+    back:
+    - RMCRadioHandheldColonyOff
