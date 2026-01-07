@@ -24,8 +24,8 @@
 # Spawners
 
 - type: entity
-  id: RMCLargeFogSpawner25
   parent: MarkerBase
+  id: RMCLargeFogSpawner25
   name: large fog
   suffix: 25 minutes
   components:
@@ -35,4 +35,14 @@
   - type: RandomSpawner # This is horrible if anyone knows something that just spawns something then tell me.
     prototypes:
     - RMCLargeFog25
+    chance: 1
+
+- type: entity
+  parent: RMCLargeFogSpawner25
+  id: RMCLargeFogSpawnerPermanent
+  suffix: Permanent
+  components:
+  - type: RandomSpawner # This is horrible if anyone knows something that just spawns something then tell me.
+    prototypes:
+    - RMCLargeFog
     chance: 1
