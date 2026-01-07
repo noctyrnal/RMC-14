@@ -1,0 +1,38 @@
+﻿- type: entity
+  id: RMCLargeFog
+  name: fog
+  suffix: Permanent
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Physics
+    bodyType: Static
+    canCollide: false
+  - type: Sprite
+    sprite: _RMC14/Effects/big_fog.rsi
+    state: fog
+    drawdepth: Effects
+
+- type: entity
+  parent: RMCLargeFog
+  id: RMCLargeFog25
+  suffix: 25 minutes
+  components:
+  - type: TimedDespawn
+    lifetime: 1500
+
+# Spawners
+
+- type: entity
+  id: RMCLargeFogSpawner25
+  parent: MarkerBase
+  name: large fog
+  suffix: 25 minutes
+  components:
+  - type: Sprite
+    sprite: _RMC14/Markers/landmarks.rsi
+    state: fog
+  - type: RandomSpawner # This is horrible if anyone knows something that just spawns something then tell me.
+    prototypes:
+    - RMCLargeFog25
+    chance: 1
