@@ -88,3 +88,11 @@
   components:
   - type: Sprite
     color: "#8B7B5B"
+
+- type: entity
+  parent: CMRack
+  id: RMCRackHunter
+  suffix: Hunter
+  components:
+  - type: Sprite
+    color: "#6b675e"
