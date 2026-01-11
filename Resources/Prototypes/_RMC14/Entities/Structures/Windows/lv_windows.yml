@@ -88,7 +88,7 @@
   - type: Icon
     sprite: _RMC14/Structures/Windows/Frames/lv_colony_frame_eng.rsi
   - type: Construction
-    graph: RMCWindowLVEngColony
+    graph: RMCWindowLVColonyEng
     node: windowFrameLVColonyEng
 
 - type: entity
