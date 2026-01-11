@@ -214,9 +214,12 @@
     state: shed_x_ag
 
 - type: entity
-  parent: RMCAreaLazarusLV624GroundSandTemple
+  parent: RMCAreaLazarusLV624GroundJungle
   id: RMCAreaLazarusLV624GroundSandTempleEntrance
   name: Sand Temple - Entry
+  components:
+  - type: Sprite
+    state: shed_x_ag
 
 # Caves
 
