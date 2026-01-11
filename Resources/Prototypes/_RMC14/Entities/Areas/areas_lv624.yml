@@ -1,0 +1,724 @@
+﻿- type: entity
+  parent: RMCAreaBase
+  id: RMCAreaLazarusLV624
+  suffix: LV-624 Area
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/areas_strata.rsi
+    state: strata
+  - type: Area
+    buildSpecial: true
+    powerNet: ground
+    minimapColor: '#6C6767D8'
+
+- type: entity
+  parent: RMCAreaLazarusLV624
+  id: RMCAreaLazarusLV624Oob
+  name: Out of Bounds
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/areas_varadero.rsi
+    state: oob
+  - type: Area
+    CAS: false
+    fulton: false
+    lasing: false
+    mortarPlacement: false
+    mortarFire: false
+    medevac: false
+    paradropping: false
+    OB: false
+    supplyDrop: false
+    resinAllowed: false
+    avoidBioscan: false
+    noTunnel: true
+    unweedable: false
+    minimapColor: '#3A3A3AFF'
+    weatherEnabled: false
+    alwaysPowered: true
+
+# Ground
+
+- type: entity
+  parent: RMCAreaLazarusLV624
+  id: RMCAreaLazarusLV624Ground
+  name: Ground
+  components:
+  - type: Sprite
+    state: ug_jung_0
+
+- type: entity
+  parent: RMCAreaLazarusLV624Ground
+  id: RMCAreaLazarusLV624GroundJungle
+  components:
+  - type: Area
+    minimapColor: '#2B5B2BEE'
+
+- type: entity
+  parent: RMCAreaLazarusLV624GroundJungle
+  id: RMCAreaLazarusLV624GroundJungleSouthWestJungle
+  name: Jungle - South West
+  components:
+  - type: Sprite
+    state: ug_jung_0
+
+- type: entity
+  parent: RMCAreaLazarusLV624GroundJungle
+  id: RMCAreaLazarusLV624GroundJungleSouthJungle
+  name: Jungle - South
+  components:
+  - type: Sprite
+    state: ug_jung_1
+
+- type: entity
+  parent: RMCAreaLazarusLV624GroundJungle
+  id: RMCAreaLazarusLV624GroundJungleSouthEastJungle
+  name: Jungle - South East
+  components:
+  - type: Sprite
+    state: ug_jung_2
+
+- type: entity
+  parent: RMCAreaLazarusLV624GroundJungle
+  id: RMCAreaLazarusLV624GroundJungleEastJungle
+  name: Jungle - East
+  components:
+  - type: Sprite
+    state: ug_jung_3
+
+- type: entity
+  parent: RMCAreaLazarusLV624GroundJungle
+  id: RMCAreaLazarusLV624GroundJungleCentralJungle
+  name: Jungle - Central
+  components:
+  - type: Sprite
+    state: ug_jung_3
+
+- type: entity
+  parent: RMCAreaLazarusLV624GroundJungle
+  id: RMCAreaLazarusLV624GroundJungleNorthJungle
+  name: Jungle - North
+  components:
+  - type: Sprite
+    state: ug_jung_4
+
+- type: entity
+  parent: RMCAreaLazarusLV624GroundJungle
+  id: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+  name: Jungle - North East
+  components:
+  - type: Sprite
+    state: ug_jung_5
+
+- type: entity
+  parent: RMCAreaLazarusLV624GroundJungle
+  id: RMCAreaLazarusLV624GroundRiverHuts
+  name: River Huts
+  components:
+  - type: Sprite
+    state: cabin
+
+- type: entity
+  parent: RMCAreaLazarusLV624GroundJungle
+  id: RMCAreaLazarusLV624GroundWestRiver
+  name: River - West
+  components:
+  - type: Sprite
+    state: marshriver
+
+- type: entity
+  parent: RMCAreaLazarusLV624GroundWestRiver
+  id: RMCAreaLazarusLV624GroundEastRiver
+  name: River - East
+
+- type: entity
+  parent: RMCAreaLazarusLV624GroundWestRiver
+  id: RMCAreaLazarusLV624GroundCentralRiver
+  name: River - Central
+
+- type: entity
+  parent: RMCAreaLazarusLV624GroundJungle
+  id: RMCAreaLazarusLV624GroundWestBarrens
+  name: River Barrens - West
+  components:
+  - type: Sprite
+    state: marsh
+
+- type: entity
+  parent: RMCAreaLazarusLV624GroundWestBarrens
+  id: RMCAreaLazarusLV624GroundEastBarrens
+  name: River Barrens - East
+
+- type: entity
+  parent: RMCAreaLazarusLV624GroundWestBarrens
+  id: RMCAreaLazarusLV624GroundCentralBarrens
+  name: River Barrens - Central
+
+- type: entity
+  parent: RMCAreaLazarusLV624Ground
+  id: RMCAreaLazarusLV624GroundSouthWestPathway
+  name: Colony Pathway - South West
+  components:
+  - type: Sprite
+    state: base_ico
+
+- type: entity
+  parent: RMCAreaLazarusLV624GroundSouthWestPathway
+  id: RMCAreaLazarusLV624GroundSouthEastPathway
+  name: Colony Pathway - South East
+
+- type: entity
+  parent: RMCAreaLazarusLV624GroundSouthWestPathway
+  id: RMCAreaLazarusLV624GroundSouthPathway
+  name: Colony Pathway - South
+
+- type: entity
+  parent: RMCAreaLazarusLV624GroundSouthWestPathway
+  id: RMCAreaLazarusLV624GroundWestPathway
+  name: Colony Pathway - West
+
+- type: entity
+  parent: RMCAreaLazarusLV624GroundSouthWestPathway
+  id: RMCAreaLazarusLV624GroundNorthWestPathway
+  name: Colony Pathway - North West
+
+- type: entity
+  parent: RMCAreaLazarusLV624GroundSouthWestPathway
+  id: RMCAreaLazarusLV624GroundNorthPathway
+  name: Colony Pathway - North
+
+- type: entity
+  parent: RMCAreaLazarusLV624GroundSouthWestPathway
+  id: RMCAreaLazarusLV624GroundNorthEastPathway
+  name: Colony Pathway - North East
+
+- type: entity
+  parent: RMCAreaLazarusLV624GroundSouthWestPathway
+  id: RMCAreaLazarusLV624GroundCentralPathway
+  name: Colony Pathway - Central
+
+- type: entity
+  parent: RMCAreaLazarusLV624Ground
+  id: RMCAreaLazarusLV624GroundWeYaResearchFacilityOutside
+  name: Weston-Yamada Corporate Research Facility - Outside
+  components:
+  - type: Sprite
+    state: marshwater
+
+- type: entity
+  parent: RMCAreaLazarusLV624GroundJungle
+  id: RMCAreaLazarusLV624GroundSandTemple
+  name: Sand Temple - Outside
+  components:
+  - type: Sprite
+    state: shed_x_ag
+
+- type: entity
+  parent: RMCAreaLazarusLV624GroundSandTemple
+  id: RMCAreaLazarusLV624GroundSandTempleEntrance
+  name: Sand Temple - Entry
+
+# Caves
+
+- type: entity
+  parent: RMCAreaLazarusLV624
+  id: RMCAreaLazarusLV624Caves
+  name: Caves
+  components:
+  - type: Sprite
+    state: lzcaves
+  - type: Area
+    CAS: true
+    fulton: true
+    mortarPlacement: false
+    mortarFire: true
+    lasing: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: true
+    weatherEnabled: false
+    minimapColor: '#3F3C3CEF'
+
+- type: entity
+  parent: RMCAreaLazarusLV624Caves
+  id: RMCAreaLazarusLV624SouthWestCaves
+  name: Caves - West
+
+- type: entity
+  parent: RMCAreaLazarusLV624Caves
+  id: RMCAreaLazarusLV62WestCaves
+  name: Caves - Central
+  components:
+  - type: Sprite
+    state: lzcaves
+  - type: Area
+    CAS: false
+    fulton: false
+    lasing: false
+    mortarPlacement: false
+    mortarFire: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: false
+    weatherEnabled: false
+
+- type: entity
+  parent: RMCAreaLazarusLV62WestCaves
+  id: RMCAreaLazarusLV62NorthWestCaves
+  name: Caves - North
+  components:
+  - type: Sprite
+    state: lzcaves
+
+# Colony
+
+- type: entity
+  parent: RMCAreaLazarusLV624
+  id: RMCAreaLazarusLV624Colony
+  name: Lazarus
+  components:
+  - type: Sprite
+    state: base_ico
+  - type: Area
+    CAS: true
+    fulton: true
+    mortarPlacement: false
+    mortarFire: true
+    lasing: true
+    medevac: true
+    paradropping: false
+    OB: true
+    supplyDrop: true
+    weatherEnabled: false
+
+- type: entity
+  parent: RMCAreaLazarusLV624Colony
+  id: RMCAreaLazarusLV624ColonySecureBunker
+  name: Secure Bunker
+  components:
+  - type: Sprite
+    state: outpost_sec_1
+  - type: Area
+    avoidBioscan: false
+    noTunnel: true
+    unweedable: false
+    minimapColor: '#A22D2DEE'
+
+- type: entity
+  parent: RMCAreaLazarusLV624Colony
+  id: RMCAreaLazarusLV624ColonyCorpoDome
+  name: Weston-Yamada Corporate Dome
+  components:
+  - type: Sprite
+    state: outpost_admin_3
+  - type: Area
+    minimapColor: '#A22D2DEE'
+
+- type: entity
+  parent: RMCAreaLazarusLV624Colony
+  id: RMCAreaLazarusLV624ColonyMaintDome
+  name: Maintenance Dome
+  components:
+  - type: Sprite
+    state: garage
+
+- type: entity
+  parent: RMCAreaLazarusLV624Colony
+  id: RMCAreaLazarusLV624ColonyEngiDome
+  name: Engineering Dome
+  components:
+  - type: Sprite
+    state: outpost_engi_0
+  - type: Area
+    minimapColor: '#C19504E7'
+
+- type: entity
+  parent: RMCAreaLazarusLV624ColonyEngiDome
+  id: RMCAreaLazarusLV624ColonyTCommsDome
+  name: Engineering Dome - Telecomms
+  components:
+  - type: Sprite
+    state: tcomms1
+
+- type: entity
+  parent: RMCAreaLazarusLV624Colony
+  id: RMCAreaLazarusLV624ColonyAtmosDome
+  name: Engineering Dome - Atmospherics
+  components:
+  - type: Sprite
+    state: outpost_engi_4
+  - type: Area
+    CAS: true
+    fulton: true
+    mortarPlacement: true
+    mortarFire: true
+    lasing: true
+    medevac: true
+    paradropping: true
+    OB: true
+    supplyDrop: true
+    weatherEnabled: true
+
+- type: entity
+  parent: RMCAreaLazarusLV624Colony
+  id: RMCAreaLazarusLV624ColonyResearchDome
+  name: Research Dome
+  components:
+  - type: Sprite
+    state: rdecks
+  - type: Area
+    minimapColor: '#812DA2EE'
+
+- type: entity
+  parent: RMCAreaLazarusLV624ColonyResearchDome
+  id: RMCAreaLazarusLV624ColonyResearchDomeStorage
+  name: Research Dome - Storage
+
+- type: entity
+  parent: RMCAreaLazarusLV624Colony
+  id: RMCAreaLazarusLV624ColonyBotanyDome
+  name: Botancial Dome
+  components:
+  - type: Sprite
+    state: dorms_2
+
+- type: entity
+  parent: RMCAreaLazarusLV624Colony
+  id: RMCAreaLazarusLV624ColonyMedicalDome
+  name: Medical Dome
+  components:
+  - type: Sprite
+    state: outpost_med_recovery
+  - type: Area
+    minimapColor: '#3DBF75EE'
+
+- type: entity
+  parent: RMCAreaLazarusLV624ColonyMedicalDome
+  id: RMCAreaLazarusLV624ColonyMedicalDomePool
+  name: Medical Dome - Pool
+
+- type: entity
+  parent: RMCAreaLazarusLV624Colony
+  id: RMCAreaLazarusLV624ColonyCargoDome
+  name: Cargo Dome - Inports
+  components:
+  - type: Sprite
+    state: sewers1
+
+- type: entity
+  parent: RMCAreaLazarusLV624Colony
+  id: RMCAreaLazarusLV624ColonyCargoDome2
+  name: Cargo Dome - Storage A
+  components:
+  - type: Sprite
+    state: sewers2
+
+- type: entity
+  parent: RMCAreaLazarusLV624Colony
+  id: RMCAreaLazarusLV624ColonyCargoDome3
+  name: Cargo Dome - Storage B
+  components:
+  - type: Sprite
+    state: sewers3
+
+- type: entity
+  parent: RMCAreaLazarusLV624Colony
+  id: RMCAreaLazarusLV624ColonyNexus
+  name: Nexus Dome - Main Hallway
+  components:
+  - type: Sprite
+    state: dorms_3
+
+- type: entity
+  parent: RMCAreaLazarusLV624Colony
+  id: RMCAreaLazarusLV624ColonyNexusAdmin
+  name: Nexus Dome - Administration
+  components:
+  - type: Sprite
+    state: outpost_admin_1
+  - type: Area
+    minimapColor: '#2D3FA2EE'
+
+- type: entity
+  parent: RMCAreaLazarusLV624Colony
+  id: RMCAreaLazarusLV624ColonyNexusMarshal
+  name: Nexus Dome - CMB Office
+  components:
+  - type: Sprite
+    state: outpost_sec_0
+  - type: Area
+    minimapColor: '#A22D2DEE'
+
+- type: entity
+  parent: RMCAreaLazarusLV624ColonyNexusMarshal
+  id: RMCAreaLazarusLV624ColonyNexusMarshalArmory
+  name: Nexus Dome - CMB Office - Armory
+  components:
+  - type: Sprite
+    state: outpost_sec_2
+
+- type: entity
+  parent: RMCAreaLazarusLV624Colony
+  id: RMCAreaLazarusLV624ColonyBathroom
+  name: Nexus Dome - Unisex Bathroom
+  components:
+  - type: Sprite
+    state: outpost_canteen_4
+
+- type: entity
+  parent: RMCAreaLazarusLV624Colony
+  id: RMCAreaLazarusLV624ColonyNexusCargo
+  name: Nexus Dome - Cargo
+  components:
+  - type: Sprite
+    state: sewers4
+
+- type: entity
+  parent: RMCAreaLazarusLV624Colony
+  id: RMCAreaLazarusLV624ColonyNexusDorms
+  name: Nexus Dome - Dorms A
+  components:
+  - type: Sprite
+    state: dorms_0
+
+- type: entity
+  parent: RMCAreaLazarusLV624Colony
+  id: RMCAreaLazarusLV624ColonyNexusDorms2
+  name: Nexus Dome - Dorms B
+  components:
+  - type: Sprite
+    state: dorms_3
+
+- type: entity
+  parent: RMCAreaLazarusLV624Colony
+  id: RMCAreaLazarusLV624ColonyNexusKitchen
+  name: Nexus Dome - Kitchen
+  components:
+  - type: Sprite
+    state: outpost_canteen_0
+
+- type: entity
+  parent: RMCAreaLazarusLV624Colony
+  id: RMCAreaLazarusLV624ColonyNexusMessHall
+  name: Nexus Dome - Mess Hall
+  components:
+  - type: Sprite
+    state: outpost_canteen_1
+
+- type: entity
+  parent: RMCAreaLazarusLV624Colony
+  id: RMCAreaLazarusLV624ColonyDisposals
+  name: Waste Processing Dome
+  components:
+  - type: Sprite
+    state: disposal
+
+- type: entity
+  parent: RMCAreaLazarusLV624ColonyDisposals
+  id: RMCAreaLazarusLV624ColonyFiltration
+  name: Waste Processing Dome - Filtration
+
+- type: entity
+  parent: RMCAreaLazarusLV624Colony
+  id: RMCAreaLazarusLV624ColonyMining
+  name: TMCC Mining Facility
+  components:
+  - type: Sprite
+    state: ug_jung_mine_3
+
+- type: entity
+  parent: RMCAreaLazarusLV624Colony
+  id: RMCAreaLazarusLV624ColonyWeYaResearchFacility
+  name: Weston-Yamada Corporate Research Facility
+  components:
+  - type: Sprite
+    state: outpost_sec_4
+  - type: Area
+    minimapColor: '#812DA2EE'
+
+- type: entity
+  parent: RMCAreaLazarusLV624ColonyNexusMarshal
+  id: RMCAreaLazarusLV624ColonyWeYaResearchFacilityCheckpoint
+  name: Weston-Yamada Corporate Research Facility - Entry Checkpoint
+  components:
+  - type: Sprite
+    state: outpost_sec_3
+
+- type: entity
+  parent: RMCAreaLazarusLV624ColonyWeYaResearchFacility
+  id: RMCAreaLazarusLV624ColonyWeYaResearchFacilitySectA
+  name: Weston-Yamada Corporate Research Facility - Research Section A
+  components:
+  - type: Sprite
+    state: outpost_admin_2
+
+- type: entity
+  parent: RMCAreaLazarusLV624ColonyWeYaResearchFacility
+  id: RMCAreaLazarusLV624ColonyWeYaResearchFacilitySectB
+  name: Weston-Yamada Corporate Research Facility - Research Section B
+  components:
+  - type: Sprite
+    state: outpost_admin_3
+
+- type: entity
+  parent: RMCAreaLazarusLV624ColonyBathroom
+  id: RMCAreaLazarusLV624ColonyWeYaResearchFacilityToilet
+  name: Weston-Yamada Corporate Research Facility - Unisex Toilets
+
+- type: entity
+  parent: RMCAreaLazarusLV624ColonyWeYaResearchFacility
+  id: RMCAreaLazarusLV624ColonyWeYaResearchFacilityCanteen
+  name: Weston-Yamada Corporate Research Facility - Canteen
+  components:
+  - type: Sprite
+    state: outpost_canteen_2
+
+- type: entity
+  parent: RMCAreaLazarusLV62WestCaves
+  id: RMCAreaLazarusLV624ColonyWeYaResearchFacilityNexus
+  name: Weston-Yamada Corporate Research Facility - Research Nexus
+  components:
+  - type: Sprite
+    state: rdecks
+
+- type: entity
+  parent: RMCAreaLazarusLV624ColonyWeYaResearchFacilityNexus
+  id: RMCAreaLazarusLV624ColonyWeYaResearchFacilitySensors
+  name: Weston-Yamada Corporate Research Facility - Research Sensor Relay
+
+- type: entity
+  parent: RMCAreaLazarusLV62WestCaves
+  id: RMCAreaLazarusLV624ColonySandTemple
+  name: Sand Temple - South
+  components:
+  - type: Sprite
+    state: shed_1_ug
+
+- type: entity
+  parent: RMCAreaLazarusLV62WestCaves
+  id: RMCAreaLazarusLV624ColonySandTempleCentral
+  name: Sand Temple - Central
+  components:
+  - type: Sprite
+    state: shed_2_ug
+
+- type: entity
+  parent: RMCAreaLazarusLV62WestCaves
+  id: RMCAreaLazarusLV624ColonySandTempleNorth
+  name: Sand Temple - North
+  components:
+  - type: Sprite
+    state: shed_3_ug
+
+- type: entity
+  parent: RMCAreaLazarusLV62WestCaves
+  id: RMCAreaLazarusLV624DenseJungle
+  name: Dense Jungle - Central
+  components:
+  - type: Sprite
+    state: ug_jung_4
+  - type: Area
+    minimapColor: '#2B5B2BEE'
+
+- type: entity
+  parent: RMCAreaLazarusLV624DenseJungle
+  id: RMCAreaLazarusLV624DenseJungleNorth
+  name: Dense Jungle - North
+  components:
+  - type: Sprite
+    state: ug_jung_5
+
+- type: entity
+  parent: RMCAreaLazarusLV624DenseJungle
+  id: RMCAreaLazarusLV624DenseJungleLake
+  name: Dense Jungle - Lake
+  components:
+  - type: Sprite
+    state: marshcenter
+  - type: Area
+    weatherEnabled: true
+
+- type: entity
+  parent: RMCAreaLazarusLV624DenseJungle
+  id: RMCAreaLazarusLV624DenseJungleGraveyard
+  name: Dense Jungle - Graveyard
+  components:
+  - type: Sprite
+    state: sewers4
+
+- type: entity
+  parent: RMCAreaLazarusLV62WestCaves
+  id: RMCAreaLazarusLV624DenseJungleLakehouse
+  name: Dense Jungle - Lakehouse
+  components:
+  - type: Sprite
+    state: cabin3
+  - type: Area
+    minimapColor: '#6C6767D8'
+
+# Telecomms
+
+- type: entity
+  parent: RMCAreaLazarusLV624GroundJungle
+  id: RMCAreaLazarusLV624GroundResearchTComms
+  name: Research Dome - Telecomms
+  components:
+  - type: Sprite
+    state: tcomms2
+
+- type: entity
+  parent: RMCAreaLazarusLV624GroundJungle
+  id: RMCAreaLazarusLV624GroundMiningTComms
+  name: TMCC Mining Facility - Telecomms
+  components:
+  - type: Sprite
+    state: tcomms3
+
+- type: entity
+  parent: RMCAreaLazarusLV624GroundJungle
+  id: RMCAreaLazarusLV624GroundSandTempleTComms
+  name: Sand Temple - Telecomms
+  components:
+  - type: Sprite
+    state: tcomms4
+
+# LZs
+
+- type: entity
+  parent: RMCAreaLazarusLV624Colony
+  id: RMCAreaLazarusLV624LandingZones
+  components:
+  - type: Area
+    CAS: true
+    fulton: true
+    mortarPlacement: true
+    mortarFire: true
+    lasing: true
+    medevac: true
+    paradropping: true
+    OB: true
+    supplyDrop: true
+    landingZone: true
+    weatherEnabled: true
+
+- type: entity
+  parent: RMCAreaLazarusLV624LandingZones
+  id: RMCAreaLazarusLV624LandingZonesLZ1
+  name: Landing Zone - Nexus
+  components:
+  - type: Sprite
+    state: landingzone_1
+  - type: Area
+    linkedLz: dropship_lz1
+
+- type: entity
+  parent: RMCAreaLazarusLV624LandingZones
+  id: RMCAreaLazarusLV624LandingZonesLZ2
+  name: Landing Zone - Weston-Yamada Corporate Dome
+  components:
+  - type: Sprite
+    state: landingzone_2
+  - type: Area
+    linkedLz: dropship_lz2

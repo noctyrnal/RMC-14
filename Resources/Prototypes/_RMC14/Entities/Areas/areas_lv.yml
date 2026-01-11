@@ -1,7 +1,9 @@
-﻿- type: entity
+﻿# THIS FILE IS DEPRICATED AND SHOULD BE REMOVED AT A LATER DATE.
+
+- type: entity
   parent: RMCAreaBase
   id: RMCAreaLv624
-  suffix: LV Area
+  suffix: DEPRICATED, DO NOT MAP
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas.rsi
