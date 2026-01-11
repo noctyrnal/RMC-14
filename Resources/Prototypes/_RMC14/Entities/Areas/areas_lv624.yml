@@ -206,7 +206,7 @@
     state: marshwater
 
 - type: entity
-  parent: RMCAreaLazarusLV624GroundJungle
+  parent: RMCAreaLazarusLV624Ground
   id: RMCAreaLazarusLV624GroundSandTemple
   name: Sand Temple - Outside
   components:
