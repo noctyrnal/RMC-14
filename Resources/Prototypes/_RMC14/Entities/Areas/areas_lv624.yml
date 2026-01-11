@@ -582,6 +582,8 @@
   components:
   - type: Sprite
     state: rdecks
+  - type: Area
+    minimapColor: '#812DA2EE'
 
 - type: entity
   parent: RMCAreaLazarusLV624ColonyWeYaResearchFacilityNexus
