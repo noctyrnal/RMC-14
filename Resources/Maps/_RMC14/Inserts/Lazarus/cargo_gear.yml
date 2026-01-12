@@ -1,0 +1,299 @@
+meta:
+  format: 7
+  category: Grid
+  engineVersion: 264.0.2
+  forkId: ""
+  forkVersion: ""
+  time: 01/12/2026 18:56:49
+  entityCount: 35
+maps: []
+grids:
+- 1
+orphans:
+- 1
+nullspace: []
+tilemap:
+  0: Space
+  198: CMFloorPlating
+  1: CMFloorSteelPrisonPlateMarked
+entities:
+- proto: ""
+  entities:
+  - uid: 1
+    components:
+    - type: MetaData
+      name: grid
+    - type: Transform
+      parent: invalid
+    - type: MapGrid
+      chunks:
+        0,0:
+          ind: 0,0
+          tiles: AQAAAAAAAAEAAAAAAAABAAAAAAAAxgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+          version: 7
+    - type: Broadphase
+    - type: Physics
+      bodyStatus: InAir
+      angularDamping: 0.05
+      linearDamping: 0.05
+      fixedRotation: False
+      bodyType: Dynamic
+    - type: Fixtures
+      fixtures: {}
+    - type: OccluderTree
+    - type: SpreaderGrid
+    - type: Shuttle
+      dampingModifier: 0.25
+    - type: GridPathfinding
+    - type: Gravity
+      gravityShakeSound: !type:SoundPathSpecifier
+        path: /Audio/Effects/alert.ogg
+    - type: DecalGrid
+      chunkCollection:
+        version: 2
+        nodes: []
+    - type: GridAtmosphere
+      version: 2
+      data:
+        chunkSize: 4
+    - type: GasTileOverlay
+    - type: RadiationGridResistance
+    - type: ImplicitRoof
+- proto: CMPacketGrenadeFragFilled
+  entities:
+  - uid: 15
+    components:
+    - type: Transform
+      pos: 3.6158164,2.6922312
+      parent: 1
+- proto: CMSheetMetal
+  entities:
+  - uid: 13
+    components:
+    - type: Transform
+      parent: 12
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+  - uid: 14
+    components:
+    - type: Transform
+      parent: 12
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+- proto: CMWebbing
+  entities:
+  - uid: 20
+    components:
+    - type: Transform
+      pos: 0.5,2.5
+      parent: 1
+  - uid: 21
+    components:
+    - type: Transform
+      pos: 0.5,2.5
+      parent: 1
+  - uid: 22
+    components:
+    - type: Transform
+      pos: 0.5,2.5
+      parent: 1
+- proto: CMWebbingBrown
+  entities:
+  - uid: 23
+    components:
+    - type: Transform
+      pos: 1.5,2.5
+      parent: 1
+  - uid: 24
+    components:
+    - type: Transform
+      pos: 1.5,2.5
+      parent: 1
+- proto: RMCCLFArmband
+  entities:
+  - uid: 26
+    components:
+    - type: Transform
+      pos: 2.5634007,0.6922313
+      parent: 1
+  - uid: 27
+    components:
+    - type: Transform
+      pos: 2.3272896,0.5950091
+      parent: 1
+  - uid: 28
+    components:
+    - type: Transform
+      pos: 2.5009007,0.49778676
+      parent: 1
+- proto: RMCCoatMilitiaVest
+  entities:
+  - uid: 16
+    components:
+    - type: Transform
+      pos: 1.5,2.5
+      parent: 1
+  - uid: 17
+    components:
+    - type: Transform
+      pos: 1.5,2.5
+      parent: 1
+  - uid: 18
+    components:
+    - type: Transform
+      pos: 1.5,2.5
+      parent: 1
+- proto: RMCCrateAmmoAlt
+  entities:
+  - uid: 8
+    components:
+    - type: Transform
+      pos: 1.5,0.5
+      parent: 1
+    - type: ContainerContainer
+      containers:
+        entity_storage: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 9
+          - 10
+          - 11
+        paper_label: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
+- proto: RMCCrateWoodenBuildable
+  entities:
+  - uid: 12
+    components:
+    - type: Transform
+      pos: 2.5,2.5
+      parent: 1
+    - type: ContainerContainer
+      containers:
+        entity_storage: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 13
+          - 14
+        paper_label: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
+- proto: RMCGlassesAviators
+  entities:
+  - uid: 35
+    components:
+    - type: Transform
+      pos: 0.46793365,0.7825091
+      parent: 1
+- proto: RMCHeadMilitiaBucket
+  entities:
+  - uid: 19
+    components:
+    - type: Transform
+      pos: 1.5,2.5
+      parent: 1
+- proto: RMCPacketGrenadeSmokeFilled
+  entities:
+  - uid: 25
+    components:
+    - type: Transform
+      pos: 3.4560943,2.4491758
+      parent: 1
+- proto: RMCPatchCLF
+  entities:
+  - uid: 29
+    components:
+    - type: Transform
+      pos: 2.507845,0.5047313
+      parent: 1
+  - uid: 30
+    components:
+    - type: Transform
+      pos: 2.618956,0.58112013
+      parent: 1
+  - uid: 31
+    components:
+    - type: Transform
+      pos: 2.382845,0.5325091
+      parent: 1
+- proto: RMCRackGrey
+  entities:
+  - uid: 2
+    components:
+    - type: Transform
+      pos: 1.5,2.5
+      parent: 1
+  - uid: 3
+    components:
+    - type: Transform
+      pos: 0.5,2.5
+      parent: 1
+  - uid: 5
+    components:
+    - type: Transform
+      pos: 3.5,2.5
+      parent: 1
+  - uid: 6
+    components:
+    - type: Transform
+      pos: 2.5,0.5
+      parent: 1
+  - uid: 7
+    components:
+    - type: Transform
+      pos: 0.5,0.5
+      parent: 1
+- proto: RMCShoesJackbootsFilled
+  entities:
+  - uid: 32
+    components:
+    - type: Transform
+      pos: 0.3568225,0.5394535
+      parent: 1
+  - uid: 33
+    components:
+    - type: Transform
+      pos: 0.5790448,0.49778676
+      parent: 1
+  - uid: 34
+    components:
+    - type: Transform
+      pos: 0.5443225,0.65056455
+      parent: 1
+- proto: RMCWallLVColonyEngi
+  entities:
+  - uid: 4
+    components:
+    - type: Transform
+      pos: 3.5,0.5
+      parent: 1
+- proto: RMCWeaponRifleMAR30
+  entities:
+  - uid: 9
+    components:
+    - type: Transform
+      parent: 8
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+  - uid: 10
+    components:
+    - type: Transform
+      parent: 8
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+  - uid: 11
+    components:
+    - type: Transform
+      parent: 8
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+...

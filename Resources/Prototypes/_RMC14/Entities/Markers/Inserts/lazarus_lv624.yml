@@ -13,3 +13,42 @@
       nightmareScenario: laz_asset_protection
     clearEntities: true
     clearDecals: true
+
+- type: entity
+  parent: RMCMapInsertBase
+  id: RMCMapInsertLazarusLV624CargoSpecial1
+  name: Cargo Special CLF
+  suffix: Insert LV-624
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/Lazarus/cargo_clf.yml"
+      probability: 0.1
+    clearEntities: true
+    clearDecals: true
+
+- type: entity
+  parent: RMCMapInsertBase
+  id: RMCMapInsertLazarusLV624CargoSpecial2
+  name: Cargo Special Flamers
+  suffix: Insert LV-624
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/Lazarus/cargo_flamer.yml"
+      probability: 0.1
+    clearEntities: true
+    clearDecals: true
+
+- type: entity
+  parent: RMCMapInsertBase
+  id: RMCMapInsertLazarusLV624CargoSpecial3
+  name: Cargo Special Gear
+  suffix: Insert LV-624
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/Lazarus/cargo_gear.yml"
+      probability: 0.1
+    clearEntities: true
+    clearDecals: true
