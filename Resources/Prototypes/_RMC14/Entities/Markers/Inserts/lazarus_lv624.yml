@@ -52,3 +52,33 @@
       probability: 0.1
     clearEntities: true
     clearDecals: true
+
+- type: entity
+  parent: RMCMapInsertBase
+  id: RMCMapInsertLazarusLV624Armory
+  name: Armory
+  suffix: Insert LV-624
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/Lazarus/armory_empty.yml"
+      probability: 0.1
+    - spawn: "/Maps/_RMC14/Inserts/Lazarus/armory_weya.yml"
+      probability: 0.1
+    - spawn: "/Maps/_RMC14/Inserts/Lazarus/armory_cheese.yml"
+      probability: 0.1
+    clearEntities: true
+    clearDecals: true
+
+- type: entity
+  parent: RMCMapInsertBase
+  id: RMCMapInsertLazarusLV624Hydro
+  name: Hydro PMC Shuttle Crash
+  suffix: Insert LV-624
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/Lazarus/hydro_pmc.yml"
+      probability: 0.3
+    clearEntities: true
+    clearDecals: true

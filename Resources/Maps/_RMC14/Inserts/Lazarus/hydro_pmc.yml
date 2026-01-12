@@ -1,0 +1,2151 @@
+meta:
+  format: 7
+  category: Grid
+  engineVersion: 264.0.2
+  forkId: ""
+  forkVersion: ""
+  time: 01/12/2026 20:16:19
+  entityCount: 218
+maps: []
+grids:
+- 1
+orphans:
+- 1
+nullspace: []
+tilemap:
+  0: Space
+  12: CMFloorPlate
+  198: CMFloorPlating
+  17: CMFloorSteelPrisonPlate
+  18: CMFloorSteelPrisonPlateCaution0
+  16: CMFloorSteelPrisonRampSouth
+  14: CMFloorTest0
+  8: CMFloorTest1
+  4: CMPlanetMattedGrass
+  3: CMPlanetMattedGrass2
+  2: CMPlanetMattedGrass3
+  13: CMShuttleTileRasputin3
+  9: CMShuttleTileRasputin4
+  10: CMShuttleTileRasputin5
+  11: CMShuttleTileRasputin8
+  15: RMCFloorPlatingCorsat
+  5: RMCFloorPlatingDamage1
+  6: RMCFloorPlatingDamage2
+  7: RMCFloorPlatingDamage3
+  1: RMCPlanetDirtBrown
+entities:
+- proto: ""
+  entities:
+  - uid: 1
+    components:
+    - type: MetaData
+      name: grid
+    - type: Transform
+      parent: invalid
+    - type: MapGrid
+      chunks:
+        0,0:
+          ind: 0,0
+          tiles: AQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAgAAAAAAAAMAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAABAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAgAAAAAAAAIAAAAAAAAEAAAAAAAAAwAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAgAAAAAAAAMAAAAAAADGAAAAAAAAxgAAAAAAAAQAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAADGAAAAAAAAxgAAAAAAAAUAAAAAAAADAAAAAAAAAgAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAgAAAAAAAAYAAAAAAAAEAAAAAAAAAgAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAABwAAAAAAAAEAAAAAAAAFAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAABwAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAcAAAAAAAABAAAAAAAABwAAAAAAAAEAAAAAAAABAAAAAAAABAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAABAAAAAAAAAgAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAABAAAAAAAAAMAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAABAAAAAAAAAgAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAABAAAAAAAAAMAAAAAAAAEAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAQAAAAAAAAEAAAAAAAAAgAAAAAAAAEAAAAAAAAHAAAAAAAAAQAAAAAAAAEAAAAAAAAHAAAAAAAAAQAAAAAAAMYAAAAAAAADAAAAAAAAxgAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAEAAAAAAAAAwAAAAAAAAMAAAAAAAABAAAAAAAAxgAAAAAAAAEAAAAAAADGAAAAAAAABwAAAAAAAAgAAAAAAADGAAAAAAAAxgAAAAAAAAMAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAwAAAAAAAAQAAAAAAAAEAAAAAAAABwAAAAAAAAEAAAAAAAAHAAAAAAAABQAAAAAAAAEAAAAAAAAIAAAAAAAAxgAAAAAAAMYAAAAAAAAEAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAMYAAAAAAADGAAAAAAAAxgAAAAAAAAEAAAAAAAAHAAAAAAAABQAAAAAAAAcAAAAAAADGAAAAAAAACAAAAAAAAMYAAAAAAADGAAAAAAAAAgAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAADGAAAAAAAAxgAAAAAAAMYAAAAAAAABAAAAAAAAxgAAAAAAAMYAAAAAAAAJAAAAAAAACgAAAAAAAAsAAAAAAAAMAAAAAAAAxgAAAAAAAAIAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAxgAAAAAAAMYAAAAAAAABAAAAAAAAxgAAAAAAAMYAAAAAAAAIAAAAAAAABQAAAAAAAAwAAAAAAAANAAAAAAAACAAAAAAAAA4AAAAAAADGAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAxgAAAAAAAMYAAAAAAAABAAAAAAAABwAAAAAAAMYAAAAAAADGAAAAAAAADAAAAAAAAA0AAAAAAAAMAAAAAAAADQAAAAAAAAwAAAAAAADGAAAAAAAAxgAAAAAAAMYAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+          version: 7
+        0,1:
+          ind: 0,1
+          tiles: xgAAAAAAAAEAAAAAAADGAAAAAAAAxgAAAAAAAMYAAAAAAADGAAAAAAAABQAAAAAAAA0AAAAAAAAMAAAAAAAAxgAAAAAAAAwAAAAAAADGAAAAAAAABwAAAAAAAMYAAAAAAAAAAAAAAAAAAAAAAAAAAMYAAAAAAADGAAAAAAAAAQAAAAAAAMYAAAAAAAAHAAAAAAAAxgAAAAAAAAcAAAAAAAAGAAAAAAAADAAAAAAAAA0AAAAAAAAMAAAAAAAAxgAAAAAAAMYAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAADGAAAAAAAAxgAAAAAAAMYAAAAAAAABAAAAAAAAxgAAAAAAAA4AAAAAAAAFAAAAAAAABwAAAAAAAAYAAAAAAAAFAAAAAAAACAAAAAAAAA4AAAAAAAAFAAAAAAAAxgAAAAAAAAAAAAAAAAAAAAAAAAAAxgAAAAAAAMYAAAAAAADGAAAAAAAAAQAAAAAAAMYAAAAAAADGAAAAAAAABwAAAAAAAMYAAAAAAADGAAAAAAAABwAAAAAAAMYAAAAAAADGAAAAAAAABwAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAMYAAAAAAADGAAAAAAAAxgAAAAAAAMYAAAAAAAABAAAAAAAAxgAAAAAAAMYAAAAAAADGAAAAAAAABQAAAAAAAMYAAAAAAADGAAAAAAAABgAAAAAAAAUAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAxgAAAAAAAMYAAAAAAADGAAAAAAAAxgAAAAAAAAEAAAAAAAAFAAAAAAAAxgAAAAAAAMYAAAAAAADGAAAAAAAAxgAAAAAAAMYAAAAAAADGAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAMYAAAAAAADGAAAAAAAAxgAAAAAAAMYAAAAAAAAPAAAAAAAABwAAAAAAAAYAAAAAAAAFAAAAAAAABgAAAAAAAAcAAAAAAADGAAAAAAAAAgAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAADGAAAAAAAAxgAAAAAAAMYAAAAAAADGAAAAAAAADwAAAAAAABAAAAAAAAAQAAAAAAAADwAAAAAAAMYAAAAAAAAFAAAAAAAAAgAAAAAAAAIAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAAxgAAAAAAAMYAAAAAAAAPAAAAAAAADwAAAAAAAMYAAAAAAADGAAAAAAAABAAAAAAAAAQAAAAAAAADAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAIAAAAAAAADAAAAAAAABAAAAAAAAAEAAAAAAAARAAAAAAAAEgAAAAAAABIAAAAAAAARAAAAAAAAAQAAAAAAAAQAAAAAAAADAAAAAAAAAwAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+          version: 7
+    - type: Broadphase
+    - type: Physics
+      bodyStatus: InAir
+      angularDamping: 0.05
+      linearDamping: 0.05
+      fixedRotation: False
+      bodyType: Dynamic
+    - type: Fixtures
+      fixtures: {}
+    - type: OccluderTree
+    - type: SpreaderGrid
+    - type: Shuttle
+      dampingModifier: 0.25
+    - type: GridPathfinding
+    - type: Gravity
+      gravityShakeSound: !type:SoundPathSpecifier
+        path: /Audio/Effects/alert.ogg
+    - type: DecalGrid
+      chunkCollection:
+        version: 2
+        nodes:
+        - node:
+            color: '#0000007F'
+            id: Dirt
+          decals:
+            114: 10,8
+            115: 10,5
+            116: 10,4
+            117: 10,8
+            118: 10,6
+            119: 9,4
+            120: 9,4
+            121: 10,8
+            122: 10,8
+            123: 9,5
+            124: 9,5
+            125: 9,8
+            126: 9,9
+            127: 8,6
+            128: 7,4
+            129: 8,9
+            130: 7,9
+            131: 7,6
+            132: 6,10
+            133: 7,7
+            134: 6,6
+            135: 5,11
+            136: 5,8
+            137: 5,5
+            138: 5,6
+            139: 6,11
+            140: 5,7
+            141: 4,4
+            142: 4,5
+            143: 4,10
+            144: 4,10
+            145: 4,5
+            146: 4,6
+            147: 5,10
+            148: 5,10
+            149: 7,6
+            150: 7,5
+            151: 7,9
+            152: 7,8
+            153: 7,6
+            154: 9,8
+            155: 9,8
+            156: 9,7
+            157: 10,8
+            158: 9,7
+            159: 7,6
+            160: 10,7
+            161: 10,6
+            162: 7,7
+            163: 6,10
+            164: 6,10
+            165: 6,7
+            166: 6,11
+            167: 5,12
+            168: 5,14
+            169: 6,15
+            170: 6,13
+            171: 7,11
+            172: 8,13
+            173: 8,14
+            174: 8,11
+            175: 9,13
+            176: 10,15
+            177: 9,16
+            178: 6,17
+            179: 6,15
+            180: 6,18
+            181: 9,19
+            182: 8,17
+            183: 9,16
+            184: 12,20
+            185: 12,17
+            186: 12,16
+            187: 12,15
+            188: 12,17
+            189: 12,20
+            190: 12,21
+            191: 11,22
+            192: 10,22
+            193: 8,22
+            194: 7,22
+            195: 6,22
+            196: 6,21
+            197: 4,17
+            198: 4,16
+            199: 4,15
+            200: 4,14
+            201: 5,14
+            202: 7,17
+            203: 7,15
+            204: 7,13
+            205: 8,15
+            206: 9,16
+            207: 10,13
+            208: 8,14
+            209: 3,3
+            210: 4,1
+            211: 5,1
+            212: 6,0
+            213: 4,8
+            214: 4,9
+            215: 6,9
+            216: 5,10
+            217: 5,11
+            218: 5,12
+            219: 5,13
+            220: 4,14
+            221: 4,14
+            222: 4,13
+            223: 4,14
+            224: 4,13
+            225: 4,16
+            226: 4,16
+            227: 4,17
+            228: 5,17
+            229: 5,16
+            230: 7,17
+            231: 7,15
+            232: 7,15
+            233: 7,17
+            234: 9,18
+            235: 9,16
+            236: 9,17
+            237: 8,20
+            238: 7,19
+            239: 8,17
+            240: 8,16
+            241: 10,18
+            242: 12,17
+            243: 12,16
+            244: 12,14
+            245: 12,13
+            246: 12,13
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCDecalBloodFloor1
+          decals:
+            247: 9,14
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCDecalBloodFloor3
+          decals:
+            248: 8,17
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCDecalBloodFloor4
+          decals:
+            249: 6,11
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCDecalBloodFloor6
+          decals:
+            250: 5,17
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCDecalBloodTrail1
+          decals:
+            255: 9,14
+            256: 9,11
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCDecalBloodTrail2
+          decals:
+            254: 9,13
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCDecalBloodXenonidFloor1
+          decals:
+            251: 7,9
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCDecalBloodXenonidFloor3
+          decals:
+            253: 4,6
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCDecalBloodXenonidFloor6
+          decals:
+            252: 9,7
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCDecalOilFloor1
+          decals:
+            89: 10,8
+            96: 5,12
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCDecalOilFloor2
+          decals:
+            90: 9,9
+            97: 5,18
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCDecalOilFloor3
+          decals:
+            91: 11,7
+            98: 6,21
+            99: 8,22
+            100: 9,22
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCDecalOilFloor4
+          decals:
+            92: 6,4
+            101: 11,21
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCDecalOilFloor5
+          decals:
+            93: 8,5
+            102: 9,20
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCDecalOilFloor6
+          decals:
+            94: 6,6
+            103: 9,16
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCDecalOilFloor7
+          decals:
+            95: 9,11
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCDecalStrataMud1
+          decals:
+            18: 2,6
+            20: 0,7
+            26: 9,2
+            36: 4,7
+            78: 13,16
+            81: 13,19
+            84: 12,21
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCDecalStrataMud2
+          decals:
+            24: 8,5
+            28: 5,5
+            31: 4,3
+            80: 13,18
+            87: 11,24
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCDecalStrataMud3
+          decals:
+            17: 3,7
+            25: 10,3
+            35: 7,1
+            37: 5,8
+            76: 6,4
+            85: 13,22
+            86: 13,23
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCDecalStrataMud4
+          decals:
+            27: 7,4
+            29: 4,4
+            30: 3,2
+            79: 12,17
+            82: 12,20
+            88: 10,23
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCDecalStrataMud5
+          decals:
+            14: 3,8
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCDecalStrataMud6
+          decals:
+            15: 3,8
+            19: 1,7
+            32: 4,1
+            33: 5,0
+            83: 11,22
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCDecalStrataMud7
+          decals:
+            9: 1,9
+            16: 4,9
+            23: 9,4
+            77: 12,14
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCDecalStrataMud8
+          decals:
+            8: 2,9
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCDecalStrataSand1
+          decals:
+            21: 7,4
+            39: 6,25
+            43: 7,25
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCDecalStrataSand2
+          decals:
+            5: 13,6
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCDecalStrataSand3
+          decals:
+            57: 10,10
+            58: 5,13
+            64: 6,21
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCDecalStrataSand4
+          decals:
+            22: 8,2
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCDecalStrataSand5
+          decals:
+            38: 5,25
+            47: 5,10
+            62: 2,16
+            63: 3,17
+            71: 7,6
+            73: 6,5
+            74: 4,5
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCDecalStrataSand6
+          decals:
+            42: 8,25
+            46: 5,10
+            48: 4,11
+            66: 9,6
+            67: 10,5
+            72: 6,5
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCDecalStrataSand7
+          decals:
+            1: 10,8
+            2: 11,7
+            3: 12,6
+            44: 5,9
+            50: 5,12
+            51: 6,11
+            52: 7,10
+            53: 8,9
+            56: 10,9
+            59: 4,14
+            60: 3,15
+            61: 2,16
+            65: 5,22
+            68: 10,5
+            69: 9,6
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCDecalStrataSand8
+          decals:
+            45: 5,9
+            49: 4,11
+            54: 8,9
+            55: 9,10
+            70: 7,6
+            75: 4,5
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCScorch1
+          decals:
+            109: 4,17
+            110: 7,4
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCScorch2
+          decals:
+            104: 9,10
+            111: 5,6
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCScorch3
+          decals:
+            105: 10,13
+            112: 4,3
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCScorch4
+          decals:
+            106: 7,14
+            113: 6,1
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCScorchSmall1
+          decals:
+            107: 7,19
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCScorchSmall2
+          decals:
+            108: 8,20
+    - type: GridAtmosphere
+      version: 2
+      data:
+        chunkSize: 4
+    - type: GasTileOverlay
+    - type: RadiationGridResistance
+    - type: ImplicitRoof
+    - type: AreaGrid
+      labels: {}
+      areaEntities: {}
+      colors: {}
+      areas:
+        4,24: RMCAreaLazarusLV624ColonyBotanyDome
+        4,23: RMCAreaLazarusLV624ColonyBotanyDome
+        4,22: RMCAreaLazarusLV624ColonyBotanyDome
+        4,21: RMCAreaLazarusLV624ColonyBotanyDome
+        4,20: RMCAreaLazarusLV624ColonyBotanyDome
+        4,19: RMCAreaLazarusLV624ColonyBotanyDome
+        4,18: RMCAreaLazarusLV624ColonyBotanyDome
+        4,17: RMCAreaLazarusLV624ColonyBotanyDome
+        4,16: RMCAreaLazarusLV624ColonyBotanyDome
+        4,15: RMCAreaLazarusLV624ColonyBotanyDome
+        4,14: RMCAreaLazarusLV624ColonyBotanyDome
+        4,13: RMCAreaLazarusLV624ColonyBotanyDome
+        4,12: RMCAreaLazarusLV624ColonyBotanyDome
+        5,24: RMCAreaLazarusLV624ColonyBotanyDome
+        5,23: RMCAreaLazarusLV624ColonyBotanyDome
+        5,22: RMCAreaLazarusLV624ColonyBotanyDome
+        5,21: RMCAreaLazarusLV624ColonyBotanyDome
+        5,20: RMCAreaLazarusLV624ColonyBotanyDome
+        5,19: RMCAreaLazarusLV624ColonyBotanyDome
+        5,18: RMCAreaLazarusLV624ColonyBotanyDome
+        5,17: RMCAreaLazarusLV624ColonyBotanyDome
+        5,16: RMCAreaLazarusLV624ColonyBotanyDome
+        5,15: RMCAreaLazarusLV624ColonyBotanyDome
+        5,14: RMCAreaLazarusLV624ColonyBotanyDome
+        5,13: RMCAreaLazarusLV624ColonyBotanyDome
+        5,12: RMCAreaLazarusLV624ColonyBotanyDome
+        6,24: RMCAreaLazarusLV624ColonyBotanyDome
+        6,23: RMCAreaLazarusLV624ColonyBotanyDome
+        6,22: RMCAreaLazarusLV624ColonyBotanyDome
+        6,21: RMCAreaLazarusLV624ColonyBotanyDome
+        6,20: RMCAreaLazarusLV624ColonyBotanyDome
+        6,19: RMCAreaLazarusLV624ColonyBotanyDome
+        6,18: RMCAreaLazarusLV624ColonyBotanyDome
+        6,17: RMCAreaLazarusLV624ColonyBotanyDome
+        6,16: RMCAreaLazarusLV624ColonyBotanyDome
+        6,15: RMCAreaLazarusLV624ColonyBotanyDome
+        6,14: RMCAreaLazarusLV624ColonyBotanyDome
+        6,13: RMCAreaLazarusLV624ColonyBotanyDome
+        6,12: RMCAreaLazarusLV624ColonyBotanyDome
+        7,24: RMCAreaLazarusLV624ColonyBotanyDome
+        7,23: RMCAreaLazarusLV624ColonyBotanyDome
+        7,22: RMCAreaLazarusLV624ColonyBotanyDome
+        7,21: RMCAreaLazarusLV624ColonyBotanyDome
+        7,20: RMCAreaLazarusLV624ColonyBotanyDome
+        7,19: RMCAreaLazarusLV624ColonyBotanyDome
+        7,18: RMCAreaLazarusLV624ColonyBotanyDome
+        7,17: RMCAreaLazarusLV624ColonyBotanyDome
+        7,16: RMCAreaLazarusLV624ColonyBotanyDome
+        7,15: RMCAreaLazarusLV624ColonyBotanyDome
+        7,14: RMCAreaLazarusLV624ColonyBotanyDome
+        7,13: RMCAreaLazarusLV624ColonyBotanyDome
+        7,12: RMCAreaLazarusLV624ColonyBotanyDome
+        8,24: RMCAreaLazarusLV624ColonyBotanyDome
+        8,23: RMCAreaLazarusLV624ColonyBotanyDome
+        8,22: RMCAreaLazarusLV624ColonyBotanyDome
+        8,20: RMCAreaLazarusLV624ColonyBotanyDome
+        8,19: RMCAreaLazarusLV624ColonyBotanyDome
+        8,21: RMCAreaLazarusLV624ColonyBotanyDome
+        8,18: RMCAreaLazarusLV624ColonyBotanyDome
+        8,17: RMCAreaLazarusLV624ColonyBotanyDome
+        8,16: RMCAreaLazarusLV624ColonyBotanyDome
+        8,14: RMCAreaLazarusLV624ColonyBotanyDome
+        8,15: RMCAreaLazarusLV624ColonyBotanyDome
+        8,12: RMCAreaLazarusLV624ColonyBotanyDome
+        8,13: RMCAreaLazarusLV624ColonyBotanyDome
+        9,21: RMCAreaLazarusLV624ColonyBotanyDome
+        9,24: RMCAreaLazarusLV624ColonyBotanyDome
+        9,23: RMCAreaLazarusLV624ColonyBotanyDome
+        9,20: RMCAreaLazarusLV624ColonyBotanyDome
+        9,18: RMCAreaLazarusLV624ColonyBotanyDome
+        9,19: RMCAreaLazarusLV624ColonyBotanyDome
+        9,22: RMCAreaLazarusLV624ColonyBotanyDome
+        9,16: RMCAreaLazarusLV624ColonyBotanyDome
+        9,17: RMCAreaLazarusLV624ColonyBotanyDome
+        9,15: RMCAreaLazarusLV624ColonyBotanyDome
+        9,14: RMCAreaLazarusLV624ColonyBotanyDome
+        9,13: RMCAreaLazarusLV624ColonyBotanyDome
+        9,12: RMCAreaLazarusLV624ColonyBotanyDome
+        1,23: RMCAreaLazarusLV624ColonyBotanyDome
+        1,22: RMCAreaLazarusLV624ColonyBotanyDome
+        1,21: RMCAreaLazarusLV624ColonyBotanyDome
+        1,20: RMCAreaLazarusLV624ColonyBotanyDome
+        1,19: RMCAreaLazarusLV624ColonyBotanyDome
+        1,18: RMCAreaLazarusLV624ColonyBotanyDome
+        1,17: RMCAreaLazarusLV624ColonyBotanyDome
+        1,16: RMCAreaLazarusLV624ColonyBotanyDome
+        1,15: RMCAreaLazarusLV624ColonyBotanyDome
+        1,14: RMCAreaLazarusLV624ColonyBotanyDome
+        1,13: RMCAreaLazarusLV624ColonyBotanyDome
+        1,12: RMCAreaLazarusLV624ColonyBotanyDome
+        2,23: RMCAreaLazarusLV624ColonyBotanyDome
+        2,22: RMCAreaLazarusLV624ColonyBotanyDome
+        2,21: RMCAreaLazarusLV624ColonyBotanyDome
+        2,20: RMCAreaLazarusLV624ColonyBotanyDome
+        2,19: RMCAreaLazarusLV624ColonyBotanyDome
+        2,18: RMCAreaLazarusLV624ColonyBotanyDome
+        2,16: RMCAreaLazarusLV624ColonyBotanyDome
+        2,15: RMCAreaLazarusLV624ColonyBotanyDome
+        2,14: RMCAreaLazarusLV624ColonyBotanyDome
+        2,17: RMCAreaLazarusLV624ColonyBotanyDome
+        2,13: RMCAreaLazarusLV624ColonyBotanyDome
+        2,12: RMCAreaLazarusLV624ColonyBotanyDome
+        3,23: RMCAreaLazarusLV624ColonyBotanyDome
+        3,22: RMCAreaLazarusLV624ColonyBotanyDome
+        3,21: RMCAreaLazarusLV624ColonyBotanyDome
+        3,20: RMCAreaLazarusLV624ColonyBotanyDome
+        3,19: RMCAreaLazarusLV624ColonyBotanyDome
+        3,18: RMCAreaLazarusLV624ColonyBotanyDome
+        3,17: RMCAreaLazarusLV624ColonyBotanyDome
+        3,16: RMCAreaLazarusLV624ColonyBotanyDome
+        3,15: RMCAreaLazarusLV624ColonyBotanyDome
+        3,14: RMCAreaLazarusLV624ColonyBotanyDome
+        3,13: RMCAreaLazarusLV624ColonyBotanyDome
+        3,12: RMCAreaLazarusLV624ColonyBotanyDome
+        0,15: RMCAreaLazarusLV624ColonyBotanyDome
+        0,16: RMCAreaLazarusLV624ColonyBotanyDome
+        0,17: RMCAreaLazarusLV624ColonyBotanyDome
+        0,18: RMCAreaLazarusLV624ColonyBotanyDome
+        0,19: RMCAreaLazarusLV624ColonyBotanyDome
+        0,20: RMCAreaLazarusLV624ColonyBotanyDome
+        4,11: RMCAreaLazarusLV624ColonyBotanyDome
+        9,11: RMCAreaLazarusLV624ColonyBotanyDome
+        8,11: RMCAreaLazarusLV624ColonyBotanyDome
+        7,11: RMCAreaLazarusLV624ColonyBotanyDome
+        6,11: RMCAreaLazarusLV624ColonyBotanyDome
+        5,11: RMCAreaLazarusLV624ColonyBotanyDome
+        10,23: RMCAreaLazarusLV624ColonyBotanyDome
+        10,22: RMCAreaLazarusLV624ColonyBotanyDome
+        10,21: RMCAreaLazarusLV624ColonyBotanyDome
+        10,20: RMCAreaLazarusLV624ColonyBotanyDome
+        10,19: RMCAreaLazarusLV624ColonyBotanyDome
+        10,18: RMCAreaLazarusLV624ColonyBotanyDome
+        10,17: RMCAreaLazarusLV624ColonyBotanyDome
+        10,16: RMCAreaLazarusLV624ColonyBotanyDome
+        10,15: RMCAreaLazarusLV624ColonyBotanyDome
+        10,14: RMCAreaLazarusLV624ColonyBotanyDome
+        10,13: RMCAreaLazarusLV624ColonyBotanyDome
+        10,12: RMCAreaLazarusLV624ColonyBotanyDome
+        11,23: RMCAreaLazarusLV624ColonyBotanyDome
+        11,22: RMCAreaLazarusLV624ColonyBotanyDome
+        11,21: RMCAreaLazarusLV624ColonyBotanyDome
+        11,20: RMCAreaLazarusLV624ColonyBotanyDome
+        11,19: RMCAreaLazarusLV624ColonyBotanyDome
+        11,18: RMCAreaLazarusLV624ColonyBotanyDome
+        11,17: RMCAreaLazarusLV624ColonyBotanyDome
+        11,16: RMCAreaLazarusLV624ColonyBotanyDome
+        11,15: RMCAreaLazarusLV624ColonyBotanyDome
+        11,13: RMCAreaLazarusLV624ColonyBotanyDome
+        11,12: RMCAreaLazarusLV624ColonyBotanyDome
+        11,14: RMCAreaLazarusLV624ColonyBotanyDome
+        12,23: RMCAreaLazarusLV624ColonyBotanyDome
+        12,22: RMCAreaLazarusLV624ColonyBotanyDome
+        12,21: RMCAreaLazarusLV624ColonyBotanyDome
+        12,20: RMCAreaLazarusLV624ColonyBotanyDome
+        12,19: RMCAreaLazarusLV624ColonyBotanyDome
+        12,18: RMCAreaLazarusLV624ColonyBotanyDome
+        12,17: RMCAreaLazarusLV624ColonyBotanyDome
+        12,16: RMCAreaLazarusLV624ColonyBotanyDome
+        12,15: RMCAreaLazarusLV624ColonyBotanyDome
+        12,14: RMCAreaLazarusLV624ColonyBotanyDome
+        12,13: RMCAreaLazarusLV624ColonyBotanyDome
+        12,12: RMCAreaLazarusLV624ColonyBotanyDome
+        13,15: RMCAreaLazarusLV624ColonyBotanyDome
+        13,16: RMCAreaLazarusLV624ColonyBotanyDome
+        13,17: RMCAreaLazarusLV624ColonyBotanyDome
+        13,18: RMCAreaLazarusLV624ColonyBotanyDome
+        13,19: RMCAreaLazarusLV624ColonyBotanyDome
+        13,20: RMCAreaLazarusLV624ColonyBotanyDome
+        13,21: RMCAreaLazarusLV624GroundCentralBarrens
+        13,22: RMCAreaLazarusLV624GroundCentralBarrens
+        13,23: RMCAreaLazarusLV624GroundCentralBarrens
+        13,24: RMCAreaLazarusLV624GroundCentralBarrens
+        13,25: RMCAreaLazarusLV624GroundCentralBarrens
+        10,24: RMCAreaLazarusLV624GroundCentralBarrens
+        10,25: RMCAreaLazarusLV624GroundCentralBarrens
+        11,24: RMCAreaLazarusLV624GroundCentralBarrens
+        11,25: RMCAreaLazarusLV624GroundCentralBarrens
+        12,24: RMCAreaLazarusLV624GroundCentralBarrens
+        12,25: RMCAreaLazarusLV624GroundCentralBarrens
+        9,25: RMCAreaLazarusLV624GroundNorthPathway
+        8,25: RMCAreaLazarusLV624GroundNorthPathway
+        7,25: RMCAreaLazarusLV624GroundNorthPathway
+        6,25: RMCAreaLazarusLV624GroundNorthPathway
+        5,25: RMCAreaLazarusLV624GroundNorthPathway
+        4,25: RMCAreaLazarusLV624GroundNorthPathway
+        3,25: RMCAreaLazarusLV624GroundCentralBarrens
+        3,24: RMCAreaLazarusLV624GroundCentralBarrens
+        2,25: RMCAreaLazarusLV624GroundCentralBarrens
+        2,24: RMCAreaLazarusLV624GroundCentralBarrens
+        1,25: RMCAreaLazarusLV624GroundCentralBarrens
+        1,24: RMCAreaLazarusLV624GroundCentralBarrens
+        0,25: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        0,24: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        0,23: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        0,22: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        0,21: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        2,9: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        1,9: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        3,10: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        2,10: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        1,10: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        0,10: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        3,11: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        2,11: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        1,11: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        0,11: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        0,12: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        0,13: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        0,14: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        12,6: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        12,7: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        12,8: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        12,9: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        12,10: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        12,11: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        13,6: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        13,7: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        13,8: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        13,9: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        13,10: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        13,11: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        13,13: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        13,14: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        13,12: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        11,7: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        11,8: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        10,8: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        10,9: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        10,10: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        10,11: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        11,11: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        11,10: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        11,9: RMCAreaLazarusLV624GroundJungleNorthEastJungle
+        4,10: RMCAreaLazarusLV624GroundNorthPathway
+        4,9: RMCAreaLazarusLV624GroundNorthPathway
+        4,8: RMCAreaLazarusLV624GroundNorthPathway
+        4,7: RMCAreaLazarusLV624GroundNorthPathway
+        4,6: RMCAreaLazarusLV624GroundNorthPathway
+        4,5: RMCAreaLazarusLV624GroundNorthPathway
+        4,4: RMCAreaLazarusLV624GroundNorthPathway
+        4,3: RMCAreaLazarusLV624GroundNorthPathway
+        4,2: RMCAreaLazarusLV624GroundNorthPathway
+        4,1: RMCAreaLazarusLV624GroundNorthPathway
+        4,0: RMCAreaLazarusLV624GroundNorthPathway
+        5,10: RMCAreaLazarusLV624GroundNorthPathway
+        5,9: RMCAreaLazarusLV624GroundNorthPathway
+        5,8: RMCAreaLazarusLV624GroundNorthPathway
+        5,7: RMCAreaLazarusLV624GroundNorthPathway
+        5,6: RMCAreaLazarusLV624GroundNorthPathway
+        5,5: RMCAreaLazarusLV624GroundNorthPathway
+        5,4: RMCAreaLazarusLV624GroundNorthPathway
+        5,3: RMCAreaLazarusLV624GroundNorthPathway
+        5,2: RMCAreaLazarusLV624GroundNorthPathway
+        5,1: RMCAreaLazarusLV624GroundNorthPathway
+        5,0: RMCAreaLazarusLV624GroundNorthPathway
+        6,10: RMCAreaLazarusLV624GroundNorthPathway
+        6,9: RMCAreaLazarusLV624GroundNorthPathway
+        6,8: RMCAreaLazarusLV624GroundNorthPathway
+        6,7: RMCAreaLazarusLV624GroundNorthPathway
+        6,6: RMCAreaLazarusLV624GroundNorthPathway
+        6,5: RMCAreaLazarusLV624GroundNorthPathway
+        6,4: RMCAreaLazarusLV624GroundNorthPathway
+        6,3: RMCAreaLazarusLV624GroundNorthPathway
+        6,2: RMCAreaLazarusLV624GroundNorthPathway
+        6,1: RMCAreaLazarusLV624GroundNorthPathway
+        6,0: RMCAreaLazarusLV624GroundNorthPathway
+        7,10: RMCAreaLazarusLV624GroundNorthPathway
+        7,9: RMCAreaLazarusLV624GroundNorthPathway
+        7,8: RMCAreaLazarusLV624GroundNorthPathway
+        7,7: RMCAreaLazarusLV624GroundNorthPathway
+        7,6: RMCAreaLazarusLV624GroundNorthPathway
+        7,5: RMCAreaLazarusLV624GroundNorthPathway
+        7,4: RMCAreaLazarusLV624GroundNorthPathway
+        7,3: RMCAreaLazarusLV624GroundNorthPathway
+        7,2: RMCAreaLazarusLV624GroundNorthPathway
+        7,1: RMCAreaLazarusLV624GroundNorthPathway
+        7,0: RMCAreaLazarusLV624GroundNorthPathway
+        8,10: RMCAreaLazarusLV624GroundNorthPathway
+        8,9: RMCAreaLazarusLV624GroundNorthPathway
+        8,8: RMCAreaLazarusLV624GroundNorthPathway
+        8,7: RMCAreaLazarusLV624GroundNorthPathway
+        8,6: RMCAreaLazarusLV624GroundNorthPathway
+        8,5: RMCAreaLazarusLV624GroundNorthPathway
+        8,4: RMCAreaLazarusLV624GroundNorthPathway
+        8,3: RMCAreaLazarusLV624GroundNorthPathway
+        8,2: RMCAreaLazarusLV624GroundNorthPathway
+        8,1: RMCAreaLazarusLV624GroundNorthPathway
+        8,0: RMCAreaLazarusLV624GroundNorthPathway
+        9,10: RMCAreaLazarusLV624GroundNorthPathway
+        9,9: RMCAreaLazarusLV624GroundNorthPathway
+        9,8: RMCAreaLazarusLV624GroundNorthPathway
+        9,7: RMCAreaLazarusLV624GroundNorthPathway
+        9,6: RMCAreaLazarusLV624GroundNorthPathway
+        9,5: RMCAreaLazarusLV624GroundNorthPathway
+        9,4: RMCAreaLazarusLV624GroundNorthPathway
+        9,3: RMCAreaLazarusLV624GroundNorthPathway
+        9,2: RMCAreaLazarusLV624GroundNorthPathway
+        9,1: RMCAreaLazarusLV624GroundNorthPathway
+        9,0: RMCAreaLazarusLV624GroundNorthPathway
+        10,0: RMCAreaLazarusLV624GroundNorthPathway
+        10,1: RMCAreaLazarusLV624GroundNorthPathway
+        10,2: RMCAreaLazarusLV624GroundNorthPathway
+        10,3: RMCAreaLazarusLV624GroundNorthPathway
+        10,4: RMCAreaLazarusLV624GroundNorthPathway
+        10,5: RMCAreaLazarusLV624GroundNorthPathway
+        10,6: RMCAreaLazarusLV624GroundNorthPathway
+        10,7: RMCAreaLazarusLV624GroundNorthPathway
+        11,6: RMCAreaLazarusLV624GroundNorthPathway
+        11,5: RMCAreaLazarusLV624GroundNorthPathway
+        11,4: RMCAreaLazarusLV624GroundNorthPathway
+        11,3: RMCAreaLazarusLV624GroundNorthPathway
+        11,2: RMCAreaLazarusLV624GroundNorthPathway
+        11,1: RMCAreaLazarusLV624GroundNorthPathway
+        11,0: RMCAreaLazarusLV624GroundNorthPathway
+        12,0: RMCAreaLazarusLV624GroundNorthPathway
+        12,1: RMCAreaLazarusLV624GroundNorthPathway
+        12,2: RMCAreaLazarusLV624GroundNorthPathway
+        12,3: RMCAreaLazarusLV624GroundNorthPathway
+        12,4: RMCAreaLazarusLV624GroundNorthPathway
+        12,5: RMCAreaLazarusLV624GroundNorthPathway
+        13,0: RMCAreaLazarusLV624GroundNorthPathway
+        13,1: RMCAreaLazarusLV624GroundNorthPathway
+        13,2: RMCAreaLazarusLV624GroundNorthPathway
+        13,3: RMCAreaLazarusLV624GroundNorthPathway
+        13,4: RMCAreaLazarusLV624GroundNorthPathway
+        13,5: RMCAreaLazarusLV624GroundNorthPathway
+        3,9: RMCAreaLazarusLV624GroundNorthPathway
+        0,9: RMCAreaLazarusLV624GroundNorthPathway
+        0,8: RMCAreaLazarusLV624GroundNorthPathway
+        0,7: RMCAreaLazarusLV624GroundNorthPathway
+        0,6: RMCAreaLazarusLV624GroundNorthPathway
+        0,5: RMCAreaLazarusLV624GroundNorthPathway
+        0,4: RMCAreaLazarusLV624GroundNorthPathway
+        0,3: RMCAreaLazarusLV624GroundNorthPathway
+        0,2: RMCAreaLazarusLV624GroundNorthPathway
+        0,1: RMCAreaLazarusLV624GroundNorthPathway
+        0,0: RMCAreaLazarusLV624GroundNorthPathway
+        1,8: RMCAreaLazarusLV624GroundNorthPathway
+        1,7: RMCAreaLazarusLV624GroundNorthPathway
+        1,6: RMCAreaLazarusLV624GroundNorthPathway
+        1,5: RMCAreaLazarusLV624GroundNorthPathway
+        1,4: RMCAreaLazarusLV624GroundNorthPathway
+        1,3: RMCAreaLazarusLV624GroundNorthPathway
+        1,2: RMCAreaLazarusLV624GroundNorthPathway
+        1,1: RMCAreaLazarusLV624GroundNorthPathway
+        1,0: RMCAreaLazarusLV624GroundNorthPathway
+        2,8: RMCAreaLazarusLV624GroundNorthPathway
+        2,7: RMCAreaLazarusLV624GroundNorthPathway
+        2,6: RMCAreaLazarusLV624GroundNorthPathway
+        2,5: RMCAreaLazarusLV624GroundNorthPathway
+        2,4: RMCAreaLazarusLV624GroundNorthPathway
+        2,3: RMCAreaLazarusLV624GroundNorthPathway
+        2,2: RMCAreaLazarusLV624GroundNorthPathway
+        2,0: RMCAreaLazarusLV624GroundNorthPathway
+        3,8: RMCAreaLazarusLV624GroundNorthPathway
+        3,7: RMCAreaLazarusLV624GroundNorthPathway
+        3,6: RMCAreaLazarusLV624GroundNorthPathway
+        2,1: RMCAreaLazarusLV624GroundNorthPathway
+        3,4: RMCAreaLazarusLV624GroundNorthPathway
+        3,3: RMCAreaLazarusLV624GroundNorthPathway
+        3,2: RMCAreaLazarusLV624GroundNorthPathway
+        3,1: RMCAreaLazarusLV624GroundNorthPathway
+        3,0: RMCAreaLazarusLV624GroundNorthPathway
+        3,5: RMCAreaLazarusLV624GroundNorthPathway
+- proto: CMAdvFirstAidKitFilled
+  entities:
+  - uid: 177
+    components:
+    - type: Transform
+      pos: 10.5,19.5
+      parent: 1
+  - uid: 178
+    components:
+    - type: Transform
+      pos: 10.5,13.5
+      parent: 1
+- proto: CMAirlock
+  entities:
+  - uid: 36
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 11.5,14.5
+      parent: 1
+- proto: CMAirlockAssembly
+  entities:
+  - uid: 49
+    components:
+    - type: Transform
+      pos: 5.5,18.5
+      parent: 1
+- proto: CMApc
+  entities:
+  - uid: 150
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 5.5,23.5
+      parent: 1
+    - type: SpriteSetRenderOrder
+      offset: -0.7,-0.4
+- proto: CMBarricadeMetal
+  entities:
+  - uid: 171
+    components:
+    - type: Transform
+      pos: 6.5,10.5
+      parent: 1
+  - uid: 172
+    components:
+    - type: Transform
+      pos: 9.5,9.5
+      parent: 1
+  - uid: 173
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 5.5,12.5
+      parent: 1
+- proto: CMCatwalkPrison
+  entities:
+  - uid: 101
+    components:
+    - type: Transform
+      pos: 6.5,24.5
+      parent: 1
+  - uid: 102
+    components:
+    - type: Transform
+      pos: 7.5,24.5
+      parent: 1
+  - uid: 121
+    components:
+    - type: Transform
+      pos: 8.5,23.5
+      parent: 1
+  - uid: 122
+    components:
+    - type: Transform
+      pos: 5.5,23.5
+      parent: 1
+  - uid: 123
+    components:
+    - type: Transform
+      pos: 5.5,22.5
+      parent: 1
+- proto: CMFlare
+  entities:
+  - uid: 188
+    components:
+    - type: Transform
+      pos: 8.5,8.5
+      parent: 1
+  - uid: 189
+    components:
+    - type: Transform
+      pos: 3.5,17.5
+      parent: 1
+  - uid: 190
+    components:
+    - type: Transform
+      pos: 9.5,20.5
+      parent: 1
+- proto: CMGirder
+  entities:
+  - uid: 31
+    components:
+    - type: Transform
+      pos: 10.5,10.5
+      parent: 1
+  - uid: 40
+    components:
+    - type: Transform
+      pos: 10.5,9.5
+      parent: 1
+  - uid: 43
+    components:
+    - type: Transform
+      pos: 10.5,20.5
+      parent: 1
+  - uid: 44
+    components:
+    - type: Transform
+      pos: 5.5,19.5
+      parent: 1
+  - uid: 45
+    components:
+    - type: Transform
+      pos: 11.5,19.5
+      parent: 1
+  - uid: 46
+    components:
+    - type: Transform
+      pos: 5.5,13.5
+      parent: 1
+  - uid: 51
+    components:
+    - type: Transform
+      pos: 5.5,4.5
+      parent: 1
+  - uid: 52
+    components:
+    - type: Transform
+      pos: 5.5,16.5
+      parent: 1
+  - uid: 54
+    components:
+    - type: Transform
+      pos: 5.5,5.5
+      parent: 1
+  - uid: 67
+    components:
+    - type: Transform
+      pos: 6.5,20.5
+      parent: 1
+  - uid: 68
+    components:
+    - type: Transform
+      pos: 6.5,3.5
+      parent: 1
+  - uid: 73
+    components:
+    - type: Transform
+      pos: 0.5,19.5
+      parent: 1
+  - uid: 75
+    components:
+    - type: Transform
+      pos: 9.5,5.5
+      parent: 1
+  - uid: 76
+    components:
+    - type: Transform
+      pos: 4.5,9.5
+      parent: 1
+  - uid: 98
+    components:
+    - type: Transform
+      pos: 9.5,23.5
+      parent: 1
+  - uid: 99
+    components:
+    - type: Transform
+      pos: 13.5,15.5
+      parent: 1
+  - uid: 100
+    components:
+    - type: Transform
+      pos: 13.5,16.5
+      parent: 1
+- proto: CMRack
+  entities:
+  - uid: 175
+    components:
+    - type: Transform
+      pos: 10.5,13.5
+      parent: 1
+  - uid: 176
+    components:
+    - type: Transform
+      pos: 10.5,19.5
+      parent: 1
+- proto: CMRodMetal1
+  entities:
+  - uid: 14
+    components:
+    - type: Transform
+      pos: 10.5,9.5
+      parent: 1
+  - uid: 15
+    components:
+    - type: Transform
+      pos: 9.5,10.5
+      parent: 1
+  - uid: 110
+    components:
+    - type: Transform
+      pos: 1.5,13.5
+      parent: 1
+  - uid: 111
+    components:
+    - type: Transform
+      pos: 1.5,18.5
+      parent: 1
+  - uid: 112
+    components:
+    - type: Transform
+      pos: 10.5,23.5
+      parent: 1
+  - uid: 113
+    components:
+    - type: Transform
+      pos: 12.5,20.5
+      parent: 1
+  - uid: 114
+    components:
+    - type: Transform
+      pos: 13.5,23.5
+      parent: 1
+  - uid: 115
+    components:
+    - type: Transform
+      pos: 5.5,17.5
+      parent: 1
+  - uid: 116
+    components:
+    - type: Transform
+      pos: 9.5,13.5
+      parent: 1
+  - uid: 117
+    components:
+    - type: Transform
+      pos: 5.5,12.5
+      parent: 1
+  - uid: 118
+    components:
+    - type: Transform
+      pos: 7.5,6.5
+      parent: 1
+  - uid: 119
+    components:
+    - type: Transform
+      pos: 9.5,3.5
+      parent: 1
+  - uid: 120
+    components:
+    - type: Transform
+      pos: 5.5,0.5
+      parent: 1
+- proto: CMShardGlass
+  entities:
+  - uid: 105
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 0.5,17.5
+      parent: 1
+  - uid: 106
+    components:
+    - type: Transform
+      pos: 1.5,14.5
+      parent: 1
+  - uid: 107
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 2.5,12.5
+      parent: 1
+  - uid: 108
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 0.5,11.5
+      parent: 1
+  - uid: 109
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 8.5,24.5
+      parent: 1
+- proto: CMSheetMetal1
+  entities:
+  - uid: 179
+    components:
+    - type: Transform
+      pos: 11.5,21.5
+      parent: 1
+  - uid: 180
+    components:
+    - type: Transform
+      pos: 10.5,22.5
+      parent: 1
+  - uid: 181
+    components:
+    - type: Transform
+      pos: 6.5,21.5
+      parent: 1
+  - uid: 182
+    components:
+    - type: Transform
+      pos: 4.5,17.5
+      parent: 1
+  - uid: 183
+    components:
+    - type: Transform
+      pos: 7.5,13.5
+      parent: 1
+  - uid: 184
+    components:
+    - type: Transform
+      pos: 9.5,16.5
+      parent: 1
+  - uid: 185
+    components:
+    - type: Transform
+      pos: 9.5,7.5
+      parent: 1
+  - uid: 186
+    components:
+    - type: Transform
+      pos: 7.5,5.5
+      parent: 1
+  - uid: 187
+    components:
+    - type: Transform
+      pos: 8.5,3.5
+      parent: 1
+- proto: FernyBush03
+  entities:
+  - uid: 24
+    components:
+    - type: Transform
+      pos: 3.5,11.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+- proto: RMCBarricadeWireRail
+  entities:
+  - uid: 156
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 4.5,22.5
+      parent: 1
+- proto: RMCBarricadeWireRailAltDrawdepth
+  entities:
+  - uid: 157
+    components:
+    - type: Transform
+      pos: 2.5,20.5
+      parent: 1
+  - uid: 158
+    components:
+    - type: Transform
+      pos: 3.5,20.5
+      parent: 1
+  - uid: 163
+    components:
+    - type: Transform
+      pos: 2.5,13.5
+      parent: 1
+  - uid: 164
+    components:
+    - type: Transform
+      pos: 3.5,13.5
+      parent: 1
+- proto: RMCBarricadeWireRailOffset
+  entities:
+  - uid: 153
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 4.5,22.5
+      parent: 1
+  - uid: 154
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 3.5,22.5
+      parent: 1
+  - uid: 155
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 2.5,22.5
+      parent: 1
+  - uid: 159
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 2.5,19.5
+      parent: 1
+  - uid: 160
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 1.5,19.5
+      parent: 1
+- proto: RMCBeltMedicBagPMCFilled
+  entities:
+  - uid: 192
+    components:
+    - type: Transform
+      pos: 7.5,15.5
+      parent: 1
+- proto: RMCBushi1
+  entities:
+  - uid: 82
+    components:
+    - type: Transform
+      pos: 0.5,14.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+- proto: RMCBushj1
+  entities:
+  - uid: 83
+    components:
+    - type: Transform
+      pos: 0.5,13.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+- proto: RMCBushj2
+  entities:
+  - uid: 25
+    components:
+    - type: Transform
+      pos: 13.5,9.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+- proto: RMCBushn1
+  entities:
+  - uid: 30
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 0.5,11.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+- proto: RMCDoubleDoorGlassHybrisa
+  entities:
+  - uid: 103
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 7.5,24.5
+      parent: 1
+  - uid: 104
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 6.5,24.5
+      parent: 1
+- proto: RMCERTShuttleEngineLeft01
+  entities:
+  - uid: 66
+    components:
+    - type: Transform
+      pos: 5.5,2.5
+      parent: 1
+- proto: RMCERTShuttleEngineLeft02
+  entities:
+  - uid: 2
+    components:
+    - type: Transform
+      pos: 5.5,3.5
+      parent: 1
+- proto: RMCERTShuttleEngineRight01
+  entities:
+  - uid: 84
+    components:
+    - type: Transform
+      pos: 11.5,9.5
+      parent: 1
+- proto: RMCERTShuttleEngineRight02
+  entities:
+  - uid: 35
+    components:
+    - type: Transform
+      pos: 11.5,10.5
+      parent: 1
+- proto: RMCERTShuttleEngineRight03
+  entities:
+  - uid: 42
+    components:
+    - type: Transform
+      pos: 11.5,11.5
+      parent: 1
+- proto: RMCERTShuttleWallWeYa01
+  entities:
+  - uid: 69
+    components:
+    - type: Transform
+      pos: 6.5,2.5
+      parent: 1
+- proto: RMCERTShuttleWallWeYa05
+  entities:
+  - uid: 39
+    components:
+    - type: Transform
+      pos: 11.5,13.5
+      parent: 1
+  - uid: 41
+    components:
+    - type: Transform
+      pos: 10.5,11.5
+      parent: 1
+- proto: RMCERTShuttleWallWeYa07
+  entities:
+  - uid: 34
+    components:
+    - type: Transform
+      pos: 10.5,12.5
+      parent: 1
+- proto: RMCERTShuttleWallWeYa09
+  entities:
+  - uid: 33
+    components:
+    - type: Transform
+      pos: 11.5,15.5
+      parent: 1
+- proto: RMCERTShuttleWallWeYa11
+  entities:
+  - uid: 38
+    components:
+    - type: Transform
+      pos: 11.5,16.5
+      parent: 1
+- proto: RMCERTShuttleWallWeYa13
+  entities:
+  - uid: 37
+    components:
+    - type: Transform
+      pos: 11.5,17.5
+      parent: 1
+- proto: RMCERTShuttleWallWeYa14
+  entities:
+  - uid: 53
+    components:
+    - type: Transform
+      pos: 5.5,15.5
+      parent: 1
+- proto: RMCERTShuttleWallWeYa20
+  entities:
+  - uid: 55
+    components:
+    - type: Transform
+      pos: 10.5,21.5
+      parent: 1
+- proto: RMCERTShuttleWallWeYa21
+  entities:
+  - uid: 48
+    components:
+    - type: Transform
+      pos: 7.5,21.5
+      parent: 1
+  - uid: 56
+    components:
+    - type: Transform
+      pos: 9.5,21.5
+      parent: 1
+  - uid: 60
+    components:
+    - type: Transform
+      pos: 8.5,21.5
+      parent: 1
+- proto: RMCERTShuttleWallWeYaEngineRight
+  entities:
+  - uid: 10
+    components:
+    - type: Transform
+      pos: 11.5,12.5
+      parent: 1
+- proto: RMCFenceHybrisa
+  entities:
+  - uid: 12
+    components:
+    - type: Transform
+      pos: 12.5,6.5
+      parent: 1
+  - uid: 13
+    components:
+    - type: Transform
+      pos: 13.5,6.5
+      parent: 1
+  - uid: 17
+    components:
+    - type: Transform
+      pos: 13.5,0.5
+      parent: 1
+  - uid: 18
+    components:
+    - type: Transform
+      pos: 12.5,0.5
+      parent: 1
+  - uid: 19
+    components:
+    - type: Transform
+      pos: 0.5,10.5
+      parent: 1
+  - uid: 20
+    components:
+    - type: Transform
+      pos: 1.5,10.5
+      parent: 1
+- proto: RMCFenceHybrisaBroken
+  entities:
+  - uid: 80
+    components:
+    - type: Transform
+      pos: 3.5,25.5
+      parent: 1
+  - uid: 81
+    components:
+    - type: Transform
+      pos: 10.5,25.5
+      parent: 1
+- proto: RMCFenceHybrisaElectricBroken
+  entities:
+  - uid: 11
+    components:
+    - type: Transform
+      pos: 10.5,8.5
+      parent: 1
+- proto: RMCFireProp
+  entities:
+  - uid: 202
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 11.475548,12.421564
+      parent: 1
+  - uid: 203
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 10.925171,11.779458
+      parent: 1
+  - uid: 204
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 5.5580964,3.239514
+      parent: 1
+  - uid: 205
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 6.6771965,2.395603
+      parent: 1
+  - uid: 206
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 6.4427314,20.653524
+      parent: 1
+  - uid: 207
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 5.874008,20.066456
+      parent: 1
+  - uid: 208
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 10.330619,21.717587
+      parent: 1
+  - uid: 209
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 10.679192,21.442398
+      parent: 1
+  - uid: 210
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 5.3878365,15.470274
+      parent: 1
+  - uid: 211
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 10.20363,24.261211
+      parent: 1
+  - uid: 212
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 13.083937,15.52719
+      parent: 1
+  - uid: 213
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 2.5771356,12.756143
+      parent: 1
+  - uid: 214
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 3.7696185,12.058998
+      parent: 1
+  - uid: 215
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 0.8526211,18.995453
+      parent: 1
+  - uid: 216
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 11.00134,8.818497
+      parent: 1
+  - uid: 217
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 9.61296,5.4171247
+      parent: 1
+  - uid: 218
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 3.999115,9.269764
+      parent: 1
+- proto: RMCFlowerspv1
+  entities:
+  - uid: 32
+    components:
+    - type: Transform
+      pos: 2.5,11.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+- proto: RMCFlowersy3
+  entities:
+  - uid: 16
+    components:
+    - type: Transform
+      pos: 13.5,7.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+- proto: RMCGirderDisplaced
+  entities:
+  - uid: 74
+    components:
+    - type: Transform
+      pos: 3.5,12.5
+      parent: 1
+  - uid: 85
+    components:
+    - type: Transform
+      pos: 5.5,14.5
+      parent: 1
+- proto: RMCGrassd1
+  entities:
+  - uid: 6
+    components:
+    - type: Transform
+      pos: 9.5,3.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+  - uid: 22
+    components:
+    - type: Transform
+      pos: 3.5,8.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+- proto: RMCGrassd2
+  entities:
+  - uid: 5
+    components:
+    - type: Transform
+      pos: 9.5,0.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+- proto: RMCGrassd3
+  entities:
+  - uid: 4
+    components:
+    - type: Transform
+      pos: 4.5,4.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+  - uid: 23
+    components:
+    - type: Transform
+      pos: 1.5,7.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+- proto: RMCGrassTallCornerStrata
+  entities:
+  - uid: 26
+    components:
+    - type: Transform
+      pos: 12.5,11.5
+      parent: 1
+  - uid: 27
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 12.5,10.5
+      parent: 1
+- proto: RMCGrassTallSidesStrata
+  entities:
+  - uid: 29
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 13.5,10.5
+      parent: 1
+- proto: RMCGrassTallStrata
+  entities:
+  - uid: 28
+    components:
+    - type: Transform
+      pos: 13.5,11.5
+      parent: 1
+- proto: RMCGrenadeBlastM12
+  entities:
+  - uid: 191
+    components:
+    - type: Transform
+      pos: 7.5,19.5
+      parent: 1
+- proto: RMCLightFixtureBlueDoubleOffset
+  entities:
+  - uid: 201
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 10.5,16.5
+      parent: 1
+- proto: RMCM276ShotgunShellLoadingRig
+  entities:
+  - uid: 199
+    components:
+    - type: Transform
+      pos: 6.5,18.5
+      parent: 1
+- proto: RMCMagazineRifleSSG45
+  entities:
+  - uid: 194
+    components:
+    - type: Transform
+      pos: 9.5,15.5
+      parent: 1
+  - uid: 195
+    components:
+    - type: Transform
+      pos: 8.5,13.5
+      parent: 1
+  - uid: 196
+    components:
+    - type: Transform
+      pos: 7.5,11.5
+      parent: 1
+- proto: RMCMarkerAreaLabel
+  entities:
+  - uid: 86
+    components:
+    - type: MetaData
+      name: Hydroponics Dome
+    - type: Transform
+      pos: 7.5,18.5
+      parent: 1
+- proto: RMCPlanterBox
+  entities:
+  - uid: 140
+    components:
+    - type: Transform
+      pos: 2.5,22.5
+      parent: 1
+  - uid: 141
+    components:
+    - type: Transform
+      pos: 3.5,22.5
+      parent: 1
+  - uid: 142
+    components:
+    - type: Transform
+      pos: 4.5,22.5
+      parent: 1
+  - uid: 143
+    components:
+    - type: Transform
+      pos: 3.5,20.5
+      parent: 1
+  - uid: 144
+    components:
+    - type: Transform
+      pos: 2.5,20.5
+      parent: 1
+  - uid: 145
+    components:
+    - type: Transform
+      pos: 1.5,19.5
+      parent: 1
+  - uid: 146
+    components:
+    - type: Transform
+      pos: 2.5,19.5
+      parent: 1
+  - uid: 147
+    components:
+    - type: Transform
+      pos: 2.5,13.5
+      parent: 1
+  - uid: 148
+    components:
+    - type: Transform
+      pos: 3.5,13.5
+      parent: 1
+- proto: RMCRackGrey
+  entities:
+  - uid: 149
+    components:
+    - type: Transform
+      pos: 5.5,23.5
+      parent: 1
+- proto: RMCRiverSorokyne
+  entities:
+  - uid: 124
+    components:
+    - type: Transform
+      pos: 4.5,22.5
+      parent: 1
+  - uid: 125
+    components:
+    - type: Transform
+      pos: 4.5,21.5
+      parent: 1
+  - uid: 126
+    components:
+    - type: Transform
+      pos: 3.5,22.5
+      parent: 1
+  - uid: 127
+    components:
+    - type: Transform
+      pos: 3.5,21.5
+      parent: 1
+  - uid: 128
+    components:
+    - type: Transform
+      pos: 2.5,22.5
+      parent: 1
+  - uid: 129
+    components:
+    - type: Transform
+      pos: 2.5,21.5
+      parent: 1
+  - uid: 130
+    components:
+    - type: Transform
+      pos: 2.5,20.5
+      parent: 1
+  - uid: 131
+    components:
+    - type: Transform
+      pos: 3.5,20.5
+      parent: 1
+  - uid: 132
+    components:
+    - type: Transform
+      pos: 1.5,19.5
+      parent: 1
+  - uid: 133
+    components:
+    - type: Transform
+      pos: 1.5,18.5
+      parent: 1
+  - uid: 134
+    components:
+    - type: Transform
+      pos: 2.5,19.5
+      parent: 1
+  - uid: 135
+    components:
+    - type: Transform
+      pos: 2.5,18.5
+      parent: 1
+  - uid: 136
+    components:
+    - type: Transform
+      pos: 1.5,17.5
+      parent: 1
+  - uid: 137
+    components:
+    - type: Transform
+      pos: 2.5,14.5
+      parent: 1
+  - uid: 138
+    components:
+    - type: Transform
+      pos: 2.5,13.5
+      parent: 1
+  - uid: 139
+    components:
+    - type: Transform
+      pos: 3.5,13.5
+      parent: 1
+  - uid: 161
+    components:
+    - type: Transform
+      pos: 4.5,15.5
+      parent: 1
+  - uid: 162
+    components:
+    - type: Transform
+      pos: 3.5,16.5
+      parent: 1
+  - uid: 165
+    components:
+    - type: Transform
+      pos: 4.5,18.5
+      parent: 1
+  - uid: 166
+    components:
+    - type: Transform
+      pos: 4.5,19.5
+      parent: 1
+  - uid: 167
+    components:
+    - type: Transform
+      pos: 5.5,20.5
+      parent: 1
+- proto: RMCSeatDark
+  entities:
+  - uid: 47
+    components:
+    - type: Transform
+      pos: 8.5,14.5
+      parent: 1
+  - uid: 50
+    components:
+    - type: Transform
+      pos: 8.5,17.5
+      parent: 1
+  - uid: 58
+    components:
+    - type: Transform
+      pos: 8.5,16.5
+      parent: 1
+  - uid: 72
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 10.5,16.5
+      parent: 1
+  - uid: 77
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 6.5,15.5
+      parent: 1
+  - uid: 78
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 8.5,19.5
+      parent: 1
+  - uid: 79
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 10.5,15.5
+      parent: 1
+- proto: RMCSpawnerCorpseWeYaPMC
+  entities:
+  - uid: 168
+    components:
+    - type: Transform
+      pos: 8.5,17.5
+      parent: 1
+  - uid: 169
+    components:
+    - type: Transform
+      pos: 9.5,14.5
+      parent: 1
+  - uid: 170
+    components:
+    - type: Transform
+      pos: 6.5,11.5
+      parent: 1
+- proto: RMCSpawnerRandomSentryMidChance
+  entities:
+  - uid: 200
+    components:
+    - type: Transform
+      pos: 8.5,11.5
+      parent: 1
+- proto: RMCTallFloodlight
+  entities:
+  - uid: 8
+    components:
+    - type: Transform
+      pos: 12.5,8.5
+      parent: 1
+  - uid: 21
+    components:
+    - type: Transform
+      pos: 2.5,9.5
+      parent: 1
+- proto: RMCToolMiniHoe
+  entities:
+  - uid: 152
+    components:
+    - type: Transform
+      pos: 5.5,23.5
+      parent: 1
+- proto: RMCToolSpade
+  entities:
+  - uid: 151
+    components:
+    - type: Transform
+      pos: 5.5,23.5
+      parent: 1
+- proto: RMCWallJungleStrata
+  entities:
+  - uid: 3
+    components:
+    - type: Transform
+      pos: 7.5,2.5
+      parent: 1
+  - uid: 9
+    components:
+    - type: Transform
+      pos: 12.5,9.5
+      parent: 1
+- proto: RMCWallLVColony
+  entities:
+  - uid: 7
+    components:
+    - type: Transform
+      pos: 1.5,12.5
+      parent: 1
+  - uid: 59
+    components:
+    - type: Transform
+      pos: 0.5,20.5
+      parent: 1
+  - uid: 62
+    components:
+    - type: Transform
+      pos: 1.5,15.5
+      parent: 1
+  - uid: 63
+    components:
+    - type: Transform
+      pos: 0.5,15.5
+      parent: 1
+  - uid: 64
+    components:
+    - type: Transform
+      pos: 0.5,16.5
+      parent: 1
+  - uid: 87
+    components:
+    - type: Transform
+      pos: 1.5,20.5
+      parent: 1
+  - uid: 92
+    components:
+    - type: Transform
+      pos: 1.5,23.5
+      parent: 1
+  - uid: 93
+    components:
+    - type: Transform
+      pos: 4.5,23.5
+      parent: 1
+  - uid: 94
+    components:
+    - type: Transform
+      pos: 4.5,24.5
+      parent: 1
+  - uid: 97
+    components:
+    - type: Transform
+      pos: 9.5,24.5
+      parent: 1
+- proto: RMCWeaponPistolM82F
+  entities:
+  - uid: 174
+    components:
+    - type: Transform
+      pos: 8.5,15.5
+      parent: 1
+- proto: RMCWeaponRifleSSG45NoLock
+  entities:
+  - uid: 193
+    components:
+    - type: Transform
+      pos: 9.5,17.5
+      parent: 1
+- proto: RMCWeaponShotgunHG3712
+  entities:
+  - uid: 197
+    components:
+    - type: Transform
+      pos: 6.5,19.5
+      parent: 1
+  - uid: 198
+    components:
+    - type: Transform
+      pos: 9.5,12.5
+      parent: 1
+- proto: RMCWhiteSensorComputer2
+  entities:
+  - uid: 61
+    components:
+    - type: Transform
+      pos: 7.5,20.5
+      parent: 1
+- proto: RMCWindowFrameLVColony
+  entities:
+  - uid: 57
+    components:
+    - type: Transform
+      pos: 0.5,17.5
+      parent: 1
+  - uid: 65
+    components:
+    - type: Transform
+      pos: 1.5,13.5
+      parent: 1
+  - uid: 70
+    components:
+    - type: Transform
+      pos: 1.5,14.5
+      parent: 1
+  - uid: 71
+    components:
+    - type: Transform
+      pos: 2.5,12.5
+      parent: 1
+  - uid: 95
+    components:
+    - type: Transform
+      pos: 8.5,24.5
+      parent: 1
+- proto: RMCWindowLVColony
+  entities:
+  - uid: 88
+    components:
+    - type: Transform
+      pos: 1.5,21.5
+      parent: 1
+  - uid: 89
+    components:
+    - type: Transform
+      pos: 1.5,22.5
+      parent: 1
+  - uid: 90
+    components:
+    - type: Transform
+      pos: 2.5,23.5
+      parent: 1
+  - uid: 91
+    components:
+    - type: Transform
+      pos: 3.5,23.5
+      parent: 1
+  - uid: 96
+    components:
+    - type: Transform
+      pos: 5.5,24.5
+      parent: 1
+...
