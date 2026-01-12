@@ -5,11 +5,57 @@
   - type: RMCPlanetMapPrototype
     map: /Maps/_RMC14/lv624.yml
     camouflage: Jungle
-    announcement: "An automated distress signal has been received from the archaeological and research site of Lazarus Landing, on the border jungle world of LV-624. The UNS Almayer has been dispatched to investigate the source of this distress signal on the behalf of Weston-Yamada."
+    announcement: "An automated distress signal has been received from the archaeological site of Lazarus Landing, on the border world of LV-624. A response team from the UNS Almayer will be dispatched shortly to investigate."
     nightmareScenarios:
     - scenarioName: fallen_ship
       scenarioProbability: 0.1
     - scenarioName: asset_protection
+      scenarioProbability: 0.1
+    survivorJobInserts:
+      CMSurvivor:
+      - CMSurvivor: -1
+      - CMSurvivorPriest: 1
+      CMSurvivorCorporate:
+      - CMSurvivorLV624CorporateLiaison: 2
+      CMSurvivorDoctor:
+      - CMSurvivorLV624MedicalTechnician: 3
+      CMSurvivorEngineer:
+      - CMSurvivorLV624Engineer: 2
+      - CMSurvivorLV624CargoTechnician: 2
+      CMSurvivorSecurity:
+      - CMSurvivorGoon: 2
+      - CMSurvivorCMBDeputy: 2
+      - CMSurvivorLV624SecurityGuard: 2
+      CMSurvivorScientist:
+      - CMSurvivorLV624Archeologist: 2
+    survivorJobScenarios:
+      asset_protection:
+        CMSurvivor:
+        - CMSurvivorLV624CorporateDomeGoon: -1
+        CMSurvivorCorporate:
+        - CMSurvivorLV624CorporateDomeCL: 1
+        CMSurvivorDoctor:
+        - CMSurvivorLV624CorporateDomeGoonMedic: 1
+        CMSurvivorEngineer:
+        - CMSurvivorLV624CorporateDomeGoonEngineer: 1
+        CMSurvivorSecurity:
+        - CMSurvivorLV624CorporateDomeGoonLead: 1
+        CMSurvivorScientist:
+        - CMSurvivor: 0
+
+# Remove inRotation: false and the above old LV prototype once rework is fully merged
+
+- type: entity
+  id: RMCPlanetLazarusLV624
+  name: LV-624 Lazarus Landing
+  components:
+  - type: RMCPlanetMapPrototype
+    map: /Maps/_RMC14/lazarus_landing_lv624.yml
+    camouflage: Jungle
+    announcement: "An automated distress signal has been received from the archaeological and research site of Lazarus Landing, on the border jungle world of LV-624. The UNS Almayer has been dispatched to investigate the source of this distress signal on the behalf of Weston-Yamada."
+    inRotation: false
+    nightmareScenarios:
+    - scenarioName: lv_asset_protection
       scenarioProbability: 0.1
     survivorJobs:
     - RMCSurvivorCommandingOfficer: 1
