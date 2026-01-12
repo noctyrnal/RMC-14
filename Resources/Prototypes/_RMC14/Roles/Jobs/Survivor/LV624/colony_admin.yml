@@ -2,7 +2,7 @@
   parent: CMSurvivor
   id: CMSurvivorLv624ColonyAdmin
   name: rmc-job-name-survivor-lv624-admin
-  description: cm-job-description-commanding-officer
+  description: cm-job-description-survivor
   playTimeTracker: RMCJobSurvivorCO
   ranks:
     RMCRankCivilianColonyAdmin: []
@@ -17,20 +17,7 @@
   - !type:AddComponentSpecial
     components:
     - type: Skills
-      skills:
-        RMCSkillPolice: 2
-        RMCSkillCqc: 2
-        RMCSkillConstruction: 2
-        RMCSkillLeadership: 2
-        RMCSkillOverwatch: 1
-        RMCSkillMedical: 2
-        RMCSkillEngineer: 1
-        RMCSkillFireman: 4
-        RMCSkillFirearms: 2
-        RMCSkillMeleeWeapons: 1
-        RMCSkillVehicles: 1
-        RMCSkillEndurance: 2
-        RMCSkillJtac: 2
+      preset: SurvivorColAdmin
     - type: EquipSurvivorPreset
       preset: RMCGearSurvivorPresetLV624ColonyAdmin
     - type: MarineOrders

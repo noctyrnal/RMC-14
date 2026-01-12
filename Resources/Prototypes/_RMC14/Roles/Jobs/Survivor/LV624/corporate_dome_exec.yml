@@ -1,0 +1,50 @@
+- type: job
+  parent: CMSurvivorLv624ColonyAdmin
+  id: CMSurvivorLV624CorporateDomeExec
+  name: rmc-job-name-survivor-lv624-exec
+  ranks:
+    RMCRankWeYaExecutiveSupervisor: []
+  startingGear: RMCGearSurvivorPresetLV624CorporateDomeCL
+  icon: CMJobIconExecSuper
+  spawnMenuRoleName: Corporate Executive (LV624 Special Survivor)
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: Skills
+      preset: SurvivorColAdmin
+    - type: EquipSurvivorPreset
+      preset: RMCGearSurvivorPresetLV624ColonyAdmin
+    - type: MarineOrders
+    - type: RMCPointing
+    - type: CommandAccent
+    - type: InnateCommandSpeech
+    - type: IntelRescueSurvivorObjective
+    - type: RMCAllowSuitStorage
+    - type: NpcFactionMember
+      factions:
+      - WeYa
+      - Civilian
+    - type: JobPrefix
+      prefix: cm-job-prefix-survivor-lv624-admin
+    - type: TacticalMapIcon
+      icon:
+        sprite: /Textures/_RMC14/Interface/map_blips.rsi
+        state: cl
+      background:
+        sprite: /Textures/_RMC14/Interface/map_blips.rsi
+        state: background_pmc
+  greeting: rmc-job-greeting-corporate-dome-exec
+
+- type: entity
+  parent: CMSpawnPointJobBase
+  id: RMCSpawnPointSurvivorLV624CorporateDomeExec
+  name: special survivor lv624 coporate executive spawn point
+  components:
+  - type: SpawnPoint
+    job_id: CMSurvivorLV624CorporateDomeExec
+  - type: Sprite # TODO: Replace with landmark sprite
+    layers:
+    - sprite: Markers/jobs.rsi
+      state: green
+    - sprite: _RMC14/Markers/landmarks.rsi
+      state: surv_wy

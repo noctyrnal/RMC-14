@@ -97,19 +97,30 @@ rmc-job-name-forecon-commander = Commander
 rmc-job-name-survivor-lv624-archeologist = Archeologist
 rmc-job-name-survivor-lv624-cargo-technician = Cargo Technician
 rmc-job-name-survivor-lv624-corporate-liaison = LV-624 Corporate Liaison
+rmc-job-name-survivor-lv624-exec = LV-624 Executive Supervisor
 rmc-job-name-survivor-lv624-security-guard = We-Ya Security Guard
 rmc-job-name-survivor-lv624-medical-technician = Emergency Medical Technician
 rmc-job-name-survivor-lv624-engineer = Engineer
 rmc-job-name-survivor-lv624-admin = Colony Administration
 cm-job-prefix-survivor-lv624-admin = COL ADMN
 
-rmc-job-greeting-corporate-dome-cl = You are the last alive Executive of Lazarus Landing!
+rmc-job-greeting-corporate-dome-cl = You are one of the last alive Executives of Lazarus Landing!
 
   You are aware of the xenonid threat.
 
   Your primary objective is to survive the outbreak.
 
   You are a Corporate Liaison stationed on LV-624 from Weston-Yamada. You were tipped off about some very peculiar looking eggs recovered from the alien temple North-East of the colony. Being the smart Executive the Company hired you to be, you decided to prepare your office for the worst when the first 'parasite' was born in the vats of the Research Dome. Turned out, you were right, everyone who called you crazy and called these the new 'synthetics' is now dead, you along with your Corporate Security detail are the only survivors due to your paranoia. The xenonid onslaught was relentless, a fuel tank was shot by one of the Officers, leading to the destruction of a part of the dome, along with a lot of the defences being melted. You must survive and find a way to contact Weston-Yamada.
+
+  You are [bold][color=#51A16C][font size=16]NON-HOSTILE to the UNMC![/font][/color][/bold]
+
+rmc-job-greeting-corporate-dome-exec = You are one of the last alive Executives of Lazarus Landing!
+
+  You are aware of the xenonid threat.
+
+  Your primary objective is to survive the outbreak.
+
+  You are a Executive Supervisor who landed recently at LV-624 on the behalf of Weston-Yamada to perform a routine inspection. A frantic looking liaison grabbed you after your ship left and yelped something incoherant about eggs and an outbreak, their goons dragging you into the nearby corporate dome. Shortly after, you realised the liaison was right, these crazed things wiping out most of the colony - All was calm in the dome, until an accidental fuel tank exposure punctured you're defences. Your sole focus is to contact Weston-Yamada, and get the fuck out of here.
 
   You are [bold][color=#51A16C][font size=16]NON-HOSTILE to the UNMC![/font][/color][/bold]
 

@@ -22,7 +22,6 @@
       - Civilian
     - type: IntelRescueSurvivorObjective
     - type: RMCAllowSuitStorage
-    - type: MarineOrders
   greeting: rmc-job-greeting-corporate-dome-cl
 
 - type: entity
