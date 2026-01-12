@@ -4,7 +4,7 @@ meta:
   engineVersion: 264.0.2
   forkId: ""
   forkVersion: ""
-  time: 01/12/2026 18:49:30
+  time: 01/12/2026 19:18:08
   entityCount: 17
 maps: []
 grids:
@@ -69,23 +69,40 @@ entities:
     - type: GasTileOverlay
     - type: RadiationGridResistance
     - type: ImplicitRoof
+    - type: AreaGrid
+      labels: {}
+      areaEntities: {}
+      colors: {}
+      areas:
+        0,0: RMCAreaLazarusLV624ColonyCargoDome3
+        0,1: RMCAreaLazarusLV624ColonyCargoDome3
+        0,2: RMCAreaLazarusLV624ColonyCargoDome3
+        1,0: RMCAreaLazarusLV624ColonyCargoDome3
+        1,1: RMCAreaLazarusLV624ColonyCargoDome3
+        1,2: RMCAreaLazarusLV624ColonyCargoDome3
+        2,0: RMCAreaLazarusLV624ColonyCargoDome3
+        2,1: RMCAreaLazarusLV624ColonyCargoDome3
+        2,2: RMCAreaLazarusLV624ColonyCargoDome3
+        3,0: RMCAreaLazarusLV624ColonyCargoDome3
+        3,1: RMCAreaLazarusLV624ColonyCargoDome3
+        3,2: RMCAreaLazarusLV624ColonyCargoDome3
 - proto: CMHeadBandRebel
   entities:
-  - uid: 14
+  - uid: 2
     components:
     - type: Transform
       pos: 3.3647184,2.0084934
       parent: 1
 - proto: CMMagazineRifleM54CE2
   entities:
-  - uid: 10
+  - uid: 3
     components:
     - type: Transform
       pos: 1.33219,2.7272434
       parent: 1
 - proto: CMVentPump
   entities:
-  - uid: 3
+  - uid: 4
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
@@ -93,85 +110,85 @@ entities:
       parent: 1
 - proto: RMCBoxBulletsRifle
   entities:
-  - uid: 11
+  - uid: 5
     components:
     - type: Transform
       pos: 1.5574355,2.58141
       parent: 1
 - proto: RMCCLFArmband
   entities:
-  - uid: 15
+  - uid: 6
     components:
     - type: Transform
       pos: 3.541802,1.6647434
       parent: 1
 - proto: RMCGrenadeMolotov
   entities:
-  - uid: 12
+  - uid: 7
     components:
     - type: Transform
       pos: 3.3438852,2.58141
       parent: 1
-  - uid: 13
+  - uid: 8
     components:
     - type: Transform
       pos: 3.635552,2.4980767
       parent: 1
 - proto: RMCPatchCLF
   entities:
-  - uid: 16
+  - uid: 9
     components:
     - type: Transform
       pos: 3.3959684,1.5918267
       parent: 1
 - proto: RMCRackGrey
   entities:
-  - uid: 7
+  - uid: 10
     components:
     - type: Transform
       pos: 0.5,2.5
       parent: 1
 - proto: RMCSecureCaseDouble
   entities:
-  - uid: 8
+  - uid: 11
     components:
     - type: Transform
       pos: 2.5,2.5
       parent: 1
 - proto: RMCSecureCaseSmall
   entities:
-  - uid: 4
+  - uid: 12
     components:
     - type: Transform
       pos: 2.549373,1.89391
       parent: 1
 - proto: RMCSpawnerCorpseLVCargoTech
   entities:
-  - uid: 17
+  - uid: 13
     components:
     - type: Transform
       pos: 0.5,0.5
       parent: 1
 - proto: RMCTableAlmayerGrey
   entities:
-  - uid: 2
+  - uid: 14
     components:
     - type: Transform
       pos: 1.5,2.5
       parent: 1
-  - uid: 5
+  - uid: 15
     components:
     - type: Transform
       pos: 3.5,1.5
       parent: 1
-  - uid: 6
+  - uid: 16
     components:
     - type: Transform
       pos: 3.5,2.5
       parent: 1
 - proto: RMCWeaponRifleM54CE2
   entities:
-  - uid: 9
+  - uid: 17
     components:
     - type: Transform
       pos: 0.5,2.5

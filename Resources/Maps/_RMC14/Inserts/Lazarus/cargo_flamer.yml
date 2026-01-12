@@ -4,7 +4,7 @@ meta:
   engineVersion: 264.0.2
   forkId: ""
   forkVersion: ""
-  time: 01/12/2026 18:51:51
+  time: 01/12/2026 19:16:10
   entityCount: 19
 maps: []
 grids:
@@ -64,47 +64,61 @@ entities:
     - type: GasTileOverlay
     - type: RadiationGridResistance
     - type: ImplicitRoof
-- proto: CMMagazineSMGMP5
+    - type: AreaGrid
+      labels: {}
+      areaEntities: {}
+      colors: {}
+      areas:
+        0,2: RMCAreaLazarusLV624ColonyCargoDome3
+        0,1: RMCAreaLazarusLV624ColonyCargoDome3
+        0,0: RMCAreaLazarusLV624ColonyCargoDome3
+        1,2: RMCAreaLazarusLV624ColonyCargoDome3
+        1,1: RMCAreaLazarusLV624ColonyCargoDome3
+        1,0: RMCAreaLazarusLV624ColonyCargoDome3
+        2,2: RMCAreaLazarusLV624ColonyCargoDome3
+        2,1: RMCAreaLazarusLV624ColonyCargoDome3
+        2,0: RMCAreaLazarusLV624ColonyCargoDome3
+- proto: RMCMagazineSMGP90
   entities:
-  - uid: 13
+  - uid: 2
     components:
     - type: Transform
       pos: 0.69274044,1.5091181
       parent: 1
-  - uid: 14
+  - uid: 3
     components:
     - type: Transform
       pos: 1.5,1.5
       parent: 1
-  - uid: 15
+  - uid: 4
     components:
     - type: Transform
       pos: 2.5,0.5
       parent: 1
 - proto: CMShellShotgunSlugs
   entities:
-  - uid: 19
+  - uid: 5
     components:
     - type: Transform
       pos: 0.3385737,0.49522913
       parent: 1
 - proto: RMCBoxShotgunBuckshot
   entities:
-  - uid: 18
+  - uid: 6
     components:
     - type: Transform
       pos: 0.69968486,0.69661796
       parent: 1
 - proto: RMCPouchFuelTankFilledExtinguisher
   entities:
-  - uid: 6
+  - uid: 7
     components:
     - type: Transform
       pos: 1.5,2.5
       parent: 1
 - proto: RMCRackGrey
   entities:
-  - uid: 4
+  - uid: 8
     components:
     - type: Transform
       pos: 1.5,2.5
@@ -116,50 +130,50 @@ entities:
       parent: 1
 - proto: RMCTableAlmayerGrey
   entities:
-  - uid: 2
+  - uid: 10
     components:
     - type: Transform
       pos: 0.5,1.5
       parent: 1
-  - uid: 3
+  - uid: 11
     components:
     - type: Transform
       pos: 0.5,0.5
       parent: 1
 - proto: RMCTankFlamerColony
   entities:
-  - uid: 7
+  - uid: 12
     components:
     - type: Transform
       pos: 1.5,2.5
       parent: 1
-  - uid: 8
+  - uid: 13
     components:
     - type: Transform
       pos: 1.5,2.5
       parent: 1
 - proto: RMCTankReagentFuel
   entities:
-  - uid: 5
+  - uid: 14
     components:
     - type: Transform
       pos: 2.5,2.5
       parent: 1
 - proto: RMCWeaponFlamerColony
   entities:
-  - uid: 10
+  - uid: 15
     components:
     - type: Transform
       pos: 0.4913516,2.509118
       parent: 1
-  - uid: 11
+  - uid: 16
     components:
     - type: Transform
       pos: 0.50524044,2.259118
       parent: 1
 - proto: RMCWeaponShotgunM42A1Filled
   entities:
-  - uid: 16
+  - uid: 17
     components:
     - type: Transform
       pos: 0.49829602,1.2243958
@@ -172,7 +186,7 @@ entities:
           endTime: 363.066443
           startTime: 374.6329587
           length: 0.4
-  - uid: 17
+  - uid: 18
     components:
     - type: Transform
       pos: 0.560796,0.9605069
@@ -185,9 +199,9 @@ entities:
           endTime: 364.0306749
           startTime: 377.3996226
           length: 0.4
-- proto: WeaponSMGMP5
+- proto: RMCWeaponSMGP90
   entities:
-  - uid: 12
+  - uid: 19
     components:
     - type: Transform
       pos: 0.38024044,1.7313403

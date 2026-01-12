@@ -4,7 +4,7 @@ meta:
   engineVersion: 264.0.2
   forkId: ""
   forkVersion: ""
-  time: 01/12/2026 18:56:49
+  time: 01/12/2026 19:18:32
   entityCount: 35
 maps: []
 grids:
@@ -59,95 +59,112 @@ entities:
     - type: GasTileOverlay
     - type: RadiationGridResistance
     - type: ImplicitRoof
+    - type: AreaGrid
+      labels: {}
+      areaEntities: {}
+      colors: {}
+      areas:
+        3,2: RMCAreaLazarusLV624ColonyCargoDome3
+        3,1: RMCAreaLazarusLV624ColonyCargoDome3
+        3,0: RMCAreaLazarusLV624ColonyCargoDome3
+        2,2: RMCAreaLazarusLV624ColonyCargoDome3
+        2,1: RMCAreaLazarusLV624ColonyCargoDome3
+        2,0: RMCAreaLazarusLV624ColonyCargoDome3
+        1,2: RMCAreaLazarusLV624ColonyCargoDome3
+        1,1: RMCAreaLazarusLV624ColonyCargoDome3
+        1,0: RMCAreaLazarusLV624ColonyCargoDome3
+        0,2: RMCAreaLazarusLV624ColonyCargoDome3
+        0,1: RMCAreaLazarusLV624ColonyCargoDome3
+        0,0: RMCAreaLazarusLV624ColonyCargoDome3
 - proto: CMPacketGrenadeFragFilled
   entities:
-  - uid: 15
+  - uid: 2
     components:
     - type: Transform
       pos: 3.6158164,2.6922312
       parent: 1
 - proto: CMSheetMetal
   entities:
-  - uid: 13
+  - uid: 4
     components:
     - type: Transform
-      parent: 12
+      parent: 3
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-  - uid: 14
+  - uid: 5
     components:
     - type: Transform
-      parent: 12
+      parent: 3
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
 - proto: CMWebbing
   entities:
-  - uid: 20
+  - uid: 6
     components:
     - type: Transform
       pos: 0.5,2.5
       parent: 1
-  - uid: 21
+  - uid: 7
     components:
     - type: Transform
       pos: 0.5,2.5
       parent: 1
-  - uid: 22
+  - uid: 8
     components:
     - type: Transform
       pos: 0.5,2.5
       parent: 1
 - proto: CMWebbingBrown
   entities:
-  - uid: 23
+  - uid: 9
     components:
     - type: Transform
       pos: 1.5,2.5
       parent: 1
-  - uid: 24
+  - uid: 10
     components:
     - type: Transform
       pos: 1.5,2.5
       parent: 1
 - proto: RMCCLFArmband
   entities:
-  - uid: 26
+  - uid: 11
     components:
     - type: Transform
       pos: 2.5634007,0.6922313
       parent: 1
-  - uid: 27
+  - uid: 12
     components:
     - type: Transform
       pos: 2.3272896,0.5950091
       parent: 1
-  - uid: 28
+  - uid: 13
     components:
     - type: Transform
       pos: 2.5009007,0.49778676
       parent: 1
 - proto: RMCCoatMilitiaVest
   entities:
+  - uid: 14
+    components:
+    - type: Transform
+      pos: 1.5,2.5
+      parent: 1
+  - uid: 15
+    components:
+    - type: Transform
+      pos: 1.5,2.5
+      parent: 1
   - uid: 16
-    components:
-    - type: Transform
-      pos: 1.5,2.5
-      parent: 1
-  - uid: 17
-    components:
-    - type: Transform
-      pos: 1.5,2.5
-      parent: 1
-  - uid: 18
     components:
     - type: Transform
       pos: 1.5,2.5
       parent: 1
 - proto: RMCCrateAmmoAlt
   entities:
-  - uid: 8
+  - uid: 17
     components:
     - type: Transform
       pos: 1.5,0.5
@@ -158,16 +175,16 @@ entities:
           showEnts: False
           occludes: True
           ents:
-          - 9
-          - 10
-          - 11
+          - 18
+          - 19
+          - 20
         paper_label: !type:ContainerSlot
           showEnts: False
           occludes: True
           ent: null
 - proto: RMCCrateWoodenBuildable
   entities:
-  - uid: 12
+  - uid: 3
     components:
     - type: Transform
       pos: 2.5,2.5
@@ -178,73 +195,73 @@ entities:
           showEnts: False
           occludes: True
           ents:
-          - 13
-          - 14
+          - 4
+          - 5
         paper_label: !type:ContainerSlot
           showEnts: False
           occludes: True
           ent: null
 - proto: RMCGlassesAviators
   entities:
-  - uid: 35
+  - uid: 21
     components:
     - type: Transform
       pos: 0.46793365,0.7825091
       parent: 1
 - proto: RMCHeadMilitiaBucket
   entities:
-  - uid: 19
+  - uid: 22
     components:
     - type: Transform
       pos: 1.5,2.5
       parent: 1
 - proto: RMCPacketGrenadeSmokeFilled
   entities:
-  - uid: 25
+  - uid: 23
     components:
     - type: Transform
       pos: 3.4560943,2.4491758
       parent: 1
 - proto: RMCPatchCLF
   entities:
-  - uid: 29
+  - uid: 24
     components:
     - type: Transform
       pos: 2.507845,0.5047313
       parent: 1
-  - uid: 30
+  - uid: 25
     components:
     - type: Transform
       pos: 2.618956,0.58112013
       parent: 1
-  - uid: 31
+  - uid: 26
     components:
     - type: Transform
       pos: 2.382845,0.5325091
       parent: 1
 - proto: RMCRackGrey
   entities:
-  - uid: 2
+  - uid: 27
     components:
     - type: Transform
       pos: 1.5,2.5
       parent: 1
-  - uid: 3
+  - uid: 28
     components:
     - type: Transform
       pos: 0.5,2.5
       parent: 1
-  - uid: 5
+  - uid: 29
     components:
     - type: Transform
       pos: 3.5,2.5
       parent: 1
-  - uid: 6
+  - uid: 30
     components:
     - type: Transform
       pos: 2.5,0.5
       parent: 1
-  - uid: 7
+  - uid: 31
     components:
     - type: Transform
       pos: 0.5,0.5
@@ -268,31 +285,31 @@ entities:
       parent: 1
 - proto: RMCWallLVColonyEngi
   entities:
-  - uid: 4
+  - uid: 35
     components:
     - type: Transform
       pos: 3.5,0.5
       parent: 1
 - proto: RMCWeaponRifleMAR30
   entities:
-  - uid: 9
+  - uid: 18
     components:
     - type: Transform
-      parent: 8
+      parent: 17
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-  - uid: 10
+  - uid: 19
     components:
     - type: Transform
-      parent: 8
+      parent: 17
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-  - uid: 11
+  - uid: 20
     components:
     - type: Transform
-      parent: 8
+      parent: 17
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
