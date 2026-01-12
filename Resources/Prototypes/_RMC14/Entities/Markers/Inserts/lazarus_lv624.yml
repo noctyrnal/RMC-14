@@ -1,0 +1,15 @@
+﻿# LV624
+
+- type: entity
+  parent: RMCMapInsertBase
+  id: RMCMapInsertLazarusLV624CorporateDome
+  name: Corporate Dome
+  suffix: Insert LV-624
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/Lazarus/corporate_dome.yml"
+      probability: 1
+      nightmareScenario: laz_asset_protection
+    clearEntities: true
+    clearDecals: true

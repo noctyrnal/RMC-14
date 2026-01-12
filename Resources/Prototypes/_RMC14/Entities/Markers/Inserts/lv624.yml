@@ -29,7 +29,7 @@
       nightmareScenario: asset_protection
     clearEntities: true
     clearDecals: true
-    
+
 - type: entity
   parent: RMCMapInsertBase
   id: RMCMapInsertLV624Gym
@@ -57,7 +57,7 @@
       probability: 0.3
     clearEntities: true
     clearDecals: true
-    
+
 - type: entity
   parent: RMCMapInsertBase
   id: RMCMapInsertLV624SandtempleSE
@@ -70,7 +70,7 @@
       probability: 0.25
     clearEntities: true
     clearDecals: true
-    
+
 - type: entity
   parent: RMCMapInsertBase
   id: RMCMapInsertLV624SandtempleJungle
@@ -84,7 +84,7 @@
     clearEntities: true
     clearDecals: true
     replaceAreas: true
-    
+
 - type: entity
   parent: RMCMapInsertBase
   id: RMCMapInsertLV624CargoSpecial1
@@ -97,7 +97,7 @@
       probability: 0.1
     clearEntities: true
     clearDecals: true
-    
+
 - type: entity
   parent: RMCMapInsertBase
   id: RMCMapInsertLV624CargoSpecial2
@@ -110,7 +110,7 @@
       probability: 0.1
     clearEntities: true
     clearDecals: true
-    
+
 - type: entity
   parent: RMCMapInsertBase
   id: RMCMapInsertLV624CargoSpecial3
@@ -124,7 +124,7 @@
       offset: -2,-3
     clearEntities: true
     clearDecals: true
-    
+
 - type: entity
   parent: RMCMapInsertBase
   id: RMCMapInsertLV624Hydro
@@ -137,7 +137,7 @@
       probability: 0.3
     clearEntities: true
     clearDecals: true
-    
+
 - type: entity
   parent: RMCMapInsertBase
   id: RMCMapInsertLV624Bridge
@@ -152,7 +152,7 @@
       probability: 0.1
     clearEntities: true
     clearDecals: true
-    
+
 - type: entity
   parent: RMCMapInsertBase
   id: RMCMapInsertLV624CentralCaves
@@ -167,7 +167,7 @@
       probability: 0.1
     clearEntities: true
     clearDecals: true
-        
+
 - type: entity
   parent: RMCMapInsertBase
   id: RMCMapInsertLV624Medbay
