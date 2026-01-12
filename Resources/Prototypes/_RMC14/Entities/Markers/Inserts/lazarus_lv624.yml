@@ -63,10 +63,13 @@
     variations:
     - spawn: "/Maps/_RMC14/Inserts/Lazarus/armory_empty.yml"
       probability: 0.1
+      offset: 1,1
     - spawn: "/Maps/_RMC14/Inserts/Lazarus/armory_weya.yml"
       probability: 0.1
+      offset: 1,1
     - spawn: "/Maps/_RMC14/Inserts/Lazarus/armory_cheese.yml"
       probability: 0.1
+      offset: 1,1
     clearEntities: true
     clearDecals: true
 
