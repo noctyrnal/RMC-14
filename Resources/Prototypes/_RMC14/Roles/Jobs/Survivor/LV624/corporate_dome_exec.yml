@@ -11,7 +11,7 @@
   - !type:AddComponentSpecial
     components:
     - type: Skills
-      preset: SurvivorColAdmin
+      preset: RMCSkillPresetSurvivorColAdmin
     - type: EquipSurvivorPreset
       preset: RMCGearSurvivorPresetLV624ColonyAdmin
     - type: MarineOrders
