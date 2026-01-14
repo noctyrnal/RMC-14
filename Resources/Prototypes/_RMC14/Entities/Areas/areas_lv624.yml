@@ -61,6 +61,8 @@
   components:
   - type: Sprite
     state: ug_jung_0
+  - type: Area
+    linkedLz: dropship_lz2
 
 - type: entity
   parent: RMCAreaLazarusLV624GroundJungle
@@ -69,6 +71,8 @@
   components:
   - type: Sprite
     state: ug_jung_1
+  - type: Area
+    linkedLz: dropship_lz2
 
 - type: entity
   parent: RMCAreaLazarusLV624GroundJungle
@@ -77,6 +81,8 @@
   components:
   - type: Sprite
     state: ug_jung_2
+  - type: Area
+    linkedLz: dropship_lz1
 
 - type: entity
   parent: RMCAreaLazarusLV624GroundJungle
@@ -85,6 +91,8 @@
   components:
   - type: Sprite
     state: ug_jung_3
+  - type: Area
+    linkedLz: dropship_lz1
 
 - type: entity
   parent: RMCAreaLazarusLV624GroundJungle
@@ -93,6 +101,8 @@
   components:
   - type: Sprite
     state: ug_jung_3
+  - type: Area
+    linkedLz: dropship_lz2
 
 - type: entity
   parent: RMCAreaLazarusLV624GroundJungle
@@ -109,6 +119,8 @@
   components:
   - type: Sprite
     state: ug_jung_5
+  - type: Area
+    linkedLz: dropship_lz1
 
 - type: entity
   parent: RMCAreaLazarusLV624GroundJungle
@@ -117,6 +129,8 @@
   components:
   - type: Sprite
     state: cabin
+  - type: Area
+    linkedLz: dropship_lz2
 
 - type: entity
   parent: RMCAreaLazarusLV624GroundJungle
@@ -125,6 +139,8 @@
   components:
   - type: Sprite
     state: marshriver
+  - type: Area
+    minimapColor: '#9c906dc2'
 
 - type: entity
   parent: RMCAreaLazarusLV624GroundWestRiver
@@ -143,14 +159,19 @@
   components:
   - type: Sprite
     state: marsh
+  - type: Area
+    linkedLz: dropship_lz2
 
 - type: entity
-  parent: RMCAreaLazarusLV624GroundWestBarrens
+  parent: RMCAreaLazarusLV624GroundJungle
   id: RMCAreaLazarusLV624GroundEastBarrens
   name: River Barrens - East
+  components:
+  - type: Sprite
+    state: marsh
 
 - type: entity
-  parent: RMCAreaLazarusLV624GroundWestBarrens
+  parent: RMCAreaLazarusLV624GroundEastBarrens
   id: RMCAreaLazarusLV624GroundCentralBarrens
   name: River Barrens - Central
 
@@ -161,11 +182,17 @@
   components:
   - type: Sprite
     state: base_ico
+  - type: Area
+    minimapColor: '#9c906dc2'
+    linkedLz: dropship_lz2
 
 - type: entity
   parent: RMCAreaLazarusLV624GroundSouthWestPathway
   id: RMCAreaLazarusLV624GroundSouthEastPathway
   name: Colony Pathway - South East
+  components:
+  - type: Area
+    linkedLz: dropship_lz1
 
 - type: entity
   parent: RMCAreaLazarusLV624GroundSouthWestPathway
@@ -176,6 +203,9 @@
   parent: RMCAreaLazarusLV624GroundSouthWestPathway
   id: RMCAreaLazarusLV624GroundWestPathway
   name: Colony Pathway - West
+  components:
+  - type: Area
+    linkedLz: dropship_lz2
 
 - type: entity
   parent: RMCAreaLazarusLV624GroundSouthWestPathway
@@ -191,11 +221,17 @@
   parent: RMCAreaLazarusLV624GroundSouthWestPathway
   id: RMCAreaLazarusLV624GroundNorthEastPathway
   name: Colony Pathway - North East
+  components:
+  - type: Area
+    linkedLz: dropship_lz1
 
 - type: entity
   parent: RMCAreaLazarusLV624GroundSouthWestPathway
   id: RMCAreaLazarusLV624GroundCentralPathway
   name: Colony Pathway - Central
+  components:
+  - type: Area
+    linkedLz: dropship_lz1
 
 - type: entity
   parent: RMCAreaLazarusLV624Ground
@@ -212,6 +248,8 @@
   components:
   - type: Sprite
     state: shed_x_ag
+  - type: Area
+    minimapColor: '#827467c2'
 
 - type: entity
   parent: RMCAreaLazarusLV624GroundJungle
@@ -308,6 +346,7 @@
     noTunnel: true
     unweedable: false
     minimapColor: '#A22D2DEE'
+    linkedLz: dropship_lz2
 
 - type: entity
   parent: RMCAreaLazarusLV624Colony
@@ -318,6 +357,7 @@
     state: outpost_admin_3
   - type: Area
     minimapColor: '#A22D2DEE'
+    linkedLz: dropship_lz2
 
 - type: entity
   parent: RMCAreaLazarusLV624Colony
@@ -326,6 +366,8 @@
   components:
   - type: Sprite
     state: garage
+  - type: Area
+    linkedLz: dropship_lz2
 
 - type: entity
   parent: RMCAreaLazarusLV624Colony
@@ -336,6 +378,7 @@
     state: outpost_engi_0
   - type: Area
     minimapColor: '#C19504E7'
+    linkedLz: dropship_lz2
 
 - type: entity
   parent: RMCAreaLazarusLV624ColonyEngiDome
@@ -386,6 +429,8 @@
   components:
   - type: Sprite
     state: dorms_2
+  - type: Area
+    linkedLz: dropship_lz1
 
 - type: entity
   parent: RMCAreaLazarusLV624Colony
@@ -409,6 +454,8 @@
   components:
   - type: Sprite
     state: sewers1
+  - type: Area
+    linkedLz: dropship_lz1
 
 - type: entity
   parent: RMCAreaLazarusLV624Colony
@@ -417,6 +464,8 @@
   components:
   - type: Sprite
     state: sewers2
+  - type: Area
+    linkedLz: dropship_lz1
 
 - type: entity
   parent: RMCAreaLazarusLV624Colony
@@ -425,6 +474,8 @@
   components:
   - type: Sprite
     state: sewers3
+  - type: Area
+    linkedLz: dropship_lz1
 
 - type: entity
   parent: RMCAreaLazarusLV624Colony
@@ -433,6 +484,8 @@
   components:
   - type: Sprite
     state: dorms_3
+  - type: Area
+    linkedLz: dropship_lz1
 
 - type: entity
   parent: RMCAreaLazarusLV624Colony
@@ -443,6 +496,7 @@
     state: outpost_admin_1
   - type: Area
     minimapColor: '#2D3FA2EE'
+    linkedLz: dropship_lz1
 
 - type: entity
   parent: RMCAreaLazarusLV624Colony
@@ -453,6 +507,7 @@
     state: outpost_sec_0
   - type: Area
     minimapColor: '#A22D2DEE'
+    linkedLz: dropship_lz1
 
 - type: entity
   parent: RMCAreaLazarusLV624ColonyNexusMarshal
@@ -461,6 +516,8 @@
   components:
   - type: Sprite
     state: outpost_sec_2
+  - type: Area
+    linkedLz: dropship_lz1
 
 - type: entity
   parent: RMCAreaLazarusLV624Colony
@@ -469,6 +526,8 @@
   components:
   - type: Sprite
     state: outpost_canteen_4
+  - type: Area
+    linkedLz: dropship_lz1
 
 - type: entity
   parent: RMCAreaLazarusLV624Colony
@@ -477,6 +536,8 @@
   components:
   - type: Sprite
     state: sewers4
+  - type: Area
+    linkedLz: dropship_lz1
 
 - type: entity
   parent: RMCAreaLazarusLV624Colony
@@ -485,6 +546,8 @@
   components:
   - type: Sprite
     state: dorms_0
+  - type: Area
+    linkedLz: dropship_lz1
 
 - type: entity
   parent: RMCAreaLazarusLV624Colony
@@ -493,6 +556,8 @@
   components:
   - type: Sprite
     state: dorms_3
+  - type: Area
+    linkedLz: dropship_lz1
 
 - type: entity
   parent: RMCAreaLazarusLV624Colony
@@ -501,6 +566,8 @@
   components:
   - type: Sprite
     state: outpost_canteen_0
+  - type: Area
+    linkedLz: dropship_lz1
 
 - type: entity
   parent: RMCAreaLazarusLV624Colony
@@ -509,6 +576,8 @@
   components:
   - type: Sprite
     state: outpost_canteen_1
+  - type: Area
+    linkedLz: dropship_lz1
 
 - type: entity
   parent: RMCAreaLazarusLV624Colony
@@ -600,6 +669,8 @@
   components:
   - type: Sprite
     state: shed_1_ug
+  - type: Area
+    minimapColor: '#827467c2'
 
 - type: entity
   parent: RMCAreaLazarusLV62WestCaves
@@ -608,6 +679,8 @@
   components:
   - type: Sprite
     state: shed_2_ug
+  - type: Area
+    minimapColor: '#827467c2'
 
 - type: entity
   parent: RMCAreaLazarusLV62WestCaves
@@ -616,6 +689,8 @@
   components:
   - type: Sprite
     state: shed_3_ug
+  - type: Area
+    minimapColor: '#827467c2'
 
 - type: entity
   parent: RMCAreaLazarusLV62WestCaves
@@ -672,6 +747,8 @@
   components:
   - type: Sprite
     state: tcomms2
+  - type: Area
+    linkedLz: dropship_lz1
 
 - type: entity
   parent: RMCAreaLazarusLV624GroundJungle
@@ -707,6 +784,7 @@
     supplyDrop: true
     landingZone: true
     weatherEnabled: true
+    alwaysPowered: true
 
 - type: entity
   parent: RMCAreaLazarusLV624LandingZones
