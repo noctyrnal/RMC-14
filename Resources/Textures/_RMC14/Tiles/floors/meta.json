@@ -541,6 +541,9 @@
       "name": "yellowpatch_inv"
     },
     {
+      "name": "wall_thermite"
+    },
+    {
       "name": "whitebluegreencorners",
       "directions": 4
     },
