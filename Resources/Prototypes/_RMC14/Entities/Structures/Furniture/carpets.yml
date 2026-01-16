@@ -516,28 +516,21 @@
     color: "#577270"
 
 - type: entity
-  parent: RMCBaseColourableRug
-  id: RMCColourableRugGrey
-  name: rubber mat
-  suffix: Grey
-  components:
-  - type: Sprite
-    color: "#3d3d3d"
-
-- type: entity
-  parent: RMCBaseColourableRug
-  id: RMCColourableRugRed
-  name: rug
+  parent: RMCCarpetColorableLargeBlack
+  id: RMCCarpetColorableLargeRed
   suffix: Red
   components:
   - type: Sprite
     color: "#8c3c3c"
+  - type: Icon
+    color: "#8c3c3c"
 
 - type: entity
-  parent: RMCBaseColourableRug
-  id: RMCColourableRugBlue
-  name: rug
+  parent: RMCCarpetColorableLargeBlack
+  id: RMCCarpetColorableLargeBlue
   suffix: Blue
   components:
   - type: Sprite
+    color: "#3c588c"
+  - type: Icon
     color: "#3c588c"

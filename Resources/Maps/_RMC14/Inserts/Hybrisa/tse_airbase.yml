@@ -3936,7 +3936,7 @@ entities:
     - type: Transform
       pos: 5.5,3.5
       parent: 1
-- proto: RMCColourableRugGrey
+- proto: RMCCarpetColorableLargeBlack
   entities:
   - uid: 784
     components:
