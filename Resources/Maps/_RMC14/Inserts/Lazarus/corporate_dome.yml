@@ -4,8 +4,8 @@ meta:
   engineVersion: 264.0.2
   forkId: ""
   forkVersion: ""
-  time: 01/12/2026 19:15:18
-  entityCount: 476
+  time: 01/16/2026 18:49:47
+  entityCount: 488
 maps: []
 grids:
 - 1
@@ -83,10 +83,60 @@ entities:
         version: 2
         nodes:
         - node:
+            color: '#0000007F'
+            id: Dirt
+          decals:
+            19: 4,12
+            20: 5,12
+            21: 5,11
+            22: 5,9
+            23: 5,8
+            24: 5,6
+            25: 2,7
+            26: 2,6
+            27: 5,4
+            28: 5,3
+            29: 6,2
+            30: 10,2
+            31: 11,1
+            32: 9,3
+            33: 10,4
+            34: 8,7
+            35: 9,8
+            36: 9,10
+            37: 8,11
+            38: 8,13
+            39: 11,14
+            40: 11,12
+            41: 11,11
+            42: 9,13
+            43: 11,7
+            44: 13,6
+            45: 13,7
+            46: 14,5
+            47: 14,3
+            48: 17,5
+            49: 18,7
+            50: 20,7
+            51: 20,5
+            52: 19,4
+            53: 20,9
+            54: 18,11
+            55: 20,12
+            56: 15,12
+            57: 14,11
+            58: 13,10
+        - node:
             color: '#FFFFFFFF'
             id: RMCDecalBloodFloor1
           decals:
             15: 5,7
+            59: 17,7
+        - node:
+            color: '#FFFFFFFF'
+            id: RMCDecalBloodFloor2
+          decals:
+            61: 9,14
         - node:
             color: '#FFFFFFFF'
             id: RMCDecalBloodFloor3
@@ -98,12 +148,14 @@ entities:
           decals:
             11: 19,12
             17: 8,6
+            62: 11,14
         - node:
             color: '#FFFFFFFF'
             id: RMCDecalBloodFloor6
           decals:
             12: 18,10
             18: 10,10
+            60: 16,6
         - node:
             color: '#FFFFFFFF'
             id: RMCDecalHybrisaTrash2
@@ -532,6 +584,23 @@ entities:
         20,1: RMCAreaLazarusLV624GroundJungleSouthJungle
         21,1: RMCAreaLazarusLV624GroundJungleSouthJungle
         21,2: RMCAreaLazarusLV624GroundJungleSouthJungle
+- proto: BarbedWire1
+  entities:
+  - uid: 485
+    components:
+    - type: Transform
+      pos: 9.5,3.5
+      parent: 1
+  - uid: 486
+    components:
+    - type: Transform
+      pos: 10.5,4.5
+      parent: 1
+  - uid: 487
+    components:
+    - type: Transform
+      pos: 9.5,13.5
+      parent: 1
 - proto: CigaretteSpent
   entities:
   - uid: 2
@@ -666,6 +735,28 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 10.5,14.5
+      parent: 1
+- proto: CMBodyBag
+  entities:
+  - uid: 477
+    components:
+    - type: Transform
+      pos: 8.5,6.5
+      parent: 1
+  - uid: 478
+    components:
+    - type: Transform
+      pos: 8.5,5.5
+      parent: 1
+  - uid: 479
+    components:
+    - type: Transform
+      pos: 11.5,5.5
+      parent: 1
+  - uid: 480
+    components:
+    - type: Transform
+      pos: 8.5,8.5
       parent: 1
 - proto: CMCanteen
   entities:
@@ -1031,6 +1122,13 @@ entities:
     - type: Transform
       pos: 14.7527275,13.056053
       parent: 1
+- proto: CMFlare
+  entities:
+  - uid: 488
+    components:
+    - type: Transform
+      pos: 19.5,6.5
+      parent: 1
 - proto: CMFolderBlue
   entities:
   - uid: 87
@@ -1259,6 +1357,13 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 5.5,2.5
       parent: 1
+- proto: CMWelderSmall
+  entities:
+  - uid: 482
+    components:
+    - type: Transform
+      pos: 15.5,6.5
+      parent: 1
 - proto: DrinkShaker
   entities:
   - uid: 122
@@ -1439,7 +1544,7 @@ entities:
   - uid: 149
     components:
     - type: Transform
-      pos: 9.111737,6.0832963
+      pos: 9.218403,6.2688904
       parent: 1
   - uid: 150
     components:
@@ -1906,6 +2011,13 @@ entities:
     - type: Transform
       pos: 21.071224,10.719597
       parent: 1
+- proto: RMCLighter
+  entities:
+  - uid: 481
+    components:
+    - type: Transform
+      pos: 9.108328,5.883626
+      parent: 1
 - proto: RMCLightFixtureBlueOffset
   entities:
   - uid: 227
@@ -2368,12 +2480,26 @@ entities:
     - type: Transform
       pos: 15.5,2.5
       parent: 1
+- proto: RMCSecureCaseDouble
+  entities:
+  - uid: 483
+    components:
+    - type: Transform
+      pos: 11.5,14.5
+      parent: 1
 - proto: RMCSecureCaseM54CMagHalf
   entities:
   - uid: 288
     components:
     - type: Transform
       pos: 15.5,3.5
+      parent: 1
+- proto: RMCSecureCaseStrapped
+  entities:
+  - uid: 484
+    components:
+    - type: Transform
+      pos: 11.5,1.5
       parent: 1
 - proto: RMCSecurityCameraConsole
   entities:
