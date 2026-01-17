@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "license": "CC-BY-SA-4.0",
-  "copyright": "Sprites by github noctyrnal",
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from cmss13 at https://github.com/Zenith00000/cmss13/blob/b2a6e33df4c43c70ae769896907e823d3f5caee7/icons/effects/192x192.dmi",
   "size": {
     "x": 192,
     "y": 192
@@ -11,21 +11,22 @@
       "name": "fog",
       "delays": [
         [
-          0.3,
-          0.3,
-          0.3,
-          0.3,
-          0.3,
-          0.3,
-          0.3,
-          0.3,
-          0.3,
-          0.3,
-          0.3,
-          0.3,
-          0.3,
-          0.3,
-          0.3
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15
         ]
       ]
     }
