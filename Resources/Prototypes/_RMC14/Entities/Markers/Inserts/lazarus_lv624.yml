@@ -85,3 +85,16 @@
       probability: 0.3
     clearEntities: true
     clearDecals: true
+
+- type: entity
+  parent: RMCMapInsertBase
+  id: RMCMapInsertLazarusLV624SWRuins
+  name: South West Ruins
+  suffix: Insert LV-624
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/Lazarus/south_west_ruins.yml"
+      probability: 0.3
+    clearEntities: true
+    clearDecals: true
