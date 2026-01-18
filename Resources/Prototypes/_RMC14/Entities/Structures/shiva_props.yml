@@ -8,3 +8,30 @@
   - type: Sprite
     sprite: _RMC14/Structures/shiva_props.rsi
     state: small_wire
+  - type: Clickable
+
+- type: entity
+  id: RMCPropSurveyingDevice
+  name: surveying device
+  description: A small laser measuring tool and camera mounted on a tripod. Comes in a stark safety yellow.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Misc/surveying_props.rsi
+    state: surveying_device
+  - type: Clickable
+  - type: InteractionOutline
+
+- type: entity
+  id: RMCPropMeasuringDevice
+  name: measuring device
+  description: Some sort of doohickey that measures stuff.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Misc/surveying_props.rsi
+    state: measuring_device
+  - type: Clickable
+  - type: InteractionOutline
