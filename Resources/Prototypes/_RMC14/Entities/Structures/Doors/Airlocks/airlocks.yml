@@ -166,6 +166,22 @@
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Airlocks/rusted_white_door.rsi
 
+- type: entity
+  parent: CMAirlock
+  id: RMCAirlockAlmayer
+  name: airlock
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Doors/Airlocks/almayer_door.rsi
+
+- type: entity
+  parent: CMAirlock
+  id: RMCAirlockEndeavour
+  name: airlock
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Doors/Airlocks/endeavour_door.rsi
+
 # Glass
 - type: entity
   parent: CMAirlock
@@ -247,19 +263,18 @@
     sprite: _RMC14/Structures/Doors/Airlocks/hybrisa_personal_door_glass.rsi
 
 - type: entity
-  parent: CMAirlock
-  id: RMCAirlockAlmayer
-  name: airlock
-  components:
-  - type: Sprite
-    sprite: _RMC14/Structures/Doors/Airlocks/almayer_door.rsi
-
-- type: entity
   parent: CMAirlockGlass
   id: RMCAirlockGlassAlmayer
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Airlocks/almayer_door_glass.rsi
+
+- type: entity
+  parent: CMAirlockGlass
+  id: RMCAirlockGlassEndeavour
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Doors/Airlocks/endeavour_door_glass.rsi
 
 # Prep
 - type: entity

@@ -47,6 +47,22 @@
   - type: Occluder
 
 - type: entity
+  parent: CMDoubleDoorAlmayerSolid
+  id: RMCDoubleDoorEndeavourSolid
+  suffix: Endeavour, Solid
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Doors/Airlocks/Double/endeavour_solid.rsi
+
+- type: entity
+  parent: CMDoubleDoorAlmayerGlass
+  id: RMCDoubleDoorEndeavourGlass
+  suffix: Endeavour, Glass
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Doors/Airlocks/Double/endeavour_glass.rsi
+
+- type: entity
   parent: CMDoubleDoorBase
   id: CMDoubleDoorCommandGlass
   suffix: Command, Glass
