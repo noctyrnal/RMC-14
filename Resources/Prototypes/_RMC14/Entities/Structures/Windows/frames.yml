@@ -92,6 +92,18 @@
     node: windowFrameAlmayer
 
 - type: entity
+  parent: RMCWindowFrameAlmayer
+  id: RMCWindowFrameEndeavour
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Windows/Frames/endeavour_frame.rsi
+  - type: Icon
+    sprite: _RMC14/Structures/Windows/Frames/endeavour_frame.rsi
+  - type: Construction
+    graph: RMCWindowEndeavour
+    node: windowFrameEndeavour
+
+- type: entity
   parent: RMCBaseWindowFrame
   id: RMCWindowFrameWhite
   components:

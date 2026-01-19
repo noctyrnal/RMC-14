@@ -198,16 +198,53 @@
   suffix: Endeavour
   components:
   - type: Sprite
-    sprite: _RMC14/Structures/Windows/endeavour.rsi
+    sprite: _RMC14/Structures/Windows/endeavour_window.rsi
     state: uppwall_window0
   - type: Icon
-    sprite: _RMC14/Structures/Windows/endeavour.rsi
+    sprite: _RMC14/Structures/Windows/endeavour_window.rsi
     state: uppwall_window0
   - type: IconSmooth
     key: windows
     additionalKeys:
     - doors
     base: uppwall_window
+  - type: Destructible
+    thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 600 # excessive damage destroys window and frame
+        behaviors:
+          - !type:PlaySoundBehavior
+            sound:
+              collection: WindowShatter
+          - !type:DoActsBehavior
+            acts: ["Destruction"]
+      - trigger:
+          !type:DamageTrigger
+          damage: 100
+        behaviors:
+          - !type:PlaySoundBehavior
+            sound:
+              collection: WindowShatter
+          - !type:SpawnEntitiesBehavior
+            spawn:
+              CMShardGlass:
+                min: 1
+                max: 1
+              CMRodMetal:
+                min: 1
+                max: 1
+          - !type:ChangeConstructionNodeBehavior
+            node: windowFrameEndeavour
+  - type: RMCWallExplosionDeletable
+  - type: DestroyedByExplosionType
+  - type: Construction
+    graph: RMCWindowEndeavour
+    node: windowEndeavourReinforced
+  - type: DestroyOnXenoPierceScissor
+    spawnPrototype: RMCWindowFrameEndeavour
+    sound:
+      collection: WindowShatter
 
 - type: entity
   parent: CMWindowReinforcedAlmayerHull
@@ -215,10 +252,10 @@
   suffix: Endeavour
   components:
   - type: Sprite
-    sprite: _RMC14/Structures/Windows/endeavour.rsi
+    sprite: _RMC14/Structures/Windows/endeavour_window.rsi
     state: uppwall_window0
   - type: Icon
-    sprite: _RMC14/Structures/Windows/endeavour.rsi
+    sprite: _RMC14/Structures/Windows/endeavour_window.rsi
     state: uppwall_window0
   - type: IconSmooth
     key: windows
