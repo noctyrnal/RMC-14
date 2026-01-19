@@ -146,6 +146,16 @@
     - doors
     base: wall
 
+- type: entity
+  parent: CMWallMetalAlmayer
+  id: RMCWallMetalEndeavour
+  suffix: Endeavour
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Walls/endeavour.rsi
+  - type: Icon
+    sprite: _RMC14/Structures/Walls/endeavour.rsi
+
 # Reinforced
 - type: entity
   parent: CMBaseWall
