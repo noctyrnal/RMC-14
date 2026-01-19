@@ -286,13 +286,15 @@
 # Benches
 
 - type: entity
-  parent: CMSeatBase
+  parent: CMChairComfy
   id: RMCChairBench
   name: metal bench
   description: A metal bench to rest upon.
   components:
   - type: Sprite
     state: bench_1
+  - type: Rotatable
+    rotateWhileAnchored: true
 
 - type: entity
   parent: RMCChairBench
