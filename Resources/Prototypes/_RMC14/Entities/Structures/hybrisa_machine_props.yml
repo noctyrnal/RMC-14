@@ -51,6 +51,7 @@
     sprite: _RMC14/Structures/hybrisa_machine_wall_props.rsi
     drawdepth: WallMountedItems
   - type: Appearance
+  - type: Clickable
   - type: WallMount
     arc: 360
 
