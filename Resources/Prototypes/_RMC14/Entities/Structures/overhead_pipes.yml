@@ -22,6 +22,14 @@
 
 - type: entity
   parent: CMOverheadPipe
+  id: RMCOverheadPipeOffset
+  suffix: Offset
+  components:
+  - type: Sprite
+    offset: -0.3, 0
+
+- type: entity
+  parent: CMOverheadPipe
   id: RMCOverheadPipeCorner
   suffix: Corner
   components:
@@ -43,6 +51,22 @@
   - type: Icon
     sprite: _RMC14/Structures/overhead_pipes.rsi
     state: cap
+
+- type: entity
+  parent: RMCOverheadPipeCap
+  id: RMCOverheadPipeCapOffset
+  suffix: Cap, South Offset
+  components:
+  - type: Sprite
+    offset: 0.3, 0
+
+- type: entity
+  parent: RMCOverheadPipeCapOffset
+  id: RMCOverheadPipeCapOffset2
+  suffix: Cap, North Offset
+  components:
+  - type: Sprite
+    offset: -0.3, 0
 
 - type: entity
   parent: CMOverheadPipe
