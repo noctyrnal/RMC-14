@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from cmss13 at https://github.com/cmss13-devs/cmss13/blob/aa5d511784a89d1d38e49a30543c2c4348f4358d/icons/obj/structures/doors/almayerblastdoor.dmi",
+  "size": {
+    "x": 96,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "closed"
+    },
+    {
+      "name": "opening",
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "deny"
+    },
+    {
+      "name": "locked"
+    },
+    {
+      "name": "open"
+    },
+    {
+      "name": "closing",
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "unlit"
+    },
+    {
+      "name": "welded"
+    },
+    {
+      "name": "panel_open"
+    },
+    {
+      "name": "spark"
+    }
+  ]
+}

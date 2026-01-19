@@ -193,6 +193,40 @@
   - type: ImmuneToUnarmed
 
 - type: entity
+  parent: CMWindowReinforcedAlmayer
+  id: RMCWindowReinforcedEndeavour
+  suffix: Endeavour
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Windows/endeavour.rsi
+    state: uppwall_window0
+  - type: Icon
+    sprite: _RMC14/Structures/Windows/endeavour.rsi
+    state: uppwall_window0
+  - type: IconSmooth
+    key: windows
+    additionalKeys:
+    - doors
+    base: uppwall_window
+
+- type: entity
+  parent: CMWindowReinforcedAlmayerHull
+  id: RMCWindowReinforcedEndeavourHull
+  suffix: Endeavour
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Windows/endeavour.rsi
+    state: uppwall_window0
+  - type: Icon
+    sprite: _RMC14/Structures/Windows/endeavour.rsi
+    state: uppwall_window0
+  - type: IconSmooth
+    key: windows
+    additionalKeys:
+    - doors
+    base: uppwall_window
+
+- type: entity
   parent: CMBaseWindowIndestructible
   id: CMWindowReinforcedWhiteHull
   name: hull window

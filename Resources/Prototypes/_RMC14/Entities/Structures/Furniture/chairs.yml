@@ -282,3 +282,28 @@
   components:
   - type: Sprite
     state: wooden_chair_wings
+
+# Benches
+
+- type: entity
+  parent: CMSeatBase
+  id: RMCChairBench
+  name: metal bench
+  description: A metal bench to rest upon.
+  components:
+  - type: Sprite
+    state: bench_1
+
+- type: entity
+  parent: RMCChairBench
+  id: RMCChairBench2
+  components:
+  - type: Sprite
+    state: bench_2
+
+- type: entity
+  parent: RMCChairBench
+  id: RMCChairBench3
+  components:
+  - type: Sprite
+    state: bench_3
