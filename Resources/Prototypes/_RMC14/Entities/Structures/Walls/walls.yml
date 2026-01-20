@@ -220,6 +220,16 @@
     base: wall
 
 - type: entity
+  parent: CMWallReinforcedAlmayer
+  id: RMCWallReinforcedEndeavour
+  suffix: Endeavour
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Walls/endeavour.rsi
+  - type: Icon
+    sprite: _RMC14/Structures/Walls/endeavour.rsi
+
+- type: entity
   parent: RMCBaseWallReinforced
   id: RMCWallAlmayerReinforcedDeco1
   name: reinforced hull
@@ -368,6 +378,16 @@
     - windows
     - doors
     base: wall
+
+- type: entity
+  parent: CMWallReinforcedHeavyAlmayer
+  id: RMCWallReinforcedHeavyEndeavour
+  suffix: Endeavour
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Walls/endeavour.rsi
+  - type: Icon
+    sprite: _RMC14/Structures/Walls/endeavour.rsi
 
 - type: entity
   parent: CMWallReinforcedHeavyAlmayer

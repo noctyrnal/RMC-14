@@ -345,3 +345,11 @@
         - AirlockLayer
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Airlocks/bulkhead.rsi
+
+- type: entity
+  parent: RMCAirlockBlastdoor
+  id: RMCAirlockBlastdoorEndeavour
+  suffix: Endeavour
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Doors/Airlocks/bulkhead_endeavour.rsi
