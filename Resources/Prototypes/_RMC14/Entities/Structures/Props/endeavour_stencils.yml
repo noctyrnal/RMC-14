@@ -1,0 +1,60 @@
+- type: entity
+  id: RMCEndeavourStencil1
+  name: stencil
+  description: A stencil on the side of a warship.
+  suffix: 1
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Props/endeavour_stencil.rsi
+    state: stencil1
+    offset: 0.5, 0.5
+  - type: Clickable
+  - type: DeleteOnExplosion
+
+- type: entity
+  parent: RMCEndeavourStencil1
+  id: RMCEndeavourStencil2
+  suffix: 2
+  components:
+  - type: Sprite
+    state: stencil2
+
+- type: entity
+  parent: RMCEndeavourStencil1
+  id: RMCEndeavourStencil3
+  suffix: 3
+  components:
+  - type: Sprite
+    state: stencil3
+
+- type: entity
+  parent: RMCEndeavourStencil1
+  id: RMCEndeavourStencil4
+  suffix: 4
+  components:
+  - type: Sprite
+    state: stencil4
+
+- type: entity
+  parent: RMCEndeavourStencil1
+  id: RMCEndeavourStencil5
+  suffix: 5
+  components:
+  - type: Sprite
+    state: stencil5
+
+- type: entity
+  parent: RMCEndeavourStencil1
+  id: RMCEndeavourStencil6
+  suffix: 6
+  components:
+  - type: Sprite
+    state: stencil6
+
+- type: entity
+  parent: RMCEndeavourStencil1
+  id: RMCEndeavourStencil7
+  suffix: 7
+  components:
+  - type: Sprite
+    state: stencil7
