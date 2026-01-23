@@ -240,14 +240,6 @@
 
 - type: entity
   parent: RMCAreaLazarusLV624Ground
-  id: RMCAreaLazarusLV624GroundWeYaResearchFacilityOutside
-  name: Weston-Yamada Corporate Research Facility - Outside
-  components:
-  - type: Sprite
-    state: marshwater
-
-- type: entity
-  parent: RMCAreaLazarusLV624Ground
   id: RMCAreaLazarusLV624GroundSandTemple
   name: Sand Temple - Outside
   components:
@@ -604,68 +596,6 @@
   components:
   - type: Sprite
     state: ug_jung_mine_3
-
-- type: entity
-  parent: RMCAreaLazarusLV624Colony
-  id: RMCAreaLazarusLV624ColonyWeYaResearchFacility
-  name: Weston-Yamada Corporate Research Facility
-  components:
-  - type: Sprite
-    state: outpost_sec_4
-  - type: Area
-    minimapColor: '#812DA2EE'
-
-- type: entity
-  parent: RMCAreaLazarusLV624ColonyNexusMarshal
-  id: RMCAreaLazarusLV624ColonyWeYaResearchFacilityCheckpoint
-  name: Weston-Yamada Corporate Research Facility - Entry Checkpoint
-  components:
-  - type: Sprite
-    state: outpost_sec_3
-
-- type: entity
-  parent: RMCAreaLazarusLV624ColonyWeYaResearchFacility
-  id: RMCAreaLazarusLV624ColonyWeYaResearchFacilitySectA
-  name: Weston-Yamada Corporate Research Facility - Research Section A
-  components:
-  - type: Sprite
-    state: outpost_admin_2
-
-- type: entity
-  parent: RMCAreaLazarusLV624ColonyWeYaResearchFacility
-  id: RMCAreaLazarusLV624ColonyWeYaResearchFacilitySectB
-  name: Weston-Yamada Corporate Research Facility - Research Section B
-  components:
-  - type: Sprite
-    state: outpost_admin_3
-
-- type: entity
-  parent: RMCAreaLazarusLV624ColonyBathroom
-  id: RMCAreaLazarusLV624ColonyWeYaResearchFacilityToilet
-  name: Weston-Yamada Corporate Research Facility - Unisex Toilets
-
-- type: entity
-  parent: RMCAreaLazarusLV624ColonyWeYaResearchFacility
-  id: RMCAreaLazarusLV624ColonyWeYaResearchFacilityCanteen
-  name: Weston-Yamada Corporate Research Facility - Canteen
-  components:
-  - type: Sprite
-    state: outpost_canteen_2
-
-- type: entity
-  parent: RMCAreaLazarusLV62WestCaves
-  id: RMCAreaLazarusLV624ColonyWeYaResearchFacilityNexus
-  name: Weston-Yamada Corporate Research Facility - Research Nexus
-  components:
-  - type: Sprite
-    state: rdecks
-  - type: Area
-    minimapColor: '#812DA2EE'
-
-- type: entity
-  parent: RMCAreaLazarusLV624ColonyWeYaResearchFacilityNexus
-  id: RMCAreaLazarusLV624ColonyWeYaResearchFacilitySensors
-  name: Weston-Yamada Corporate Research Facility - Research Sensor Relay
 
 - type: entity
   parent: RMCAreaLazarusLV62WestCaves
