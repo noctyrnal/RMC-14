@@ -115,6 +115,46 @@
     color: "#995555"
 
 - type: entity
+  parent: CMFloorDeepWaterEntity
+  id: RMCRiverWaterfallSorokyneTop
+  name: waterfall
+  suffix: Top
+  components:
+  - type: Sprite
+    sprite: _RMC14/Tiles/planet/sorokyne/sorokyne_water.rsi
+    layers:
+    - state: waterfall_top
+
+- type: entity
+  parent: RMCRiverWaterfallSorokyneTop
+  id: RMCRiverWaterfallSorokyneCenter
+  suffix: Center
+  components:
+  - type: Sprite
+    layers:
+    - state: waterfall_center
+
+- type: entity
+  parent: RMCRiverWaterfallSorokyneTop
+  id: RMCRiverWaterfallSorokyneBottom
+  suffix: Bottom
+  components:
+  - type: Sprite
+    layers:
+    - state: waterfall_bottom
+
+- type: entity
+  parent: CMFloorShallowWaterEntity
+  id: RMCRiverWaterfallSorokyneUnderbottom
+  name: waterfall
+  suffix: Underbottom
+  components:
+  - type: Sprite
+    sprite: _RMC14/Tiles/planet/sorokyne/sorokyne_water.rsi
+    layers:
+    - state: waterfall_underbottom
+
+- type: entity
   parent: RMCFloorShallowWaterEntityRed
   id: RMCFloorShallowWaterEntityDarkRed
   suffix: Dark Red
