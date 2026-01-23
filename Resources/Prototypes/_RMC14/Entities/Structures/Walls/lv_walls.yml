@@ -72,6 +72,16 @@
 
 - type: entity
   parent: RMCWallLVColony
+  id: RMCWallLVColonySci
+  suffix: Admin
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Walls/lv_colony_wall_sci.rsi
+  - type: Icon
+    sprite: _RMC14/Structures/Walls/lv_colony_wall_sci.rsi
+
+- type: entity
+  parent: RMCWallLVColony
   id: RMCWallLVColonyAdmin
   suffix: Admin
   components:

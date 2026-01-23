@@ -153,6 +153,11 @@
   name: River - Central
 
 - type: entity
+  parent: RMCAreaLazarusLV624GroundWestRiver
+  id: RMCAreaLazarusLV624GroundNorthRiver
+  name: River - North
+
+- type: entity
   parent: RMCAreaLazarusLV624GroundJungle
   id: RMCAreaLazarusLV624GroundWestBarrens
   name: River Barrens - West
@@ -664,6 +669,16 @@
 
 - type: entity
   parent: RMCAreaLazarusLV62WestCaves
+  id: RMCAreaLazarusLV624ColonyResearchSensors
+  name: Research Dome - Sensor Relay
+  components:
+  - type: Sprite
+    state: rdecks
+  - type: Area
+    minimapColor: '#812DA2EE'
+
+- type: entity
+  parent: RMCAreaLazarusLV62WestCaves
   id: RMCAreaLazarusLV624ColonySandTemple
   name: Sand Temple - South
   components:
@@ -737,6 +752,16 @@
     state: cabin3
   - type: Area
     minimapColor: '#6C6767D8'
+
+- type: entity
+  parent: RMCAreaLazarusLV62WestCaves
+  id: RMCAreaLazarusLV624DenseJungleRiver
+  name: Dense Jungle - River
+  components:
+  - type: Sprite
+    state: marshriver
+  - type: Area
+    minimapColor: '#9c906dc2'
 
 # Telecomms
 
