@@ -62,51 +62,13 @@
 
 - type: entity
   parent: RMCWallLVColony
-  id: RMCWallLVColonyEngi
-  suffix: Engineering
-  components:
-  - type: Sprite
-    sprite: _RMC14/Structures/Walls/lv_colony_wall_eng.rsi
-  - type: Icon
-    sprite: _RMC14/Structures/Walls/lv_colony_wall_eng.rsi
-
-- type: entity
-  parent: RMCWallLVColony
   id: RMCWallLVColonySci
-  suffix: Admin
+  suffix: Science
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/lv_colony_wall_sci.rsi
   - type: Icon
     sprite: _RMC14/Structures/Walls/lv_colony_wall_sci.rsi
-
-- type: entity
-  parent: RMCWallLVColony
-  id: RMCWallLVColonyAdmin
-  suffix: Admin
-  components:
-  - type: Sprite
-    sprite: _RMC14/Structures/Walls/lv_colony_wall_admin.rsi
-  - type: Icon
-    sprite: _RMC14/Structures/Walls/lv_colony_wall_admin.rsi
-
-- type: entity
-  parent: RMCWallLVColonyReinforced
-  id: RMCWallLVColonySecReinforced
-  suffix: Security
-  components:
-  - type: Sprite
-    sprite: _RMC14/Structures/Walls/lv_colony_wall_sec.rsi
-    state: rwall0
-  - type: Icon
-    sprite: _RMC14/Structures/Walls/lv_colony_wall_sec.rsi
-    state: rwall0
-  - type: IconSmooth
-    key: walls
-    additionalKeys:
-    - windows
-    - doors
-    base: rwall
 
 - type: entity
   parent: RMCWallLVColonyReinforced
@@ -118,24 +80,6 @@
     state: metal0
   - type: Icon
     sprite: _RMC14/Structures/Walls/lv_colony_wall_sci.rsi
-    state: metal0
-  - type: IconSmooth
-    key: walls
-    additionalKeys:
-    - windows
-    - doors
-    base: metal
-
-- type: entity
-  parent: RMCWallLVColonyReinforced
-  id: RMCWallLVColonyAdminReinforced
-  suffix: Admin
-  components:
-  - type: Sprite
-    sprite: _RMC14/Structures/Walls/lv_colony_wall_admin.rsi
-    state: metal0
-  - type: Icon
-    sprite: _RMC14/Structures/Walls/lv_colony_wall_admin.rsi
     state: metal0
   - type: IconSmooth
     key: walls

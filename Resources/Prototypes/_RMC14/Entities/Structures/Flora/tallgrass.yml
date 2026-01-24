@@ -152,3 +152,25 @@
   components:
   - type: Sprite
     color: "#99d178"
+
+# LV
+- type: entity
+  parent: RMCGrassTallBase
+  id: RMCGrassTallLV
+  components:
+  - type: Sprite
+    color: "#9ac68c"
+
+- type: entity
+  parent: RMCGrassTallSidesBase
+  id: RMCGrassTallSidesLV
+  components:
+  - type: Sprite
+    color: "#9ac68c"
+
+- type: entity
+  parent: RMCGrassTallCornerBase
+  id: RMCGrassTallCornerLV
+  components:
+  - type: Sprite
+    color: "#9ac68c"
