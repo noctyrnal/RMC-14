@@ -73,7 +73,7 @@
   - type: Sprite
     layers:
       - sprite: _RMC14/Objects/Consumable/Drinks/unmccup.rsi
-        state: base
+        state: icon-0
       - map: ["enum.SolutionContainerLayers.Fill"]
         sprite: _RMC14/Objects/Consumable/Drinks/coffee_cup.rsi
         state: icon-3
@@ -88,7 +88,7 @@
   - type: Sprite
     layers:
       - sprite: _RMC14/Objects/Consumable/Drinks/sppcup.rsi
-        state: base
+        state: icon-0
       - map: ["enum.SolutionContainerLayers.Fill"]
         sprite: _RMC14/Objects/Consumable/Drinks/coffee_cup.rsi
         state: icon-3
@@ -103,7 +103,7 @@
   - type: Sprite
     layers:
       - sprite: _RMC14/Objects/Consumable/Drinks/uncup.rsi
-        state: base
+        state: icon-0
       - map: ["enum.SolutionContainerLayers.Fill"]
         sprite: _RMC14/Objects/Consumable/Drinks/coffee_cup.rsi
         state: icon-3
@@ -118,7 +118,7 @@
   - type: Sprite
     layers:
       - sprite: _RMC14/Objects/Consumable/Drinks/weyacup.rsi
-        state: base
+        state: icon-0
       - map: ["enum.SolutionContainerLayers.Fill"]
         sprite: _RMC14/Objects/Consumable/Drinks/coffee_cup.rsi
         state: icon-3
@@ -133,7 +133,7 @@
   - type: Sprite
     layers:
       - sprite: _RMC14/Objects/Consumable/Drinks/tsecup.rsi
-        state: base
+        state: icon-0
       - map: ["enum.SolutionContainerLayers.Fill"]
         sprite: _RMC14/Objects/Consumable/Drinks/coffee_cup.rsi
         state: icon-3
@@ -148,7 +148,7 @@
   - type: Sprite
     layers:
       - sprite: _RMC14/Objects/Consumable/Drinks/clfcup.rsi
-        state: base
+        state: icon-0
       - map: ["enum.SolutionContainerLayers.Fill"]
         sprite: _RMC14/Objects/Consumable/Drinks/coffee_cup.rsi
         state: icon-3
