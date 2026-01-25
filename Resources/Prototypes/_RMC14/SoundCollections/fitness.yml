@@ -1,0 +1,10 @@
+- type: soundCollection
+  id: PunchingBagHit
+  files:
+    - /Audio/_RMC14/Weapons/genhit1.ogg
+    - /Audio/_RMC14/Weapons/genhit2.ogg
+    - /Audio/_RMC14/Weapons/genhit3.ogg
+    - /Audio/Weapons/punch1.ogg
+    - /Audio/Weapons/punch2.ogg
+    - /Audio/Weapons/punch3.ogg
+    - /Audio/Weapons/punch4.ogg

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from cmss13 at https://github.com/carlarctg/cmss13/blob/47e892c2732294847f4023ed25103ec4f7d160d1/icons/obj/structures/fitness.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "punchingbag"
+    }
+  ]
+}
