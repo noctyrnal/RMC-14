@@ -34,6 +34,14 @@
 
 - type: entity
   parent: CMFax
+  id: RMCFaxOffset
+  suffix: North Offset
+  components:
+  - type: Sprite
+    offset: 0, 0.25
+
+- type: entity
+  parent: CMFax
   id: CMFaxCMB
   name: colony marshal bureau fax machine
   suffix: CMB

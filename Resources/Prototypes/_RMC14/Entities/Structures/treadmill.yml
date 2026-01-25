@@ -1,0 +1,16 @@
+- type: entity
+  id: RMCTreadmill
+  name: treadmill
+  description: A treadmill used for cardio related exercise.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Transform
+    anchored: true
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Sprite
+    sprite: _RMC14/Structures/treadmill.rsi
+    state: treadmill
+    drawdepth: WallTops
+    offset: 0, -0.5

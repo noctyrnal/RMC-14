@@ -1,6 +1,7 @@
 ﻿- type: entity
   id: RMCPerspectiveDarkness
   name: darkness
+  suffix: 75%
   placement:
     mode: SnapgridCenter
   components:
@@ -10,3 +11,20 @@
     sprite: _RMC14/Structures/darkness.rsi
     state: darkness
     drawdepth: Effects
+  - type: Clickable
+
+- type: entity
+  parent: RMCPerspectiveDarkness
+  id: RMCPerspectiveDarkness2
+  suffix: 50%
+  components:
+  - type: Sprite
+    state: darkness2
+
+- type: entity
+  parent: RMCPerspectiveDarkness
+  id: RMCPerspectiveDarkness3
+  suffix: 25%
+  components:
+  - type: Sprite
+    state: darkness3
