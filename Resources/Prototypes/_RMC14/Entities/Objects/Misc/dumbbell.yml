@@ -1,0 +1,25 @@
+- type: entity
+  parent: [BaseItem, RMCBaseMeleeWeapon]
+  id: RMCDumbbell
+  name: dumbbell
+  description: Lift it for strength, or drop it on your toe for instant enlightenment, either way this dumbbell delivers results.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Tools/dumbbell.rsi
+    state: icon
+  - type: Item
+    sprite: _RMC14/Objects/Tools/dumbbell.rsi
+  - type: MeleeWeapon
+    attackRate: 0.7
+    damage:
+      types:
+        Blunt: 10
+  - type: DeleteOnExplosion
+
+- type: entity
+  parent: RMCDumbbell
+  id: RMCDumbbellAlt
+  suffix: Alt
+  components:
+  - type: Sprite
+    state: icon_alt
