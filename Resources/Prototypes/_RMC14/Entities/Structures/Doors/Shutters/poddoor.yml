@@ -92,6 +92,22 @@
   - type: RMCPodDoor
 
 - type: entity
+  parent: RMCPodDoorIndestructible
+  id: RMCPodDoorIndestructibleOpen
+  suffix: Open
+  components:
+  - type: Door
+    state: Open
+  - type: Occluder
+    enabled: false
+  - type: Physics
+    canCollide: false
+  - type: Airtight
+    airBlocked: false
+  - type: RadiationBlocker
+    enabled: false
+
+- type: entity
   parent:
   - RMCPodDoorIndestructible
   - RMCShutterBase
@@ -131,20 +147,8 @@
     color: "#451e5eb8"
 
 - type: entity
-  parent: RMCPodDoorHybrisaRed
+  parent: [RMCPodDoorHybrisaRed, RMCPodDoorIndestructibleOpen]
   id: RMCPodDoorHybrisaRedOpen
-  suffix: Open
-  components:
-  - type: Door
-    state: Open
-  - type: Occluder
-    enabled: false
-  - type: Physics
-    canCollide: false
-  - type: Airtight
-    airBlocked: false
-  - type: RadiationBlocker
-    enabled: false
 
 - type: entity
   parent: RMCPodDoorIndestructible
@@ -208,20 +212,8 @@
     canPry: false
 
 - type: entity
-  parent: RMCPodDoorAlmayer
+  parent: [RMCPodDoorAlmayer, RMCPodDoorIndestructibleOpen]
   id: RMCPodDoorAlmayerOpen
-  suffix: Open
-  components:
-  - type: Door
-    state: Open
-  - type: Occluder
-    enabled: false
-  - type: Physics
-    canCollide: false
-  - type: Airtight
-    airBlocked: false
-  - type: RadiationBlocker
-    enabled: false
 
 - type: entity
   parent: RMCPodDoorAlmayerOpen
@@ -247,22 +239,12 @@
     sprite: _RMC14/Structures/Doors/Shutters/Almayer/almayer_poddoor.rsi
 
 - type: entity
-  parent: RMCPodDoorAlmayerBlack
+  parent: [RMCPodDoorAlmayerBlack, RMCPodDoorIndestructibleOpen]
   id: RMCPodDoorAIBlackLockdown
   suffix: Open, AILockdown
   components:
   - type: RMCPodDoor
     id: AILockdown
-  - type: Door
-    state: Open
-  - type: Occluder
-    enabled: false
-  - type: Physics
-    canCollide: false
-  - type: Airtight
-    airBlocked: false
-  - type: RadiationBlocker
-    enabled: false
 
 - type: entity
   parent: RMCPodDoor
@@ -279,22 +261,12 @@
     sprite: _RMC14/Structures/Doors/Shutters/Almayer/ai_door.rsi
 
 - type: entity
-  parent: RMCPodDoorAI
+  parent: [RMCPodDoorAI, RMCPodDoorIndestructibleOpen]
   id: RMCPodDoorAILockdown
   suffix: Open, AILockdown
   components:
   - type: RMCPodDoor
     id: AILockdown
-  - type: Door
-    state: Open
-  - type: Occluder
-    enabled: false
-  - type: Physics
-    canCollide: false
-  - type: Airtight
-    airBlocked: false
-  - type: RadiationBlocker
-    enabled: false
 
 - type: entity
   parent: RMCPodDoor
@@ -304,17 +276,33 @@
     sprite: _RMC14/Structures/Doors/Shutters/Almayer/white_ai_door.rsi
 
 - type: entity
-  parent: RMCPodDoorAIWhite
+  parent: [RMCPodDoorAIWhite, RMCPodDoorIndestructibleOpen]
   id: RMCPodDoorAIWhiteOpen
-  suffix: Open
+
+- type: entity
+  parent: RMCPodDoor
+  id: RMCPodDoorLV
   components:
-  - type: Door
-    state: Open
-  - type: Occluder
-    enabled: false
-  - type: Physics
-    canCollide: false
-  - type: Airtight
-    airBlocked: false
-  - type: RadiationBlocker
-    enabled: false
+  - type: Sprite
+    sprite: _RMC14/Structures/Doors/Shutters/lv_poddoor.rsi
+  - type: MinimapColor
+    color: "#451e5eb8"
+
+- type: entity
+  parent: [RMCPodDoorLV, RMCPodDoorAlmayerIndestructible]
+  id: RMCPodDoorLVIndestructible
+
+- type: entity
+  parent: [RMCPodDoorLV, RMCPodDoorIndestructibleOpen]
+  id: RMCPodDoorLVOpen
+
+- type: entity
+  parent: RMCPodDoorLV
+  id: RMCPodDoorLVWhite
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Doors/Shutters/lv_poddoor_white.rsi
+
+- type: entity
+  parent: [RMCPodDoorLVWhite, RMCPodDoorIndestructibleOpen]
+  id: RMCPodDoorLVWhiteOpen

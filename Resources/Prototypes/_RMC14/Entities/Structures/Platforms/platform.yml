@@ -783,7 +783,6 @@
   id: RMCPlatformLVColony
   name: raised metal edge
   description: A raised level of metal, often used to elevate areas above others. You could probably climb it.
-  suffix: Red
   components:
   - type: Sprite
     state: lv_platform1
@@ -804,7 +803,7 @@
 - type: entity
   parent: RMCPlatformLVColony
   id: RMCPlatformLVColonyStair
-  suffix: Red, Stairs
+  suffix: Stairs
   components:
   - type: Sprite
     state: lv_platform1_stair
@@ -821,7 +820,6 @@
   id: RMCPlatformLVColonyCornerSmall
   name: raised metal corner
   description: A raised level of metal, often used to elevate areas above others. This is the corner.
-  suffix: Red
   components:
   - type: Sprite
     state: lv_platform1_deco

@@ -10,6 +10,11 @@
 
 - type: tile
   parent: CMFloorSteel
+  id: RMCFloorSteelPrisonAlt
+  sprite: /Textures/_RMC14/Tiles/prison/flooralt.png
+
+- type: tile
+  parent: CMFloorSteel
   id: CMFloorSteelPrisonScorched
   sprite: /Textures/_RMC14/Tiles/prison/floorscorched.png
   variants: 2
@@ -112,3 +117,13 @@
   parent: CMFloorSteelPrisonRampNorth
   id: CMFloorSteelPrisonRampWest
   sprite: /Textures/_RMC14/Tiles/prison/ramptop_west.png
+
+- type: tile
+  parent: CMFloorSteelPrisonRampNorth
+  id: RMCFloorSteelPrisonRampAlt1
+  sprite: /Textures/_RMC14/Tiles/prison/rampalt1.png
+
+- type: tile
+  parent: CMFloorSteelPrisonRampNorth
+  id: RMCFloorSteelPrisonRampAlt2
+  sprite: /Textures/_RMC14/Tiles/prison/rampalt2.png
