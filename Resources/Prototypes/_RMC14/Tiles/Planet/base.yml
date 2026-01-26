@@ -567,6 +567,26 @@
   sprite: /Textures/_RMC14/Tiles/planet/sorokyne/sorokyne_desert/desert_dug.png
 
 - type: tile
+  parent: CMPlanetDirt
+  id: RMCPlanetDirtBrownFootstep1
+  sprite: /Textures/_RMC14/Tiles/planet/sorokyne/sorokyne_desert/desert3a.png
+
+- type: tile
+  parent: CMPlanetDirt
+  id: RMCPlanetDirtBrownFootstep2
+  sprite: /Textures/_RMC14/Tiles/planet/sorokyne/sorokyne_desert/desert3b.png
+
+- type: tile
+  parent: CMPlanetDirt
+  id: RMCPlanetDirtBrownFootstep3
+  sprite: /Textures/_RMC14/Tiles/planet/sorokyne/sorokyne_desert/desert3c.png
+
+- type: tile
+  parent: CMPlanetDirt
+  id: RMCPlanetDirtBrownFootstep4
+  sprite: /Textures/_RMC14/Tiles/planet/sorokyne/sorokyne_desert/desert3d.png
+
+- type: tile
   parent: CMPlanetBase
   id: RMCVoid
   name: tiles-rmc-empty
