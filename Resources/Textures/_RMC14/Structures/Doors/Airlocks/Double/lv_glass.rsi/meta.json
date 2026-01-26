@@ -1,0 +1,235 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from cmss13 at https://github.com/Zenith00000/cmss13/blob/b2a6e33df4c43c70ae769896907e823d3f5caee7/icons/obj/structures/doors/light_grey_double_glass_door.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "door_closed",
+      "directions": 4
+    },
+    {
+      "name": "door_locked",
+      "directions": 4
+    },
+    {
+      "name": "door_opening",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.2
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.2
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.2
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "door_deny",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "door_closing",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.2
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.2
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.2
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "door_open",
+      "directions": 4
+    },
+    {
+      "name": "door_spark",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "panel_open",
+      "directions": 4
+    },
+    {
+      "name": "welded",
+      "directions": 4
+    },
+    {
+      "name": "o_door_opening",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.2
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.2
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.2
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "o_door_closing",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.2
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.2
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.2
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "unlit",
+      "directions": 4
+    }
+  ]
+}

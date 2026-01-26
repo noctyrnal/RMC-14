@@ -237,3 +237,20 @@
   - type: Occluder
   - type: PaintableAirlock
     department: CMMilitaryPolice
+
+- type: entity
+  parent: CMDoubleDoorBase
+  id: RMCDoubleDoorSolidLV
+  suffix: LV, Solid
+  components:
+  - type: Occluder
+  - type: Sprite
+    sprite: _RMC14/Structures/Doors/Airlocks/Double/lv_solid.rsi
+
+- type: entity
+  parent: CMDoubleDoorBase
+  id: RMCDoubleDoorGlassLV
+  suffix: LV, Glass
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Doors/Airlocks/Double/lv_glass.rsi

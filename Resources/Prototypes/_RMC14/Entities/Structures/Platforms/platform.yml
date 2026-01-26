@@ -787,6 +787,19 @@
   components:
   - type: Sprite
     state: lv_platform1
+  - type: Construction
+    graph: RMCPlatformLVDestructible
+    node: start
+
+- type: entity
+  parent: CMPlatformBroken
+  id: RMCPlatformLVColonyBroken
+  components:
+  - type: Sprite
+    state: lv_platform1_broken
+  - type: Construction
+    graph: RMCPlatformLVDestructible
+    node: platformBroken
 
 - type: entity
   parent: RMCPlatformLVColony

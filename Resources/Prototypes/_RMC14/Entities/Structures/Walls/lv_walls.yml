@@ -56,9 +56,9 @@
   suffix: Medical
   components:
   - type: Sprite
-    sprite: _RMC14/Structures/Walls/lv_colony_wall_med.rsi
+    sprite: _RMC14/Structures/Walls/lv_colony_wall_sci.rsi
   - type: Icon
-    sprite: _RMC14/Structures/Walls/lv_colony_wall_med.rsi
+    sprite: _RMC14/Structures/Walls/lv_colony_wall_sci.rsi
 
 - type: entity
   parent: RMCWallLVColony
