@@ -68,3 +68,78 @@
   parent: CMFloorSteelPrisonDarkBrownBase
   id: CMFloorSteelPrisonDarkBrownFull
   sprite: /Textures/_RMC14/Tiles/prison/darkbrownfull2.png
+
+- type: tile
+  parent: CMFloorSteelPrisonDarkBrownBase
+  id: RMCFloorSteelPrisonBrown1
+  sprite: /Textures/_RMC14/Tiles/prison/brown1.png
+
+- type: tile
+  parent: CMFloorSteelPrisonDarkBrownBase
+  id: RMCFloorSteelPrisonLightBrown2
+  sprite: /Textures/_RMC14/Tiles/prison/l_brown2.png
+
+- type: tile
+  parent: CMFloorSteelPrisonDarkBrownBase
+  id: RMCFloorSteelPrisonLightBrown3
+  sprite: /Textures/_RMC14/Tiles/prison/l_brown3.png
+
+- type: tile
+  parent: CMFloorSteelPrisonDarkBrownBase
+  id: RMCFloorSteelPrisonLightBrown4
+  sprite: /Textures/_RMC14/Tiles/prison/l_brown4.png
+
+- type: tile
+  parent: CMFloorSteelPrisonDarkBrownBase
+  id: RMCFloorSteelPrisonLightBrown5
+  sprite: /Textures/_RMC14/Tiles/prison/l_brown5.png
+
+- type: tile
+  parent: CMFloorSteelPrisonDarkBrownBase
+  id: RMCFloorSteelPrisonLightBrown6
+  sprite: /Textures/_RMC14/Tiles/prison/l_brown6.png
+
+- type: tile
+  parent: CMFloorSteelPrisonDarkBrownBase
+  id: RMCFloorSteelPrisonLightBrown7
+  sprite: /Textures/_RMC14/Tiles/prison/l_brown7.png
+
+- type: tile
+  parent: CMFloorSteelPrisonDarkBrownBase
+  id: RMCFloorSteelPrisonLightBrown8
+  sprite: /Textures/_RMC14/Tiles/prison/l_brown8.png
+
+- type: tile
+  parent: CMFloorSteelPrisonDarkBrownBase
+  id: RMCFloorSteelPrisonLightBrown9
+  sprite: /Textures/_RMC14/Tiles/prison/l_brown9.png
+
+- type: tile
+  parent: CMFloorSteelPrisonDarkBrownBase
+  id: RMCFloorSteelPrisonLightBrown10
+  sprite: /Textures/_RMC14/Tiles/prison/l_brown10.png
+
+- type: tile
+  parent: CMFloorSteelPrisonDarkBrownBase
+  id: RMCFloorSteelPrisonLightBrown11
+  sprite: /Textures/_RMC14/Tiles/prison/l_brown11.png
+
+- type: tile
+  parent: CMFloorSteelPrisonDarkBrownBase
+  id: RMCFloorSteelPrisonLightBrown12
+  sprite: /Textures/_RMC14/Tiles/prison/l_brown12.png
+
+- type: tile
+  parent: CMFloorSteelPrisonDarkBrownBase
+  id: RMCFloorSteelPrisonLightBrown13
+  sprite: /Textures/_RMC14/Tiles/prison/l_brown13.png
+
+- type: tile
+  parent: CMFloorSteelPrisonDarkBrownBase
+  id: RMCFloorSteelPrisonLightBrown14
+  sprite: /Textures/_RMC14/Tiles/prison/l_brown14.png
+
+- type: tile
+  parent: CMFloorSteelPrisonDarkBrownBase
+  id: RMCFloorSteelPrisonLightBrown15
+  sprite: /Textures/_RMC14/Tiles/prison/l_brown15.png
