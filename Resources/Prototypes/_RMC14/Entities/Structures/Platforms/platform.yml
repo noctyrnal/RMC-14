@@ -581,6 +581,17 @@
     node: start
 
 - type: entity
+  parent: RMCPlatformHybrisaStone
+  id: RMCPlatformHybrisaStoneGold
+  suffix: Gold
+  components:
+  - type: Sprite
+    color: "#e6ac3f"
+  - type: Construction
+    graph: RMCPlatformHybrisaStoneGoldDestructible
+    node: start
+
+- type: entity
   parent: CMPlatformBroken
   id: RMCPlatformHybrisaStoneBroken
   components:
@@ -588,6 +599,17 @@
     state: stone_broken
   - type: Construction
     graph: RMCPlatformHybrisaStoneDestructible
+    node: platformBroken
+
+- type: entity
+  parent: RMCPlatformHybrisaStoneBroken
+  id: RMCPlatformHybrisaStoneGoldBroken
+  suffix: Gold
+  components:
+  - type: Sprite
+    color: "#e6ac3f"
+  - type: Construction
+    graph: RMCPlatformHybrisaStoneGoldDestructible
     node: platformBroken
 
 - type: entity
@@ -646,6 +668,14 @@
   components:
   - type: Sprite
     state: stone_deco
+
+- type: entity
+  parent: RMCPlatformHybrisaStoneCornerSmall
+  id: RMCPlatformHybrisaStoneGoldCornerSmall
+  suffix: Gold
+  components:
+  - type: Sprite
+    color: "#e6ac3f"
 
 - type: entity
   parent: CMPlatform

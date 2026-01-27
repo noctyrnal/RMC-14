@@ -45,9 +45,9 @@
   suffix: Medical
   components:
   - type: Sprite
-    sprite: _RMC14/Structures/Windows/Frames/lv_colony_frame_sci.rsi
+    sprite: _RMC14/Structures/Windows/Frames/lv_colony_frame_med.rsi
   - type: Icon
-    sprite: _RMC14/Structures/Windows/Frames/lv_colony_frame_sci.rsi
+    sprite: _RMC14/Structures/Windows/Frames/lv_colony_frame_med.rsi
   - type: Construction
     graph: RMCWindowLVMedColony
     node: windowFrameLVColonyMed
@@ -58,9 +58,9 @@
   suffix: Science
   components:
   - type: Sprite
-    sprite: _RMC14/Structures/Windows/Frames/lv_colony_frame_sci.rsi
+    sprite: _RMC14/Structures/Windows/Frames/lv_colony_frame_med.rsi
   - type: Icon
-    sprite: _RMC14/Structures/Windows/Frames/lv_colony_frame_sci.rsi
+    sprite: _RMC14/Structures/Windows/Frames/lv_colony_frame_med.rsi
   - type: Construction
     graph: RMCWindowLVSciColony
     node: windowFrameLVColonySci
