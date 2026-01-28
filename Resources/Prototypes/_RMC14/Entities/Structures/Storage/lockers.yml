@@ -90,6 +90,9 @@
     sprite: _RMC14/Structures/Storage/Lockers/safe_floor.rsi
   - type: Physics
     canCollide: false
+  - type: InsertBlacklist
+    whitelistedMobStates:
+    - Dead
 
 - type: entity
   parent: RMCLockerSecureSafe
