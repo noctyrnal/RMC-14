@@ -333,8 +333,7 @@
 - type: entity
   parent: RemoteSignaller
   id: RMCRemoteSignaller
-  name: remote signaller
-  description: A handheld device used for remotely sending signals to objects within a small radius of about 15 meters.
+  suffix: RMC
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/signaller.rsi
