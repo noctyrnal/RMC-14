@@ -1,0 +1,27 @@
+- type: entity
+  parent: BaseItem
+  id: RMCPropRemains
+  name: remains
+  description: They look like a person's remains. Eerie...
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Misc/prop_bones.rsi
+    state: remains
+
+- type: entity
+  parent: RMCPropRemains
+  id: RMCPropRemainsXeno
+  name: remains
+  description: They look like the remains of some horrible creature. They are not pleasant to look at...
+  components:
+  - type: Sprite
+    state: remainsxeno
+
+- type: entity
+  parent: RMCPropRemains
+  id: RMCPropRemainsClaw
+  name: alien claw
+  description: The claw of a terrible creature.
+  components:
+  - type: Sprite
+    state: claw

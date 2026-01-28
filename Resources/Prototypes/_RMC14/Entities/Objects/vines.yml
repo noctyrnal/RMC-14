@@ -96,6 +96,14 @@
         light_3: ""
 
 - type: entity
+  parent: CMVinesLight
+  id: RMCVinesLightBlue
+  suffix: Blue
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/vines_blue.rsi
+
+- type: entity
   parent: CMVinesBase
   id: CMVinesHeavy
   name: vines
@@ -114,3 +122,11 @@
         heavy_5: ""
         heavy_6: ""
   - type: Occluder
+
+- type: entity
+  parent: CMVinesHeavy
+  id: RMCVinesHeavyBlue
+  suffix: Blue
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/vines_blue.rsi

@@ -55,17 +55,6 @@
 
 - type: entity
   parent: CMLockerBase
-  id: CMLockerCommanderSecure
-  name: commanding officer's secure box
-  description: A safe for the Commanding Officer to store any equipment they need to have ready at a moment's notice. There's a note inside saying that whatever was inside it before was moved out.
-  components:
-  - type: Sprite
-    sprite: _RMC14/Structures/Storage/Lockers/safe.rsi
-  - type: AccessReader
-    access: [["CMAccessCO"]]
-
-- type: entity
-  parent: CMLockerBase
   id: RMCLockerSecureSafe
   name: secure safe
   description: A safe for an important person to store any valuables or equipment they need. The hinges have begun to rust.
@@ -83,6 +72,24 @@
     sprite: _RMC14/Structures/Storage/Lockers/safe.rsi
   - type: AccessReader
     access: [["CMAccessColonyCommand"]]
+
+- type: entity
+  parent: RMCLockerSecureSafe
+  id: CMLockerCommanderSecure
+  name: commanding officer's secure box
+  description: A safe for the Commanding Officer to store any equipment they need to have ready at a moment's notice. There's a note inside saying that whatever was inside it before was moved out.
+  components:
+  - type: AccessReader
+    access: [["CMAccessCO"]]
+
+- type: entity
+  parent: RMCLockerSecureSafe
+  id: RMCLockerSecureSafeFloor
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Storage/Lockers/safe_floor.rsi
+  - type: Physics
+    canCollide: false
 
 - type: entity
   parent: RMCLockerSecureSafe

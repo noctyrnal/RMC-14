@@ -7,3 +7,12 @@
   - type: Sprite
     sprite: _RMC14/Objects/Misc/prop_trash.rsi
     state: ztrashbag
+
+- type: entity
+  parent: RMCPropTrashFull
+  id: RMCPropTrashPaper
+  name: package wrapper
+  description: ""
+  components:
+  - type: Sprite
+    state: deliveryPaper
