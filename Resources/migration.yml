@@ -1462,3 +1462,11 @@ RMCGasTankPhoron: RMCGasTankPhoronFilled
 
 # 2026-1-15
 ClothingUniformJumpsuitPrisoner: RMCJumpsuitOrange
+
+# 2026-01-28
+DisposalPipe: RMCDisposalPipe
+DisposalTrunk: RMCDisposalTrunk
+DisposalJunction: RMCDisposalJunction
+DisposalJunctionFlipped: RMCDisposalJunctionFlipped
+DisposalYJunction: RMCDisposalYJunction
+DisposalBend: RMCDisposalBend
