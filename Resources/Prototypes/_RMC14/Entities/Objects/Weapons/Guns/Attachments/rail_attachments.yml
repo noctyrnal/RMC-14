@@ -359,6 +359,25 @@
 
 - type: entity
   parent: RMCAttachmentS42xTelescopicMiniscope
+  id: RMCAttachmentS42xTelescopicMiniscopePVE
+  suffix: PVE
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Weapons/Guns/Attachments/vulture_rail/jungle.rsi
+    state: vulture_scope
+  - type: Appearance
+  - type: AttachableVisuals
+    suffix: ""
+  - type: ItemCamouflage
+    camouflageVariations:
+      Jungle: _RMC14/Objects/Weapons/Guns/Attachments/vulture_rail/jungle.rsi
+      Desert: _RMC14/Objects/Weapons/Guns/Attachments/vulture_rail/desert.rsi
+      Snow: _RMC14/Objects/Weapons/Guns/Attachments/vulture_rail/snow.rsi
+      Classic: _RMC14/Objects/Weapons/Guns/Attachments/vulture_rail/classic.rsi
+      Urban: _RMC14/Objects/Weapons/Guns/Attachments/vulture_rail/urban.rsi
+
+- type: entity
+  parent: RMCAttachmentS42xTelescopicMiniscope
   id: RMCAttachmentFP9000Scope # mini
   name: FP9000 2x telescopic mini-scope
   description: Scope for the FN FP9000 SMG. Fixed at a modest 2x zoom.
