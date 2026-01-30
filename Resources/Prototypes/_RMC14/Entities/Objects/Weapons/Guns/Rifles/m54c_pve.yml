@@ -93,11 +93,10 @@
           tags:
           - RMCAttachmentRailFlashlight
       rmc-aslot-stock:
-        startingAttachable: RMCAttachmentM54CStockCollapsible
+        startingAttachable: RMCAttachmentM41CStockCollapsible
         whitelist:
           tags:
-          - RMCAttachmentM54CStockSolid
-          - RMCAttachmentM54CStockCollapsible
+          - RMCAttachmentM41CStockCollapsible
       rmc-aslot-underbarrel:
         startingAttachable: RMCAttachmentMK1GrenadeLauncher
         whitelist:
@@ -114,14 +113,14 @@
           - RMCAttachmentFlamer
   - type: AttachableHolderVisuals
     offsets:
-      rmc-aslot-barrel: 0.8425, 0.001
+      rmc-aslot-barrel: 0.8425, 0.03
       rmc-aslot-rail: 0.1, 0.16
       rmc-aslot-light: 0.22, -0.055
       rmc-aslot-stock: -0.75, 0.0325
       rmc-aslot-underbarrel: 0.349, -0.314
   - type: Tag
     tags:
-    - RMCWeaponRifleM41C
+    - RMCWeaponRifleM41CMK1
 
 - type: Tag
-  id: RMCWeaponRifleM41C
+  id: RMCWeaponRifleM41CMK1

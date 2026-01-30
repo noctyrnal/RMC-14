@@ -188,6 +188,90 @@
       item_5:
       - RMCWeaponRifleM54CMK1
 
+# M41C Mk 1
+
+- type: entity
+  parent: RMCGunRackM54CEmpty
+  id: RMCGunRackM41CMk1Empty
+  name: M41C Mk1 gun rack
+  suffix: M41C Mk1, Empty
+  description: AEGIS-produced gun rack for storage of long guns. While initial model was supposed to be extremely modifiable, UNMC commissioned racks with fixed slots which only fit M41C Mk1 rifles. Some say they were cheaper, and some say the main reason was marine's ability to easily break anything more complex than a tungsten ball.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/GunRacks/m41c_rack.rsi
+  - type: ItemSlots
+    slots:
+      item_1:
+        name: M41C Mk1
+        whitelist:
+          tags:
+          - RMCWeaponRifleM41CMK1
+      item_2:
+        name: M41C Mk1
+        whitelist:
+          tags:
+          - RMCWeaponRifleM41CMK1
+      item_3:
+        name: M41C Mk1
+        whitelist:
+          tags:
+          - RMCWeaponRifleM41CMK1
+      item_4:
+        name: M41C Mk1
+        whitelist:
+          tags:
+          - RMCWeaponRifleM41CMK1
+      item_5:
+        name: M41C Mk1
+        whitelist:
+          tags:
+          - RMCWeaponRifleM41CMK1
+  - type: ItemMapper
+    mapLayers:
+      fill_1:
+        minCount: 1
+        whitelist:
+          tags:
+          - RMCWeaponRifleM41CMK1
+      fill_2:
+        minCount: 2
+        whitelist:
+          tags:
+          - RMCWeaponRifleM41CMK1
+      fill_3:
+        minCount: 3
+        whitelist:
+          tags:
+          - RMCWeaponRifleM41CMK1
+      fill_4:
+        minCount: 4
+        whitelist:
+          tags:
+          - RMCWeaponRifleM41CMK1
+      fill_5:
+        minCount: 5
+        whitelist:
+          tags:
+          - RMCWeaponRifleM41CMK1
+
+- type: entity
+  parent: RMCGunRackM41CMk1Empty
+  id: RMCGunRackM41CMk1Filled
+  suffix: M41C Mk1, Filled
+  components:
+  - type: ContainerFill
+    containers:
+      item_1:
+      - RMCWeaponRifleM41CMK1
+      item_2:
+      - RMCWeaponRifleM41CMK1
+      item_3:
+      - RMCWeaponRifleM41CMK1
+      item_4:
+      - RMCWeaponRifleM41CMK1
+      item_5:
+      - RMCWeaponRifleM41CMK1
+
 # SSG45
 
 - type: entity
