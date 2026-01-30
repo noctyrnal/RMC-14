@@ -51,6 +51,12 @@
     },
     {
       "name": "smartgun_harness_a-on"
+    },
+    {
+      "name": "smgstockcol_a"
+    },
+    {
+      "name": "smgstockcol_a-on"
     }
   ]
 }

@@ -926,6 +926,29 @@
       scatterFlat: 2
 
 - type: entity
+  parent: RMCAttachmentM63StockCollapsible
+  id: RMCAttachmentM43StockCollapsible
+  suffix: PVE
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_stock.rsi
+    state: smgstockcol_a
+  - type: Tag
+    tags:
+    - RMCAttachmentStock
+    - RMCAttachmentM43StockCollapsible
+  - type: AttachableToggleable
+    icon:
+      sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_stock.rsi
+      state: smgstockcol_a
+    iconActive:
+      sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_stock.rsi
+      state: smgstockcol_a-on
+    actionName: Toggle Submachinegun Folding Stock
+  - type: AttachableVisuals
+    suffix: ""
+
+- type: entity
   parent: RMCStockAttachmentCollapsibleBase
   id: RMCAttachmentMP5AltStockCollapsible
   name: MP5A5 folding stock
@@ -1330,6 +1353,9 @@
 
 - type: Tag
   id: RMCAttachmentM63StockCollapsible
+
+- type: Tag
+  id: RMCAttachmentM43StockCollapsible
 
 - type: Tag
   id: RMCAttachmentM63ArmBrace
