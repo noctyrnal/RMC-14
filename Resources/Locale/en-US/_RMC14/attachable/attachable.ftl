@@ -6,6 +6,7 @@ rmc-verb-strip-attachables = Strip Attachables
 rmc-aslot-barrel = Barrel
 rmc-bslot-barrel = Mateba Barrel
 rmc-aslot-rail = Rail
+rmc-aslot-light = Gun Light
 rmc-aslot-stock = Stock
 rmc-aslot-underbarrel = Underbarrel
 rmc-aslot-harness = Harness
