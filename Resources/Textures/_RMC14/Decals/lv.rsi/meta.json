@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from cmss13 at https://github.com/Zenith00000/cmss13/blob/b2a6e33df4c43c70ae769896907e823d3f5caee7/icons/turf/floors/auto_lv_turf.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "lv_grass_1"
+    },
+    {
+      "name": "lv_grass_2"
+    },
+    {
+      "name": "lv_grass_3"
+    },
+    {
+      "name": "lv_grass_4"
+    },
+    {
+      "name": "lv_grass_5"
+    },
+    {
+      "name": "lv_grass_6"
+    },
+    {
+      "name": "lv_grass_7"
+    },
+    {
+      "name": "lv_grass_8"
+    }
+  ]
+}

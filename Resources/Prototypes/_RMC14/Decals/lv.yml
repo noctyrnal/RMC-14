@@ -1,0 +1,63 @@
+- type: decal
+  abstract: true
+  parent: CMDecalBase
+  id: RMCDecalLVBase
+  tags: ["station", "markings"]
+
+# Grass
+
+- type: decal
+  parent: RMCDecalLVBase
+  id: RMCDecalLVGrass1
+  sprite:
+    sprite: _RMC14/Decals/lv.rsi
+    state: lv_grass_1
+
+- type: decal
+  parent: RMCDecalLVBase
+  id: RMCDecalLVGrass2
+  sprite:
+    sprite: _RMC14/Decals/lv.rsi
+    state: lv_grass_2
+
+- type: decal
+  parent: RMCDecalLVBase
+  id: RMCDecalLVGrass3
+  sprite:
+    sprite: _RMC14/Decals/lv.rsi
+    state: lv_grass_3
+
+- type: decal
+  parent: RMCDecalLVBase
+  id: RMCDecalLVGrass4
+  sprite:
+    sprite: _RMC14/Decals/lv.rsi
+    state: lv_grass_4
+
+- type: decal
+  parent: RMCDecalLVBase
+  id: RMCDecalLVGrass5
+  sprite:
+    sprite: _RMC14/Decals/lv.rsi
+    state: lv_grass_5
+
+- type: decal
+  parent: RMCDecalLVBase
+  id: RMCDecalLVGrass6
+  sprite:
+    sprite: _RMC14/Decals/lv.rsi
+    state: lv_grass_6
+
+- type: decal
+  parent: RMCDecalLVBase
+  id: RMCDecalLVGrass7
+  sprite:
+    sprite: _RMC14/Decals/lv.rsi
+    state: lv_grass_7
+
+- type: decal
+  parent: RMCDecalLVBase
+  id: RMCDecalLVGrass8
+  sprite:
+    sprite: _RMC14/Decals/lv.rsi
+    state: lv_grass_8

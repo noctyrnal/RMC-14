@@ -26,6 +26,8 @@
     West: /Textures/_RMC14/Tiles/planet/auto_lv_grass/grass_double_edge_w.png
   footstepSounds:
     collection: FootstepAsteroid
+  weedsSpreadable: false
+  semiWeedable: true
 
 - type: tile
   parent: RMCPlanetLVGrass
@@ -42,3 +44,4 @@
     East: /Textures/_RMC14/Tiles/planet/auto_lv_grass/grass_double_edge_e.png
     North: /Textures/_RMC14/Tiles/planet/auto_lv_grass/grass_double_edge_n.png
     West: /Textures/_RMC14/Tiles/planet/auto_lv_grass/grass_double_edge_w.png
+  weedsSpreadable: true
