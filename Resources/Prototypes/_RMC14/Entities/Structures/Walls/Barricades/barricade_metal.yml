@@ -293,6 +293,15 @@
       drawdepth: SmallObjects
 
 - type: entity
+  parent: RMCBarricadeHandrailKutjevo
+  id: RMCBarricadeHandrailKutjevoAltDrawdepthOffset
+  suffix: Layers over Platforms, Offset
+  components:
+    - type: Sprite
+      offset: 0, -0.15
+      drawdepth: SmallObjects
+
+- type: entity
   parent: RMCBarricadeHandrail
   id: RMCBarricadeHandrailKutjevo
   components:
