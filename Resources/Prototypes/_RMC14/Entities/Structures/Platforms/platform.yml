@@ -854,29 +854,5 @@
   - type: Sprite
     state: lv_platform1_deco
 
-- type: entity
-  parent: RMCPlatformLVColony
-  id: RMCPlatformLVColony2
-  suffix: Grey
-  components:
-  - type: Sprite
-    state: lv_platform2
-
-- type: entity
-  parent: RMCPlatformLVColony
-  id: RMCPlatformLVColony3
-  suffix: Blue
-  components:
-  - type: Sprite
-    state: lv_platform3
-
-- type: entity
-  parent: RMCPlatformLVColonyCornerSmall
-  id: RMCPlatformLVColony3CornerSmall
-  suffix: Blue
-  components:
-  - type: Sprite
-    state: lv_platform3_deco
-
 - type: Tag
   id: Platform
