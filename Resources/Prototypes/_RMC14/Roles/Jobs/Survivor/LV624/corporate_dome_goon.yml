@@ -22,6 +22,8 @@
     - type: IntelRescueSurvivorObjective
     - type: RMCAllowSuitStorage
   icon: "RMCJobIconPMCGoonStandard"
+  ranks:
+    RMCRankCivilianOfficer: []
   greeting: rmc-job-greeting-corporate-dome-goon
 
 - type: entity
