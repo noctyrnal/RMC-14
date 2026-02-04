@@ -38,5 +38,21 @@
     node: start
   - type: PointLight
     radius: 5
-    node: Campfire
+  - type: RMCMesonsNonviewable
+
+- type: entity
+  parent: RMCBrazier
+  id: RMCBrazierAncient
+  description: The fire inside the brazier emits a relatively dim glow to flashlights and flares, but nothing can replace the feeling of sitting next to a fireplace with your friends.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/brazier_ancient.rsi
+    layers:
+      - state: campfire
+      - state: burning
+  - type: Construction
+    graph: RMCCampfire
+    node: start
+  - type: PointLight
+    radius: 5
   - type: RMCMesonsNonviewable
