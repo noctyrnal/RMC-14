@@ -7,4 +7,10 @@
 - type: tile
   parent: RMCFloorStrataMiscBase
   id: RMCFloorStrataFakeWood
+  name: tiles-cm-wood
   sprite: /Textures/_RMC14/Tiles/strata/fake_wood.png
+
+- type: tile
+  parent: RMCFloorStrataMiscBase
+  id: RMCFloorStrataFakeWoodRed
+  sprite: /Textures/_RMC14/Tiles/strata/fake_wood_red.png

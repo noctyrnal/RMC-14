@@ -75,3 +75,75 @@
   parent: RMCFloorStrataPurple
   id: RMCFloorStrataPurpleCorner4
   sprite: /Textures/_RMC14/Tiles/strata/purple_corner_4.png
+
+- type: tile
+  parent: RMCFloorStrataPurpleBase
+  id: RMCFloorStrataLightPurple
+  name: light purple metal tile
+  sprite: /Textures/_RMC14/Tiles/strata/light_purple_tile.png
+
+- type: tile
+  parent: RMCFloorStrataLightPurple
+  id: RMCFloorStrataLightPurplePlate
+  sprite: /Textures/_RMC14/Tiles/strata/light_purple_cover.png
+
+- type: tile
+  parent: RMCFloorStrataLightPurple
+  id: RMCFloorStrataLightPurpleEdge1
+  sprite: /Textures/_RMC14/Tiles/strata/light_purple_edge1.png
+
+- type: tile
+  parent: RMCFloorStrataLightPurple
+  id: RMCFloorStrataLightPurpleEdge2
+  sprite: /Textures/_RMC14/Tiles/strata/light_purple_edge2.png
+
+- type: tile
+  parent: RMCFloorStrataLightPurple
+  id: RMCFloorStrataLightPurpleEdge3
+  sprite: /Textures/_RMC14/Tiles/strata/light_purple_edge3.png
+
+- type: tile
+  parent: RMCFloorStrataLightPurple
+  id: RMCFloorStrataLightPurpleEdge4
+  sprite: /Textures/_RMC14/Tiles/strata/light_purple_edge4.png
+
+- type: tile
+  parent: RMCFloorStrataLightPurple
+  id: RMCFloorStrataLightPurpleEdge5
+  sprite: /Textures/_RMC14/Tiles/strata/light_purple_edge5.png
+
+- type: tile
+  parent: RMCFloorStrataLightPurple
+  id: RMCFloorStrataLightPurpleEdge6
+  sprite: /Textures/_RMC14/Tiles/strata/light_purple_edge6.png
+
+- type: tile
+  parent: RMCFloorStrataLightPurple
+  id: RMCFloorStrataLightPurpleEdge7
+  sprite: /Textures/_RMC14/Tiles/strata/light_purple_edge7.png
+
+- type: tile
+  parent: RMCFloorStrataLightPurple
+  id: RMCFloorStrataLightPurpleEdge8
+  sprite: /Textures/_RMC14/Tiles/strata/light_purple_edge8.png
+
+- type: tile
+  parent: RMCFloorStrataLightPurple
+  id: RMCFloorStrataLightPurpleCorner1
+  sprite: /Textures/_RMC14/Tiles/strata/light_purple_icorner1.png
+
+- type: tile
+  parent: RMCFloorStrataLightPurple
+  id: RMCFloorStrataLightPurpleCorner2
+  sprite: /Textures/_RMC14/Tiles/strata/light_purple_icorner2.png
+
+- type: tile
+  parent: RMCFloorStrataLightPurple
+  id: RMCFloorStrataLightPurpleCorner3
+  sprite: /Textures/_RMC14/Tiles/strata/light_purple_icorner3.png
+
+- type: tile
+  parent: RMCFloorStrataLightPurple
+  id: RMCFloorStrataLightPurpleCorner4
+  sprite: /Textures/_RMC14/Tiles/strata/light_purple_icorner4.png
+

@@ -83,6 +83,14 @@
 
 - type: entity
   parent: CMRack
+  id: RMCRackBlack
+  suffix: Black
+  components:
+  - type: Sprite
+    color: "#6d787d"
+
+- type: entity
+  parent: CMRack
   id: RMCRackBrown
   suffix: Brown
   components:

@@ -369,6 +369,26 @@
     {
       "name": "lv_platform1_deco",
       "directions": 4
+    },
+    {
+      "name": "lv_platform2",
+      "directions": 4
+    },
+    {
+      "name": "lv_platform2_stair",
+      "directions": 4
+    },
+    {
+      "name": "lv_platform2_stair_alt",
+      "directions": 4
+    },
+    {
+      "name": "lv_platform2_broken",
+      "directions": 4
+    },
+    {
+      "name": "lv_platform2_deco",
+      "directions": 4
     }
   ]
 }

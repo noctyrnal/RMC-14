@@ -854,5 +854,52 @@
   - type: Sprite
     state: lv_platform1_deco
 
+- type: entity
+  parent: RMCPlatformLVColony
+  id: RMCPlatformLVColonyWhite
+  suffix: White
+  components:
+  - type: Sprite
+    state: lv_platform2
+  - type: Construction
+    graph: RMCPlatformLVWhiteDestructible
+    node: start
+
+- type: entity
+  parent: CMPlatformBroken
+  id: RMCPlatformLVColonyWhiteBroken
+  components:
+  - type: Sprite
+    state: lv_platform2_broken
+  - type: Construction
+    graph: RMCPlatformLVWhiteDestructible
+    node: platformBroken
+
+- type: entity
+  parent: RMCPlatformLVColonyWhite
+  id: RMCPlatformLVColonyStairWhite
+  suffix: White, Stairs
+  components:
+  - type: Sprite
+    state: lv_platform2_stair
+
+- type: entity
+  parent: RMCPlatformLVColonyStairWhite
+  id: RMCPlatformLVColonyStairWhiteAlt
+  suffix: White, Stairs
+  components:
+  - type: Sprite
+    state: lv_platform2_stair_alt
+
+- type: entity
+  parent: RMCPlatformCornerSmall
+  id: RMCPlatformLVColonyWhiteCornerSmall
+  name: raised metal corner
+  description: A raised level of metal, often used to elevate areas above others. This is the corner.
+  suffix: White
+  components:
+  - type: Sprite
+    state: lv_platform2_deco
+
 - type: Tag
   id: Platform
