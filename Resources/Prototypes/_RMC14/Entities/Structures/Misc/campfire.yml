@@ -38,21 +38,44 @@
     node: start
   - type: PointLight
     radius: 5
-  - type: RMCMesonsNonviewable
 
 - type: entity
   parent: RMCBrazier
   id: RMCBrazierAncient
   description: The fire inside the brazier emits a relatively dim glow to flashlights and flares, but nothing can replace the feeling of sitting next to a fireplace with your friends.
+  suffix: Ancient
   components:
   - type: Sprite
     sprite: _RMC14/Structures/brazier_ancient.rsi
     layers:
-      - state: campfire
-      - state: burning
-  - type: Construction
-    graph: RMCCampfire
-    node: start
+      - state: brazier_alt_frame
+      - state: brazier_alt_frame_filled
+      - state: brazier_alt
   - type: PointLight
-    radius: 5
-  - type: RMCMesonsNonviewable
+    color: "#C75fCB"
+
+- type: entity
+  parent: RMCBrazierAncient
+  id: RMCBrazierAncientTall
+  suffix: Ancient, Tall
+  components:
+  - type: Sprite
+    layers:
+      - state: tall_small_brazier_frame
+      - state: tall_small_brazier_frame_filled
+      - state: tall_small_brazier
+
+- type: entity
+  parent: RMCBrazierAncient
+  id: RMCBrazierAncientTorch
+  name: torch
+  description: It's a torch.
+  suffix: Ancient
+  components:
+  - type: Sprite
+    layers:
+      - state: torch_frame
+      - state: torch
+    offset: 0, 1
+  - type: Physics
+    canCollide: false
