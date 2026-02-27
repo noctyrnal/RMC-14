@@ -1,20 +1,4 @@
 ﻿Entries:
-- author: Vermidia
-  changes:
-  - message: Fixed hedgehog rav gaining stacks on melee damage sources
-    type: Fix
-  - message: Fixed hedgehog spikes having too high of a max range (shield has a slightly
-      lower range than the other two)
-    type: Fix
-  - message: Fixed hedgehog spike visuals not showing up in most states.
-    type: Fix
-  - message: Fixed hedgehog not being stunnable by explosions when below 50 shards
-    type: Fix
-  - message: Fixed hedgehog using the wrong damage sprites.
-    type: Fix
-  id: 2458
-  time: '2025-10-19T21:41:18.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8177
 - author: to4no_fix
   changes:
   - message: Fixed an issue where ghosts could block tent deployment.
@@ -4573,5 +4557,18 @@
   id: 2959
   time: '2026-02-23T06:58:08.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9151
+- author: SharkSnake98
+  changes:
+  - message: Added multiple ERT Bays for the various factions.
+    type: Add
+  - message: Added 2 new unbreakable windows
+    type: Add
+  - message: Removed the previous ERT area
+    type: Remove
+  - message: Changed the draw-depth of the coffee machine
+    type: Tweak
+  id: 2960
+  time: '2026-02-27T13:21:27.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9088
 Name: RMC14
 Order: -1
