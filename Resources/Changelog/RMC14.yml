@@ -1,16 +1,4 @@
 ﻿Entries:
-- author: to4no_fix
-  changes:
-  - message: Fixed an issue where ghosts could block tent deployment.
-    type: Fix
-  - message: Fixed an issue where the tent roof did not become transparent to ghosts.
-    type: Fix
-  - message: Fixed an issue where it was impossible to interact with the water tank
-      and microwave in the Mess Tent.
-    type: Fix
-  id: 2459
-  time: '2025-10-19T21:45:06.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8102
 - author: noctyrnal
   changes:
   - message: Added an M13 gun case to requisitions.
@@ -4570,5 +4558,12 @@
   id: 2960
   time: '2026-02-27T13:21:27.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9088
+- author: GNUtopia
+  changes:
+  - message: Weedbound resin doors are no longer capitalised
+    type: Fix
+  id: 2961
+  time: '2026-02-27T13:36:14.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9283
 Name: RMC14
 Order: -1
