@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: JustMyselfUwU
-  changes:
-  - message: Fixed mice being replaced incorrectly in chat when said by xenos.
-    type: Fix
-  id: 2500
-  time: '2025-11-17T09:49:12.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8351
 - author: CatAndHats
   changes:
   - message: Fixed missing vehicles skills on a few roles.
@@ -4477,5 +4470,12 @@
   id: 3001
   time: '2026-03-03T02:20:15.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9135
+- author: CatAndHats
+  changes:
+  - message: Added new-to-job popups for Maint Tech and Combat Tech
+    type: Add
+  id: 3002
+  time: '2026-03-03T02:23:15.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9365
 Name: RMC14
 Order: -1
