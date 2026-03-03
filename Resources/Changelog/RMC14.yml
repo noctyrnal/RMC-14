@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: PursuitInAshes
-  changes:
-  - message: '[PVE] CORSAT now has basic Tactical Map labels.'
-    type: Add
-  id: 2476
-  time: '2025-11-15T07:47:56.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8264
 - author: Ian321
   changes:
   - message: Some phones can now be set to "do not disturb".
@@ -4497,5 +4490,12 @@
   id: 2977
   time: '2026-03-03T00:48:44.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9307
+- author: J C Denton
+  changes:
+  - message: Fixed PMC survivor Solaris insert Leader and FOL having wrong skills.
+    type: Fix
+  id: 2978
+  time: '2026-03-03T00:57:09.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9263
 Name: RMC14
 Order: -1
