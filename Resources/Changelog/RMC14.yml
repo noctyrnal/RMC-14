@@ -1,25 +1,4 @@
 ﻿Entries:
-- author: PursuitInAshes
-  changes:
-  - message: UNMC Synthetics now spawn with the correct starting gear.
-    type: Fix
-  - message: Survivor Synthetics now spawn with a stack of metal in their survival
-      pouch instead of a flashlight.
-    type: Fix
-  - message: Removed the Experimental Meson Goggles from the synthetic auxiliary gear
-      rack.
-    type: Remove
-  - message: Survivor Synth Access is now correct. (Colony AA, Shipside Med and Engineering)
-    type: Tweak
-  - message: Survivor Synth now starts with no IFF by default. (Previously UNMC IFF)
-    type: Tweak
-  - message: Synthetic Armor and Camo Variants to the synthetic equipment rack.
-    type: Add
-  - message: Synths are now immune to becoming zombies.
-    type: Fix
-  id: 2486
-  time: '2025-11-17T08:27:25.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8283
 - author: Aurallianz
   changes:
   - message: Hopefully fixed the ID console's functionality to grant IFF.
@@ -4489,5 +4468,13 @@
   id: 2987
   time: '2026-03-03T02:07:33.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9381
+- author: keegaroo65
+  changes:
+  - message: Fixed Hive Tracker to track targets upon your devolution, and the target's
+      evolution or devolution.
+    type: Fix
+  id: 2988
+  time: '2026-03-03T02:09:04.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9328
 Name: RMC14
 Order: -1
