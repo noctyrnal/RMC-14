@@ -1,28 +1,4 @@
 ﻿Entries:
-- author: CyberTropic
-  changes:
-  - message: Changed Kutjevo Abandoned Construction area.
-    type: Tweak
-  id: 2469
-  time: '2025-10-30T11:43:42.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8237
-- author: J C Denton
-  changes:
-  - message: Fixed players becoming stuck in LV-624 engineering room due to platform
-      placement.
-    type: Fix
-  id: 2470
-  time: '2025-10-30T11:43:05.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8220
-- author: SharkSnake98
-  changes:
-  - message: Added Port Nereid, a dense jungle PvE map!
-    type: Add
-  - message: Added a bunch of different props for the map
-    type: Add
-  id: 2471
-  time: '2025-11-15T07:45:09.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/7658
 - author: 0awful
   changes:
   - message: Requisition can now distribute welding googles
@@ -4494,5 +4470,27 @@
   id: 2970
   time: '2026-03-03T00:37:32.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9323
+- author: Dutch-VanDerLinde
+  changes:
+  - message: SSG-45 magazines are now correctly labelled as 10x24mm
+    type: Fix
+  id: 2971
+  time: '2026-03-03T00:40:37.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9303
+- author: Dygon
+  changes:
+  - message: Fixed xenonids not seeing the aimed shot visual.
+    type: Fix
+  id: 2972
+  time: '2026-03-03T00:41:11.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9267
+- author: Dygon
+  changes:
+  - message: Fixed marine minor wins from no Queen after 10 minutes triggering after
+      a hijack.
+    type: Fix
+  id: 2973
+  time: '2026-03-03T00:40:16.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9312
 Name: RMC14
 Order: -1
