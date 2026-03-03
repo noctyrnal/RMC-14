@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: 0awful
-  changes:
-  - message: Requisitions can now dispense flare gun holsters from their vendors.
-    type: Add
-  id: 2479
-  time: '2025-11-15T23:52:52.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8068
 - author: Arykh
   changes:
   - message: Fixed not being able to perform CPR after a previous attempt fails, causing
@@ -4500,5 +4493,13 @@
   id: 2980
   time: '2026-03-03T01:02:05.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9357
+- author: DrSmugleaf
+  changes:
+  - message: Fixed melee, disarm, and tackles sometimes not registering on targets
+      that you are pulling and moving around, specially at high speeds.
+    type: Fix
+  id: 2981
+  time: '2026-03-03T01:57:52.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9400
 Name: RMC14
 Order: -1
