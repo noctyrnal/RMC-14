@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: PursuitInAshes
-  changes:
-  - message: Fireteam Leader Gear Racks now have Rangefinders (10 Pts) and Laser Designators
-      (15 pts) for purchase.
-    type: Add
-  id: 2499
-  time: '2025-11-17T09:47:18.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8284
 - author: JustMyselfUwU
   changes:
   - message: Fixed mice being replaced incorrectly in chat when said by xenos.
@@ -4476,5 +4468,14 @@
   id: 3000
   time: '2026-03-03T02:17:59.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9401
+- author: GNUtopia
+  changes:
+  - message: Hyposprays vended from the We-Wa-Med Plus now contain an empty vial
+    type: Tweak
+  - message: The We-Ya-Med Plus now stocks tricordrazine vials
+    type: Tweak
+  id: 3001
+  time: '2026-03-03T02:20:15.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9135
 Name: RMC14
 Order: -1
