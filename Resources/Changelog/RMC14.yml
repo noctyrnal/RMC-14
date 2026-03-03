@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Vixting
-  changes:
-  - message: MD no longer pings if you share IFF
-    type: Add
-  id: 2504
-  time: '2025-11-17T09:58:25.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8366
 - author: Ian321
   changes:
   - message: You can no longer store boots inside of helmets.
@@ -4513,5 +4506,16 @@
   id: 3005
   time: '2026-03-03T02:44:47.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9244
+- author: GNUtopia
+  changes:
+  - message: Welding fuel now has a distinct flame
+    type: Tweak
+  - message: Fire visuals now die down linearly over their duration
+    type: Tweak
+  - message: Fixed incorrect fire tile duration for several sources
+    type: Fix
+  id: 3006
+  time: '2026-03-03T02:47:14.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9329
 Name: RMC14
 Order: -1
