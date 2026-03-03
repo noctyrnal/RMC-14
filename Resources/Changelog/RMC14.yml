@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: CyberTropic
-  changes:
-  - message: Fixed double corpse spawners on New Varadero.
-    type: Fix
-  id: 2473
-  time: '2025-11-15T07:48:48.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8326
 - author: Shromply
   changes:
   - message: '[PVE] Added the UNS Rover, a FORECON ship map.'
@@ -4494,5 +4487,12 @@
   id: 2974
   time: '2026-03-03T00:42:57.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9262
+- author: noctyrnal
+  changes:
+  - message: TSEPA now have Blue HUD icons instead of red.
+    type: Tweak
+  id: 2975
+  time: '2026-03-03T00:44:56.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9247
 Name: RMC14
 Order: -1
