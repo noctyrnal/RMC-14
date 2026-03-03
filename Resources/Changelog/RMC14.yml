@@ -1,13 +1,6 @@
 ﻿Entries:
 - author: PursuitInAshes
   changes:
-  - message: The MP Riot Grenade Launcher now requires police 1 to fire.
-    type: Tweak
-  id: 2497
-  time: '2025-11-17T09:47:41.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8305
-- author: PursuitInAshes
-  changes:
   - message: The SPP Deathsquad Medic now has the correct skill (Med 2) to use their
       medical supplies.
     type: Fix
@@ -4476,5 +4469,12 @@
   id: 2998
   time: '2026-03-03T02:10:19.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9340
+- author: CatAndHats
+  changes:
+  - message: The Accentless trait now costs 0
+    type: Tweak
+  id: 2999
+  time: '2026-03-03T02:16:57.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9290
 Name: RMC14
 Order: -1
