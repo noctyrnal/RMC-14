@@ -1,80 +1,4 @@
 ﻿Entries:
-- author: Aurallianz
-  changes:
-  - message: Hopefully fixed the ID console's functionality to grant IFF.
-    type: Fix
-  id: 2487
-  time: '2025-11-17T08:32:17.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8191
-- author: noctyrnal
-  changes:
-  - message: Added per-faction Radio Telephone backpacks.
-    type: Add
-  - message: Resprited the Radio Telephone backpack.
-    type: Tweak
-  id: 2488
-  time: '2025-11-17T08:31:43.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8235
-- author: noctyrnal
-  changes:
-  - message: SLs now get a Radio Telephone pack in their essential kit.
-    type: Add
-  id: 2489
-  time: '2025-11-17T08:33:09.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8356
-- author: CatAndHats
-  changes:
-  - message: Added new lobby art, Running From Ravager by trashycinder!
-    type: Add
-  id: 2490
-  time: '2025-11-17T09:34:23.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8225
-- author: Tyzemol
-  changes:
-  - message: Flamer can no longer stack multiple fires on the same tile
-    type: Fix
-  id: 2491
-  time: '2025-11-17T09:38:28.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8349
-- author: CyberTropic
-  changes:
-  - message: Changed map vote results display.
-    type: Tweak
-  id: 2492
-  time: '2025-11-17T09:40:03.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8254
-- author: CyberTropic
-  changes:
-  - message: Added new crates to Requisitions.
-    type: Add
-  - message: Pacman generators are constructable, but not functional.
-    type: Add
-  - message: Fortunes can fit inside helmets.
-    type: Fix
-  id: 2493
-  time: '2025-11-17T09:40:44.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8258
-- author: CyberTropic
-  changes:
-  - message: Fixed wall weeds staying around when the weeded wall is removed.
-    type: Fix
-  id: 2494
-  time: '2025-11-17T09:41:48.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8293
-- author: PursuitInAshes
-  changes:
-  - message: The XM40 no longer has a floating pixel when wielded.
-    type: Fix
-  id: 2495
-  time: '2025-11-17T09:43:17.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8288
-- author: CyberTropic
-  changes:
-  - message: Added visual IV drip connections.
-    type: Add
-  id: 2496
-  time: '2025-11-17T09:42:46.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8322
 - author: PursuitInAshes
   changes:
   - message: The MP Riot Grenade Launcher now requires police 1 to fire.
@@ -4476,5 +4400,81 @@
   id: 2988
   time: '2026-03-03T02:09:04.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9328
+- author: Pyromaniac365
+  changes:
+  - message: Added standard, golden and disabler underlays to sidearm pouch
+    type: Add
+  id: 2989
+  time: '2026-03-03T02:11:19.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9221
+- author: Drazamuffin
+  changes:
+  - message: Removed an extra letter T in the ABR40 Tactical hunting rifle description
+    type: Fix
+  id: 2990
+  time: '2026-03-03T02:11:40.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9351
+- author: keegaroo65
+  changes:
+  - message: Changed Xeno Watch UI to ignore dashes and digits when searching, for
+      convenience with postfixes.
+    type: Tweak
+  id: 2991
+  time: '2026-03-03T02:14:49.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9324
+- author: PursuitInAshes
+  changes:
+  - message: '[PVE] Dropships have received storage compartments the size of backpacks
+      both sides of the cockpit doors. These are capable of storing any item.'
+    type: Add
+  - message: '[PVE] Dropship phones are now named correctly and in the "Dropship"
+      category.'
+    type: Fix
+  id: 2992
+  time: '2026-03-03T02:13:59.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9301
+- author: TadJohnson00
+  changes:
+  - message: '[PVE] Added the M5A2 SHEL, a HE variant of the M5A1 SLAW.'
+    type: Add
+  id: 2993
+  time: '2026-03-03T02:12:13.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9025
+- author: PursuitInAshes
+  changes:
+  - message: '[PVE] Royal Crown Marine Riflemen no longer have the pilot skill.'
+    type: Tweak
+  id: 2994
+  time: '2026-03-03T02:13:38.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9339
+- author: IceNoobXD
+  changes:
+  - message: "Tweaked the ON sprite of the data detector so it\u2019s more easily\
+      \ distinguishable from the OFF sprite."
+    type: Tweak
+  id: 2995
+  time: '2026-03-03T02:12:42.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9305
+- author: GNUtopia
+  changes:
+  - message: Marines can now take a camo beret in their loadout.
+    type: Add
+  id: 2996
+  time: '2026-03-03T02:10:57.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9370
+- author: SharkSnake98
+  changes:
+  - message: Added new to job Popup for CL
+    type: Add
+  id: 2997
+  time: '2026-03-03T02:15:09.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9129
+- author: Dygon
+  changes:
+  - message: The hive tracker now tracks the queen by default.
+    type: Fix
+  id: 2998
+  time: '2026-03-03T02:10:19.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9340
 Name: RMC14
 Order: -1
