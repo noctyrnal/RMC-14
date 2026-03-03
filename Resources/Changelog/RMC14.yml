@@ -1,26 +1,4 @@
 ﻿Entries:
-- author: CatAndHats
-  changes:
-  - message: Fixed missing vehicles skills on a few roles.
-    type: Fix
-  id: 2501
-  time: '2025-11-17T09:57:37.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8231
-- author: CatAndHats
-  changes:
-  - message: Fixed the requisitions munition vendor lacking m4spr ext magazine boxes.
-    type: Fix
-  id: 2502
-  time: '2025-11-17T09:57:06.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8241
-- author: CatAndHats
-  changes:
-  - message: Fixed the new M13 AP magazine boxes not being in the cardboard construction
-      menu.
-    type: Fix
-  id: 2503
-  time: '2025-11-17T09:56:43.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8217
 - author: Vixting
   changes:
   - message: MD no longer pings if you share IFF
@@ -4477,5 +4455,63 @@
   id: 3002
   time: '2026-03-03T02:23:15.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9365
+- author: Dygon
+  changes:
+  - message: Fixed fire damage taken while standing on a fire tile being too high.
+    type: Fix
+  - message: Fixed the duration of fire tiles created by UT Naphtal(60>20) and B-Gel(60>50)
+      being too high.
+    type: Fix
+  id: 3003
+  time: '2026-03-03T02:45:04.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9298
+- author: kleinerstation13
+  changes:
+  - message: Added chatsan for the word "M2C" for xenonids.
+    type: Add
+  id: 3004
+  time: '2026-03-03T02:45:26.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9306
+- author: Dygon
+  changes:
+  - message: Charger crushers can now run over a deployed HMG, undeploying and heavily
+      damaging it.
+    type: Fix
+  - message: Directly aiming at a deployed HMG when shooting a projectile now makes
+      it hit the HMG.
+    type: Fix
+  - message: When an ML66D is destroyed it now has a 50% chance to drop the gun component
+      instead of a 100% chance.
+    type: Fix
+  - message: You can now craft a new ML66D mount component using 10 plasteel rods.
+    type: Fix
+  - message: Slightly adjusted the damage and accuracy falloff rates of the M2C. This
+      reduces the damage of each projectile by 3 at most distances and makes it slightly
+      less accurate at medium-range.
+    type: Fix
+  - message: Fixed a bug where an undeployed HMG would sometimes collide as if it
+      was deployed.
+    type: Fix
+  - message: You can now only mount a deployed HMG when standing behind it.
+    type: Fix
+  - message: Being knocked down now dismounts you from an HMG instead of only stunning
+      you.
+    type: Fix
+  - message: You can no longer deploy or mount an HMG while invisible.
+    type: Fix
+  - message: Trying to repair something now gets cancelled if the repaired entity
+      moves.
+    type: Fix
+  - message: The M2C cannot rotate in a given direction if the tile behind its new
+      facing direction is blocked by a wall.
+    type: Fix
+  - message: Having a wall right behind you while mounting an HMG no longer makes
+      you unable to be hit.
+    type: Fix
+  - message: Fixed dismounting from an HMG sometimes making your vision flicker.
+    type: Fix
+  id: 3005
+  time: '2026-03-03T02:44:47.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9244
 Name: RMC14
 Order: -1
