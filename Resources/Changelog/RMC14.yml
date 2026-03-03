@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: 0awful
-  changes:
-  - message: Requisition can now distribute welding googles
-    type: Add
-  id: 2472
-  time: '2025-11-15T07:46:06.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8105
 - author: CyberTropic
   changes:
   - message: Fixed double corpse spawners on New Varadero.
@@ -4492,5 +4485,14 @@
   id: 2973
   time: '2026-03-03T00:40:16.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9312
+- author: Dygon
+  changes:
+  - message: Fixed projectiles sometimes hitting through objects.
+    type: Fix
+  - message: Projectiles shot by guns now travel 12% slower.
+    type: Fix
+  id: 2974
+  time: '2026-03-03T00:42:57.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9262
 Name: RMC14
 Order: -1
