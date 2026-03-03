@@ -1,0 +1,6 @@
+﻿author: DrSmugleaf
+changes:
+- type: Fix
+  message: Fixed M5-ATL HE rockets not exploding when colliding with a target.
+- type: Fix
+  message: Fixed not being able to give admins RMCMaintainer or AdminGhost permission.

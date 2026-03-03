@@ -1,0 +1,4 @@
+﻿author: CatAndHats, SharkSnake98
+changes:
+- type: Add
+  message: "Added inserts for survivors to spawn together on Solaris: in Admin, Bar, Storage, Office, and south of Marshals."
