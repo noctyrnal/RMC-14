@@ -1,22 +1,4 @@
 ﻿Entries:
-- author: Shromply
-  changes:
-  - message: '[PVE] Added the UNS Rover, a FORECON ship map.'
-    type: Add
-  id: 2474
-  time: '2025-11-15T07:47:10.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/7790
-- author: SharkSnake98
-  changes:
-  - message: Removed OCP-583 from roundstart loading
-    type: Fix
-  - message: Added a shuttle to repaired chances
-    type: Add
-  - message: Fixed a wall in the site director's office
-    type: Fix
-  id: 2475
-  time: '2025-11-15T07:49:33.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/7468
 - author: PursuitInAshes
   changes:
   - message: '[PVE] CORSAT now has basic Tactical Map labels.'
@@ -4494,5 +4476,26 @@
   id: 2975
   time: '2026-03-03T00:44:56.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9247
+- author: Vixting
+  changes:
+  - message: Fixed xenonid tags not being hidden
+    type: Fix
+  - message: Fixed not being able to change sentry name after assigning it
+    type: Fix
+  - message: Fixed the sentry laptop being deleted on removing the table its on
+    type: Fix
+  - message: Fixed sentry IFF settings resetting (hopefully)
+    type: Fix
+  id: 2976
+  time: '2026-03-03T00:48:15.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9294
+- author: wheelwrightt
+  changes:
+  - message: Fixed UBE action icon appearing inactive after dropping and picking up
+      the flamer despite remaining active.
+    type: Fix
+  id: 2977
+  time: '2026-03-03T00:48:44.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9307
 Name: RMC14
 Order: -1
