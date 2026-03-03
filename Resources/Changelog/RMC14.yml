@@ -1,28 +1,4 @@
 ﻿Entries:
-- author: DrSmugleaf
-  changes:
-  - message: Added Kurt 'Doc Holiday' Lachner figurine and updated Sips-On-Puddles
-      figurine.
-    type: Add
-  id: 2466
-  time: '2025-10-19T23:24:45.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8187
-- author: noctyrnal
-  changes:
-  - message: Fixed xenos not being able to pry powered doors.
-    type: Fix
-  id: 2467
-  time: '2025-10-28T07:20:52.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8202
-- author: Aurallianz
-  changes:
-  - message: Fixed Id Modification Console popup.
-    type: Fix
-  - message: Invincible walls are now clickable and thus mapping selectable
-    type: Fix
-  id: 2468
-  time: '2025-10-28T21:41:17.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/7992
 - author: CyberTropic
   changes:
   - message: Changed Kutjevo Abandoned Construction area.
@@ -4495,5 +4471,28 @@
   id: 2967
   time: '2026-03-03T00:36:20.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9364
+- author: Dygon
+  changes:
+  - message: Barbed barricades now only block climbing over or buckling to objects
+      when in between the user and the object.
+    type: Fix
+  id: 2968
+  time: '2026-03-03T00:38:01.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9315
+- author: wheelwrightt
+  changes:
+  - message: Cutting up scarves no longer yields upstream cloth.
+    type: Fix
+  id: 2969
+  time: '2026-03-03T00:38:35.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9310
+- author: kleinerstation13
+  changes:
+  - message: Replaced mentions of CEC on Sorokyne Strata and SPP EC patch with MSC
+      (Ministry of Space Colonisation)
+    type: Tweak
+  id: 2970
+  time: '2026-03-03T00:37:32.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9323
 Name: RMC14
 Order: -1
