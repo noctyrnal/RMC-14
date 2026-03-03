@@ -1,6 +1,7 @@
 ﻿using Content.Shared._RMC14.Dialog;
 using Content.Shared._RMC14.Tracker.SquadLeader;
 using Content.Shared._RMC14.Xenonids;
+using Content.Shared._RMC14.Xenonids.Egg;
 using Content.Shared._RMC14.Xenonids.Evolution;
 using Content.Shared._RMC14.Xenonids.Hive;
 using Content.Shared._RMC14.Xenonids.Watch;
@@ -29,6 +30,7 @@ public sealed class HiveTrackerSystem : EntitySystem
     [Dependency] private readonly SharedXenoWatchSystem _xenoWatch = default!;
 
     private const string HiveTrackerCategory = "HiveTracker";
+    private const string QueenTrackerComponent = "XenoOvipositorCapable";
 
     public override void Initialize()
     {
@@ -280,7 +282,7 @@ public sealed class HiveTrackerSystem : EntitySystem
             // If the tracker is tracking an entity, point towards the target.
             if (tracker.Target != null)
             {
-                if (!HasComp<RMCTrackableComponent>(tracker.Target.Value))
+                if (!HasComp<RMCTrackableComponent>(tracker.Target))
                 {
                     SetTarget((uid, tracker), null);
                     continue;
@@ -290,29 +292,45 @@ public sealed class HiveTrackerSystem : EntitySystem
                 continue;
             }
 
-            // If the tracker is not tracking an entity, try to find a new target.
-            var trackableQuery = EntityQueryEnumerator<RMCTrackableComponent, HiveMemberComponent>();
-            while (trackableQuery.MoveNext(out var trackableUid, out _, out var targetMember))
+            var foundTarget = false;
+            _prototypeManager.TryIndex(tracker.Mode, out var trackerMode);
+
+            // If the tracker is not tracking an entity, and the tracker is a hive member, try to find a new target.
+            if (TryComp(uid, out HiveMemberComponent? member) && trackerMode?.Component != null)
             {
-                if (!TryComp(uid, out HiveMemberComponent? member))
-                    break;
-
-                _prototypeManager.TryIndex(tracker.Mode, out var trackerMode);
-                if (trackerMode?.Component == null)
-                    break;
-
-                if (member.Hive != targetMember.Hive)
-                    continue;
-
+                var trackableQuery = EntityQueryEnumerator<RMCTrackableComponent, HiveMemberComponent>();
                 var trackingComponent = _factory.GetComponent(trackerMode.Component).GetType();
-                if (EntityManager.TryGetComponent(trackableUid, trackingComponent, out _))
+                while (trackableQuery.MoveNext(out var trackableUid, out _, out var targetMember))
                 {
-                    SetTarget((uid, tracker), trackableUid);
-                    if(tracker.Target != null)
-                        UpdateDirection((uid, tracker), _transform.GetMapCoordinates(tracker.Target.Value));
+                    if (member.Hive != targetMember.Hive)
+                        continue;
+
+                    // Only automatically track the first found target if looking for a queen
+                    if (trackerMode.Component == QueenTrackerComponent)
+                    {
+                        if (EntityManager.TryGetComponent(trackableUid, trackingComponent, out _))
+                        {
+                            SetTarget((uid, tracker), trackableUid);
+                            if (tracker.Target != null)
+                            {
+                                UpdateDirection((uid, tracker), _transform.GetMapCoordinates(tracker.Target.Value));
+                                foundTarget = true;
+                            }
+                        }
+                    }
+
+                    if (foundTarget)
+                        break;
                 }
-                break;
             }
+            else if (tracker.Target != null)
+            {
+                SetTarget((uid, tracker), null);
+            }
+
+            if (foundTarget)
+                continue;
+
             UpdateDirection((uid, tracker));
         }
     }
