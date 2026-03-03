@@ -1,14 +1,6 @@
 ﻿Entries:
 - author: Arykh
   changes:
-  - message: Fixed not being able to perform CPR after a previous attempt fails, causing
-      the strip menu to open instead.
-    type: Fix
-  id: 2480
-  time: '2025-11-16T01:02:40.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8380
-- author: Arykh
-  changes:
   - message: Added Focusing, Ketogenic, Nutritious, Hemogenic, Anticarcinogenic, Carcinogenic,
       Toxic, Corrosive, Thermostabilizing, and Boosting properties!
     type: Add
@@ -4501,5 +4493,13 @@
   id: 2981
   time: '2026-03-03T01:57:52.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9400
+- author: Arykh
+  changes:
+  - message: Blood Packs now transfer blood every 2 seconds instead of 3. Very slightly
+      (10%) reduced the blood transfer amount from Packs and IV Drips.
+    type: Tweak
+  id: 2982
+  time: '2026-03-03T01:59:56.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9394
 Name: RMC14
 Order: -1
