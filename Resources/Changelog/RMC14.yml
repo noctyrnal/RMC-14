@@ -1,14 +1,6 @@
 ﻿Entries:
 - author: PursuitInAshes
   changes:
-  - message: The SPP Deathsquad Medic now has the correct skill (Med 2) to use their
-      medical supplies.
-    type: Fix
-  id: 2498
-  time: '2025-11-17T09:48:01.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8302
-- author: PursuitInAshes
-  changes:
   - message: Fireteam Leader Gear Racks now have Rangefinders (10 Pts) and Laser Designators
       (15 pts) for purchase.
     type: Add
@@ -4476,5 +4468,13 @@
   id: 2999
   time: '2026-03-03T02:16:57.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9290
+- author: kleinerstation13
+  changes:
+  - message: Added a possible scenario for 121/RECON, an SPP SOF team investigating
+      the Sorokyne Outpost distress signal. Has a 40% chance of occuring.
+    type: Add
+  id: 3000
+  time: '2026-03-03T02:17:59.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9401
 Name: RMC14
 Order: -1
