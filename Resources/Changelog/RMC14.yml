@@ -1,15 +1,6 @@
 ﻿Entries:
 - author: noctyrnal
   changes:
-  - message: Resprited the M5 ATL.
-    type: Tweak
-  - message: The M5 ATL now has a built-in magnetic harness.
-    type: Tweak
-  id: 2508
-  time: '2025-11-17T10:08:09.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8333
-- author: noctyrnal
-  changes:
   - message: Updated the Type 71 and 73 shooting sound.
     type: Tweak
   id: 2509
@@ -4513,5 +4504,21 @@
   id: 3009
   time: '2026-03-03T05:17:25.618985+00:00'
   url: null
+- author: SharkSnake98
+  changes:
+  - message: Added the SPP Doors and ASAT Launcher prop
+    type: Add
+  - message: Added the PVE varient of the SPP Flamer, as well as tank storage case
+      and rack
+    type: Add
+  - message: Added ammo boxes for the heavy shotgun shells
+    type: Add
+  - message: Changed the doors and layout of the SSV Deyneka, and added the correct
+      flamer and shells. Also moved all the phones to the SSV Deyneka catagory, and
+      added some more around the ship.
+    type: Tweak
+  id: 3010
+  time: '2026-03-26T10:40:08.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9140
 Name: RMC14
 Order: -1
