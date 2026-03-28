@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: PursuitInAshes
-  changes:
-  - message: The FORECON CO no longer has all access by default.
-    type: Tweak
-  id: 2518
-  time: '2025-11-17T11:45:51.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8224
 - author: Arykh
   changes:
   - message: You can now examine reagents inside a pressurized reagent canister pouch!
@@ -4511,5 +4504,13 @@
   id: 3019
   time: '2026-03-28T11:06:37.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9409
+- author: Arykh
+  changes:
+  - message: Added the Body Scanner! Its scan is more detailed than the Health Analyzer,
+      but it's not continuous.
+    type: Add
+  id: 3020
+  time: '2026-03-28T11:09:28.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9398
 Name: RMC14
 Order: -1
