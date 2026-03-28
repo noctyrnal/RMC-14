@@ -1,18 +1,4 @@
 ﻿Entries:
-- author: x5tink
-  changes:
-  - message: Fixed Rollerbeds not appearing in hand.
-    type: Fix
-  id: 2516
-  time: '2025-11-17T10:24:06.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8393
-- author: monomethylhydrazine
-  changes:
-  - message: Fixed Basira-Armstrong magazines being medium instead of small sized.
-    type: Fix
-  id: 2517
-  time: '2025-11-17T10:25:52.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8389
 - author: PursuitInAshes
   changes:
   - message: The FORECON CO no longer has all access by default.
@@ -4509,5 +4495,21 @@
   id: 3017
   time: '2026-03-28T11:05:17.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9410
+- author: Dutch-VanDerLinde
+  changes:
+  - message: Fixed the SPP SOF sorokyne survivors insert having the wrong skills.
+    type: Fix
+  - message: Fixed the SPP SOF sorokyne survivors not all spawning with 20 metal sheets.
+    type: Fix
+  id: 3018
+  time: '2026-03-28T11:07:25.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9408
+- author: GNUtopia
+  changes:
+  - message: Improvised firebombs and AGM-I grenades now burn for the proper time
+    type: Fix
+  id: 3019
+  time: '2026-03-28T11:06:37.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9409
 Name: RMC14
 Order: -1
