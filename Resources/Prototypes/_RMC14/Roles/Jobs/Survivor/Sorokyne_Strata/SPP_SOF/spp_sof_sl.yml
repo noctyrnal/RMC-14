@@ -15,19 +15,7 @@
       factions:
       - SPP
     - type: Skills
-      skills:
-        RMCSkillCqc: 1
-        RMCSkillConstruction: 2
-        RMCSkillEndurance: 2
-        RMCSkillEngineer: 3
-        RMCSkillFirearms: 1
-        RMCSkillLeadership: 2
-        RMCSkillFireman: 1
-        RMCSkillJtac: 3
-        RMCSkillMeleeWeapons: 1
-        #RMCSkillSpecialistWeapons: 1
-        RMCSkillMedical: 2
-        RMCSkillOverwatch: 1
+      preset: RMCSkillPresetSurvivorSPPLeader
     - type: MarineOrders
     - type: IntelRescueSurvivorObjective
     - type: JobPrefix
@@ -49,7 +37,8 @@
     head: RMCHeadCapSPPSOF
   storage:
     back:
-    - ArmorHelmetSPPHeavy
+    - RMCArmorHelmetSPPSOF
+    - CMSheetMetal20
     outerClothing:
     - RMCTacticalPrybar
     - RMCMagazineRifleAK4047
