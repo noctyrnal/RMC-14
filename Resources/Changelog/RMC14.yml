@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Aurallianz
-  changes:
-  - message: improved Mutiny text
-    type: Add
-  id: 2524
-  time: '2025-11-19T02:17:13.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8432
 - author: monomethylhydrazine
   changes:
   - message: Added the cassette pouch, which can store up to 3 cassettes. Available
@@ -4508,5 +4501,13 @@
   id: 3025
   time: '2026-03-28T22:39:08.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9130
+- author: BreakpointDebug1234
+  changes:
+  - message: M1984 hollow point magazine box. Can be crafted, purchased or received
+      as a random crate from ASRS.
+    type: Add
+  id: 3026
+  time: '2026-03-30T04:48:06.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/8947
 Name: RMC14
 Order: -1
