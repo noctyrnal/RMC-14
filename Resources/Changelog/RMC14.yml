@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: breeplayx3
-  changes:
-  - message: Added new lobby art by breeplayx3
-    type: Add
-  id: 2531
-  time: '2025-11-19T02:57:18.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8311
 - author: Ian321
   changes:
   - message: Syringes now toggle correctly between drawing and injecting when used
@@ -4508,5 +4501,12 @@
   id: 3032
   time: '2026-03-31T01:57:04.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9523
+- author: Aurallianz
+  changes:
+  - message: Paper is cooler now
+    type: Tweak
+  id: 3033
+  time: '2026-03-31T01:58:52.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9403
 Name: RMC14
 Order: -1
