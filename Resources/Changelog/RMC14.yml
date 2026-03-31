@@ -1,22 +1,4 @@
 ﻿Entries:
-- author: PursuitInAshes
-  changes:
-  - message: The LV-624 Goon Leader survivor variant will now spawn with the correct
-      uniform.
-    type: Fix
-  id: 2529
-  time: '2025-11-19T02:48:21.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8285
-- author: ExponentialWizard
-  changes:
-  - message: Oppressor abduct and Boiler bombard can now be targetted further than
-      their range, automatically capping at the max range.
-    type: Add
-  - message: Fixed some abduct and bombard issues.
-    type: Fix
-  id: 2530
-  time: '2025-11-19T02:52:23.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8368
 - author: breeplayx3
   changes:
   - message: Added new lobby art by breeplayx3
@@ -4510,5 +4492,21 @@
   id: 3030
   time: '2026-03-30T04:53:06.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9282
+- author: Vixting
+  changes:
+  - message: Xeno apply acid is now a repeat action & has outline around items
+    type: Tweak
+  id: 3031
+  time: '2026-03-31T01:57:39.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9535
+- author: Bakeun0
+  changes:
+  - message: Fixed burrow-down sound being played when selecting a tile to burrow
+      to, or cancelling a burrow. It will now only be played upon entering the burrowed
+      state.
+    type: Fix
+  id: 3032
+  time: '2026-03-31T01:57:04.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9523
 Name: RMC14
 Order: -1
