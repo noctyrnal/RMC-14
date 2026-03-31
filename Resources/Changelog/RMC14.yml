@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: CatAndHats
-  changes:
-  - message: Added new survival pouch sprites; grey for synthetics, black for SPP
-      military and PMCs, and brown for everyone else.
-    type: Add
-  id: 2537
-  time: '2025-11-19T03:03:46.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8433
 - author: Vixting
   changes:
   - message: Sentry respects faction IFF
@@ -4516,5 +4508,12 @@
   id: 3037
   time: '2026-03-31T08:59:33.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9167
+- author: Arykh
+  changes:
+  - message: Fixed the CPR Dummy not properly tracking successful and failed CPR attempts.
+    type: Fix
+  id: 3038
+  time: '2026-03-31T10:09:37.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9423
 Name: RMC14
 Order: -1
