@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: Ian321
-  changes:
-  - message: Added the automated personal uniform closet, north of CIC and in the
-      gym.
-    type: Add
-  id: 2536
-  time: '2025-11-19T03:01:31.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8384
 - author: CatAndHats
   changes:
   - message: Added new survival pouch sprites; grey for synthetics, black for SPP
@@ -4515,5 +4507,14 @@
   id: 3036
   time: '2026-03-31T08:58:30.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9089
+- author: Thereisabear
+  changes:
+  - message: Xenos now do appropriate damage and to Lathes and Vending Machines.
+    type: Fix
+  - message: Fixed Vendors not having corrodible components.
+    type: Fix
+  id: 3037
+  time: '2026-03-31T08:59:33.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9167
 Name: RMC14
 Order: -1
