@@ -1,19 +1,4 @@
 ﻿Entries:
-- author: JustMyselfUwU
-  changes:
-  - message: Fixed MOU53 not receiving the correct accuracy bonus from the gyroscopic
-      stabilizer.
-    type: Fix
-  id: 2545
-  time: '2025-11-29T02:57:20.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8483
-- author: Vermidia
-  changes:
-  - message: Added even more avali names
-    type: Add
-  id: 2546
-  time: '2025-11-29T02:58:45.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8475
 - author: noctyrnal
   changes:
   - message: Added basketball hoops!
@@ -4522,5 +4507,19 @@
   id: 3045
   time: '2026-04-01T07:02:23.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9375
+- author: Whisper
+  changes:
+  - message: LZ sentries have a rotating warning light.
+    type: Add
+  id: 3046
+  time: '2026-04-02T05:02:25.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9461
+- author: c0rigin
+  changes:
+  - message: Non-wagging vulp tails are now properly labeled as such
+    type: Fix
+  id: 3047
+  time: '2026-04-02T05:02:49.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9422
 Name: RMC14
 Order: -1
