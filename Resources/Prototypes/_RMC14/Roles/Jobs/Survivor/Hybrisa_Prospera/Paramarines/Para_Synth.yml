@@ -51,7 +51,7 @@
               Blunt: 35
         - type: Synth
           generation: rmc-species-synth-generation-second
-  useLoadoutOfJob: RMCJobSyntheticColony # for inheritance
+  useLoadoutOfJob: RMCSyntheticColony # for inheritance
   hidden: true
 
 - type: startingGear
