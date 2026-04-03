@@ -1,19 +1,4 @@
 ﻿Entries:
-- author: Dutch-VanDerLinde
-  changes:
-  - message: Modified the virology open nightmare insert on solaris ridge. It now
-      spawns with a flamethrower, syringe case, and has some new props.
-    type: Add
-  id: 2554
-  time: '2025-11-29T03:30:25.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8467
-- author: 0awful
-  changes:
-  - message: Rifleman's armor vest option now renders like the other armor options.
-    type: Tweak
-  id: 2555
-  time: '2025-11-29T03:37:13.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8419
 - author: Vermidia
   changes:
   - message: Fixed some heals not healing enough.
@@ -4522,5 +4507,19 @@
   id: 3054
   time: '2026-04-03T09:14:47.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9056
+- author: kleinerstation13
+  changes:
+  - message: Added a green band to PDW90 AP magazines
+    type: Tweak
+  id: 3055
+  time: '2026-04-03T09:17:19.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9500
+- author: wheelwrightt
+  changes:
+  - message: Intel officer's uniform now properly changes with map.
+    type: Fix
+  id: 3056
+  time: '2026-04-03T09:18:06.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9475
 Name: RMC14
 Order: -1
