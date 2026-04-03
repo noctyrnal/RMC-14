@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Tunguso4ka
-  changes:
-  - message: Replaced most of reinforced walls on Sorokyne with standard walls.
-    type: Fix
-  id: 2553
-  time: '2025-11-29T03:28:55.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8453
 - author: Dutch-VanDerLinde
   changes:
   - message: Modified the virology open nightmare insert on solaris ridge. It now
@@ -4521,5 +4514,13 @@
   id: 3053
   time: '2026-04-03T00:29:12.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9458
+- author: RerBreab
+  changes:
+  - message: Fixed direct hit of the incinerator's stream dealing damage multiple
+      times.
+    type: Fix
+  id: 3054
+  time: '2026-04-03T09:14:47.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9056
 Name: RMC14
 Order: -1
