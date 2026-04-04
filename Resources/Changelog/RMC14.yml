@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: CatAndHats
-  changes:
-  - message: Fixed the Chief Engineer and Maintenance Technician vendors to now have
-      points and gave them some items they were missing.
-    type: Fix
-  id: 2564
-  time: '2025-11-29T05:16:38.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8124
 - author: Vermidia
   changes:
   - message: Fixed Queen gut ability sometimes being able to gib multiple marines
@@ -4525,5 +4517,32 @@
   id: 3064
   time: '2026-04-04T10:24:25.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9485
+- author: Dygon
+  changes:
+  - message: Acid's total damage to barricades has been increased by 12.5%.
+    type: Fix
+  - message: 'Flares now get melted faster by acid: weak acid 27.5% faster, normal
+      acid 49% faster, strong acid 71.4% faster.'
+    type: Fix
+  - message: Extended the burn duration of M94 flares from 10 to 16 minutes and adjusted
+      their fade-out timing.
+    type: Fix
+  - message: M94 flares fired into the air with a flare gun now last twice as long.
+    type: Fix
+  - message: A signal flare now becomes a valid dropship target 5 seconds after landing
+      instead of instantly.
+    type: Fix
+  - message: Flares no longer ramp up their range as if newly spawned each time they
+      enter your view.
+    type: Fix
+  - message: Flares now gradually fade out instead of maintaining maximum brightness
+      for their entire burn duration.
+    type: Fix
+  - message: Fixed signal flares lasting 30 seconds longer than intended and appearing
+      unlit during this extra duration.
+    type: Fix
+  id: 3065
+  time: '2026-04-04T10:26:39.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9465
 Name: RMC14
 Order: -1
