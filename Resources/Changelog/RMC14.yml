@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: CyberTropic
-  changes:
-  - message: Added half-bright mode for ghosts.
-    type: Add
-  id: 2569
-  time: '2025-11-29T06:08:41.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8469
 - author: Whisper
   changes:
   - message: Added the Provost Inspector, an SEA style role for the military police
@@ -4546,5 +4539,18 @@
   id: 3069
   time: '2026-04-06T03:27:25.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9396
+- author: Dutch-VanDerLinde
+  changes:
+  - message: Civilian survivors now have 17 new unique variants on some maps! Find
+      out ingame!
+    type: Add
+  - message: Civilian survivors spawn with random clothing now
+    type: Tweak
+  - message: Civilian survivors no longer roll last in survivor job rolling and will
+      roll together with every other job.
+    type: Tweak
+  id: 3070
+  time: '2026-04-06T03:33:15.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/8988
 Name: RMC14
 Order: -1
