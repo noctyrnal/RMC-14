@@ -1,13 +1,6 @@
 ﻿Entries:
 - author: CatAndHats
   changes:
-  - message: Fixed maintenance semiotic name
-    type: Fix
-  id: 2566
-  time: '2025-11-29T05:47:38.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8464
-- author: CatAndHats
-  changes:
   - message: Fixed being able to put multiple nailguns in the customised nailgun holster
     type: Fix
   id: 2567
@@ -4544,5 +4537,12 @@
   id: 3066
   time: '2026-04-04T10:31:14.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9456
+- author: Ian321
+  changes:
+  - message: Pamphlets can now also be used to increase your skills even further.
+    type: Tweak
+  id: 3067
+  time: '2026-04-06T03:26:11.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9413
 Name: RMC14
 Order: -1
