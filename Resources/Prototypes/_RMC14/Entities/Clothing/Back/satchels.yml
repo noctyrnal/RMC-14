@@ -1030,6 +1030,37 @@
 
 - type: entity
   parent: RMCSatchelSPP
+  id: RMCSatchelSPPSurvivor
+  suffix: Filled, Survivor
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCRadioHandheldColony
+    - id: CMSheetMetal20
+
+- type: entity
+  parent: RMCSatchelSPP
+  id: RMCSatchelSPPSurvivorSpec
+  suffix: Filled, Survivor Specialist
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCRadioHandheldColony
+    - id: RMCMagazineRifleType71
+    - id: RMCMagazineRifleType71
+
+- type: entity
+  parent: RMCSatchelSPPMedic
+  id: RMCSatchelSPPMedicSurvivor
+  suffix: Filled, Survivor
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCRadioHandheldColony
+    - id: CMDefibrillator
+    - id: CMFireExtinguisherPortable
+    - id: CMHealthAnalyzer
+
   id: RMCSatchelSPPSynth
   suffix: Filled, Synthetic
   components:

@@ -109,6 +109,23 @@
 
 - type: entity
   parent: RMCBeltMedicBagSPP
+  id: RMCBeltMedicBagSPPCrashland
+  suffix: Survivor, Filled
+  components:
+  - type: StorageFill
+    contents:
+    - id: CMUpgradedTraumaKit10
+      amount: 2
+    - id: CMUpgradedBurnKit10
+      amount: 2
+    # - id: RMCSplint
+    # - id: RMCHyposprayOxycodone
+    - id: CMPillCanisterBicaridine
+    - id: CMPillCanisterKelotane
+    - id: CMPillCanisterInaprovaline
+    
+- type: entity
+  parent: RMCBeltMedicBagSPP
   id: RMCBeltMedicBagSPPSynthFilled
   suffix: Synthetic, Filled
   components:
