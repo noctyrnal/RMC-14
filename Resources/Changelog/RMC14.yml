@@ -1,21 +1,6 @@
 ﻿Entries:
 - author: noctyrnal
   changes:
-  - message: Added Flight Visors, visors that JTAC crew can get from their vendors,
-      and pre-installed in their helmets. Purely cosmetic, but they look pretty cool.
-    type: Add
-  id: 2577
-  time: '2025-11-30T06:25:26.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8502
-- author: KompaniLinge
-  changes:
-  - message: Added CO service jackets, enjoy!
-    type: Add
-  id: 2578
-  time: '2025-11-30T09:26:38.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8173
-- author: noctyrnal
-  changes:
   - message: Fixed indestructible podlocks being corrodible.
     type: Fix
   id: 2579
@@ -4556,5 +4541,20 @@
   id: 3077
   time: '2026-04-07T03:16:48.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9332
+- author: CatAndHats
+  changes:
+  - message: Watcher Parasite now has a slightly distinct sprite from base Parasite
+    type: Tweak
+  id: 3078
+  time: '2026-04-07T03:19:10.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9512
+- author: CatAndHats
+  changes:
+  - message: Praetorian Oppressor's Abduct and Vanguard's Pierce abilities now have
+      a tile preview overlay
+    type: Add
+  id: 3079
+  time: '2026-04-07T03:18:40.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9468
 Name: RMC14
 Order: -1
