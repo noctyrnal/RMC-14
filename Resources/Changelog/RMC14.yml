@@ -1,20 +1,4 @@
 ﻿Entries:
-- author: CatAndHats
-  changes:
-  - message: Added the honor guard pamphlet which is found in the honor guard kit,
-      which grants them their hud icon and job title.
-    type: Add
-  id: 2572
-  time: '2025-11-29T09:44:33.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8195
-- author: noctyrnal
-  changes:
-  - message: COs with 450+ Hours can now get golden versions of their sidearms in
-      their loadouts.
-    type: Add
-  id: 2573
-  time: '2025-11-29T09:46:56.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8162
 - author: BramvanZijp
   changes:
   - message: The Commanding Officer's M59a Prototype Rifle now comes in a case alongside
@@ -4558,5 +4542,19 @@
   id: 3072
   time: '2026-04-07T01:19:13.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9216
+- author: Vixting
+  changes:
+  - message: Fixed being able to stack multiple xenonid structures on the same tile
+    type: Fix
+  id: 3073
+  time: '2026-04-07T03:10:08.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9615
+- author: CatAndHats
+  changes:
+  - message: Fixed plastic Road Barriers giving two metal sheets when deconstructed
+    type: Fix
+  id: 3074
+  time: '2026-04-07T03:11:00.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9469
 Name: RMC14
 Order: -1
