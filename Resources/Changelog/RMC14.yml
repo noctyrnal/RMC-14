@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Whisper
-  changes:
-  - message: Fixed Xenonids fitting in storage containers.
-    type: Fix
-  id: 2581
-  time: '2025-12-01T00:24:11.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8511
 - author: Vixting
   changes:
   - message: Fixed queen building speed boost being too fast.
@@ -4556,5 +4549,13 @@
   id: 3081
   time: '2026-04-07T03:20:25.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/8388
+- author: monomethylhydrazine
+  changes:
+  - message: Added jobs for survivors of 173/RECON, an SPP special forces unit crashlanded
+      on Trijent Dam.
+    type: Add
+  id: 3082
+  time: '2026-04-07T03:23:25.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/8602
 Name: RMC14
 Order: -1
