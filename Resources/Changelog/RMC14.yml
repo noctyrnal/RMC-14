@@ -1,27 +1,4 @@
 ﻿Entries:
-- author: BramvanZijp
-  changes:
-  - message: The Commanding Officer's M59a Prototype Rifle now comes in a case alongside
-      3 MK1 AP Magazines instead of one regular MK1 Magazine.
-    type: Tweak
-  id: 2574
-  time: '2025-11-29T10:12:36.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8158
-- author: ayou331
-  changes:
-  - message: Added xeno chevron for playtime over 350h
-    type: Add
-  id: 2575
-  time: '2025-11-29T10:17:09.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/7896
-- author: CatAndHats
-  changes:
-  - message: Fixed squad prep and requisitions vendors missing the micro laser sight
-      attachment.
-    type: Fix
-  id: 2576
-  time: '2025-11-29T10:58:17.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8216
 - author: noctyrnal
   changes:
   - message: Added Flight Visors, visors that JTAC crew can get from their vendors,
@@ -4556,5 +4533,28 @@
   id: 3074
   time: '2026-04-07T03:11:00.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9469
+- author: CatAndHats
+  changes:
+  - message: Xenonid spit actions remain toggled until deactivated or another ability
+      is used
+    type: Tweak
+  id: 3075
+  time: '2026-04-07T03:17:21.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9538
+- author: Dygon
+  changes:
+  - message: Fixed resting resetting tackle stacks.
+    type: Fix
+  id: 3076
+  time: '2026-04-07T03:16:22.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9526
+- author: CatAndHats
+  changes:
+  - message: Fixed sentinel resting sprites while they are injured to not have the
+      blood floating in mid-air
+    type: Fix
+  id: 3077
+  time: '2026-04-07T03:16:48.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9332
 Name: RMC14
 Order: -1
