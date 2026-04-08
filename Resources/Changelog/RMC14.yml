@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Shromply
-  changes:
-  - message: Added a trio of soft first-aid packs for PVE.
-    type: Add
-  id: 2583
-  time: '2025-12-01T00:40:09.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8261
 - author: OmerF-afk
   changes:
   - message: Added L42A incendiary and wall piercing ammo, M4SPR incendiary, HEAP,
@@ -4557,5 +4550,13 @@
   id: 3083
   time: '2026-04-08T04:27:53.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9488
+- author: Ian321
+  changes:
+  - message: Requisitions now also stocks replacement squad headsets with built in
+      tracking.
+    type: Add
+  id: 3084
+  time: '2026-04-08T04:30:06.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9502
 Name: RMC14
 Order: -1
