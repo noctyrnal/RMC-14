@@ -1,20 +1,4 @@
 ﻿Entries:
-- author: Dutch-VanDerLinde
-  changes:
-  - message: Fixed the gas mask not using the species-specific sprites for the species
-      that have them.
-    type: Tweak
-  id: 2586
-  time: '2025-12-01T01:12:44.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8510
-- author: Vermidia
-  changes:
-  - message: Fixed barricades not taking damage when on the same tile as fire. Bio
-      and Composite barricades take less.
-    type: Fix
-  id: 2587
-  time: '2025-12-01T01:23:46.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8313
 - author: noctyrnal
   changes:
   - message: Added new sprites for the Evacuation Airlocks, along with new black and
@@ -4557,5 +4541,22 @@
   id: 3086
   time: '2026-04-10T06:41:37.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9432
+- author: Arykh
+  changes:
+  - message: Using binoculars will now put them on your eyes.
+    type: Tweak
+  - message: Fixes binoculars not using their camouflage in-hand sprites.
+    type: Fix
+  id: 3087
+  time: '2026-04-10T06:43:53.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9507
+- author: CatAndHats
+  changes:
+  - message: Fixed marines being able to paradrop into the out of bounds water area
+      of New Varadero
+    type: Fix
+  id: 3088
+  time: '2026-04-10T06:43:11.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9605
 Name: RMC14
 Order: -1
