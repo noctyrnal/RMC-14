@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Aurallianz
-  changes:
-  - message: Fixed being able to melt IDs
-    type: Fix
-  id: 2599
-  time: '2025-12-01T07:48:26.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8517
 - author: Tyzemol
   changes:
   - message: As a xeno you can now build sticky/speed resin and hive structures on
@@ -4483,5 +4476,16 @@
   id: 3099
   time: '2026-04-11T03:37:46.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9412
+- author: TadJohnson00
+  changes:
+  - message: '[PVE] Loadouts have been added for RCM characters, make sure to customise
+      your character.'
+    type: Add
+  - message: '[PVE] Adjusted the organisation and contents of the vendors and lockers
+      in the HMS Pratchett.'
+    type: Tweak
+  id: 3100
+  time: '2026-04-11T03:50:36.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9543
 Name: RMC14
 Order: -1
