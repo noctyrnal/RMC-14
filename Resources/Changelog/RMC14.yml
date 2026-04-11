@@ -1,19 +1,4 @@
 ﻿Entries:
-- author: Tyzemol
-  changes:
-  - message: As a xeno you can now build sticky/speed resin and hive structures on
-      the same tile you are standing on.
-    type: Tweak
-  - message: Minimal range to build walls and doors have been made much more lenient.
-    type: Tweak
-  - message: Hivelords can now upgrade resin on the diagonal corners.
-    type: Tweak
-  - message: Secrete resin ability no longer cancels current resin structure doafter
-      when trying to build a new one too early
-    type: Tweak
-  id: 2600
-  time: '2025-12-01T07:50:46.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8376
 - author: august-sun
   changes:
   - message: Added new combat knife variants, available in loadouts.
@@ -4487,5 +4472,14 @@
   id: 3100
   time: '2026-04-11T03:50:36.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9543
+- author: kleinerstation13
+  changes:
+  - message: Added SPP Airborne Bar Crashlanding scenario
+    type: Add
+  - message: 5.45x39 ammo box, Type 71 HEAP magazine box.
+    type: Add
+  id: 3101
+  time: '2026-04-11T04:10:34.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9514
 Name: RMC14
 Order: -1
