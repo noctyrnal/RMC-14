@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Vermidia
-  changes:
-  - message: fixed Healer and Gardener drone abilities not ignoring shields
-    type: Fix
-  id: 2598
-  time: '2025-12-01T07:47:13.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8160
 - author: Aurallianz
   changes:
   - message: Fixed being able to melt IDs
@@ -4481,5 +4474,14 @@
   id: 3098
   time: '2026-04-11T01:44:11.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9490
+- author: KompaniLinge
+  changes:
+  - message: Fixed Kommissar prefix being inconsistent between ranks
+    type: Fix
+  - message: Fixed spp officer shirt disappearing when attempting to fold it.
+    type: Fix
+  id: 3099
+  time: '2026-04-11T03:37:46.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9412
 Name: RMC14
 Order: -1
