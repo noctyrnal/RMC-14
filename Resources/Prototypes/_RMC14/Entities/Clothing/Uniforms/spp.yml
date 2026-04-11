@@ -187,13 +187,6 @@
     tags:
     - RMCUniformSPP
 
-- type: entity
-  parent: CMJumpsuitSPPOfficer
-  id: RMCJumpsuitSPPOfficerAmmoFilled
-  components:
-  - type: WebbingClothing
-    startingWebbing: RMCWebbingSPPCommandFilled
-
 # Civilians
 - type: entity
   parent: RMCUniformBase
