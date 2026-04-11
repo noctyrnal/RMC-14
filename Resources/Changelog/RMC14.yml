@@ -1,18 +1,4 @@
 ﻿Entries:
-- author: Vixting
-  changes:
-  - message: Adjust half light vision
-    type: Tweak
-  id: 2596
-  time: '2025-12-01T05:31:08.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8503
-- author: yagwog
-  changes:
-  - message: secure we-ya crate having wrong access
-    type: Fix
-  id: 2597
-  time: '2025-12-01T07:09:48.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8518
 - author: Vermidia
   changes:
   - message: fixed Healer and Gardener drone abilities not ignoring shields
@@ -4480,5 +4466,20 @@
   id: 3096
   time: '2026-04-11T01:37:25.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9572
+- author: Ian321
+  changes:
+  - message: The logistics officer can now use the consoles in the command bubble,
+      the command tablet and launch the lifeboats.
+    type: Tweak
+  id: 3097
+  time: '2026-04-11T01:44:55.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9481
+- author: wheelwrightt
+  changes:
+  - message: Coffee machines now can brew coffee into mugs.
+    type: Add
+  id: 3098
+  time: '2026-04-11T01:44:11.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9490
 Name: RMC14
 Order: -1
