@@ -1,14 +1,4 @@
 ﻿Entries:
-- author: vorkathbruh
-  changes:
-  - message: Moved Auxiliary Support Officer below the staff officer in command succession.
-    type: Tweak
-  - message: changed wording of Commander Succession to communicate that the Commander
-      is to be granted Senior Command access.
-    type: Tweak
-  id: 2608
-  time: '2025-12-06T09:07:21.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8564
 - author: wheelwrightt
   changes:
   - message: MAR-50 rail attachments no longer are floating
@@ -4494,5 +4484,14 @@
   id: 3108
   time: '2026-04-13T20:54:54.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9419
+- author: Dygon
+  changes:
+  - message: Reduced gun projectile speed by 3.6%.
+    type: Tweak
+  - message: Flares fired from flare guns no longer spawn inside walls.
+    type: Fix
+  id: 3109
+  time: '2026-04-13T20:57:01.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9628
 Name: RMC14
 Order: -1
