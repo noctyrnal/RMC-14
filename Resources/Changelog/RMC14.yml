@@ -1,13 +1,4 @@
 ﻿Entries:
-- author: Arykh
-  changes:
-  - message: Hand Labelers can now change pill bottle color!
-    type: Add
-  - message: Added sounds for applying and removing labels.
-    type: Add
-  id: 2603
-  time: '2025-12-01T07:54:38.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/8274
 - author: Dutch-VanDerLinde
   changes:
   - message: Xenos now have a chance to gib upon death
@@ -4480,5 +4471,31 @@
   id: 3103
   time: '2026-04-13T20:49:31.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9380
+- author: Dygon
+  changes:
+  - message: White phosphorus rockets are now available from the Weapon Specialist
+      vendor and through requisitions. Instead of exploding, they create a large area
+      of fire and smoke and have slightly more range than other rockets.
+    type: Add
+  - message: WPDP White Phosphorus grenades can now be purchased from most squad role
+      vendors, and CCDP Chemical Compound grenades can now be acquired through requisitions.
+      These grenades create short-lasting incendiary smoke clouds, with the CCDP grenade
+      producing a slightly longer-lasting and more potent smoke effect than the WPDP.
+    type: Add
+  - message: The Demolitionist kit and the Loader kit now have one HE rocket replaced
+      with a white phosphorus rocket.
+    type: Tweak
+  - message: One of the HE rockets in the mixed rocket crate has been replaced with
+      a white phosphorus rocket.
+    type: Tweak
+  - message: Reduced the duration of the tile fire created by the UN 45-FM mini-sentry
+      from 20 seconds to 5 seconds.
+    type: Fix
+  - message: Smoke created by the UN 60-FP plasma sentry now ignites entities that
+      come into contact with it.
+    type: Fix
+  id: 3104
+  time: '2026-04-13T20:52:37.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9434
 Name: RMC14
 Order: -1
